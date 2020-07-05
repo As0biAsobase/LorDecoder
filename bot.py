@@ -1,28 +1,20 @@
 # coding=utf-8
 import os
-<<<<<<< HEAD
-=======
 from dotenv import load_dotenv, find_dotenv
->>>>>>> f1c7ee0c35582cd07cd21732233caf7c703c00b6
 import vk_api
 import requests
 from vk_api.longpoll import VkLongPoll, VkEventType
 from datetime import datetime
 from main import generate_image
 
+allowed_code_list = ["код:", "код" ,"code", "code:"]
+
 base_time = datetime(1970,1,1)
 
+# vk_session = vk_api.VkApi(token=os.environ['VKAPI_KEY'])
 
-vk_session = vk_api.VkApi(token=os.environ['VKAPI_KEY'])
-# echo "export VKAPI_KEY=574b15b58c2a8c86474fe862c09f38d8b7826d4b3f4df70e48bd72fc7272b73100ab0eb7e962169334834" >> .env
-
-
-# ROOT_DIR = os.path.dirname(os.path.abspath(os.path.dirname( __file__ )))
-# # CONFIG_PATH = os.path.join(ROOT_DIR, 'DecoderBot')
-# project_folder = os.path.expanduser(ROOT_DIR)  # adjust as appropriate
-# print(project_folder)
 load_dotenv(find_dotenv())
-# print("jkjh")
+
 vk_session = vk_api.VkApi(token=os.getenv("VKAPI_KEY"))
 longpoll = VkLongPoll(vk_session)
 vk = vk_session.get_api()
@@ -34,7 +26,7 @@ for event in longpoll.listen():
 
         try:
             command, parameter = event.text.split(" ")
-            if command.lower() == "код":
+            if command.lower() in allowed_code_list:
                 try:
                     generate_image(event.text)
 
