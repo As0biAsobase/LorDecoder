@@ -10,7 +10,7 @@ import PIL.ImageFont as ImageFont
 
 
 # Decoding
-def generate_image(code):
+def generate_image(code, user_id):
     champions = []
     followers = []
     spells = []
@@ -50,9 +50,16 @@ def generate_image(code):
     height = max([len(champions), len(followers), len(spells)]) * 72 + 200
     background = Image.new('RGBA', (1920, height), (30, 30, 30, 255))
 
-    logo = Image.open("logos/Natum_Perdere_Logo.png")
-    logo = logo.resize((640, 360))
-    background.paste(logo, (0, height-360), mask = logo)
+    if user_id == "asob1as0base":
+        logo = Image.open("logos/Biolog.png")
+        logo = logo.resize((455, 305))
+        background.paste(logo, (0, height-305), mask = logo)
+    else:
+        logo = Image.open("logos/Natum_Perdere_Logo.png")
+        logo = logo.resize((640, 360))
+        background.paste(logo, (0, height-360), mask = logo)
+
+
 
     champions = sorted(champions, key = lambda i: i['cost'])
     followers = sorted(followers, key = lambda i: i['cost'])

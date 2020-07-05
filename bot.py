@@ -28,7 +28,7 @@ for event in longpoll.listen():
             command, parameter = event.text.split(" ")
             if command.lower() in allowed_code_list:
                 try:
-                    generate_image(event.text)
+                    generate_image(event.text, event.user_id)
 
                     server = vk.photos.getMessagesUploadServer()
                     b = requests.post(server['upload_url'], files={'photo': open('output/output.png', 'rb')}).json()
