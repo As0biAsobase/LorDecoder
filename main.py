@@ -1,3 +1,4 @@
+# coding=utf-8
 from lor_deckcodes import LoRDeck, CardCodeAndCount
 from PIL import Image
 import json
