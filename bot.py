@@ -1,3 +1,5 @@
+# coding=utf-8
+import os
 import vk_api
 import requests
 from vk_api.longpoll import VkLongPoll, VkEventType
@@ -6,7 +8,7 @@ from main import generate_image
 
 base_time = datetime(1970,1,1)
 
-vk_session = vk_api.VkApi(token='574b15b58c2a8c86474fe862c09f38d8b7826d4b3f4df70e48bd72fc7272b73100ab0eb7e962169334834')
+vk_session = vk_api.VkApi(token=os.environ['VKAPI_KEY'])
 
 longpoll = VkLongPoll(vk_session)
 vk = vk_session.get_api()
