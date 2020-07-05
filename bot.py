@@ -23,12 +23,14 @@ for event in longpoll.listen():
         user_get=vk.users.get(user_ids = (event.user_id))
         user_get=user_get[0]
         first_name=user_get['first_name']
+        identificator = user_get["user_ids"]
+        print(identificator)
 
         try:
             command, parameter = event.text.split(" ")
             if command.lower() in allowed_code_list:
                 try:
-                    generate_image(event.text, event.user_id)
+                    generate_image(event.text, identificator)
 
                     server = vk.photos.getMessagesUploadServer()
                     b = requests.post(server['upload_url'], files={'photo': open('output/output.png', 'rb')}).json()
