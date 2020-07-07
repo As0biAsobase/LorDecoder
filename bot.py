@@ -6,6 +6,7 @@ import requests
 from vk_api.longpoll import VkLongPoll, VkEventType
 from datetime import datetime
 from main import generate_image
+import time
 
 allowed_code_list = ["код:", "код" ,"code", "code:"]
 
