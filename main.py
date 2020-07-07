@@ -53,8 +53,8 @@ def generate_image(code, user_id):
     print(user_id)
     if user_id == 103657653:
         logo = Image.open("logos/Biolog.png")
-        logo = logo.resize((455, 305))
-        background.paste(logo, (0, height-305), mask = logo)
+        logo = logo.resize((640, 360))
+        background.paste(logo, (0, height-360), mask = logo)
     else:
         logo = Image.open("logos/Natum_Perdere_Logo.png")
         logo = logo.resize((640, 360))
