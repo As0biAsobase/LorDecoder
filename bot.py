@@ -22,6 +22,7 @@ vk = vk_session.get_api()
 while True:
     try:
         for event in longpoll.listen():
+            print(event)
             if event.type == VkEventType.MESSAGE_NEW and event.to_me and event.text:
                 user_get=vk.users.get(user_ids = (event.user_id))
                 user_get=user_get[0]
