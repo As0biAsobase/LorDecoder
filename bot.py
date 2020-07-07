@@ -28,7 +28,7 @@ while True:
             if event.type == VkBotEventType.MESSAGE_NEW and event.message.text:
                 # print(event.message.text)
 
-                message_text = re.sub('\[.*\],?\s?','',event.message.text)
+                message_text = re.sub('\[.*\],?\s*','',event.message.text)
                 print(message_text)
 
                 peer_id = event.message["peer_id"]
@@ -55,9 +55,7 @@ while True:
                             vk.messages.send(peer_id=peer_id,
                                 message='Блип-блоп, глупый бот не пониимет код', random_id=(datetime.utcnow()-base_time).total_seconds())
                 except ValueError:
-                    traceback.print_exc()
-                     # print(message_text.split(" ")[0])
-                     # pass
+                    pass
     except requests.exceptions.ReadTimeout:
         print("\n Переподключение к серверам ВК \n")
         time.sleep(3)
