@@ -38,16 +38,18 @@ def find_card(args):
     print(health)
 
 
-    name.strip()
+    name = name.strip()
     min_distance = sys.maxsize
     result = ""
 
     for dict in jdata:
-        if (name == dict["name"].lower() or name == "") and (dict["cost"] == cost or cost is None) and (dict["attack"] == attack or attack is None) and (dict["health"] == health or health is None):
+        # print(name in "Бодрячком!".lower())
+        if (name == dict["name"].lower() or name == "") and ((dict["cost"] == cost or cost is None) and (dict["attack"] == attack or attack is None) and (dict["health"] == health or health is None)):
             result = dict["cardCode"]
             break
-        elif (name in dict["name"].lower() or name == "") and (dict["cost"] == cost or cost is None) and (dict["attack"] == attack or attack is None) and (dict["health"] == health or health is None):
+        elif (name in dict["name"].lower() or name == "") and ((dict["cost"] == cost or cost is None) and (dict["attack"] == attack or attack is None) and (dict["health"] == health or health is None)):
             result = dict["cardCode"]
+            # print(result)
             break
         elif (dict["cost"] == cost or cost is None) and (dict["attack"] == attack or attack is None) and (dict["health"] == health or health is None):
             yo = distance(dict["name"], name)
