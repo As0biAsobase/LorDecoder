@@ -5,7 +5,7 @@ import sys
 def find_card(args):
     jdata = json.loads(open("cards.json",  encoding='utf-8').read())
 
-    costs = ["0", "1", "2", "3", "4", "5",
+    costs = ["0", "1", "2", "3", "4", "5", "6",
                 "7", "8", "9", "10", "11", "12"]
 
     name = ""
