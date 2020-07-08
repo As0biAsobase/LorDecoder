@@ -43,10 +43,10 @@ def find_card(args):
     result = ""
 
     for dict in jdata:
-        if name == dict["name"].lower() and (dict["cost"] == cost or cost is None) and (dict["attack"] == attack or attack is None) and (dict["health"] == health or health is None):
+        if (name == dict["name"].lower() or name == "") and (dict["cost"] == cost or cost is None) and (dict["attack"] == attack or attack is None) and (dict["health"] == health or health is None):
             result = dict["cardCode"]
             break
-        elif name in dict["name"].lower() and (dict["cost"] == cost or cost is None) and (dict["attack"] == attack or attack is None) and (dict["health"] == health or health is None):
+        elif (name in dict["name"].lower() or name == "") and (dict["cost"] == cost or cost is None) and (dict["attack"] == attack or attack is None) and (dict["health"] == health or health is None):
             result = dict["cardCode"]
             break
         elif (dict["cost"] == cost or cost is None) and (dict["attack"] == attack or attack is None) and (dict["health"] == health or health is None):
