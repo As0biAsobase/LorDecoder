@@ -38,7 +38,7 @@ while True:
                 first_name=user_get['first_name']
 
                 try:
-                    args = re.sub("[^\w-/]", " ", message_text).split()
+                    args = re.sub("[^\w-\/]", " ", message_text).split()
                     # print(parameter)
                     # print(args)
                     if args[0].lower() in allowed_code_list and len(args) == 2:
