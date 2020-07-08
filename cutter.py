@@ -5,7 +5,6 @@ import PIL.ImageFont as ImageFont
 
 cost_font = ImageFont.truetype("fonts/Roboto-Black.ttf", 28)
 name_font = ImageFont.truetype("fonts/YanoneKaffeesatz-Medium.ttf", 38)
-outline_font = ImageFont.truetype("fonts/YanoneKaffeesatz-Bold.ttf", 35)
 
 jdata = json.loads(open("card_data.json",  encoding='utf-8').read())
 result = []

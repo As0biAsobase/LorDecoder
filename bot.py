@@ -6,6 +6,7 @@ import requests
 from vk_api.bot_longpoll import VkBotLongPoll, VkBotEventType
 from datetime import datetime
 from main import generate_image
+from cardsearch import find_card
 import time
 import re
 import traceback
@@ -24,7 +25,7 @@ vk = vk_session.get_api()
 while True:
     try:
         for event in longpoll.listen():
-            print(event)
+            # print(event)
             if event.type == VkBotEventType.MESSAGE_NEW and event.message.text:
                 # print(event.message.text)
 
@@ -54,6 +55,22 @@ while True:
                         except TypeError:
                             vk.messages.send(peer_id=peer_id,
                                 message='Блип-блоп, глупый бот не пониимет код', random_id=(datetime.utcnow()-base_time).total_seconds())
+                    elif command.lower() == "карта":
+                        try:
+                            code = find_card(parameter)
+                            print('ru_ru/img/cards/' + code + '.png')
+                            server = vk.photos.getMessagesUploadServer()
+                            b = requests.post(server['upload_url'], files={'photo': open('ru_ru/img/cards/' + code + '.png', 'rb')}).json()
+                            params = {'photo': b['photo'], 'server': b['server'], 'hash': b['hash']}
+                            c = vk.photos.saveMessagesPhoto(**params)[0]
+                            d = "photo{}_{}".format(c["owner_id"], c["id"])
+
+                            vk.messages.send(peer_id=peer_id,
+                                message='Ты ' + first_name + "? Ну раз " + first_name + ", то держи картинку", random_id=(datetime.utcnow()-base_time).total_seconds(), attachment = d)
+                        except:
+                            vk.messages.send(peer_id=peer_id,
+                                message='Блип-блоп, глупый бот не нашёл карту', random_id=(datetime.utcnow()-base_time).total_seconds())
+
                 except ValueError:
                     pass
     except requests.exceptions.ReadTimeout:
