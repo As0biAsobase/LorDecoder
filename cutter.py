@@ -10,7 +10,7 @@ jdata = json.loads(open("card_data.json",  encoding='utf-8').read())
 result = []
 i=1
 for dict in jdata:
-    if dict["collectible"] == True:
+    if True:
 
         result.append({"supertype" : dict["supertype"], "type" : dict["type"], "name" : dict["name"], "cost" : dict["cost"], "cardCode" :  dict["cardCode"], "regionRef" :  dict["regionRef"]})
 
@@ -49,6 +49,6 @@ for dict in jdata:
         print(i)
         i+=1
 
-
-with open("cards.json", "w", encoding='utf-8') as fp:
-    json.dump(result, fp, ensure_ascii=False)
+#
+# with open("cards.json", "w", encoding='utf-8') as fp:
+#     json.dump(result, fp, ensure_ascii=False)
