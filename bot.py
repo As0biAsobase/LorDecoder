@@ -59,8 +59,12 @@ while True:
                                 message='Блип-блоп, глупый бот не пониимет код', random_id=(datetime.utcnow()-base_time).total_seconds())
                     elif args[0].lower() == "карта":
                         try:
-                            # print(" ".join(args[1:]))
-                            code = find_card(args[1:])
+                            source = 0 # 0 for PM, 1 for group chat
+                            if event.message.from_id = event.message.peer_id:
+                                source = 0
+                            else:
+                                source = 1
+                            code = find_card(source, args[1:])
                             # print('ru_ru/img/cards/' + code + '.png')
                             server = vk.photos.getMessagesUploadServer()
                             b = requests.post(server['upload_url'], files={'photo': open('ru_ru/img/cards/' + code + '.png', 'rb')}).json()

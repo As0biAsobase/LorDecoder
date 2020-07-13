@@ -2,7 +2,7 @@ from Levenshtein import distance
 import json
 import sys
 
-def find_card(args):
+def find_card(source, args):
     jdata = json.loads(open("cards.json",  encoding='utf-8').read())
     en_jdata = json.loads(open("en_cards.json",  encoding='utf-8').read())
 
@@ -52,7 +52,7 @@ def find_card(args):
         elif (name in dict["name"].lower() or name == "") and ((dict["cost"] == cost or cost is None) and (dict["attack"] == attack or attack is None) and (dict["health"] == health or health is None)):
             result = dict["cardCode"]
             break
-        elif (dict["cost"] == cost or cost is None) and (dict["attack"] == attack or attack is None) and (dict["health"] == health or health is None):
+        elif (dict["cost"] == cost or cost is None) and (dict["attack"] == attack or attack is None) and (dict["health"] == health or health is None) and (source == 0):
             yo = distance(dict["name"], name)
             if  yo < min_distance:
                 min_distance = yo
@@ -66,7 +66,7 @@ def find_card(args):
         elif (name in dict["name"].lower() or name == "") and ((dict["cost"] == cost or cost is None) and (dict["attack"] == attack or attack is None) and (dict["health"] == health or health is None)):
             result = dict["cardCode"]
             break
-        elif (dict["cost"] == cost or cost is None) and (dict["attack"] == attack or attack is None) and (dict["health"] == health or health is None):
+        elif (dict["cost"] == cost or cost is None) and (dict["attack"] == attack or attack is None) and (dict["health"] == health or health is None) and (source == 0):
             yo = distance(dict["name"], name)
             if  yo < min_distance:
                 min_distance = yo
