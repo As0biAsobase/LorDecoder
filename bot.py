@@ -53,7 +53,7 @@ while True:
                             d = "photo{}_{}".format(c["owner_id"], c["id"])
 
                             vk.messages.send(peer_id=peer_id,
-                                message='Ты ' + first_name + "? Ну раз " + first_name + ", то держи картинку", random_id=(datetime.utcnow()-base_time).total_seconds(), attachment = d)
+                                message="", random_id=(datetime.utcnow()-base_time).total_seconds(), attachment = d)
                         except TypeError:
                             vk.messages.send(peer_id=peer_id,
                                 message='Блип-блоп, глупый бот не пониимет код', random_id=(datetime.utcnow()-base_time).total_seconds())
@@ -73,11 +73,12 @@ while True:
                             d = "photo{}_{}".format(c["owner_id"], c["id"])
 
                             vk.messages.send(peer_id=peer_id,
-                                message='Ты ' + first_name + "? Ну раз " + first_name + ", то держи картинку", random_id=(datetime.utcnow()-base_time).total_seconds(), attachment = d)
+                                message="", random_id=(datetime.utcnow()-base_time).total_seconds(), attachment = d)
                         except:
                             traceback.print_exc()
-                            vk.messages.send(peer_id=peer_id,
-                                message='Блип-блоп, глупый бот не нашёл карту', random_id=(datetime.utcnow()-base_time).total_seconds())
+                            if source == 0:
+                                vk.messages.send(peer_id=peer_id,
+                                    message='Блип-блоп, глупый бот не нашёл карту', random_id=(datetime.utcnow()-base_time).total_seconds())
                     # elif args[0].lower() == "привет":
                     #     room = BanRoom()
 
