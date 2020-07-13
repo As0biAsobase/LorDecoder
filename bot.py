@@ -7,6 +7,7 @@ from vk_api.bot_longpoll import VkBotLongPoll, VkBotEventType
 from datetime import datetime
 from main import generate_image
 from cardsearch import find_card
+from banbot import BanRoom
 import time
 import re
 import traceback
@@ -25,7 +26,7 @@ vk = vk_session.get_api()
 while True:
     try:
         for event in longpoll.listen():
-            # print(event)
+            print(event)
             if event.type == VkBotEventType.MESSAGE_NEW and event.message.text:
                 # print(event.message.text)
 
@@ -73,6 +74,8 @@ while True:
                             traceback.print_exc()
                             vk.messages.send(peer_id=peer_id,
                                 message='Блип-блоп, глупый бот не нашёл карту', random_id=(datetime.utcnow()-base_time).total_seconds())
+                    # elif args[0].lower() == "привет":
+                    #     room = BanRoom()
 
                 except ValueError:
                     pass

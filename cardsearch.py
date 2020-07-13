@@ -4,6 +4,7 @@ import sys
 
 def find_card(args):
     jdata = json.loads(open("cards.json",  encoding='utf-8').read())
+    en_jdata = json.loads(open("en_cards.json",  encoding='utf-8').read())
 
     costs = ["0", "1", "2", "3", "4", "5", "6",
                 "7", "8", "9", "10", "11", "12"]
@@ -44,6 +45,20 @@ def find_card(args):
     result = ""
 
     for dict in jdata:
+        # print((name in dict["name"].lower() or name == ""))
+        if (name == dict["name"].lower() or name == "") and ((dict["cost"] == cost or cost is None) and (dict["attack"] == attack or attack is None) and (dict["health"] == health or health is None)):
+            result = dict["cardCode"]
+            break
+        elif (name in dict["name"].lower() or name == "") and ((dict["cost"] == cost or cost is None) and (dict["attack"] == attack or attack is None) and (dict["health"] == health or health is None)):
+            result = dict["cardCode"]
+            break
+        elif (dict["cost"] == cost or cost is None) and (dict["attack"] == attack or attack is None) and (dict["health"] == health or health is None):
+            yo = distance(dict["name"], name)
+            if  yo < min_distance:
+                min_distance = yo
+                result = dict["cardCode"]
+
+    for dict in en_jdata:
         # print((name in dict["name"].lower() or name == ""))
         if (name == dict["name"].lower() or name == "") and ((dict["cost"] == cost or cost is None) and (dict["attack"] == attack or attack is None) and (dict["health"] == health or health is None)):
             result = dict["cardCode"]
