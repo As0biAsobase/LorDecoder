@@ -60,7 +60,7 @@ while True:
                     elif args[0].lower() == "карта":
                         try:
                             source = 0 # 0 for PM, 1 for group chat
-                            if event.message.from_id = event.message.peer_id:
+                            if event.message.from_id == event.message.peer_id:
                                 source = 0
                             else:
                                 source = 1
