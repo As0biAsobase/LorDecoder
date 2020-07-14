@@ -20,6 +20,8 @@ base_time = datetime(1970,1,1)
 
 load_dotenv(find_dotenv())
 
+
+
 vk_session = vk_api.VkApi(token=os.getenv("VKAPI_KEY"))
 longpoll = VkBotLongPoll(vk_session, "196727308")
 vk = vk_session.get_api()
@@ -79,8 +81,9 @@ while True:
                             if source == 0:
                                 vk.messages.send(peer_id=peer_id,
                                     message='Блип-блоп, глупый бот не нашёл карту', random_id=(datetime.utcnow()-base_time).total_seconds())
-                    # elif args[0].lower() == "привет":
-                    #     room = BanRoom()
+                    elif args[0].lower() == "привет":
+                        vk.messages.send(peer_id=peer_id,
+                            message='Блип-блоп, глупый бот не понял', random_id=(datetime.utcnow()-base_time).total_seconds(), payload='{"buttons":["Ave"],"one_time":true}')
 
                 except ValueError:
                     pass
