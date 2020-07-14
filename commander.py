@@ -33,31 +33,64 @@ class Commander:
         else:
             source = 1
 
+        keyboard = ""
+
         try:
             args = re.sub("[^\w\-\/]", " ", message_text).split()
             # print(parameter)
             # print(args)
-            if args[0].lower() in Command.code_list.value and len(args) == 2:
-                try:
-                    generate_image(args[1], sender["id"])
-                    d = server.upload_deck_image()
+            if args[0].lower() in Command.ban_list.value and self.now_mode == Mode.default:
+                self.change_mode(Mode.ban)
+                self.last_command = args[0].lower()
 
-                    print(d)
-                    return ["", d]
-                except TypeError:
-                    return ["Блип-блоп, глупый бот не пониимет код", ""]
+                keyboard = "keyboards/ban_mode_selection.json"
 
-            elif args[0].lower() == "карта":
-                try:
-                    code = find_card(source, args[1:])
-                    # print('ru_ru/img/cards/' + code + '.png')
-                    d = server.upload_card_image(code)
+                return ["Вы вошли в режим банов, выберите настроки (количество банов/количество колод)", "", keyboard]
 
-                    return["", d]
-                except:
-                    traceback.print_exc()
+            if args[0].lower() in Command.back_list.value:
+                if self.last_command in Command.ban_list.value:
+                    self.change_mode(Mode.default)
+                    self.last_command = args[0].lower()
+
+                    keyboard = "keyboards/default_keyboard.json"
+
+                    return ["Вы вышли из режима банов, комната не создана", "", keyboard]
+
+            if self.now_mode == Mode.default:
+                if args[0].lower() in Command.info_list.value:
                     if source == 0:
-                        return["Блип-блоп, глупый бот не нашёл карту", ""]
+                        keyboard = "keyboards/default_keyboard.json"
+
+                    return ["Вся информация в этой статье: vk.com/@natum_perdere-natum-perdere-instrukciya-po-primeneniu", "", keyboard]
+
+                if args[0].lower() in Command.code_list.value and len(args) == 2:
+                    try:
+                        generate_image(args[1], sender["id"])
+                        d = server.upload_deck_image()
+
+                        print(d)
+
+                        if source == 0:
+                            keyboard = "keyboards/default_keyboard.json"
+
+                        return ["", d, keyboard]
+                    except TypeError:
+                        return ["Блип-блоп, глупый бот не пониимет код", "", keyboard]
+
+                elif args[0].lower() == "карта":
+                    try:
+                        code = find_card(source, args[1:])
+                        # print('ru_ru/img/cards/' + code + '.png')
+                        d = server.upload_card_image(code)
+
+                        if source == 0:
+                            keyboard = "keyboards/default_keyboard.json"
+
+                        return["", d, keyboard]
+                    except:
+                        traceback.print_exc()
+                        if source == 0:
+                            return["Блип-блоп, глупый бот не нашёл карту", "", keyboard]
 
         except ValueError:
             pass

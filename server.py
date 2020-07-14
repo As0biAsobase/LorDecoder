@@ -29,7 +29,8 @@ class Server:
             self.vk_api.messages.send(peer_id=send_id,
                                   message=response[0],
                                   attachment=response[1],
-                                  random_id=(datetime.utcnow()-Server.base_time).total_seconds())
+                                  random_id=(datetime.utcnow()-Server.base_time).total_seconds(),
+                                  keyboard=open(response[2] if response[2] else "keyboards/empty.json", "r", encoding="UTF-8").read())
         except TypeError:
             pass
 
