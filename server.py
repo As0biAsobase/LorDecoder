@@ -35,22 +35,24 @@ class Server:
             pass
 
     def start(self):
-        try:
-            for event in self.long_poll.listen():
-                if event.type == VkBotEventType.MESSAGE_NEW and event.message.text:
-                    if event.object.from_id not in self.users:
-                        self.users[event.object.from_id] = Commander()
+        while True:
+            try:
+                for event in self.long_poll.listen():
+                    if event.type == VkBotEventType.MESSAGE_NEW and event.message.text:
+                        if event.object.from_id not in self.users:
+                            self.users[event.object.from_id] = Commander()
 
-                    if event.type == VkBotEventType.MESSAGE_NEW:
-                        print(event.message.from_id)
-                        sender = self.vk_api.users.get(user_ids = (event.message.from_id))
-                        sender = sender[0]
-                        self.send_msg(event.message.peer_id,
+                        if event.type == VkBotEventType.MESSAGE_NEW:
+                            print(event.message.from_id)
+                            sender = self.vk_api.users.get(user_ids = (event.message.from_id))
+                            sender = sender[0]
+
+                            self.send_msg(event.message.peer_id,
                                       self.users[event.object.from_id].input(self, event.message.text, sender, event.message.peer_id))
 
-        except requests.exceptions.ReadTimeout:
-            print("\n Переподключение к серверам ВК \n")
-            time.sleep(3)
+            except requests.exceptions.ReadTimeout:
+                print("\n Переподключение к серверам ВК \n")
+                time.sleep(100)
 
     def upload_deck_image(self):
         server = self.vk_api.photos.getMessagesUploadServer()
