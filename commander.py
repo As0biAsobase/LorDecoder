@@ -106,8 +106,9 @@ class Commander:
                         traceback.print_exc()
                         if source == 0:
                             return["Блип-блоп, глупый бот не нашёл карту", "", keyboard]
-                keyboard = "keyboards/default_keyboard.json"
-                return ["", "", keyboard]
+                else:
+                    keyboard = "keyboards/default_keyboard.json"
+                    return ["Блип-блоп, не очень понял о чём речь", "", keyboard]
 
         except ValueError:
             pass
