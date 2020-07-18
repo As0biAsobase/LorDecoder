@@ -3,6 +3,7 @@ from mode_enum import Mode
 import re
 from main import generate_image
 from cardsearch import find_card
+from calculator import Calculator
 import requests
 import traceback
 
@@ -16,6 +17,7 @@ class Commander:
         self.last_command = None
         # Для запомминания ответов пользователя
         self.last_ans = None
+        self.calculator_params = []
 
     def change_mode(self, to_mode):
 
@@ -71,7 +73,6 @@ class Commander:
 
                     return ["Вы вернулись в главное меню", "", keyboard]
 
-
             if self.now_mode == Mode.default:
                 if args[0].lower() in Command.info_list.value:
                     if source == 0:
@@ -111,6 +112,39 @@ class Commander:
                     keyboard = "keyboards/default_keyboard.json"
 
                     return["Блип-блоп, не очень тебя понял", "", keyboard]
+
+            elif self.now_mode == Mode.calculator:
+                if (len(self.calculator_params) == 0 or len(self.calculator_params) == 5) and args[0].lower() in Command.hypergeom_list.value:
+                    self.calculator_params = []
+                    self.calculator_params.append("hypergeom")
+
+
+                    return["Блип-блоп калькуятор, введите размер колоды (population size)", "", "keyboards/empty.json"]
+
+                elif len(args) == 1 and args[0].isdigit():
+                    if len(self.calculator_params) == 1:
+                        self.calculator_params.append(args[0])
+
+                        return["Размер колоды: " + str(args[0]) + "\nСколько нужных карт всего?", "", "keyboards/empty.json"]
+                    elif len(self.calculator_params) == 2:
+                        self.calculator_params.append(args[0])
+
+                        return["Нужных карт: " + str(args[0]) + "\nСколько подровались?", "", "keyboards/empty.json"]
+                    elif len(self.calculator_params) == 3:
+                        self.calculator_params.append(args[0])
+
+                        return["Подровались " + str(args[0]) + " раз \nСколько хотим увидеть?", "", "keyboards/empty.json"]
+                    elif len(self.calculator_params) == 4:
+                        self.calculator_params.append(args[0])
+
+                        с = Calculator()
+
+                        self.change_mode(Mode.default)
+                        keyboard = "keyboards/default_keyboard.json"
+                        print(self.calculator_params)
+                        return["Вероятность данного блип-блопа: " +
+                        str(round(с.hypergeom_pmf(int(self.calculator_params[1]), int(self.calculator_params[2]), int(self.calculator_params[3]), int(self.calculator_params[4])), 2))
+                        , "", keyboard]
 
 
 

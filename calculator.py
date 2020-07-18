@@ -4,8 +4,11 @@ from scipy.special import comb
 
 class Calculator:
     def __init__(self):
+        # self.population = 0
+        # self.desired = 0
+        # self.draws = 0
+        # self.desired_in_draws = 0
         pass
-
     def hypergeom_pmf(self, N, A, n, x):
 
         '''
@@ -56,6 +59,6 @@ class Calculator:
         plt.title('Hypergeometric Distribution Plot')
         plt.show()
 
-f = Calculator()
-print(f.hypergeom_pmf(40, 3, 7, 1))
-f.hypergeom_plot(40, 3, 20 )
+# f = Calculator()
+# print(f.hypergeom_pmf(40, 3, 7, 1))
+# f.hypergeom_plot(40, 3, 20 )

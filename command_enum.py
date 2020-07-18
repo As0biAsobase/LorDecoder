@@ -8,3 +8,4 @@ class Command(Enum):
     back_list = ["назад"]
     info_list = ["инфо"]
     calculator_list = ["калькулятор"]
+    hypergeom_list = ["гипергеометрический"]
