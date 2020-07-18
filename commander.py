@@ -143,7 +143,7 @@ class Commander:
                         keyboard = "keyboards/default_keyboard.json"
                         print(self.calculator_params)
                         return["Вероятность данного блип-блопа: " +
-                        str(round(с.hypergeom_pmf(int(self.calculator_params[1]), int(self.calculator_params[2]), int(self.calculator_params[3]), int(self.calculator_params[4])), 2))
+                        str(round(с.hypergeom_pmf(int(self.calculator_params[1]), int(self.calculator_params[2]), int(self.calculator_params[3]), int(self.calculator_params[4])), 6))
                         , "", keyboard]
 
 
