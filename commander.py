@@ -25,6 +25,7 @@ class Commander:
         self.last_ans = None
 
     def input(self, server, msg, sender, source_id):
+        # print(self.now_mode)
         message_text = re.sub('\[.*\],?\s*','', msg)
 
         source = 0 # 0 for PM, 1 for group chat
@@ -108,7 +109,10 @@ class Commander:
                             return["Блип-блоп, глупый бот не нашёл карту", "", keyboard]
                 else:
                     keyboard = "keyboards/default_keyboard.json"
-                    return ["Блип-блоп, не очень понял о чём речь", "", keyboard]
+
+                    return["Блип-блоп, не очень тебя понял", "", keyboard]
+
+
 
         except ValueError:
             pass

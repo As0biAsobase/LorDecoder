@@ -25,7 +25,7 @@ class Server:
 
     def send_msg(self, send_id, response):
         try:
-            # print([send_id, response[0], response[1], response[2]])
+            print([send_id, response[0], response[1], response[2]])
             self.vk_api.messages.send(peer_id=send_id,
                                   message=response[0],
                                   attachment=response[1],
@@ -46,7 +46,7 @@ class Server:
                             print(event.message.from_id)
                             sender = self.vk_api.users.get(user_ids = (event.message.from_id))
                             sender = sender[0]
-                            print(self.users[event.object.from_id].input(self, event.message.text, sender, event.message.peer_id))
+                            # print(self.users[event.object.from_id].input(self, event.message.text, sender, event.message.peer_id))
                             self.send_msg(event.message.peer_id,
                                       self.users[event.object.from_id].input(self, event.message.text, sender, event.message.peer_id))
 
