@@ -39,22 +39,37 @@ class Commander:
             args = re.sub("[^\w\-\/]", " ", message_text).split()
             # print(parameter)
             # print(args)
-            if args[0].lower() in Command.ban_list.value and self.now_mode == Mode.default:
+            if args[0].lower() in Command.ban_list.value and self.now_mode != Mode.ban:
                 self.change_mode(Mode.ban)
                 self.last_command = args[0].lower()
 
                 keyboard = "keyboards/ban_mode_selection.json"
 
                 return ["Вы вошли в режим банов, выберите настроки (количество банов/количество колод)", "", keyboard]
+            elif args[0].lower() in Command.calculator_list.value and self.now_mode != Mode.calculator:
+                self.change_mode(Mode.calculator)
+                self.last_command = args[0].lower()
+
+                keyboard = "keyboards/calculator/type.json"
+
+                return ["Покулюляторим?", "", keyboard]
+            elif args[0].lower() in Command.default_list.value and self.now_mode != Mode.default:
+                self.change_mode(Mode.default)
+                self.last_command = args[0].lower()
+
+                keyboard = "keyboards/default_keyboard.json"
+
+                return ["Вы вернулись в главное меню", "", keyboard]
 
             if args[0].lower() in Command.back_list.value:
-                if self.last_command in Command.ban_list.value:
+                if self.now_mode != Mode.default:
                     self.change_mode(Mode.default)
                     self.last_command = args[0].lower()
 
                     keyboard = "keyboards/default_keyboard.json"
 
-                    return ["Вы вышли из режима банов, комната не создана", "", keyboard]
+                    return ["Вы вернулись в главное меню", "", keyboard]
+
 
             if self.now_mode == Mode.default:
                 if args[0].lower() in Command.info_list.value:

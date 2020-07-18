@@ -4,16 +4,16 @@
     [{
       "action": {
         "type": "text",
-        "label": "Калькулятор"
+        "label": "Гипергеометрический"
       },
       "color": "primary"
-    },
-      {
+    }],
+    [{
         "action": {
           "type": "text",
-          "label": "Инфо"
+          "label": "Назад"
         },
-        "color": "secondary"
+        "color": "negative"
       }]
   ]
 }
