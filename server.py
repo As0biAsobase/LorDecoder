@@ -31,7 +31,7 @@ class Server:
                                   attachment=response[1],
                                   random_id=(datetime.utcnow()-Server.base_time).total_seconds(),
                                   keyboard=open(response[2] if len(response)>2 else "keyboards/empty.json", "r", encoding="UTF-8").read())
-        except TypeError:
+        except (TypeError, FileNotFoundError) as e:
             pass
 
     def start(self):
