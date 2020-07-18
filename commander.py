@@ -42,14 +42,14 @@ class Commander:
             args = re.sub("[^\w\-\/]", " ", message_text).split()
             # print(parameter)
             # print(args)
-            if args[0].lower() in Command.ban_list.value and self.now_mode != Mode.ban and source == 1:
+            if args[0].lower() in Command.ban_list.value and self.now_mode != Mode.ban and source == 0:
                 self.change_mode(Mode.ban)
                 self.last_command = args[0].lower()
 
                 keyboard = "keyboards/ban_mode_selection.json"
 
                 return ["Вы вошли в режим банов, выберите настроки (количество банов/количество колод)", "", keyboard]
-            elif args[0].lower() in Command.calculator_list.value and self.now_mode != Mode.calculator and source == 1:
+            elif args[0].lower() in Command.calculator_list.value and self.now_mode != Mode.calculator and source == 0:
                 self.change_mode(Mode.calculator)
                 self.last_command = args[0].lower()
 
