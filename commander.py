@@ -47,7 +47,7 @@ class Commander:
 
                     return ["Блип-блоп, пустое сообщене", "", keyboard]
                 else:
-                    return ["", "", ""]
+                    return ["", "", "keyboards/empty.json"]
             # print(parameter)
             # print(args)
             if args[0].lower() in Command.ban_list.value and self.now_mode != Mode.ban and source == 0:

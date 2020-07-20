@@ -25,7 +25,7 @@ class Server:
 
     def send_msg(self, send_id, response):
         try:
-            
+
             print([send_id, response[0], response[1], response[2]])
             self.vk_api.messages.send(peer_id=send_id,
                                   message=response[0],
@@ -34,6 +34,8 @@ class Server:
                                   keyboard=open(response[2] if response[2] else "keyboards/empty.json", "r", encoding="UTF-8").read())
         except TypeError:
             pass
+        except vk_api.exceptions.ApiError:
+            print("Факир был пьян, сообщение не отправилось")
 
     def start(self):
         while True:
