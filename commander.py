@@ -40,6 +40,14 @@ class Commander:
 
         try:
             args = re.sub("[^\w\-\/]", " ", message_text).split()
+
+            if len(args) == 0:
+                if source == 0:
+                    keyboard = "keyboards/default_keyboard.json"
+
+                    return ["Блип-блоп, пустое сообщене", "", keyboard]
+                else:
+                    return ["", "", ""]
             # print(parameter)
             # print(args)
             if args[0].lower() in Command.ban_list.value and self.now_mode != Mode.ban and source == 0:
@@ -107,11 +115,13 @@ class Commander:
                     except:
                         traceback.print_exc()
                         if source == 0:
-                            return["Блип-блоп, глупый бот не нашёл карту", "", keyboard]
+                            return ["Блип-блоп, глупый бот не нашёл карту", "", keyboard]
                 else:
-                    keyboard = "keyboards/default_keyboard.json"
+                    if source == 0:
+                        keyboard = "keyboards/default_keyboard.json"
 
-                    return["Блип-блоп, не очень тебя понял", "", keyboard]
+                        return ["Блип-блоп, не очень тебя понял", "", keyboard]
+
 
             elif self.now_mode == Mode.calculator:
                 if (len(self.calculator_params) == 0 or len(self.calculator_params) == 5) and args[0].lower() in Command.hypergeom_list.value:

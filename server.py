@@ -25,6 +25,7 @@ class Server:
 
     def send_msg(self, send_id, response):
         try:
+            
             print([send_id, response[0], response[1], response[2]])
             self.vk_api.messages.send(peer_id=send_id,
                                   message=response[0],
