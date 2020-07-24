@@ -1,7 +1,7 @@
 import json
 
-jdata = json.loads(open("card_data.json",  encoding='utf-8').read())
-en_jdata = json.loads(open("en_us/en_card_data.json", encoding='utf-8').read())
+jdata = json.loads(open("../cards_data/card_data.json",  encoding='utf-8').read())
+en_jdata = json.loads(open("../cards_data/en_card_data.json", encoding='utf-8').read())
 
 result = []
 en_result = []

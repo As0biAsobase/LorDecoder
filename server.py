@@ -56,6 +56,8 @@ class Server:
             except requests.exceptions.ReadTimeout:
                 print("\n Переподключение к серверам ВК \n")
                 time.sleep(100)
+            except:
+                print("\n Что-то ошло не так \n")
 
     def upload_deck_image(self):
         server = self.vk_api.photos.getMessagesUploadServer()

@@ -1,0 +1,7042 @@
+[
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE031-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE031.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "01DE031",
+    "cost": 3,
+    "health": 4,
+    "name": "Dawnspeakers",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE022-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE022.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "01DE022",
+    "cost": 2,
+    "health": 2,
+    "name": "Lucian",
+    "regionRef": "Demacia",
+    "supertype": "Champion",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ056-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ056.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "01PZ056",
+    "cost": 5,
+    "health": 3,
+    "name": "Heimerdinger",
+    "regionRef": "PiltoverZaun",
+    "supertype": "Champion",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO020-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO020.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "01IO020",
+    "cost": 2,
+    "health": 3,
+    "name": "Keeper of Masks",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ013-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ013.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "01PZ013",
+    "cost": 6,
+    "health": 3,
+    "name": "Augmented Experimenter",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE019-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE019.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01DE019",
+    "cost": 3,
+    "health": 0,
+    "name": "Mobilize",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX004-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX004.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01NX004",
+    "cost": 3,
+    "health": 0,
+    "name": "Culling Strike",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ007-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ007.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "01PZ007",
+    "cost": 3,
+    "health": 4,
+    "name": "Parade Electrorig",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI038-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI038.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01SI038",
+    "cost": 3,
+    "health": 3,
+    "name": "Phantom Prankster",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ018-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ018.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "01PZ018",
+    "cost": 2,
+    "health": 1,
+    "name": "Academy Prodigy",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO045-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO045.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "01IO045",
+    "cost": 2,
+    "health": 2,
+    "name": "Herald of Spring",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO008-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO008.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "01IO008",
+    "cost": 2,
+    "health": 3,
+    "name": "Fae Bladetwirler",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX048-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX048.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "01NX048",
+    "cost": 3,
+    "health": 3,
+    "name": "Crimson Curator",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR006-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR006.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01FR006",
+    "cost": 5,
+    "health": 0,
+    "name": "Iceborn Legacy",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR022-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR022.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "01FR022",
+    "cost": 1,
+    "health": 1,
+    "name": "Omen Hawk",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR042-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR042.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01FR042",
+    "cost": 6,
+    "health": 0,
+    "name": "Harsh Winds",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI049-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI049.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01SI049",
+    "cost": 2,
+    "health": 0,
+    "name": "Glimpse Beyond",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR009-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR009.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01FR009",
+    "cost": 4,
+    "health": 5,
+    "name": "Braum",
+    "regionRef": "Freljord",
+    "supertype": "Champion",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI057-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI057.png"
+      }
+    ],
+    "attack": 7,
+    "cardCode": "01SI057",
+    "cost": 4,
+    "health": 7,
+    "name": "Ancient Crocolith",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE010-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE010.png"
+      }
+    ],
+    "attack": 5,
+    "cardCode": "01DE010",
+    "cost": 5,
+    "health": 4,
+    "name": "Swiftwing Lancer",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI023-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI023.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "01SI023",
+    "cost": 2,
+    "health": 3,
+    "name": "Soul Shepherd",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ019-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ019.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "01PZ019",
+    "cost": 2,
+    "health": 1,
+    "name": "Eager Apprentice",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX038-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX038.png"
+      }
+    ],
+    "attack": 6,
+    "cardCode": "01NX038",
+    "cost": 6,
+    "health": 5,
+    "name": "Darius",
+    "regionRef": "Noxus",
+    "supertype": "Champion",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO040-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO040.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "01IO040",
+    "cost": 4,
+    "health": 2,
+    "name": "Kinkou Lifeblade",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR018-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR018.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "01FR018",
+    "cost": 3,
+    "health": 2,
+    "name": "Rimefang Wolf",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE020-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE020.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "01DE020",
+    "cost": 2,
+    "health": 2,
+    "name": "Vanguard Defender",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE034-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE034.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "01DE034",
+    "cost": 2,
+    "health": 2,
+    "name": "Battlesmith",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE002-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE002.png"
+      }
+    ],
+    "attack": 7,
+    "cardCode": "01DE002",
+    "cost": 8,
+    "health": 7,
+    "name": "Tianna Crownguard",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX023-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX023.png"
+      }
+    ],
+    "attack": 5,
+    "cardCode": "01NX023",
+    "cost": 5,
+    "health": 3,
+    "name": "Arachnoid Host",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE017-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE017.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01DE017",
+    "cost": 4,
+    "health": 0,
+    "name": "Stand Alone",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ040-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ040.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "01PZ040",
+    "cost": 4,
+    "health": 3,
+    "name": "Jinx",
+    "regionRef": "PiltoverZaun",
+    "supertype": "Champion",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX013-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX013.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01NX013",
+    "cost": 5,
+    "health": 0,
+    "name": "Decisive Maneuver",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE045-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE045.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "01DE045",
+    "cost": 3,
+    "health": 3,
+    "name": "Fiora",
+    "regionRef": "Demacia",
+    "supertype": "Champion",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ025-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ025.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "01PZ025",
+    "cost": 3,
+    "health": 3,
+    "name": "Puffcap Peddler",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE052-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE052.png"
+      }
+    ],
+    "attack": 9,
+    "cardCode": "01DE052",
+    "cost": 9,
+    "health": 9,
+    "name": "Brightsteel Formation",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI053-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI053.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "01SI053",
+    "cost": 2,
+    "health": 3,
+    "name": "Elise",
+    "regionRef": "ShadowIsles",
+    "supertype": "Champion",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE021-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE021.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01DE021",
+    "cost": 3,
+    "health": 0,
+    "name": "Relentless Pursuit",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX047-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX047.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01NX047",
+    "cost": 2,
+    "health": 0,
+    "name": "Transfusion",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI010-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI010.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01SI010",
+    "cost": 2,
+    "health": 0,
+    "name": "Onslaught of Shadows",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO011-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO011.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01IO011",
+    "cost": 1,
+    "health": 0,
+    "name": "Recall",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX040-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX040.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "01NX040",
+    "cost": 1,
+    "health": 1,
+    "name": "Legion Saboteur",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO014-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO014.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "01IO014",
+    "cost": 3,
+    "health": 1,
+    "name": "Greenglade Elder",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ028-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ028.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01PZ028",
+    "cost": 1,
+    "health": 0,
+    "name": "Jury-Rig",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE025-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE025.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01DE025",
+    "cost": 5,
+    "health": 0,
+    "name": "Detain",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR036-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR036.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "01FR036",
+    "cost": 3,
+    "health": 1,
+    "name": "Avarosan Marksman",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO005-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO005.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "01IO005",
+    "cost": 1,
+    "health": 1,
+    "name": "Nimble Poro",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR045-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR045.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "01FR045",
+    "cost": 3,
+    "health": 4,
+    "name": "Scarthane Steffen",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO044-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO044.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "01IO044",
+    "cost": 2,
+    "health": 2,
+    "name": "Navori Conspirator",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR055-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR055.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01FR055",
+    "cost": 2,
+    "health": 0,
+    "name": "Shatter",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX046-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX046.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "01NX046",
+    "cost": 3,
+    "health": 2,
+    "name": "Arachnoid Sentry",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ050-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ050.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01PZ050",
+    "cost": 3,
+    "health": 0,
+    "name": "Rising Spell Force",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO023-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO023.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "01IO023",
+    "cost": 5,
+    "health": 4,
+    "name": "Jeweled Protector",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI048-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI048.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "01SI048",
+    "cost": 2,
+    "health": 1,
+    "name": "Cursed Keeper",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX025-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX025.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01NX025",
+    "cost": 2,
+    "health": 0,
+    "name": "Brothers' Bond",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX055-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX055.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "01NX055",
+    "cost": 2,
+    "health": 2,
+    "name": "House Spider",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE007-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE007.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01DE007",
+    "cost": 8,
+    "health": 0,
+    "name": "Judgment",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ017-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ017.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "01PZ017",
+    "cost": 3,
+    "health": 2,
+    "name": "Used Cask Salesman",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ038-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ038.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "01PZ038",
+    "cost": 3,
+    "health": 3,
+    "name": "Sump Dredger",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI018-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI018.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "01SI018",
+    "cost": 3,
+    "health": 3,
+    "name": "Scribe of Sorrows",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR029-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR029.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01FR029",
+    "cost": 2,
+    "health": 0,
+    "name": "Entreat",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI030-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI030.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "01SI030",
+    "cost": 3,
+    "health": 3,
+    "name": "Kalista",
+    "regionRef": "ShadowIsles",
+    "supertype": "Champion",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO029-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO029.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01IO029",
+    "cost": 2,
+    "health": 0,
+    "name": "Sown Seeds",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR035-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR035.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01FR035",
+    "cost": 1,
+    "health": 3,
+    "name": "Unscarred Reaver",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO003-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO003.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01IO003",
+    "cost": 3,
+    "health": 0,
+    "name": "Death Mark",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ035-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ035.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "01PZ035",
+    "cost": 6,
+    "health": 4,
+    "name": "Jae Medarda",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ030-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ030.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "01PZ030",
+    "cost": 4,
+    "health": 3,
+    "name": "Shady Character",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO047-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO047.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01IO047",
+    "cost": 6,
+    "health": 0,
+    "name": "Shadow Flare",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ048-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ048.png"
+      }
+    ],
+    "attack": 6,
+    "cardCode": "01PZ048",
+    "cost": 9,
+    "health": 6,
+    "name": "Corina Veraza",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX030-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX030.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "01NX030",
+    "cost": 2,
+    "health": 3,
+    "name": "Crimson Disciple",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ010-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ010.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01PZ010",
+    "cost": 1,
+    "health": 0,
+    "name": "Mushroom Cloud",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX007-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX007.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "01NX007",
+    "cost": 2,
+    "health": 2,
+    "name": "Arena Battlecaster",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ045-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ045.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "01PZ045",
+    "cost": 1,
+    "health": 1,
+    "name": "Zaunite Urchin",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO026-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO026.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "01IO026",
+    "cost": 1,
+    "health": 2,
+    "name": "Inspiring Mentor",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ002-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ002.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "01PZ002",
+    "cost": 4,
+    "health": 2,
+    "name": "Back Alley Barkeep",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI005-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI005.png"
+      }
+    ],
+    "attack": 5,
+    "cardCode": "01SI005",
+    "cost": 10,
+    "health": 5,
+    "name": "Scuttlegeist",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR038-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR038.png"
+      }
+    ],
+    "attack": 5,
+    "cardCode": "01FR038",
+    "cost": 4,
+    "health": 3,
+    "name": "Ashe",
+    "regionRef": "Freljord",
+    "supertype": "Champion",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE055-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE055.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "01DE055",
+    "cost": 3,
+    "health": 2,
+    "name": "Laurent Duelist",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ004-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ004.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01PZ004",
+    "cost": 7,
+    "health": 0,
+    "name": "Trueshot Barrage",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE048-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE048.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "01DE048",
+    "cost": 4,
+    "health": 3,
+    "name": "Mageseeker Inciter",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO024-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO024.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01IO024",
+    "cost": 6,
+    "health": 0,
+    "name": "Dawn and Dusk",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE001-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE001.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "01DE001",
+    "cost": 4,
+    "health": 3,
+    "name": "Vanguard Bannerman",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ020-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ020.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "01PZ020",
+    "cost": 1,
+    "health": 1,
+    "name": "Daring Poro",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX021-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX021.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "01NX021",
+    "cost": 3,
+    "health": 2,
+    "name": "Legion Marauder",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR020-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR020.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01FR020",
+    "cost": 4,
+    "health": 0,
+    "name": "Avalanche",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ046-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ046.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01PZ046",
+    "cost": 1,
+    "health": 0,
+    "name": "Counterfeit Copies",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO028-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO028.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "01IO028",
+    "cost": 3,
+    "health": 2,
+    "name": "Scaled Snapper",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR014-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR014.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "01FR014",
+    "cost": 1,
+    "health": 2,
+    "name": "Yeti Yearling",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI037-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI037.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "01SI037",
+    "cost": 1,
+    "health": 1,
+    "name": "Sinister Poro",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX009-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX009.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "01NX009",
+    "cost": 4,
+    "health": 1,
+    "name": "Crowd Favorite",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO057-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO057.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "01IO057",
+    "cost": 3,
+    "health": 2,
+    "name": "Shadow Assassin",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ054-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ054.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "01PZ054",
+    "cost": 2,
+    "health": 3,
+    "name": "Boomcrew Rookie",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX020-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX020.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "01NX020",
+    "cost": 3,
+    "health": 3,
+    "name": "Draven",
+    "regionRef": "Noxus",
+    "supertype": "Champion",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX011-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX011.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01NX011",
+    "cost": 3,
+    "health": 0,
+    "name": "Whirling Death",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ052-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ052.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01PZ052",
+    "cost": 2,
+    "health": 0,
+    "name": "Mystic Shot",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE043-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE043.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "01DE043",
+    "cost": 2,
+    "health": 3,
+    "name": "War Chefs",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ036-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ036.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "01PZ036",
+    "cost": 3,
+    "health": 3,
+    "name": "Ezreal",
+    "regionRef": "PiltoverZaun",
+    "supertype": "Champion",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX053-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX053.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01NX053",
+    "cost": 6,
+    "health": 0,
+    "name": "Reckoning",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ005-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ005.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01PZ005",
+    "cost": 6,
+    "health": 0,
+    "name": "Hextech Transmogulator",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI052-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI052.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "01SI052",
+    "cost": 5,
+    "health": 6,
+    "name": "Thresh",
+    "regionRef": "ShadowIsles",
+    "supertype": "Champion",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE049-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE049.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "01DE049",
+    "cost": 1,
+    "health": 1,
+    "name": "Plucky Poro",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI033-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI033.png"
+      }
+    ],
+    "attack": 9,
+    "cardCode": "01SI033",
+    "cost": 9,
+    "health": 6,
+    "name": "Commander Ledros",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ021-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ021.png"
+      }
+    ],
+    "attack": 5,
+    "cardCode": "01PZ021",
+    "cost": 5,
+    "health": 3,
+    "name": "Midenstokke Henchmen",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI003-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI003.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01SI003",
+    "cost": 9,
+    "health": 0,
+    "name": "The Harrowing",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI041-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI041.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "01SI041",
+    "cost": 3,
+    "health": 2,
+    "name": "The Undying",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR049-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR049.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "01FR049",
+    "cost": 2,
+    "health": 2,
+    "name": "Stalking Wolf",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE053-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE053.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "01DE053",
+    "cost": 4,
+    "health": 2,
+    "name": "Laurent Chevalier",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI045-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI045.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01SI045",
+    "cost": 1,
+    "health": 0,
+    "name": "Absorb Soul",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR037-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR037.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "01FR037",
+    "cost": 4,
+    "health": 3,
+    "name": "Avarosan Outriders",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI036-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI036.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01SI036",
+    "cost": 1,
+    "health": 0,
+    "name": "Crawling Sensation",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO013-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO013.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "01IO013",
+    "cost": 1,
+    "health": 3,
+    "name": "Shadow Fiend",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ031-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ031.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01PZ031",
+    "cost": 4,
+    "health": 0,
+    "name": "Statikk Shock",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI051-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI051.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "01SI051",
+    "cost": 5,
+    "health": 4,
+    "name": "Tortured Prodigy",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR026-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR026.png"
+      }
+    ],
+    "attack": 7,
+    "cardCode": "01FR026",
+    "cost": 6,
+    "health": 6,
+    "name": "Alpha Wildclaw",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX054-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX054.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01NX054",
+    "cost": 5,
+    "health": 0,
+    "name": "Intimidating Roar",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ059-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ059.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "01PZ059",
+    "cost": 3,
+    "health": 5,
+    "name": "Golden Crushbot",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX029-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX029.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "01NX029",
+    "cost": 4,
+    "health": 5,
+    "name": "Legion Veteran",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR030-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR030.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01FR030",
+    "cost": 1,
+    "health": 0,
+    "name": "Brittle Steel",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX014-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX014.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "01NX014",
+    "cost": 4,
+    "health": 3,
+    "name": "Shiraza the Blade",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI012-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI012.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "01SI012",
+    "cost": 1,
+    "health": 1,
+    "name": "Oblivious Islander",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ001-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ001.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01PZ001",
+    "cost": 1,
+    "health": 0,
+    "name": "Rummage",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR013-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR013.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "01FR013",
+    "cost": 6,
+    "health": 8,
+    "name": "Scarmother Vrynna",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ057-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ057.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01PZ057",
+    "cost": 2,
+    "health": 0,
+    "name": "Scrapdash Assembly",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI031-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI031.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "01SI031",
+    "cost": 3,
+    "health": 4,
+    "name": "Iron Harbinger",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI034-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI034.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01SI034",
+    "cost": 3,
+    "health": 0,
+    "name": "Black Spear",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI043-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI043.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "01SI043",
+    "cost": 1,
+    "health": 1,
+    "name": "Hapless Aristocrat",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO018-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO018.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01IO018",
+    "cost": 1,
+    "health": 0,
+    "name": "Rush",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR019-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR019.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01FR019",
+    "cost": 7,
+    "health": 0,
+    "name": "Winter's Breath",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE033-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE033.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01DE033",
+    "cost": 6,
+    "health": 0,
+    "name": "Remembrance",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI009-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI009.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "01SI009",
+    "cost": 2,
+    "health": 2,
+    "name": "Stirred Spirits",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ027-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ027.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01PZ027",
+    "cost": 0,
+    "health": 0,
+    "name": "Thermogenic Beam",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR041-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR041.png"
+      }
+    ],
+    "attack": 5,
+    "cardCode": "01FR041",
+    "cost": 5,
+    "health": 5,
+    "name": "Avarosan Hearthguard ",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX051-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX051.png"
+      }
+    ],
+    "attack": 8,
+    "cardCode": "01NX051",
+    "cost": 8,
+    "health": 8,
+    "name": "Captain Farron",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR025-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR025.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "01FR025",
+    "cost": 2,
+    "health": 3,
+    "name": "Poro Herder",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE044-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE044.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01DE044",
+    "cost": 6,
+    "health": 0,
+    "name": "Redoubled Valor",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX012-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX012.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "01NX012",
+    "cost": 1,
+    "health": 1,
+    "name": "Legion Rearguard",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE024-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE024.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "01DE024",
+    "cost": 1,
+    "health": 1,
+    "name": "Mageseeker Conservator",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX043-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX043.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01NX043",
+    "cost": 1,
+    "health": 0,
+    "name": "Blade's Edge",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX037-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX037.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "01NX037",
+    "cost": 2,
+    "health": 2,
+    "name": "Legion Grenadier",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO016-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO016.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "01IO016",
+    "cost": 6,
+    "health": 4,
+    "name": "Zephyr Sage",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI056-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI056.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "01SI056",
+    "cost": 3,
+    "health": 2,
+    "name": "Frenzied Skitterer",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX010-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX010.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "01NX010",
+    "cost": 5,
+    "health": 4,
+    "name": "Legion General",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX017-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX017.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "01NX017",
+    "cost": 2,
+    "health": 2,
+    "name": "Legion Drummer",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE004-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE004.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "01DE004",
+    "cost": 4,
+    "health": 1,
+    "name": "Silverwing Vanguard",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI001-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI001.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01SI001",
+    "cost": 7,
+    "health": 0,
+    "name": "Vengeance",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE011-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE011.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "01DE011",
+    "cost": 3,
+    "health": 4,
+    "name": "Laurent Protege",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO036-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO036.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "01IO036",
+    "cost": 2,
+    "health": 1,
+    "name": "Greenglade Lookout",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ055-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ055.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "01PZ055",
+    "cost": 1,
+    "health": 2,
+    "name": "Astute Academic",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ008-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ008.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "01PZ008",
+    "cost": 1,
+    "health": 1,
+    "name": "Teemo",
+    "regionRef": "PiltoverZaun",
+    "supertype": "Champion",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ014-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ014.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01PZ014",
+    "cost": 6,
+    "health": 0,
+    "name": "Unlicensed Innovation",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE047-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE047.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01DE047",
+    "cost": 3,
+    "health": 0,
+    "name": "Succession",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX003-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX003.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "01NX003",
+    "cost": 2,
+    "health": 2,
+    "name": "Arena Bookie",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE046-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE046.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "01DE046",
+    "cost": 2,
+    "health": 4,
+    "name": "Vanguard Lookout",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR054-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR054.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "01FR054",
+    "cost": 5,
+    "health": 5,
+    "name": "Scarmaiden Reaver",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE050-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE050.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01DE050",
+    "cost": 2,
+    "health": 0,
+    "name": "Purify",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR043-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR043.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "01FR043",
+    "cost": 6,
+    "health": 4,
+    "name": "Heart of the Fluft",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR033-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR033.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01FR033",
+    "cost": 3,
+    "health": 4,
+    "name": "Wyrding Stones",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI019-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI019.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01SI019",
+    "cost": 4,
+    "health": 0,
+    "name": "The Box",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO033-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO033.png"
+      }
+    ],
+    "attack": 6,
+    "cardCode": "01IO033",
+    "cost": 9,
+    "health": 5,
+    "name": "Minah Swiftfoot",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX039-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX039.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01NX039",
+    "cost": 3,
+    "health": 0,
+    "name": "Vision",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR011-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR011.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "01FR011",
+    "cost": 2,
+    "health": 1,
+    "name": "Icevale Archer",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ034-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ034.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "01PZ034",
+    "cost": 4,
+    "health": 3,
+    "name": "Sumpsnipe Scavenger",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR050-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR050.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "01FR050",
+    "cost": 3,
+    "health": 3,
+    "name": "Kindly Tavernkeeper",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX041-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX041.png"
+      }
+    ],
+    "attack": 6,
+    "cardCode": "01NX041",
+    "cost": 5,
+    "health": 5,
+    "name": "Trifarian Shieldbreaker",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO015-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO015.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "01IO015",
+    "cost": 4,
+    "health": 4,
+    "name": "Yasuo",
+    "regionRef": "Ionia",
+    "supertype": "Champion",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO001-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO001.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01IO001",
+    "cost": 7,
+    "health": 0,
+    "name": "Ritual of Renewal",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO010-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO010.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01IO010",
+    "cost": 6,
+    "health": 0,
+    "name": "Stand United",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO012-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO012.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01IO012",
+    "cost": 3,
+    "health": 0,
+    "name": "Twin Disciplines",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE040-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE040.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "01DE040",
+    "cost": 2,
+    "health": 2,
+    "name": "Mageseeker Persuader",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX036-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX036.png"
+      }
+    ],
+    "attack": 6,
+    "cardCode": "01NX036",
+    "cost": 6,
+    "health": 6,
+    "name": "Minotaur Reckoner",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX044-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX044.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01NX044",
+    "cost": 6,
+    "health": 12,
+    "name": "Battering Ram",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE036-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE036.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "01DE036",
+    "cost": 4,
+    "health": 3,
+    "name": "Vanguard Squire",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI011-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI011.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "01SI011",
+    "cost": 0,
+    "health": 2,
+    "name": "Ravenous Butcher",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE037-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE037.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01DE037",
+    "cost": 4,
+    "health": 0,
+    "name": "Riposte",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI027-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI027.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01SI027",
+    "cost": 3,
+    "health": 0,
+    "name": "Fresh Offerings",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ003-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ003.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "01PZ003",
+    "cost": 3,
+    "health": 1,
+    "name": "Assembly Bot",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO022-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO022.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01IO022",
+    "cost": 1,
+    "health": 0,
+    "name": "Ghost",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO021-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO021.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "01IO021",
+    "cost": 7,
+    "health": 2,
+    "name": "Windfarer Hatchling",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR016-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR016.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01FR016",
+    "cost": 3,
+    "health": 0,
+    "name": "Poro Snax",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX005-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX005.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "01NX005",
+    "cost": 2,
+    "health": 2,
+    "name": "Crimson Aristocrat",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR005-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR005.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01FR005",
+    "cost": 8,
+    "health": 0,
+    "name": "Battle Fury",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE014-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE014.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01DE014",
+    "cost": 8,
+    "health": 0,
+    "name": "Reinforcements",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO054-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO054.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01IO054",
+    "cost": 2,
+    "health": 0,
+    "name": "Insight of Ages",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO009-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO009.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "01IO009",
+    "cost": 3,
+    "health": 2,
+    "name": "Zed",
+    "regionRef": "Ionia",
+    "supertype": "Champion",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX016-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX016.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "01NX016",
+    "cost": 2,
+    "health": 2,
+    "name": "Trifarian Hopeful",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI014-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI014.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "01SI014",
+    "cost": 2,
+    "health": 2,
+    "name": "Mistwraith",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX019-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX019.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01NX019",
+    "cost": 3,
+    "health": 0,
+    "name": "Might",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO027-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO027.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "01IO027",
+    "cost": 2,
+    "health": 1,
+    "name": "Silent Shadowseer",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI007-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI007.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01SI007",
+    "cost": 2,
+    "health": 0,
+    "name": "Haunted Relic",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI022-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI022.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01SI022",
+    "cost": 1,
+    "health": 0,
+    "name": "Mark of the Isles",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO032-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO032.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "01IO032",
+    "cost": 4,
+    "health": 5,
+    "name": "Shen",
+    "regionRef": "Ionia",
+    "supertype": "Champion",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX015-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX015.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "01NX015",
+    "cost": 1,
+    "health": 1,
+    "name": "Precious Pet",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ044-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ044.png"
+      }
+    ],
+    "attack": 5,
+    "cardCode": "01PZ044",
+    "cost": 5,
+    "health": 2,
+    "name": "Chempunk Shredder",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR008-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR008.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "01FR008",
+    "cost": 1,
+    "health": 1,
+    "name": "Lonely Poro",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO041-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO041.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "01IO041",
+    "cost": 6,
+    "health": 3,
+    "name": "Karma",
+    "regionRef": "Ionia",
+    "supertype": "Champion",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI006-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI006.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01SI006",
+    "cost": 5,
+    "health": 0,
+    "name": "Possession",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE015-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE015.png"
+      }
+    ],
+    "attack": 5,
+    "cardCode": "01DE015",
+    "cost": 5,
+    "health": 5,
+    "name": "Radiant Guardian",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ029-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ029.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "01PZ029",
+    "cost": 4,
+    "health": 3,
+    "name": "Eminent Benefactor",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX050-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX050.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01NX050",
+    "cost": 2,
+    "health": 0,
+    "name": "Death Lotus",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO031-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO031.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "01IO031",
+    "cost": 6,
+    "health": 5,
+    "name": "Cloud Drinker",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE003-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE003.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "01DE003",
+    "cost": 4,
+    "health": 3,
+    "name": "Laurent Bladekeeper",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR023-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR023.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01FR023",
+    "cost": 12,
+    "health": 0,
+    "name": "Warmother's Call",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ033-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ033.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01PZ033",
+    "cost": 5,
+    "health": 0,
+    "name": "Purrsuit of Perfection",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ051-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ051.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "01PZ051",
+    "cost": 5,
+    "health": 3,
+    "name": "Funsmith",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI028-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI028.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01SI028",
+    "cost": 3,
+    "health": 0,
+    "name": "Splinter Soul",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI025-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI025.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01SI025",
+    "cost": 6,
+    "health": 0,
+    "name": "Atrocity",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO002-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO002.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01IO002",
+    "cost": 5,
+    "health": 0,
+    "name": "Will of Ionia",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR047-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR047.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "01FR047",
+    "cost": 2,
+    "health": 2,
+    "name": "Feral Mystic",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO017-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO017.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "01IO017",
+    "cost": 1,
+    "health": 1,
+    "name": "Navori Bladescout",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR056-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR056.png"
+      }
+    ],
+    "attack": 5,
+    "cardCode": "01FR056",
+    "cost": 7,
+    "health": 5,
+    "name": "Icy Yeti",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX056-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX056.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01NX056",
+    "cost": 5,
+    "health": 0,
+    "name": "Shunpo",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI046-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI046.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01SI046",
+    "cost": 3,
+    "health": 0,
+    "name": "Mist's Call",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE026-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE026.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01DE026",
+    "cost": 2,
+    "health": 0,
+    "name": "Single Combat",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX033-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX033.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "01NX033",
+    "cost": 4,
+    "health": 3,
+    "name": "Trifarian Assessor",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE032-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE032.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01DE032",
+    "cost": 3,
+    "health": 0,
+    "name": "Prismatic Barrier",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ023-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ023.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "01PZ023",
+    "cost": 4,
+    "health": 3,
+    "name": "Professor von Yipp",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR039-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR039.png"
+      }
+    ],
+    "attack": 8,
+    "cardCode": "01FR039",
+    "cost": 8,
+    "health": 4,
+    "name": "Tryndamere",
+    "regionRef": "Freljord",
+    "supertype": "Champion",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR027-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR027.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "01FR027",
+    "cost": 4,
+    "health": 5,
+    "name": "Bull Elnuk",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI050-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI050.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01SI050",
+    "cost": 6,
+    "health": 0,
+    "name": "Brood Awakening",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR057-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR057.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01FR057",
+    "cost": 7,
+    "health": 0,
+    "name": "Pack Mentality",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ024-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ024.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "01PZ024",
+    "cost": 5,
+    "health": 4,
+    "name": "Unstable Voltician",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI016-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI016.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "01SI016",
+    "cost": 4,
+    "health": 3,
+    "name": "Wraithcaller",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO042-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO042.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "01IO042",
+    "cost": 1,
+    "health": 1,
+    "name": "Sparring Student",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR021-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR021.png"
+      }
+    ],
+    "attack": 5,
+    "cardCode": "01FR021",
+    "cost": 5,
+    "health": 8,
+    "name": "Tarkaz the Tribeless",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR004-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR004.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01FR004",
+    "cost": 1,
+    "health": 0,
+    "name": "Elixir of Iron",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO006-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO006.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "01IO006",
+    "cost": 2,
+    "health": 1,
+    "name": "Greenglade Duo",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX052-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX052.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01NX052",
+    "cost": 2,
+    "health": 0,
+    "name": "Blood for Blood",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO050-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO050.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "01IO050",
+    "cost": 4,
+    "health": 3,
+    "name": "Kinkou Wayfinder",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX042-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX042.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "01NX042",
+    "cost": 3,
+    "health": 2,
+    "name": "Katarina",
+    "regionRef": "Noxus",
+    "supertype": "Champion",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI021-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI021.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "01SI021",
+    "cost": 2,
+    "health": 1,
+    "name": "Shark Chariot",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR048-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR048.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "01FR048",
+    "cost": 3,
+    "health": 3,
+    "name": "Avarosan Trapper",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ049-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ049.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01PZ049",
+    "cost": 8,
+    "health": 0,
+    "name": "Progress Day!",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO048-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO048.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "01IO048",
+    "cost": 5,
+    "health": 3,
+    "name": "Yusari",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR017-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR017.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "01FR017",
+    "cost": 5,
+    "health": 3,
+    "name": "Troop of Elnuks",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI032-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI032.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "01SI032",
+    "cost": 4,
+    "health": 3,
+    "name": "Chronicler of Ruin",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ006-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ006.png"
+      }
+    ],
+    "attack": 6,
+    "cardCode": "01PZ006",
+    "cost": 10,
+    "health": 6,
+    "name": "Plaza Guardian",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO007-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO007.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "01IO007",
+    "cost": 4,
+    "health": 3,
+    "name": "Ren Shadowblade",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI058-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI058.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "01SI058",
+    "cost": 5,
+    "health": 3,
+    "name": "Ethereal Remitter",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ053-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ053.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "01PZ053",
+    "cost": 2,
+    "health": 2,
+    "name": "Clump of Whumps",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO053-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO053.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "01IO053",
+    "cost": 3,
+    "health": 2,
+    "name": "Emerald Awakener",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR046-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR046.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01FR046",
+    "cost": 3,
+    "health": 0,
+    "name": "Take Heart",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX045-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX045.png"
+      }
+    ],
+    "attack": 7,
+    "cardCode": "01NX045",
+    "cost": 7,
+    "health": 4,
+    "name": "Savage Reckoner",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO004-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO004.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01IO004",
+    "cost": 1,
+    "health": 0,
+    "name": "Health Potion",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE027-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE027.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01DE027",
+    "cost": 3,
+    "health": 0,
+    "name": "En Garde",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI054-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI054.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01SI054",
+    "cost": 5,
+    "health": 0,
+    "name": "Grasp of the Undying",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI044-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI044.png"
+      }
+    ],
+    "attack": 6,
+    "cardCode": "01SI044",
+    "cost": 8,
+    "health": 6,
+    "name": "Spectral Matron",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR012-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR012.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01FR012",
+    "cost": 5,
+    "health": 0,
+    "name": "Catalyst of Aeons",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR040-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR040.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "01FR040",
+    "cost": 5,
+    "health": 3,
+    "name": "Rimetusk Shaman",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO049-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO049.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01IO049",
+    "cost": 4,
+    "health": 0,
+    "name": "Deny",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX031-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX031.png"
+      }
+    ],
+    "attack": 5,
+    "cardCode": "01NX031",
+    "cost": 2,
+    "health": 1,
+    "name": "Trifarian Gloryseeker",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ012-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ012.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01PZ012",
+    "cost": 2,
+    "health": 2,
+    "name": "Flame Chompers!",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR031-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR031.png"
+      }
+    ],
+    "attack": 5,
+    "cardCode": "01FR031",
+    "cost": 7,
+    "health": 5,
+    "name": "Ancient Yeti",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE006-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE006.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "01DE006",
+    "cost": 3,
+    "health": 3,
+    "name": "Vanguard Sergeant",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR053-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR053.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "01FR053",
+    "cost": 3,
+    "health": 3,
+    "name": "Mighty Poro",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI039-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI039.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "01SI039",
+    "cost": 2,
+    "health": 2,
+    "name": "Arachnoid Horror",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ039-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ039.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01PZ039",
+    "cost": 3,
+    "health": 0,
+    "name": "Get Excited!",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE038-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE038.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "01DE038",
+    "cost": 3,
+    "health": 2,
+    "name": "Senna, Sentinel of Light",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR010-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR010.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01FR010",
+    "cost": 4,
+    "health": 0,
+    "name": "Bloodsworn Pledge",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO052-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO052.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "01IO052",
+    "cost": 2,
+    "health": 2,
+    "name": "Navori Highwayman",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO030-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO030.png"
+      }
+    ],
+    "attack": 6,
+    "cardCode": "01IO030",
+    "cost": 7,
+    "health": 5,
+    "name": "The Empyrean",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE041-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE041.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01DE041",
+    "cost": 6,
+    "health": 0,
+    "name": "Back to Back",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX002-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX002.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01NX002",
+    "cost": 5,
+    "health": 0,
+    "name": "Decimate",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX006-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX006.png"
+      }
+    ],
+    "attack": 5,
+    "cardCode": "01NX006",
+    "cost": 5,
+    "health": 5,
+    "name": "Vladimir",
+    "regionRef": "Noxus",
+    "supertype": "Champion",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ016-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ016.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01PZ016",
+    "cost": 4,
+    "health": 0,
+    "name": "Flash of Brilliance",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE035-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE035.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01DE035",
+    "cost": 6,
+    "health": 0,
+    "name": "For Demacia!",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX008-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX008.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "01NX008",
+    "cost": 4,
+    "health": 3,
+    "name": "Basilisk Rider",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO019-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO019.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "01IO019",
+    "cost": 1,
+    "health": 2,
+    "name": "Greenglade Caretaker",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE018-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE018.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01DE018",
+    "cost": 1,
+    "health": 0,
+    "name": "Radiant Strike",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI020-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI020.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "01SI020",
+    "cost": 7,
+    "health": 4,
+    "name": "The Rekindler",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR001-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR001.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01FR001",
+    "cost": 3,
+    "health": 0,
+    "name": "Flash Freeze",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ058-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ058.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "01PZ058",
+    "cost": 4,
+    "health": 3,
+    "name": "Chump Whump",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI042-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI042.png"
+      }
+    ],
+    "attack": 5,
+    "cardCode": "01SI042",
+    "cost": 6,
+    "health": 5,
+    "name": "Hecarim",
+    "regionRef": "ShadowIsles",
+    "supertype": "Champion",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE009-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE009.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "01DE009",
+    "cost": 2,
+    "health": 2,
+    "name": "Brightsteel Protector",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI029-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI029.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01SI029",
+    "cost": 5,
+    "health": 0,
+    "name": "Withering Wail",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ009-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ009.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "01PZ009",
+    "cost": 3,
+    "health": 3,
+    "name": "Amateur Aeronaut",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI035-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI035.png"
+      }
+    ],
+    "attack": 7,
+    "cardCode": "01SI035",
+    "cost": 8,
+    "health": 5,
+    "name": "Rhasa the Sunderer",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR024-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR024.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "01FR024",
+    "cost": 6,
+    "health": 4,
+    "name": "Anivia",
+    "regionRef": "Freljord",
+    "supertype": "Champion",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX034-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX034.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "01NX034",
+    "cost": 1,
+    "health": 1,
+    "name": "Affectionate Poro",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ042-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ042.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "01PZ042",
+    "cost": 2,
+    "health": 3,
+    "name": "Intrepid Mariner",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE042-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE042.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "01DE042",
+    "cost": 6,
+    "health": 5,
+    "name": "Lux",
+    "regionRef": "Demacia",
+    "supertype": "Champion",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX035-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX035.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "01NX035",
+    "cost": 1,
+    "health": 1,
+    "name": "Draven's Biggest Fan",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX026-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX026.png"
+      }
+    ],
+    "attack": 5,
+    "cardCode": "01NX026",
+    "cost": 3,
+    "health": 4,
+    "name": "Reckless Trifarian",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI004-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI004.png"
+      }
+    ],
+    "attack": 5,
+    "cardCode": "01SI004",
+    "cost": 3,
+    "health": 5,
+    "name": "Darkwater Scourge",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO046-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO046.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01IO046",
+    "cost": 2,
+    "health": 0,
+    "name": "Steel Tempest",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE039-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE039.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "01DE039",
+    "cost": 1,
+    "health": 2,
+    "name": "Cithria of Cloudfield",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE056-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE056.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "01DE056",
+    "cost": 4,
+    "health": 2,
+    "name": "Vanguard Firstblade",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE029-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE029.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "01DE029",
+    "cost": 1,
+    "health": 1,
+    "name": "Fleetfeather Tracker",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO037-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO037.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01IO037",
+    "cost": 4,
+    "health": 0,
+    "name": "Spirit's Refuge",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX027-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX027.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01NX027",
+    "cost": 1,
+    "health": 0,
+    "name": "Elixir of Wrath",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ026-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ026.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01PZ026",
+    "cost": 2,
+    "health": 0,
+    "name": "Sumpworks Map",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE028-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE028.png"
+      }
+    ],
+    "attack": 5,
+    "cardCode": "01DE028",
+    "cost": 5,
+    "health": 5,
+    "name": "Vanguard Cavalry",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO043-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO043.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "01IO043",
+    "cost": 3,
+    "health": 2,
+    "name": "Rivershaper",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ043-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ043.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "01PZ043",
+    "cost": 2,
+    "health": 2,
+    "name": "Chempunk Pickpocket",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR032-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR032.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "01FR032",
+    "cost": 2,
+    "health": 3,
+    "name": "Starlit Seer",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO038-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO038.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "01IO038",
+    "cost": 3,
+    "health": 3,
+    "name": "Solitary Monk",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR052-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR052.png"
+      }
+    ],
+    "attack": 10,
+    "cardCode": "01FR052",
+    "cost": 10,
+    "health": 10,
+    "name": "She Who Wanders",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR051-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR051.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01FR051",
+    "cost": 3,
+    "health": 0,
+    "name": "Tall Tales",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX022-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX022.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01NX022",
+    "cost": 3,
+    "health": 0,
+    "name": "Noxian Guillotine",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ047-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ047.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01PZ047",
+    "cost": 0,
+    "health": 1,
+    "name": "Caustic Cask",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI026-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI026.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "01SI026",
+    "cost": 1,
+    "health": 1,
+    "name": "Warden's Prey",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE013-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE013.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01DE013",
+    "cost": 1,
+    "health": 0,
+    "name": "Chain Vest",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO039-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO039.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01IO039",
+    "cost": 3,
+    "health": 0,
+    "name": "Shadowshift",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX032-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX032.png"
+      }
+    ],
+    "attack": 5,
+    "cardCode": "01NX032",
+    "cost": 4,
+    "health": 5,
+    "name": "Crimson Awakener",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE023-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE023.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "01DE023",
+    "cost": 3,
+    "health": 3,
+    "name": "Mageseeker Investigator",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX024-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX024.png"
+      }
+    ],
+    "attack": 5,
+    "cardCode": "01NX024",
+    "cost": 5,
+    "health": 4,
+    "name": "Kato The Arm",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI040-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI040.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01SI040",
+    "cost": 2,
+    "health": 0,
+    "name": "Vile Feast",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR034-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR034.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "01FR034",
+    "cost": 7,
+    "health": 1,
+    "name": "They Who Endure",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE051-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE051.png"
+      }
+    ],
+    "attack": 6,
+    "cardCode": "01DE051",
+    "cost": 6,
+    "health": 6,
+    "name": "Cithria the Bold",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO056-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO056.png"
+      }
+    ],
+    "attack": 6,
+    "cardCode": "01IO056",
+    "cost": 7,
+    "health": 6,
+    "name": "Yone, Windchaser",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO055-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO055.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01IO055",
+    "cost": 2,
+    "health": 0,
+    "name": "Ki Guardian",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI015-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI015.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01SI015",
+    "cost": 9,
+    "health": 0,
+    "name": "The Ruination",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX049-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX049.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01NX049",
+    "cost": 1,
+    "health": 0,
+    "name": "Guile",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR007-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR007.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "01FR007",
+    "cost": 4,
+    "health": 3,
+    "name": "Babbling Bjerg",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE054-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE054.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "01DE054",
+    "cost": 3,
+    "health": 3,
+    "name": "Vanguard Redeemer",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE012-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE012.png"
+      }
+    ],
+    "attack": 5,
+    "cardCode": "01DE012",
+    "cost": 5,
+    "health": 5,
+    "name": "Garen",
+    "regionRef": "Demacia",
+    "supertype": "Champion",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR003-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR003.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "01FR003",
+    "cost": 2,
+    "health": 1,
+    "name": "Avarosan Sentry",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI055-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI055.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "01SI055",
+    "cost": 6,
+    "health": 7,
+    "name": "Soulgorger",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI047-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI047.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01SI047",
+    "cost": 0,
+    "health": 0,
+    "name": "Fading Memories",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE030-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE030.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "01DE030",
+    "cost": 4,
+    "health": 3,
+    "name": "Silverwing Diver",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02PZ001-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02PZ001.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "02PZ001",
+    "cost": 5,
+    "health": 5,
+    "name": "Subpurrsible",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW040-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW040.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "02BW040",
+    "cost": 1,
+    "health": 1,
+    "name": "Shellshocker ",
+    "regionRef": "Bilgewater",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02FR009-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02FR009.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "02FR009",
+    "cost": 4,
+    "health": 3,
+    "name": "Wolfrider",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02PZ010-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02PZ010.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "02PZ010",
+    "cost": 2,
+    "health": 2,
+    "name": "Veteran Investigator",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02NX001-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02NX001.png"
+      }
+    ],
+    "attack": 5,
+    "cardCode": "02NX001",
+    "cost": 8,
+    "health": 8,
+    "name": "The Leviathan",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW057-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW057.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "02BW057",
+    "cost": 5,
+    "health": 4,
+    "name": "Slippery Waverider",
+    "regionRef": "Bilgewater",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02DE003-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02DE003.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "02DE003",
+    "cost": 3,
+    "health": 4,
+    "name": "Loyal Badgerbear",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02SI005-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02SI005.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "02SI005",
+    "cost": 3,
+    "health": 0,
+    "name": "Sap Magic",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW032-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW032.png"
+      }
+    ],
+    "attack": 5,
+    "cardCode": "02BW032",
+    "cost": 5,
+    "health": 5,
+    "name": "Gangplank",
+    "regionRef": "Bilgewater",
+    "supertype": "Champion",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW041-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW041.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "02BW041",
+    "cost": 4,
+    "health": 4,
+    "name": "The Beast Below",
+    "regionRef": "Bilgewater",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02PZ006-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02PZ006.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "02PZ006",
+    "cost": 4,
+    "health": 0,
+    "name": "Gotcha!",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW013-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW013.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "02BW013",
+    "cost": 1,
+    "health": 1,
+    "name": "Prowling Cutthroat",
+    "regionRef": "Bilgewater",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02SI010-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02SI010.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "02SI010",
+    "cost": 3,
+    "health": 2,
+    "name": "Deadbloom Wanderer",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW061-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW061.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "02BW061",
+    "cost": 3,
+    "health": 0,
+    "name": "Pocket Aces",
+    "regionRef": "Bilgewater",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW060-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW060.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "02BW060",
+    "cost": 1,
+    "health": 1,
+    "name": "Crackshot Corsair",
+    "regionRef": "Bilgewater",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW011-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW011.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "02BW011",
+    "cost": 4,
+    "health": 3,
+    "name": "Yordle Grifter",
+    "regionRef": "Bilgewater",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW022-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW022.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "02BW022",
+    "cost": 3,
+    "health": 3,
+    "name": "Miss Fortune",
+    "regionRef": "Bilgewater",
+    "supertype": "Champion",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02FR004-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02FR004.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "02FR004",
+    "cost": 2,
+    "health": 0,
+    "name": "Caught in the Cold",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW019-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW019.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "02BW019",
+    "cost": 3,
+    "health": 6,
+    "name": "Bubble Bear",
+    "regionRef": "Bilgewater",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW007-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW007.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "02BW007",
+    "cost": 4,
+    "health": 5,
+    "name": "Brash Gambler",
+    "regionRef": "Bilgewater",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02PZ004-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02PZ004.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "02PZ004",
+    "cost": 3,
+    "health": 0,
+    "name": "Vault Breaker",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW014-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW014.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "02BW014",
+    "cost": 2,
+    "health": 2,
+    "name": "Coral Creatures",
+    "regionRef": "Bilgewater",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02NX006-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02NX006.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "02NX006",
+    "cost": 4,
+    "health": 5,
+    "name": "Citybreaker",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02DE008-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02DE008.png"
+      }
+    ],
+    "attack": 5,
+    "cardCode": "02DE008",
+    "cost": 5,
+    "health": 5,
+    "name": "Greathorn Companion",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW024-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW024.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "02BW024",
+    "cost": 3,
+    "health": 0,
+    "name": "Double Trouble",
+    "regionRef": "Bilgewater",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW062-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW062.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "02BW062",
+    "cost": 4,
+    "health": 4,
+    "name": "Island Navigator",
+    "regionRef": "Bilgewater",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW055-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW055.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "02BW055",
+    "cost": 3,
+    "health": 3,
+    "name": "Jagged Taskmaster",
+    "regionRef": "Bilgewater",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02DE004-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02DE004.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "02DE004",
+    "cost": 3,
+    "health": 2,
+    "name": "Greenfang Warden",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW030-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW030.png"
+      }
+    ],
+    "attack": 7,
+    "cardCode": "02BW030",
+    "cost": 7,
+    "health": 5,
+    "name": "Shipwreck Hoarder",
+    "regionRef": "Bilgewater",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02SI007-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02SI007.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "02SI007",
+    "cost": 2,
+    "health": 4,
+    "name": "Thorny Toad",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW003-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW003.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "02BW003",
+    "cost": 6,
+    "health": 0,
+    "name": "Strong-arm",
+    "regionRef": "Bilgewater",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW017-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW017.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "02BW017",
+    "cost": 6,
+    "health": 5,
+    "name": "Citrus Courier",
+    "regionRef": "Bilgewater",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02SI003-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02SI003.png"
+      }
+    ],
+    "attack": 6,
+    "cardCode": "02SI003",
+    "cost": 8,
+    "health": 5,
+    "name": "Terror of the Tides",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02PZ007-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02PZ007.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "02PZ007",
+    "cost": 4,
+    "health": 3,
+    "name": "Insightful Investigator",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW056-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW056.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "02BW056",
+    "cost": 6,
+    "health": 4,
+    "name": "Devourer of the Depths",
+    "regionRef": "Bilgewater",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW025-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW025.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "02BW025",
+    "cost": 4,
+    "health": 0,
+    "name": "Chum the Waters",
+    "regionRef": "Bilgewater",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02DE009-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02DE009.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "02DE009",
+    "cost": 4,
+    "health": 1,
+    "name": "Grizzled Ranger",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02IO006-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02IO006.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "02IO006",
+    "cost": 6,
+    "health": 6,
+    "name": "Lee Sin",
+    "regionRef": "Ionia",
+    "supertype": "Champion",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW038-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW038.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "02BW038",
+    "cost": 4,
+    "health": 2,
+    "name": "Zap Sprayfin",
+    "regionRef": "Bilgewater",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW021-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW021.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "02BW021",
+    "cost": 5,
+    "health": 4,
+    "name": "Razorscale Hunter",
+    "regionRef": "Bilgewater",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02SI001-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02SI001.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "02SI001",
+    "cost": 5,
+    "health": 4,
+    "name": "Neverglade Collector",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02PZ002-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02PZ002.png"
+      }
+    ],
+    "attack": 5,
+    "cardCode": "02PZ002",
+    "cost": 6,
+    "health": 6,
+    "name": "Chief Mechanist Zevi",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW012-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW012.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "02BW012",
+    "cost": 2,
+    "health": 0,
+    "name": "More Powder!",
+    "regionRef": "Bilgewater",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02NX002-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02NX002.png"
+      }
+    ],
+    "attack": 6,
+    "cardCode": "02NX002",
+    "cost": 6,
+    "health": 6,
+    "name": "Aurok Glinthorn ",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02DE005-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02DE005.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "02DE005",
+    "cost": 8,
+    "health": 0,
+    "name": "Unyielding Spirit",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW035-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW035.png"
+      }
+    ],
+    "attack": 6,
+    "cardCode": "02BW035",
+    "cost": 6,
+    "health": 5,
+    "name": "Sheriff Lariette Rose",
+    "regionRef": "Bilgewater",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02SI002-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02SI002.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "02SI002",
+    "cost": 7,
+    "health": 3,
+    "name": "Overgrown Snapvine",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02IO004-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02IO004.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "02IO004",
+    "cost": 6,
+    "health": 6,
+    "name": "Horns of the Dragon",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW058-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW058.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "02BW058",
+    "cost": 1,
+    "health": 2,
+    "name": "Jagged Butcher",
+    "regionRef": "Bilgewater",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW018-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW018.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "02BW018",
+    "cost": 1,
+    "health": 0,
+    "name": "Parrrley",
+    "regionRef": "Bilgewater",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW037-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW037.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "02BW037",
+    "cost": 5,
+    "health": 3,
+    "name": "Abyssal Eye",
+    "regionRef": "Bilgewater",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02FR002-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02FR002.png"
+      }
+    ],
+    "attack": 5,
+    "cardCode": "02FR002",
+    "cost": 6,
+    "health": 6,
+    "name": "Sejuani",
+    "regionRef": "Freljord",
+    "supertype": "Champion",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW048-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW048.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "02BW048",
+    "cost": 1,
+    "health": 0,
+    "name": "Jailbreak",
+    "regionRef": "Bilgewater",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW043-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW043.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "02BW043",
+    "cost": 3,
+    "health": 0,
+    "name": "Pick a Card",
+    "regionRef": "Bilgewater",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02FR001-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02FR001.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "02FR001",
+    "cost": 3,
+    "health": 2,
+    "name": "Ember Maiden",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW051-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW051.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "02BW051",
+    "cost": 4,
+    "health": 0,
+    "name": "Playful Trickster",
+    "regionRef": "Bilgewater",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW054-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW054.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "02BW054",
+    "cost": 4,
+    "health": 0,
+    "name": "Riptide",
+    "regionRef": "Bilgewater",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02SI004-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02SI004.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "02SI004",
+    "cost": 3,
+    "health": 1,
+    "name": "Blighted Caretaker",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02IO003-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02IO003.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "02IO003",
+    "cost": 2,
+    "health": 3,
+    "name": "Eye of the Dragon",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02IO001-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02IO001.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "02IO001",
+    "cost": 2,
+    "health": 2,
+    "name": "Claws of the Dragon",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02SI008-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02SI008.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "02SI008",
+    "cost": 4,
+    "health": 4,
+    "name": "Maokai",
+    "regionRef": "ShadowIsles",
+    "supertype": "Champion",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02PZ008-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02PZ008.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "02PZ008",
+    "cost": 5,
+    "health": 4,
+    "name": "Vi",
+    "regionRef": "PiltoverZaun",
+    "supertype": "Champion",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02SI006-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02SI006.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "02SI006",
+    "cost": 1,
+    "health": 1,
+    "name": "Barkbeast",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW047-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW047.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "02BW047",
+    "cost": 1,
+    "health": 1,
+    "name": "Dreg Dredgers",
+    "regionRef": "Bilgewater",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02NX009-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02NX009.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "02NX009",
+    "cost": 1,
+    "health": 0,
+    "name": "Ravenous Flock",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW008-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW008.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "02BW008",
+    "cost": 3,
+    "health": 2,
+    "name": "Petty Officer",
+    "regionRef": "Bilgewater",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02NX007-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02NX007.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "02NX007",
+    "cost": 5,
+    "health": 6,
+    "name": "Swain",
+    "regionRef": "Noxus",
+    "supertype": "Champion",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW053-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW053.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "02BW053",
+    "cost": 7,
+    "health": 12,
+    "name": "Nautilus",
+    "regionRef": "Bilgewater",
+    "supertype": "Champion",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02FR010-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02FR010.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "02FR010",
+    "cost": 2,
+    "health": 0,
+    "name": "Shared Spoils",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW004-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW004.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "02BW004",
+    "cost": 2,
+    "health": 2,
+    "name": "Dreadway Deckhand",
+    "regionRef": "Bilgewater",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW002-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW002.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "02BW002",
+    "cost": 9,
+    "health": 8,
+    "name": "The Dreadway",
+    "regionRef": "Bilgewater",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02IO005-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02IO005.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "02IO005",
+    "cost": 4,
+    "health": 2,
+    "name": "Concussive Palm",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02NX004-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02NX004.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "02NX004",
+    "cost": 2,
+    "health": 3,
+    "name": "Imperial Demolitionist",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW016-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW016.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "02BW016",
+    "cost": 3,
+    "health": 4,
+    "name": "Slotbot",
+    "regionRef": "Bilgewater",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02DE002-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02DE002.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "02DE002",
+    "cost": 2,
+    "health": 0,
+    "name": "Blinding Assault",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02NX003-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02NX003.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "02NX003",
+    "cost": 3,
+    "health": 0,
+    "name": "Noxian Fervor",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02FR008-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02FR008.png"
+      }
+    ],
+    "attack": 7,
+    "cardCode": "02FR008",
+    "cost": 8,
+    "health": 7,
+    "name": "The Tuskraider",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02PZ009-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02PZ009.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "02PZ009",
+    "cost": 2,
+    "health": 0,
+    "name": "Trail of Evidence",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02DE010-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02DE010.png"
+      }
+    ],
+    "attack": 5,
+    "cardCode": "02DE010",
+    "cost": 6,
+    "health": 5,
+    "name": "Genevieve Elmheart",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02IO002-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02IO002.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "02IO002",
+    "cost": 3,
+    "health": 2,
+    "name": "Scales of the Dragon",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW026-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW026.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "02BW026",
+    "cost": 4,
+    "health": 2,
+    "name": "Twisted Fate",
+    "regionRef": "Bilgewater",
+    "supertype": "Champion",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW027-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW027.png"
+      }
+    ],
+    "attack": 6,
+    "cardCode": "02BW027",
+    "cost": 4,
+    "health": 6,
+    "name": "Hunting Fleet",
+    "regionRef": "Bilgewater",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02IO010-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02IO010.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "02IO010",
+    "cost": 2,
+    "health": 0,
+    "name": "Retreat",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW042-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW042.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "02BW042",
+    "cost": 7,
+    "health": 0,
+    "name": "Mind Meld",
+    "regionRef": "Bilgewater",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW059-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW059.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "02BW059",
+    "cost": 7,
+    "health": 0,
+    "name": "Scrapshot",
+    "regionRef": "Bilgewater",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02FR007-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02FR007.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "02FR007",
+    "cost": 4,
+    "health": 0,
+    "name": "Fury of the North",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW050-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW050.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "02BW050",
+    "cost": 7,
+    "health": 4,
+    "name": "Smooth Soloist",
+    "regionRef": "Bilgewater",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW028-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW028.png"
+      }
+    ],
+    "attack": 7,
+    "cardCode": "02BW028",
+    "cost": 8,
+    "health": 4,
+    "name": "Riptide Rex",
+    "regionRef": "Bilgewater",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW023-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW023.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "02BW023",
+    "cost": 3,
+    "health": 0,
+    "name": "Lure of the Depths",
+    "regionRef": "Bilgewater",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02SI009-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02SI009.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "02SI009",
+    "cost": 1,
+    "health": 0,
+    "name": "Sapling Toss",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02DE007-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02DE007.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "02DE007",
+    "cost": 1,
+    "health": 0,
+    "name": "Ranger's Resolve",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02PZ003-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02PZ003.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "02PZ003",
+    "cost": 4,
+    "health": 0,
+    "name": "Suit Up!",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW031-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW031.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "02BW031",
+    "cost": 6,
+    "health": 0,
+    "name": "Double Up",
+    "regionRef": "Bilgewater",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW034-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW034.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "02BW034",
+    "cost": 3,
+    "health": 5,
+    "name": "Monkey Idol",
+    "regionRef": "Bilgewater",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02NX010-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02NX010.png"
+      }
+    ],
+    "attack": 6,
+    "cardCode": "02NX010",
+    "cost": 6,
+    "health": 5,
+    "name": "Armored Tuskrider",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02DE001-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02DE001.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "02DE001",
+    "cost": 5,
+    "health": 0,
+    "name": "Concerted Strike",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02IO007-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02IO007.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "02IO007",
+    "cost": 7,
+    "health": 0,
+    "name": "Dragon's Rage",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW029-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW029.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "02BW029",
+    "cost": 4,
+    "health": 0,
+    "name": "Salvage",
+    "regionRef": "Bilgewater",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW015-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW015.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "02BW015",
+    "cost": 7,
+    "health": 7,
+    "name": "The Syren",
+    "regionRef": "Bilgewater",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW010-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW010.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "02BW010",
+    "cost": 1,
+    "health": 1,
+    "name": "Plunder Poro",
+    "regionRef": "Bilgewater",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW009-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW009.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "02BW009",
+    "cost": 1,
+    "health": 2,
+    "name": "Pool Shark",
+    "regionRef": "Bilgewater",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW005-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW005.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "02BW005",
+    "cost": 2,
+    "health": 3,
+    "name": "Hired Gun",
+    "regionRef": "Bilgewater",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW046-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW046.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "02BW046",
+    "cost": 1,
+    "health": 1,
+    "name": "Fizz",
+    "regionRef": "Bilgewater",
+    "supertype": "Champion",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW049-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW049.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "02BW049",
+    "cost": 3,
+    "health": 0,
+    "name": "Pilfered Goods",
+    "regionRef": "Bilgewater",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02FR005-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02FR005.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "02FR005",
+    "cost": 5,
+    "health": 6,
+    "name": "Ursine Spiritwalker",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW039-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW039.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "02BW039",
+    "cost": 3,
+    "health": 1,
+    "name": "Jaull Hunters",
+    "regionRef": "Bilgewater",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW006-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW006.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "02BW006",
+    "cost": 4,
+    "health": 2,
+    "name": "Mystifying Magician",
+    "regionRef": "Bilgewater",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02DE006-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02DE006.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "02DE006",
+    "cost": 5,
+    "health": 4,
+    "name": "Quinn",
+    "regionRef": "Demacia",
+    "supertype": "Champion",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW001-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW001.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "02BW001",
+    "cost": 1,
+    "health": 0,
+    "name": "Ye Been Warned",
+    "regionRef": "Bilgewater",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02IO009-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02IO009.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "02IO009",
+    "cost": 5,
+    "health": 0,
+    "name": "Deep Meditation",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW063-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW063.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "02BW063",
+    "cost": 3,
+    "health": 0,
+    "name": "Sleight of Hand",
+    "regionRef": "Bilgewater",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW036-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW036.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "02BW036",
+    "cost": 2,
+    "health": 3,
+    "name": "Golden Narwhal",
+    "regionRef": "Bilgewater",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW045-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW045.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "02BW045",
+    "cost": 2,
+    "health": 0,
+    "name": "Make it Rain",
+    "regionRef": "Bilgewater",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW033-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW033.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "02BW033",
+    "cost": 2,
+    "health": 1,
+    "name": "Black Market Merchant",
+    "regionRef": "Bilgewater",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW020-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW020.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "02BW020",
+    "cost": 0,
+    "health": 0,
+    "name": "Warning Shot",
+    "regionRef": "Bilgewater",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02NX008-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02NX008.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "02NX008",
+    "cost": 3,
+    "health": 0,
+    "name": "Death's Hand",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02PZ005-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02PZ005.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "02PZ005",
+    "cost": 3,
+    "health": 3,
+    "name": "Patrol Wardens",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02NX005-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02NX005.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "02NX005",
+    "cost": 3,
+    "health": 3,
+    "name": "Iron Ballista",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02FR006-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02FR006.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "02FR006",
+    "cost": 2,
+    "health": 1,
+    "name": "Ruthless Raider",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW044-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW044.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "02BW044",
+    "cost": 1,
+    "health": 0,
+    "name": "Jettison",
+    "regionRef": "Bilgewater",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02IO008-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02IO008.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "02IO008",
+    "cost": 2,
+    "health": 0,
+    "name": "Sonic Wave",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02FR003-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02FR003.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "02FR003",
+    "cost": 6,
+    "health": 0,
+    "name": "Aurora Porealis",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Spell"
+  }
+]

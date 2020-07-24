@@ -3,10 +3,10 @@ import json
 import PIL.ImageDraw as ImageDraw
 import PIL.ImageFont as ImageFont
 
-cost_font = ImageFont.truetype("fonts/Roboto-Black.ttf", 28)
-name_font = ImageFont.truetype("fonts/YanoneKaffeesatz-Medium.ttf", 38)
+cost_font = ImageFont.truetype("../fonts/Roboto-Black.ttf", 28)
+name_font = ImageFont.truetype("../fonts/YanoneKaffeesatz-Medium.ttf", 38)
 
-jdata = json.loads(open("card_data.json",  encoding='utf-8').read())
+jdata = json.loads(open("../cards_data/card_data.json",  encoding='utf-8').read())
 result = []
 i=1
 for dict in jdata:
@@ -16,14 +16,14 @@ for dict in jdata:
 
         background = Image.new('RGBA', (600, 110), (255, 255, 255, 0))
 
-        img = Image.open("ru_ru/img/cards/" + dict["cardCode"] + ".png")
+        img = Image.open("../ru_ru/img/cards/" + dict["cardCode"] + ".png")
         w, h = img.size
         img = img.crop((100, 175, w-150, h - 675))
         img = img.resize((350, 70))
 
         background.paste(img, (250,0))
 
-        gradient = Image.open("gradients/big/"+ dict["regionRef"] +".png")
+        gradient = Image.open("../gradients/big/"+ dict["regionRef"] +".png")
         gradient = gradient.resize((600, 70))
 
         # img = img.convert("RGBA")
@@ -44,7 +44,7 @@ for dict in jdata:
         draw.text((x, y), text, font=name_font, fill='rgb(255, 255, 255)')
 
         background = background.crop((0, 0, 600, 70))
-        background.save("processed/" + dict["cardCode"] + ".png")
+        background.save("../processed/" + dict["cardCode"] + ".png")
 
         print(i)
         i+=1
