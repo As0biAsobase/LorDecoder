@@ -4,6 +4,7 @@ import time
 from datetime import datetime
 import requests
 from commander import Commander
+import traceback
 
 class Server:
     base_time = datetime(1970,1,1)
@@ -56,8 +57,11 @@ class Server:
             except requests.exceptions.ReadTimeout:
                 print("\n Переподключение к серверам ВК \n")
                 time.sleep(100)
+            except KeyboardInterrupt:
+                sys.exit()
             except:
-                print("\n Что-то ошло не так \n")
+                print("\n Что-то пошло не так \n")
+                traceback.print_exc()
 
     def upload_deck_image(self):
         server = self.vk_api.photos.getMessagesUploadServer()
