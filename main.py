@@ -23,7 +23,7 @@ def generate_image(code, user_id):
     name_font = ImageFont.truetype("fonts/Roboto-Regular.ttf", 37)
     title_font = ImageFont.truetype("fonts/AmaticSC-Bold.ttf", 70)
 
-    jdata = json.loads(open("cards.json",  encoding='utf-8').read())
+    jdata = json.loads(open("cards_data/cards.json",  encoding='utf-8').read())
 
     deck = LoRDeck.from_deckcode(code)
 
