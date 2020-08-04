@@ -3,8 +3,8 @@ import json
 import sys
 
 def find_card(source, args):
-    jdata = json.loads(open("cards.json",  encoding='utf-8').read())
-    en_jdata = json.loads(open("en_cards.json",  encoding='utf-8').read())
+    jdata = json.loads(open("card_data/cards.json",  encoding='utf-8').read())
+    en_jdata = json.loads(open("card_data/en_cards.json",  encoding='utf-8').read())
 
     costs = ["0", "1", "2", "3", "4", "5", "6",
                 "7", "8", "9", "10", "11", "12"]
