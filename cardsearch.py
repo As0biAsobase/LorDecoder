@@ -14,9 +14,14 @@ def find_card(source, args):
     attack = None
     health = None
 
+    type = ""
     for each in args:
 
-        if each not in costs and not ("/" in each):
+        if each.lower() == "лвл2":
+            type = "T1"
+        elif each.lower() == "сигна":
+            type = "T2"
+        elif each not in costs and not ("/" in each):
             name += each + " "
             # print(name)
         elif each in costs and not ("/" in each):
@@ -75,7 +80,7 @@ def find_card(source, args):
             if  yo < min_distance:
                 min_distance = yo
                 result = dict["cardCode"]
-
+    result += type
     return result
 
 # find_card("Бодряч")
