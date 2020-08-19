@@ -3113,6 +3113,23 @@
   {
     "assets": [
       {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/ru_ru/img/cards/01NX003-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/ru_ru/img/cards/01NX003.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "01NX003",
+    "cost": 2,
+    "health": 2,
+    "level": "1",
+    "name": "Букмекер",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
         "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/ru_ru/img/cards/01DE046-full.png",
         "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/ru_ru/img/cards/01DE046.png"
       }

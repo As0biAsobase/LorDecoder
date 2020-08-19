@@ -82,7 +82,6 @@ def find_card(source, args):
             if  yo < min_distance:
                 min_distance = yo
                 result = dict["cardCode"]
-    result += type
     return result
 
 # find_card("Бодряч")

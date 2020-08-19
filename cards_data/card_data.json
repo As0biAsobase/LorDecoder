@@ -8105,6 +8105,40 @@
     "associatedCardRefs": [],
     "assets": [
       {
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/ru_ru/img/cards/01NX003.png",
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/ru_ru/img/cards/01NX003-full.png"
+      }
+    ],
+    "region": "Ноксус",
+    "regionRef": "Noxus",
+    "attack": 2,
+    "cost": 2,
+    "health": 2,
+    "description": "<link=vocab.RoundStart><style=Vocab>Начало раунда</style></link>: сбросьте карту с самой низкой стоимостью и вытяните 1 карту.",
+    "descriptionRaw": "Начало раунда: сбросьте карту с самой низкой стоимостью и вытяните 1 карту.",
+    "levelupDescription": "",
+    "levelupDescriptionRaw": "",
+    "flavorText": "\"…Ты ставил на то, что выживет ТОЛЬКО Шираза, но тот парнишка из Ионии, хоть и лишился руки, но не умер. То есть он тоже выжил. Конечно, можно удвоить ставки и…\"",
+    "artistName": "SIXMOREVODKA",
+    "name": "Букмекер",
+    "cardCode": "01NX003",
+    "keywords": [],
+    "keywordRefs": [],
+    "spellSpeed": "",
+    "spellSpeedRef": "",
+    "rarity": "РЕДКИЕ",
+    "rarityRef": "Rare",
+    "subtype": "",
+    "subtypes": [],
+    "supertype": "",
+    "type": "Боец",
+    "collectible": true
+  },
+  {
+    "associatedCards": [],
+    "associatedCardRefs": [],
+    "assets": [
+      {
         "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/ru_ru/img/cards/01DE046.png",
         "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/ru_ru/img/cards/01DE046-full.png"
       }
