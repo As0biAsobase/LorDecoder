@@ -63,7 +63,7 @@ def generate_image(code, user_id):
         logo = Image.open("logos/okolo.png")
         logo = logo.resize((640, 360))
         background.paste(logo, (0, height-360), mask = logo)
-    elif user_id == 151646757:
+    elif user_id == 151646757 or user_id ==3015002:
         logo = Image.open("logos/numi.png")
         logo = logo.resize((640, 360))
         background.paste(logo, (0, height-360), mask = logo)
