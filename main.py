@@ -23,6 +23,10 @@ def generate_image(code, user_id):
     name_font = ImageFont.truetype("fonts/Roboto-Regular.ttf", 37)
     title_font = ImageFont.truetype("fonts/AmaticSC-Bold.ttf", 70)
 
+    champion_string = "Главари: "
+    follower_string = "Воены: "
+    spell_string = "Колдунства: "
+
     jdata = json.loads(open("cards_data/cards.json",  encoding='utf-8').read())
 
     deck = LoRDeck.from_deckcode(code)
@@ -59,6 +63,14 @@ def generate_image(code, user_id):
         logo = Image.open("logos/okolo.png")
         logo = logo.resize((640, 360))
         background.paste(logo, (0, height-360), mask = logo)
+    elif user_id == 151646757:
+        logo = Image.open("logos/numi.png")
+        logo = logo.resize((640, 360))
+        background.paste(logo, (0, height-360), mask = logo)
+
+        champion_string = "Военачальники: "
+        follower_string = "Подданные: "
+        spell_string = "Йордловская магия: "
     else:
         logo = Image.open("logos/Natum_Perdere_Logo.png")
         logo = logo.resize((640, 360))
@@ -128,9 +140,9 @@ def generate_image(code, user_id):
 
 
     draw = ImageDraw.Draw(background)
-    draw.text((30, 10), "Главари: " + str(champions_total), font=title_font, fill='rgb(255, 255, 255)')
-    draw.text((660, 10), "Воены: " + str(followers_total), font=title_font, fill='rgb(255, 255, 255)')
-    draw.text((1290, 10), "Колдунства: " + str(spells_total), font=title_font, fill='rgb(255, 255, 255)')
+    draw.text((30, 10), champion_string + str(champions_total), font=title_font, fill='rgb(255, 255, 255)')
+    draw.text((660, 10), follower_string + str(followers_total), font=title_font, fill='rgb(255, 255, 255)')
+    draw.text((1290, 10), spell_string + str(spells_total), font=title_font, fill='rgb(255, 255, 255)')
 
     background.save("output/output.png")
 
