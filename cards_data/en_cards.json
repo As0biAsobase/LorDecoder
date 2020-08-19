@@ -2,6 +2,23 @@
   {
     "assets": [
       {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX020T3-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX020T3.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "01NX020T3",
+    "cost": 3,
+    "health": 4,
+    "level": "2",
+    "name": "Draven",
+    "regionRef": "Noxus",
+    "supertype": "Champion",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
         "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE031-full.png",
         "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE031.png"
       }
@@ -10,9 +27,44 @@
     "cardCode": "01DE031",
     "cost": 3,
     "health": 4,
+    "level": "1",
     "name": "Dawnspeakers",
     "regionRef": "Demacia",
     "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ040T3-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ040T3.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01PZ040T3",
+    "cost": 3,
+    "health": 0,
+    "level": "3",
+    "name": "Jinx's Get Excited!",
+    "regionRef": "PiltoverZaun",
+    "supertype": "Champion",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ008T2-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ008T2.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "01PZ008T2",
+    "cost": 1,
+    "health": 2,
+    "level": "2",
+    "name": "Teemo",
+    "regionRef": "PiltoverZaun",
+    "supertype": "Champion",
     "type": "Unit"
   },
   {
@@ -26,8 +78,26 @@
     "cardCode": "01DE022",
     "cost": 2,
     "health": 2,
+    "level": "1",
     "name": "Lucian",
     "regionRef": "Demacia",
+    "supertype": "Champion",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO015T1-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO015T1.png"
+      }
+    ],
+    "attack": 5,
+    "cardCode": "01IO015T1",
+    "cost": 4,
+    "health": 5,
+    "level": "2",
+    "name": "Yasuo",
+    "regionRef": "Ionia",
     "supertype": "Champion",
     "type": "Unit"
   },
@@ -42,6 +112,7 @@
     "cardCode": "01PZ056",
     "cost": 5,
     "health": 3,
+    "level": "1",
     "name": "Heimerdinger",
     "regionRef": "PiltoverZaun",
     "supertype": "Champion",
@@ -58,10 +129,28 @@
     "cardCode": "01IO020",
     "cost": 2,
     "health": 3,
+    "level": "1",
     "name": "Keeper of Masks",
     "regionRef": "Ionia",
     "supertype": "",
     "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR039T1-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR039T1.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01FR039T1",
+    "cost": 8,
+    "health": 0,
+    "level": "3",
+    "name": "Tryndamere's Battle Fury",
+    "regionRef": "Freljord",
+    "supertype": "Champion",
+    "type": "Spell"
   },
   {
     "assets": [
@@ -74,6 +163,7 @@
     "cardCode": "01PZ013",
     "cost": 6,
     "health": 3,
+    "level": "1",
     "name": "Augmented Experimenter",
     "regionRef": "PiltoverZaun",
     "supertype": "",
@@ -90,6 +180,7 @@
     "cardCode": "01DE019",
     "cost": 3,
     "health": 0,
+    "level": "1",
     "name": "Mobilize",
     "regionRef": "Demacia",
     "supertype": "",
@@ -106,6 +197,7 @@
     "cardCode": "01NX004",
     "cost": 3,
     "health": 0,
+    "level": "1",
     "name": "Culling Strike",
     "regionRef": "Noxus",
     "supertype": "",
@@ -122,9 +214,27 @@
     "cardCode": "01PZ007",
     "cost": 3,
     "health": 4,
+    "level": "1",
     "name": "Parade Electrorig",
     "regionRef": "PiltoverZaun",
     "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ056T10-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ056T10.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "01PZ056T10",
+    "cost": 5,
+    "health": 4,
+    "level": "2",
+    "name": "Heimerdinger",
+    "regionRef": "PiltoverZaun",
+    "supertype": "Champion",
     "type": "Unit"
   },
   {
@@ -138,10 +248,28 @@
     "cardCode": "01SI038",
     "cost": 3,
     "health": 3,
+    "level": "1",
     "name": "Phantom Prankster",
     "regionRef": "ShadowIsles",
     "supertype": "",
     "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE042T1-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE042T1.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01DE042T1",
+    "cost": 3,
+    "health": 0,
+    "level": "3",
+    "name": "Lux's Prismatic Barrier",
+    "regionRef": "Demacia",
+    "supertype": "Champion",
+    "type": "Spell"
   },
   {
     "assets": [
@@ -154,6 +282,7 @@
     "cardCode": "01PZ018",
     "cost": 2,
     "health": 1,
+    "level": "1",
     "name": "Academy Prodigy",
     "regionRef": "PiltoverZaun",
     "supertype": "",
@@ -170,6 +299,7 @@
     "cardCode": "01IO045",
     "cost": 2,
     "health": 2,
+    "level": "1",
     "name": "Herald of Spring",
     "regionRef": "Ionia",
     "supertype": "",
@@ -186,6 +316,7 @@
     "cardCode": "01IO008",
     "cost": 2,
     "health": 3,
+    "level": "1",
     "name": "Fae Bladetwirler",
     "regionRef": "Ionia",
     "supertype": "",
@@ -202,6 +333,7 @@
     "cardCode": "01NX048",
     "cost": 3,
     "health": 3,
+    "level": "1",
     "name": "Crimson Curator",
     "regionRef": "Noxus",
     "supertype": "",
@@ -218,6 +350,7 @@
     "cardCode": "01FR006",
     "cost": 5,
     "health": 0,
+    "level": "1",
     "name": "Iceborn Legacy",
     "regionRef": "Freljord",
     "supertype": "",
@@ -234,6 +367,7 @@
     "cardCode": "01FR022",
     "cost": 1,
     "health": 1,
+    "level": "1",
     "name": "Omen Hawk",
     "regionRef": "Freljord",
     "supertype": "",
@@ -250,6 +384,7 @@
     "cardCode": "01FR042",
     "cost": 6,
     "health": 0,
+    "level": "1",
     "name": "Harsh Winds",
     "regionRef": "Freljord",
     "supertype": "",
@@ -266,9 +401,27 @@
     "cardCode": "01SI049",
     "cost": 2,
     "health": 0,
+    "level": "1",
     "name": "Glimpse Beyond",
     "regionRef": "ShadowIsles",
     "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI053T1-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI053T1.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01SI053T1",
+    "cost": 1,
+    "health": 0,
+    "level": "3",
+    "name": "Elise's Crawling Sensation",
+    "regionRef": "ShadowIsles",
+    "supertype": "Champion",
     "type": "Spell"
   },
   {
@@ -282,6 +435,7 @@
     "cardCode": "01FR009",
     "cost": 4,
     "health": 5,
+    "level": "1",
     "name": "Braum",
     "regionRef": "Freljord",
     "supertype": "Champion",
@@ -298,6 +452,7 @@
     "cardCode": "01SI057",
     "cost": 4,
     "health": 7,
+    "level": "1",
     "name": "Ancient Crocolith",
     "regionRef": "ShadowIsles",
     "supertype": "",
@@ -314,6 +469,7 @@
     "cardCode": "01DE010",
     "cost": 5,
     "health": 4,
+    "level": "1",
     "name": "Swiftwing Lancer",
     "regionRef": "Demacia",
     "supertype": "",
@@ -330,6 +486,7 @@
     "cardCode": "01SI023",
     "cost": 2,
     "health": 3,
+    "level": "1",
     "name": "Soul Shepherd",
     "regionRef": "ShadowIsles",
     "supertype": "",
@@ -346,6 +503,7 @@
     "cardCode": "01PZ019",
     "cost": 2,
     "health": 1,
+    "level": "1",
     "name": "Eager Apprentice",
     "regionRef": "PiltoverZaun",
     "supertype": "",
@@ -362,6 +520,7 @@
     "cardCode": "01NX038",
     "cost": 6,
     "health": 5,
+    "level": "1",
     "name": "Darius",
     "regionRef": "Noxus",
     "supertype": "Champion",
@@ -378,6 +537,7 @@
     "cardCode": "01IO040",
     "cost": 4,
     "health": 2,
+    "level": "1",
     "name": "Kinkou Lifeblade",
     "regionRef": "Ionia",
     "supertype": "",
@@ -394,6 +554,7 @@
     "cardCode": "01FR018",
     "cost": 3,
     "health": 2,
+    "level": "1",
     "name": "Rimefang Wolf",
     "regionRef": "Freljord",
     "supertype": "",
@@ -410,6 +571,7 @@
     "cardCode": "01DE020",
     "cost": 2,
     "health": 2,
+    "level": "1",
     "name": "Vanguard Defender",
     "regionRef": "Demacia",
     "supertype": "",
@@ -426,6 +588,7 @@
     "cardCode": "01DE034",
     "cost": 2,
     "health": 2,
+    "level": "1",
     "name": "Battlesmith",
     "regionRef": "Demacia",
     "supertype": "",
@@ -442,6 +605,7 @@
     "cardCode": "01DE002",
     "cost": 8,
     "health": 7,
+    "level": "1",
     "name": "Tianna Crownguard",
     "regionRef": "Demacia",
     "supertype": "",
@@ -458,9 +622,44 @@
     "cardCode": "01NX023",
     "cost": 5,
     "health": 3,
+    "level": "1",
     "name": "Arachnoid Host",
     "regionRef": "Noxus",
     "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO041T1-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO041T1.png"
+      }
+    ],
+    "attack": 5,
+    "cardCode": "01IO041T1",
+    "cost": 6,
+    "health": 4,
+    "level": "2",
+    "name": "Karma",
+    "regionRef": "Ionia",
+    "supertype": "Champion",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE012T1-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE012T1.png"
+      }
+    ],
+    "attack": 6,
+    "cardCode": "01DE012T1",
+    "cost": 5,
+    "health": 6,
+    "level": "2",
+    "name": "Garen",
+    "regionRef": "Demacia",
+    "supertype": "Champion",
     "type": "Unit"
   },
   {
@@ -474,6 +673,7 @@
     "cardCode": "01DE017",
     "cost": 4,
     "health": 0,
+    "level": "1",
     "name": "Stand Alone",
     "regionRef": "Demacia",
     "supertype": "",
@@ -490,6 +690,7 @@
     "cardCode": "01PZ040",
     "cost": 4,
     "health": 3,
+    "level": "1",
     "name": "Jinx",
     "regionRef": "PiltoverZaun",
     "supertype": "Champion",
@@ -506,6 +707,7 @@
     "cardCode": "01NX013",
     "cost": 5,
     "health": 0,
+    "level": "1",
     "name": "Decisive Maneuver",
     "regionRef": "Noxus",
     "supertype": "",
@@ -522,6 +724,7 @@
     "cardCode": "01DE045",
     "cost": 3,
     "health": 3,
+    "level": "1",
     "name": "Fiora",
     "regionRef": "Demacia",
     "supertype": "Champion",
@@ -538,6 +741,7 @@
     "cardCode": "01PZ025",
     "cost": 3,
     "health": 3,
+    "level": "1",
     "name": "Puffcap Peddler",
     "regionRef": "PiltoverZaun",
     "supertype": "",
@@ -554,6 +758,7 @@
     "cardCode": "01DE052",
     "cost": 9,
     "health": 9,
+    "level": "1",
     "name": "Brightsteel Formation",
     "regionRef": "Demacia",
     "supertype": "",
@@ -570,6 +775,7 @@
     "cardCode": "01SI053",
     "cost": 2,
     "health": 3,
+    "level": "1",
     "name": "Elise",
     "regionRef": "ShadowIsles",
     "supertype": "Champion",
@@ -586,6 +792,7 @@
     "cardCode": "01DE021",
     "cost": 3,
     "health": 0,
+    "level": "1",
     "name": "Relentless Pursuit",
     "regionRef": "Demacia",
     "supertype": "",
@@ -602,6 +809,7 @@
     "cardCode": "01NX047",
     "cost": 2,
     "health": 0,
+    "level": "1",
     "name": "Transfusion",
     "regionRef": "Noxus",
     "supertype": "",
@@ -618,6 +826,7 @@
     "cardCode": "01SI010",
     "cost": 2,
     "health": 0,
+    "level": "1",
     "name": "Onslaught of Shadows",
     "regionRef": "ShadowIsles",
     "supertype": "",
@@ -634,6 +843,7 @@
     "cardCode": "01IO011",
     "cost": 1,
     "health": 0,
+    "level": "1",
     "name": "Recall",
     "regionRef": "Ionia",
     "supertype": "",
@@ -650,9 +860,44 @@
     "cardCode": "01NX040",
     "cost": 1,
     "health": 1,
+    "level": "1",
     "name": "Legion Saboteur",
     "regionRef": "Noxus",
     "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI042T1-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI042T1.png"
+      }
+    ],
+    "attack": 6,
+    "cardCode": "01SI042T1",
+    "cost": 6,
+    "health": 6,
+    "level": "2",
+    "name": "Hecarim",
+    "regionRef": "ShadowIsles",
+    "supertype": "Champion",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO009T2-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO009T2.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "01IO009T2",
+    "cost": 3,
+    "health": 3,
+    "level": "2",
+    "name": "Zed",
+    "regionRef": "Ionia",
+    "supertype": "Champion",
     "type": "Unit"
   },
   {
@@ -666,10 +911,62 @@
     "cardCode": "01IO014",
     "cost": 3,
     "health": 1,
+    "level": "1",
     "name": "Greenglade Elder",
     "regionRef": "Ionia",
     "supertype": "",
     "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO041T2-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO041T2.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01IO041T2",
+    "cost": 2,
+    "health": 0,
+    "level": "3",
+    "name": "Karma's Insight of Ages",
+    "regionRef": "Ionia",
+    "supertype": "Champion",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX038T2-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX038T2.png"
+      }
+    ],
+    "attack": 10,
+    "cardCode": "01NX038T2",
+    "cost": 6,
+    "health": 6,
+    "level": "2",
+    "name": "Darius",
+    "regionRef": "Noxus",
+    "supertype": "Champion",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE022T2-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE022T2.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01DE022T2",
+    "cost": 3,
+    "health": 0,
+    "level": "3",
+    "name": "Lucian's Relentless Pursuit",
+    "regionRef": "Demacia",
+    "supertype": "Champion",
+    "type": "Spell"
   },
   {
     "assets": [
@@ -682,6 +979,7 @@
     "cardCode": "01PZ028",
     "cost": 1,
     "health": 0,
+    "level": "1",
     "name": "Jury-Rig",
     "regionRef": "PiltoverZaun",
     "supertype": "",
@@ -698,6 +996,7 @@
     "cardCode": "01DE025",
     "cost": 5,
     "health": 0,
+    "level": "1",
     "name": "Detain",
     "regionRef": "Demacia",
     "supertype": "",
@@ -714,6 +1013,7 @@
     "cardCode": "01FR036",
     "cost": 3,
     "health": 1,
+    "level": "1",
     "name": "Avarosan Marksman",
     "regionRef": "Freljord",
     "supertype": "",
@@ -730,6 +1030,7 @@
     "cardCode": "01IO005",
     "cost": 1,
     "health": 1,
+    "level": "1",
     "name": "Nimble Poro",
     "regionRef": "Ionia",
     "supertype": "",
@@ -746,6 +1047,7 @@
     "cardCode": "01FR045",
     "cost": 3,
     "health": 4,
+    "level": "1",
     "name": "Scarthane Steffen",
     "regionRef": "Freljord",
     "supertype": "",
@@ -762,6 +1064,7 @@
     "cardCode": "01IO044",
     "cost": 2,
     "health": 2,
+    "level": "1",
     "name": "Navori Conspirator",
     "regionRef": "Ionia",
     "supertype": "",
@@ -778,6 +1081,7 @@
     "cardCode": "01FR055",
     "cost": 2,
     "health": 0,
+    "level": "1",
     "name": "Shatter",
     "regionRef": "Freljord",
     "supertype": "",
@@ -794,6 +1098,7 @@
     "cardCode": "01NX046",
     "cost": 3,
     "health": 2,
+    "level": "1",
     "name": "Arachnoid Sentry",
     "regionRef": "Noxus",
     "supertype": "",
@@ -810,6 +1115,7 @@
     "cardCode": "01PZ050",
     "cost": 3,
     "health": 0,
+    "level": "1",
     "name": "Rising Spell Force",
     "regionRef": "PiltoverZaun",
     "supertype": "",
@@ -826,6 +1132,7 @@
     "cardCode": "01IO023",
     "cost": 5,
     "health": 4,
+    "level": "1",
     "name": "Jeweled Protector",
     "regionRef": "Ionia",
     "supertype": "",
@@ -842,6 +1149,7 @@
     "cardCode": "01SI048",
     "cost": 2,
     "health": 1,
+    "level": "1",
     "name": "Cursed Keeper",
     "regionRef": "ShadowIsles",
     "supertype": "",
@@ -858,6 +1166,7 @@
     "cardCode": "01NX025",
     "cost": 2,
     "health": 0,
+    "level": "1",
     "name": "Brothers' Bond",
     "regionRef": "Noxus",
     "supertype": "",
@@ -874,6 +1183,7 @@
     "cardCode": "01NX055",
     "cost": 2,
     "health": 2,
+    "level": "1",
     "name": "House Spider",
     "regionRef": "Noxus",
     "supertype": "",
@@ -890,6 +1200,7 @@
     "cardCode": "01DE007",
     "cost": 8,
     "health": 0,
+    "level": "1",
     "name": "Judgment",
     "regionRef": "Demacia",
     "supertype": "",
@@ -906,6 +1217,7 @@
     "cardCode": "01PZ017",
     "cost": 3,
     "health": 2,
+    "level": "1",
     "name": "Used Cask Salesman",
     "regionRef": "PiltoverZaun",
     "supertype": "",
@@ -922,6 +1234,7 @@
     "cardCode": "01PZ038",
     "cost": 3,
     "health": 3,
+    "level": "1",
     "name": "Sump Dredger",
     "regionRef": "PiltoverZaun",
     "supertype": "",
@@ -938,9 +1251,44 @@
     "cardCode": "01SI018",
     "cost": 3,
     "health": 3,
+    "level": "1",
     "name": "Scribe of Sorrows",
     "regionRef": "ShadowIsles",
     "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ008T1-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ008T1.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01PZ008T1",
+    "cost": 1,
+    "health": 0,
+    "level": "3",
+    "name": "Teemo's Mushroom Cloud",
+    "regionRef": "PiltoverZaun",
+    "supertype": "Champion",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI030T2-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI030T2.png"
+      }
+    ],
+    "attack": 5,
+    "cardCode": "01SI030T2",
+    "cost": 3,
+    "health": 4,
+    "level": "2",
+    "name": "Kalista",
+    "regionRef": "ShadowIsles",
+    "supertype": "Champion",
     "type": "Unit"
   },
   {
@@ -954,6 +1302,7 @@
     "cardCode": "01FR029",
     "cost": 2,
     "health": 0,
+    "level": "1",
     "name": "Entreat",
     "regionRef": "Freljord",
     "supertype": "",
@@ -970,6 +1319,7 @@
     "cardCode": "01SI030",
     "cost": 3,
     "health": 3,
+    "level": "1",
     "name": "Kalista",
     "regionRef": "ShadowIsles",
     "supertype": "Champion",
@@ -986,10 +1336,28 @@
     "cardCode": "01IO029",
     "cost": 2,
     "health": 0,
+    "level": "1",
     "name": "Sown Seeds",
     "regionRef": "Ionia",
     "supertype": "",
     "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ036T1-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ036T1.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "01PZ036T1",
+    "cost": 3,
+    "health": 4,
+    "level": "2",
+    "name": "Ezreal",
+    "regionRef": "PiltoverZaun",
+    "supertype": "Champion",
+    "type": "Unit"
   },
   {
     "assets": [
@@ -1002,6 +1370,7 @@
     "cardCode": "01FR035",
     "cost": 1,
     "health": 3,
+    "level": "1",
     "name": "Unscarred Reaver",
     "regionRef": "Freljord",
     "supertype": "",
@@ -1018,6 +1387,7 @@
     "cardCode": "01IO003",
     "cost": 3,
     "health": 0,
+    "level": "1",
     "name": "Death Mark",
     "regionRef": "Ionia",
     "supertype": "",
@@ -1034,6 +1404,7 @@
     "cardCode": "01PZ035",
     "cost": 6,
     "health": 4,
+    "level": "1",
     "name": "Jae Medarda",
     "regionRef": "PiltoverZaun",
     "supertype": "",
@@ -1050,6 +1421,7 @@
     "cardCode": "01PZ030",
     "cost": 4,
     "health": 3,
+    "level": "1",
     "name": "Shady Character",
     "regionRef": "PiltoverZaun",
     "supertype": "",
@@ -1066,6 +1438,7 @@
     "cardCode": "01IO047",
     "cost": 6,
     "health": 0,
+    "level": "1",
     "name": "Shadow Flare",
     "regionRef": "Ionia",
     "supertype": "",
@@ -1082,6 +1455,7 @@
     "cardCode": "01PZ048",
     "cost": 9,
     "health": 6,
+    "level": "1",
     "name": "Corina Veraza",
     "regionRef": "PiltoverZaun",
     "supertype": "",
@@ -1098,6 +1472,7 @@
     "cardCode": "01NX030",
     "cost": 2,
     "health": 3,
+    "level": "1",
     "name": "Crimson Disciple",
     "regionRef": "Noxus",
     "supertype": "",
@@ -1114,6 +1489,7 @@
     "cardCode": "01PZ010",
     "cost": 1,
     "health": 0,
+    "level": "1",
     "name": "Mushroom Cloud",
     "regionRef": "PiltoverZaun",
     "supertype": "",
@@ -1130,6 +1506,7 @@
     "cardCode": "01NX007",
     "cost": 2,
     "health": 2,
+    "level": "1",
     "name": "Arena Battlecaster",
     "regionRef": "Noxus",
     "supertype": "",
@@ -1146,6 +1523,7 @@
     "cardCode": "01PZ045",
     "cost": 1,
     "health": 1,
+    "level": "1",
     "name": "Zaunite Urchin",
     "regionRef": "PiltoverZaun",
     "supertype": "",
@@ -1162,6 +1540,7 @@
     "cardCode": "01IO026",
     "cost": 1,
     "health": 2,
+    "level": "1",
     "name": "Inspiring Mentor",
     "regionRef": "Ionia",
     "supertype": "",
@@ -1178,6 +1557,7 @@
     "cardCode": "01PZ002",
     "cost": 4,
     "health": 2,
+    "level": "1",
     "name": "Back Alley Barkeep",
     "regionRef": "PiltoverZaun",
     "supertype": "",
@@ -1194,6 +1574,7 @@
     "cardCode": "01SI005",
     "cost": 10,
     "health": 5,
+    "level": "1",
     "name": "Scuttlegeist",
     "regionRef": "ShadowIsles",
     "supertype": "",
@@ -1210,6 +1591,7 @@
     "cardCode": "01FR038",
     "cost": 4,
     "health": 3,
+    "level": "1",
     "name": "Ashe",
     "regionRef": "Freljord",
     "supertype": "Champion",
@@ -1226,6 +1608,7 @@
     "cardCode": "01DE055",
     "cost": 3,
     "health": 2,
+    "level": "1",
     "name": "Laurent Duelist",
     "regionRef": "Demacia",
     "supertype": "",
@@ -1242,6 +1625,7 @@
     "cardCode": "01PZ004",
     "cost": 7,
     "health": 0,
+    "level": "1",
     "name": "Trueshot Barrage",
     "regionRef": "PiltoverZaun",
     "supertype": "",
@@ -1258,6 +1642,7 @@
     "cardCode": "01DE048",
     "cost": 4,
     "health": 3,
+    "level": "1",
     "name": "Mageseeker Inciter",
     "regionRef": "Demacia",
     "supertype": "",
@@ -1274,10 +1659,28 @@
     "cardCode": "01IO024",
     "cost": 6,
     "health": 0,
+    "level": "1",
     "name": "Dawn and Dusk",
     "regionRef": "Ionia",
     "supertype": "",
     "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI053T2-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI053T2.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "01SI053T2",
+    "cost": 2,
+    "health": 3,
+    "level": "2",
+    "name": "Spider Queen Elise",
+    "regionRef": "ShadowIsles",
+    "supertype": "Champion",
+    "type": "Unit"
   },
   {
     "assets": [
@@ -1290,6 +1693,7 @@
     "cardCode": "01DE001",
     "cost": 4,
     "health": 3,
+    "level": "1",
     "name": "Vanguard Bannerman",
     "regionRef": "Demacia",
     "supertype": "",
@@ -1306,6 +1710,7 @@
     "cardCode": "01PZ020",
     "cost": 1,
     "health": 1,
+    "level": "1",
     "name": "Daring Poro",
     "regionRef": "PiltoverZaun",
     "supertype": "",
@@ -1322,6 +1727,7 @@
     "cardCode": "01NX021",
     "cost": 3,
     "health": 2,
+    "level": "1",
     "name": "Legion Marauder",
     "regionRef": "Noxus",
     "supertype": "",
@@ -1338,6 +1744,7 @@
     "cardCode": "01FR020",
     "cost": 4,
     "health": 0,
+    "level": "1",
     "name": "Avalanche",
     "regionRef": "Freljord",
     "supertype": "",
@@ -1354,6 +1761,7 @@
     "cardCode": "01PZ046",
     "cost": 1,
     "health": 0,
+    "level": "1",
     "name": "Counterfeit Copies",
     "regionRef": "PiltoverZaun",
     "supertype": "",
@@ -1370,6 +1778,7 @@
     "cardCode": "01IO028",
     "cost": 3,
     "health": 2,
+    "level": "1",
     "name": "Scaled Snapper",
     "regionRef": "Ionia",
     "supertype": "",
@@ -1386,6 +1795,7 @@
     "cardCode": "01FR014",
     "cost": 1,
     "health": 2,
+    "level": "1",
     "name": "Yeti Yearling",
     "regionRef": "Freljord",
     "supertype": "",
@@ -1402,6 +1812,7 @@
     "cardCode": "01SI037",
     "cost": 1,
     "health": 1,
+    "level": "1",
     "name": "Sinister Poro",
     "regionRef": "ShadowIsles",
     "supertype": "",
@@ -1418,6 +1829,7 @@
     "cardCode": "01NX009",
     "cost": 4,
     "health": 1,
+    "level": "1",
     "name": "Crowd Favorite",
     "regionRef": "Noxus",
     "supertype": "",
@@ -1434,6 +1846,7 @@
     "cardCode": "01IO057",
     "cost": 3,
     "health": 2,
+    "level": "1",
     "name": "Shadow Assassin",
     "regionRef": "Ionia",
     "supertype": "",
@@ -1450,6 +1863,7 @@
     "cardCode": "01PZ054",
     "cost": 2,
     "health": 3,
+    "level": "1",
     "name": "Boomcrew Rookie",
     "regionRef": "PiltoverZaun",
     "supertype": "",
@@ -1466,6 +1880,7 @@
     "cardCode": "01NX020",
     "cost": 3,
     "health": 3,
+    "level": "1",
     "name": "Draven",
     "regionRef": "Noxus",
     "supertype": "Champion",
@@ -1482,6 +1897,7 @@
     "cardCode": "01NX011",
     "cost": 3,
     "health": 0,
+    "level": "1",
     "name": "Whirling Death",
     "regionRef": "Noxus",
     "supertype": "",
@@ -1498,9 +1914,27 @@
     "cardCode": "01PZ052",
     "cost": 2,
     "health": 0,
+    "level": "1",
     "name": "Mystic Shot",
     "regionRef": "PiltoverZaun",
     "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR024T1-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR024T1.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01FR024T1",
+    "cost": 6,
+    "health": 0,
+    "level": "3",
+    "name": "Anivia's Harsh Winds",
+    "regionRef": "Freljord",
+    "supertype": "Champion",
     "type": "Spell"
   },
   {
@@ -1514,6 +1948,7 @@
     "cardCode": "01DE043",
     "cost": 2,
     "health": 3,
+    "level": "1",
     "name": "War Chefs",
     "regionRef": "Demacia",
     "supertype": "",
@@ -1530,10 +1965,28 @@
     "cardCode": "01PZ036",
     "cost": 3,
     "health": 3,
+    "level": "1",
     "name": "Ezreal",
     "regionRef": "PiltoverZaun",
     "supertype": "Champion",
     "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX020T2-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX020T2.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01NX020T2",
+    "cost": 3,
+    "health": 0,
+    "level": "3",
+    "name": "Draven's Whirling Death",
+    "regionRef": "Noxus",
+    "supertype": "Champion",
+    "type": "Spell"
   },
   {
     "assets": [
@@ -1546,6 +1999,7 @@
     "cardCode": "01NX053",
     "cost": 6,
     "health": 0,
+    "level": "1",
     "name": "Reckoning",
     "regionRef": "Noxus",
     "supertype": "",
@@ -1562,6 +2016,7 @@
     "cardCode": "01PZ005",
     "cost": 6,
     "health": 0,
+    "level": "1",
     "name": "Hextech Transmogulator",
     "regionRef": "PiltoverZaun",
     "supertype": "",
@@ -1578,8 +2033,26 @@
     "cardCode": "01SI052",
     "cost": 5,
     "health": 6,
+    "level": "1",
     "name": "Thresh",
     "regionRef": "ShadowIsles",
+    "supertype": "Champion",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE022T1-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE022T1.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "01DE022T1",
+    "cost": 2,
+    "health": 3,
+    "level": "2",
+    "name": "Lucian",
+    "regionRef": "Demacia",
     "supertype": "Champion",
     "type": "Unit"
   },
@@ -1594,10 +2067,28 @@
     "cardCode": "01DE049",
     "cost": 1,
     "health": 1,
+    "level": "1",
     "name": "Plucky Poro",
     "regionRef": "Demacia",
     "supertype": "",
     "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE012T2-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE012T2.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01DE012T2",
+    "cost": 8,
+    "health": 0,
+    "level": "3",
+    "name": "Garen's Judgment",
+    "regionRef": "Demacia",
+    "supertype": "Champion",
+    "type": "Spell"
   },
   {
     "assets": [
@@ -1610,6 +2101,7 @@
     "cardCode": "01SI033",
     "cost": 9,
     "health": 6,
+    "level": "1",
     "name": "Commander Ledros",
     "regionRef": "ShadowIsles",
     "supertype": "",
@@ -1626,6 +2118,7 @@
     "cardCode": "01PZ021",
     "cost": 5,
     "health": 3,
+    "level": "1",
     "name": "Midenstokke Henchmen",
     "regionRef": "PiltoverZaun",
     "supertype": "",
@@ -1642,6 +2135,7 @@
     "cardCode": "01SI003",
     "cost": 9,
     "health": 0,
+    "level": "1",
     "name": "The Harrowing",
     "regionRef": "ShadowIsles",
     "supertype": "",
@@ -1658,6 +2152,7 @@
     "cardCode": "01SI041",
     "cost": 3,
     "health": 2,
+    "level": "1",
     "name": "The Undying",
     "regionRef": "ShadowIsles",
     "supertype": "",
@@ -1674,9 +2169,27 @@
     "cardCode": "01FR049",
     "cost": 2,
     "health": 2,
+    "level": "1",
     "name": "Stalking Wolf",
     "regionRef": "Freljord",
     "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO032T1-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO032T1.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "01IO032T1",
+    "cost": 4,
+    "health": 6,
+    "level": "2",
+    "name": "Shen",
+    "regionRef": "Ionia",
+    "supertype": "Champion",
     "type": "Unit"
   },
   {
@@ -1690,6 +2203,7 @@
     "cardCode": "01DE053",
     "cost": 4,
     "health": 2,
+    "level": "1",
     "name": "Laurent Chevalier",
     "regionRef": "Demacia",
     "supertype": "",
@@ -1706,6 +2220,7 @@
     "cardCode": "01SI045",
     "cost": 1,
     "health": 0,
+    "level": "1",
     "name": "Absorb Soul",
     "regionRef": "ShadowIsles",
     "supertype": "",
@@ -1722,6 +2237,7 @@
     "cardCode": "01FR037",
     "cost": 4,
     "health": 3,
+    "level": "1",
     "name": "Avarosan Outriders",
     "regionRef": "Freljord",
     "supertype": "",
@@ -1738,10 +2254,28 @@
     "cardCode": "01SI036",
     "cost": 1,
     "health": 0,
+    "level": "1",
     "name": "Crawling Sensation",
     "regionRef": "ShadowIsles",
     "supertype": "",
     "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR009T1-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR009T1.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "01FR009T1",
+    "cost": 4,
+    "health": 6,
+    "level": "2",
+    "name": "Braum",
+    "regionRef": "Freljord",
+    "supertype": "Champion",
+    "type": "Unit"
   },
   {
     "assets": [
@@ -1754,6 +2288,7 @@
     "cardCode": "01IO013",
     "cost": 1,
     "health": 3,
+    "level": "1",
     "name": "Shadow Fiend",
     "regionRef": "Ionia",
     "supertype": "",
@@ -1770,6 +2305,7 @@
     "cardCode": "01PZ031",
     "cost": 4,
     "health": 0,
+    "level": "1",
     "name": "Statikk Shock",
     "regionRef": "PiltoverZaun",
     "supertype": "",
@@ -1786,6 +2322,7 @@
     "cardCode": "01SI051",
     "cost": 5,
     "health": 4,
+    "level": "1",
     "name": "Tortured Prodigy",
     "regionRef": "ShadowIsles",
     "supertype": "",
@@ -1802,6 +2339,7 @@
     "cardCode": "01FR026",
     "cost": 6,
     "health": 6,
+    "level": "1",
     "name": "Alpha Wildclaw",
     "regionRef": "Freljord",
     "supertype": "",
@@ -1818,6 +2356,7 @@
     "cardCode": "01NX054",
     "cost": 5,
     "health": 0,
+    "level": "1",
     "name": "Intimidating Roar",
     "regionRef": "Noxus",
     "supertype": "",
@@ -1834,6 +2373,7 @@
     "cardCode": "01PZ059",
     "cost": 3,
     "health": 5,
+    "level": "1",
     "name": "Golden Crushbot",
     "regionRef": "PiltoverZaun",
     "supertype": "",
@@ -1850,6 +2390,7 @@
     "cardCode": "01NX029",
     "cost": 4,
     "health": 5,
+    "level": "1",
     "name": "Legion Veteran",
     "regionRef": "Noxus",
     "supertype": "",
@@ -1866,6 +2407,7 @@
     "cardCode": "01FR030",
     "cost": 1,
     "health": 0,
+    "level": "1",
     "name": "Brittle Steel",
     "regionRef": "Freljord",
     "supertype": "",
@@ -1882,6 +2424,7 @@
     "cardCode": "01NX014",
     "cost": 4,
     "health": 3,
+    "level": "1",
     "name": "Shiraza the Blade",
     "regionRef": "Noxus",
     "supertype": "",
@@ -1898,10 +2441,28 @@
     "cardCode": "01SI012",
     "cost": 1,
     "health": 1,
+    "level": "1",
     "name": "Oblivious Islander",
     "regionRef": "ShadowIsles",
     "supertype": "",
     "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI052T2-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI052T2.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01SI052T2",
+    "cost": 4,
+    "health": 0,
+    "level": "3",
+    "name": "Thresh's The Box",
+    "regionRef": "ShadowIsles",
+    "supertype": "Champion",
+    "type": "Spell"
   },
   {
     "assets": [
@@ -1914,10 +2475,28 @@
     "cardCode": "01PZ001",
     "cost": 1,
     "health": 0,
+    "level": "1",
     "name": "Rummage",
     "regionRef": "PiltoverZaun",
     "supertype": "",
     "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX042T2-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX042T2.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "01NX042T2",
+    "cost": 4,
+    "health": 3,
+    "level": "2",
+    "name": "Katarina",
+    "regionRef": "Noxus",
+    "supertype": "Champion",
+    "type": "Unit"
   },
   {
     "assets": [
@@ -1930,6 +2509,7 @@
     "cardCode": "01FR013",
     "cost": 6,
     "health": 8,
+    "level": "1",
     "name": "Scarmother Vrynna",
     "regionRef": "Freljord",
     "supertype": "",
@@ -1946,6 +2526,7 @@
     "cardCode": "01PZ057",
     "cost": 2,
     "health": 0,
+    "level": "1",
     "name": "Scrapdash Assembly",
     "regionRef": "PiltoverZaun",
     "supertype": "",
@@ -1962,10 +2543,28 @@
     "cardCode": "01SI031",
     "cost": 3,
     "health": 4,
+    "level": "1",
     "name": "Iron Harbinger",
     "regionRef": "ShadowIsles",
     "supertype": "",
     "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX038T1-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX038T1.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01NX038T1",
+    "cost": 5,
+    "health": 0,
+    "level": "3",
+    "name": "Darius's Decimate",
+    "regionRef": "Noxus",
+    "supertype": "Champion",
+    "type": "Spell"
   },
   {
     "assets": [
@@ -1978,6 +2577,7 @@
     "cardCode": "01SI034",
     "cost": 3,
     "health": 0,
+    "level": "1",
     "name": "Black Spear",
     "regionRef": "ShadowIsles",
     "supertype": "",
@@ -1994,6 +2594,7 @@
     "cardCode": "01SI043",
     "cost": 1,
     "health": 1,
+    "level": "1",
     "name": "Hapless Aristocrat",
     "regionRef": "ShadowIsles",
     "supertype": "",
@@ -2010,9 +2611,27 @@
     "cardCode": "01IO018",
     "cost": 1,
     "health": 0,
+    "level": "1",
     "name": "Rush",
     "regionRef": "Ionia",
     "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ056T3-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ056T3.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01PZ056T3",
+    "cost": 8,
+    "health": 0,
+    "level": "3",
+    "name": "Heimerdinger's Progress Day!",
+    "regionRef": "PiltoverZaun",
+    "supertype": "Champion",
     "type": "Spell"
   },
   {
@@ -2026,6 +2645,7 @@
     "cardCode": "01FR019",
     "cost": 7,
     "health": 0,
+    "level": "1",
     "name": "Winter's Breath",
     "regionRef": "Freljord",
     "supertype": "",
@@ -2042,6 +2662,7 @@
     "cardCode": "01DE033",
     "cost": 6,
     "health": 0,
+    "level": "1",
     "name": "Remembrance",
     "regionRef": "Demacia",
     "supertype": "",
@@ -2058,6 +2679,7 @@
     "cardCode": "01SI009",
     "cost": 2,
     "health": 2,
+    "level": "1",
     "name": "Stirred Spirits",
     "regionRef": "ShadowIsles",
     "supertype": "",
@@ -2074,10 +2696,28 @@
     "cardCode": "01PZ027",
     "cost": 0,
     "health": 0,
+    "level": "1",
     "name": "Thermogenic Beam",
     "regionRef": "PiltoverZaun",
     "supertype": "",
     "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE045T1-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE045T1.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "01DE045T1",
+    "cost": 3,
+    "health": 4,
+    "level": "2",
+    "name": "Fiora",
+    "regionRef": "Demacia",
+    "supertype": "Champion",
+    "type": "Unit"
   },
   {
     "assets": [
@@ -2090,6 +2730,7 @@
     "cardCode": "01FR041",
     "cost": 5,
     "health": 5,
+    "level": "1",
     "name": "Avarosan Hearthguard ",
     "regionRef": "Freljord",
     "supertype": "",
@@ -2106,6 +2747,7 @@
     "cardCode": "01NX051",
     "cost": 8,
     "health": 8,
+    "level": "1",
     "name": "Captain Farron",
     "regionRef": "Noxus",
     "supertype": "",
@@ -2122,9 +2764,27 @@
     "cardCode": "01FR025",
     "cost": 2,
     "health": 3,
+    "level": "1",
     "name": "Poro Herder",
     "regionRef": "Freljord",
     "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE042T2-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE042T2.png"
+      }
+    ],
+    "attack": 5,
+    "cardCode": "01DE042T2",
+    "cost": 6,
+    "health": 6,
+    "level": "2",
+    "name": "Lux",
+    "regionRef": "Demacia",
+    "supertype": "Champion",
     "type": "Unit"
   },
   {
@@ -2138,6 +2798,7 @@
     "cardCode": "01DE044",
     "cost": 6,
     "health": 0,
+    "level": "1",
     "name": "Redoubled Valor",
     "regionRef": "Demacia",
     "supertype": "",
@@ -2154,6 +2815,7 @@
     "cardCode": "01NX012",
     "cost": 1,
     "health": 1,
+    "level": "1",
     "name": "Legion Rearguard",
     "regionRef": "Noxus",
     "supertype": "",
@@ -2170,6 +2832,7 @@
     "cardCode": "01DE024",
     "cost": 1,
     "health": 1,
+    "level": "1",
     "name": "Mageseeker Conservator",
     "regionRef": "Demacia",
     "supertype": "",
@@ -2186,9 +2849,27 @@
     "cardCode": "01NX043",
     "cost": 1,
     "health": 0,
+    "level": "1",
     "name": "Blade's Edge",
     "regionRef": "Noxus",
     "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI030T1-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI030T1.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01SI030T1",
+    "cost": 3,
+    "health": 0,
+    "level": "3",
+    "name": "Kalista's Black Spear",
+    "regionRef": "ShadowIsles",
+    "supertype": "Champion",
     "type": "Spell"
   },
   {
@@ -2202,6 +2883,7 @@
     "cardCode": "01NX037",
     "cost": 2,
     "health": 2,
+    "level": "1",
     "name": "Legion Grenadier",
     "regionRef": "Noxus",
     "supertype": "",
@@ -2218,6 +2900,7 @@
     "cardCode": "01IO016",
     "cost": 6,
     "health": 4,
+    "level": "1",
     "name": "Zephyr Sage",
     "regionRef": "Ionia",
     "supertype": "",
@@ -2234,6 +2917,7 @@
     "cardCode": "01SI056",
     "cost": 3,
     "health": 2,
+    "level": "1",
     "name": "Frenzied Skitterer",
     "regionRef": "ShadowIsles",
     "supertype": "",
@@ -2250,6 +2934,7 @@
     "cardCode": "01NX010",
     "cost": 5,
     "health": 4,
+    "level": "1",
     "name": "Legion General",
     "regionRef": "Noxus",
     "supertype": "",
@@ -2266,6 +2951,7 @@
     "cardCode": "01NX017",
     "cost": 2,
     "health": 2,
+    "level": "1",
     "name": "Legion Drummer",
     "regionRef": "Noxus",
     "supertype": "",
@@ -2282,6 +2968,7 @@
     "cardCode": "01DE004",
     "cost": 4,
     "health": 1,
+    "level": "1",
     "name": "Silverwing Vanguard",
     "regionRef": "Demacia",
     "supertype": "",
@@ -2298,6 +2985,7 @@
     "cardCode": "01SI001",
     "cost": 7,
     "health": 0,
+    "level": "1",
     "name": "Vengeance",
     "regionRef": "ShadowIsles",
     "supertype": "",
@@ -2314,6 +3002,7 @@
     "cardCode": "01DE011",
     "cost": 3,
     "health": 4,
+    "level": "1",
     "name": "Laurent Protege",
     "regionRef": "Demacia",
     "supertype": "",
@@ -2330,6 +3019,7 @@
     "cardCode": "01IO036",
     "cost": 2,
     "health": 1,
+    "level": "1",
     "name": "Greenglade Lookout",
     "regionRef": "Ionia",
     "supertype": "",
@@ -2346,6 +3036,7 @@
     "cardCode": "01PZ055",
     "cost": 1,
     "health": 2,
+    "level": "1",
     "name": "Astute Academic",
     "regionRef": "PiltoverZaun",
     "supertype": "",
@@ -2362,6 +3053,7 @@
     "cardCode": "01PZ008",
     "cost": 1,
     "health": 1,
+    "level": "1",
     "name": "Teemo",
     "regionRef": "PiltoverZaun",
     "supertype": "Champion",
@@ -2378,6 +3070,7 @@
     "cardCode": "01PZ014",
     "cost": 6,
     "health": 0,
+    "level": "1",
     "name": "Unlicensed Innovation",
     "regionRef": "PiltoverZaun",
     "supertype": "",
@@ -2394,6 +3087,7 @@
     "cardCode": "01DE047",
     "cost": 3,
     "health": 0,
+    "level": "1",
     "name": "Succession",
     "regionRef": "Demacia",
     "supertype": "",
@@ -2410,6 +3104,7 @@
     "cardCode": "01NX003",
     "cost": 2,
     "health": 2,
+    "level": "1",
     "name": "Arena Bookie",
     "regionRef": "Noxus",
     "supertype": "",
@@ -2426,6 +3121,7 @@
     "cardCode": "01DE046",
     "cost": 2,
     "health": 4,
+    "level": "1",
     "name": "Vanguard Lookout",
     "regionRef": "Demacia",
     "supertype": "",
@@ -2442,6 +3138,7 @@
     "cardCode": "01FR054",
     "cost": 5,
     "health": 5,
+    "level": "1",
     "name": "Scarmaiden Reaver",
     "regionRef": "Freljord",
     "supertype": "",
@@ -2458,6 +3155,7 @@
     "cardCode": "01DE050",
     "cost": 2,
     "health": 0,
+    "level": "1",
     "name": "Purify",
     "regionRef": "Demacia",
     "supertype": "",
@@ -2474,6 +3172,7 @@
     "cardCode": "01FR043",
     "cost": 6,
     "health": 4,
+    "level": "1",
     "name": "Heart of the Fluft",
     "regionRef": "Freljord",
     "supertype": "",
@@ -2490,6 +3189,7 @@
     "cardCode": "01FR033",
     "cost": 3,
     "health": 4,
+    "level": "1",
     "name": "Wyrding Stones",
     "regionRef": "Freljord",
     "supertype": "",
@@ -2506,6 +3206,7 @@
     "cardCode": "01SI019",
     "cost": 4,
     "health": 0,
+    "level": "1",
     "name": "The Box",
     "regionRef": "ShadowIsles",
     "supertype": "",
@@ -2522,6 +3223,7 @@
     "cardCode": "01IO033",
     "cost": 9,
     "health": 5,
+    "level": "1",
     "name": "Minah Swiftfoot",
     "regionRef": "Ionia",
     "supertype": "",
@@ -2538,6 +3240,7 @@
     "cardCode": "01NX039",
     "cost": 3,
     "health": 0,
+    "level": "1",
     "name": "Vision",
     "regionRef": "Noxus",
     "supertype": "",
@@ -2554,6 +3257,7 @@
     "cardCode": "01FR011",
     "cost": 2,
     "health": 1,
+    "level": "1",
     "name": "Icevale Archer",
     "regionRef": "Freljord",
     "supertype": "",
@@ -2570,6 +3274,7 @@
     "cardCode": "01PZ034",
     "cost": 4,
     "health": 3,
+    "level": "1",
     "name": "Sumpsnipe Scavenger",
     "regionRef": "PiltoverZaun",
     "supertype": "",
@@ -2586,6 +3291,7 @@
     "cardCode": "01FR050",
     "cost": 3,
     "health": 3,
+    "level": "1",
     "name": "Kindly Tavernkeeper",
     "regionRef": "Freljord",
     "supertype": "",
@@ -2602,9 +3308,44 @@
     "cardCode": "01NX041",
     "cost": 5,
     "health": 5,
+    "level": "1",
     "name": "Trifarian Shieldbreaker",
     "regionRef": "Noxus",
     "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR039T2-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR039T2.png"
+      }
+    ],
+    "attack": 9,
+    "cardCode": "01FR039T2",
+    "cost": 8,
+    "health": 9,
+    "level": "2",
+    "name": "Tryndamere",
+    "regionRef": "Freljord",
+    "supertype": "Champion",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR038T2-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR038T2.png"
+      }
+    ],
+    "attack": 6,
+    "cardCode": "01FR038T2",
+    "cost": 4,
+    "health": 4,
+    "level": "2",
+    "name": "Ashe",
+    "regionRef": "Freljord",
+    "supertype": "Champion",
     "type": "Unit"
   },
   {
@@ -2618,6 +3359,7 @@
     "cardCode": "01IO015",
     "cost": 4,
     "health": 4,
+    "level": "1",
     "name": "Yasuo",
     "regionRef": "Ionia",
     "supertype": "Champion",
@@ -2634,6 +3376,7 @@
     "cardCode": "01IO001",
     "cost": 7,
     "health": 0,
+    "level": "1",
     "name": "Ritual of Renewal",
     "regionRef": "Ionia",
     "supertype": "",
@@ -2650,6 +3393,7 @@
     "cardCode": "01IO010",
     "cost": 6,
     "health": 0,
+    "level": "1",
     "name": "Stand United",
     "regionRef": "Ionia",
     "supertype": "",
@@ -2666,6 +3410,7 @@
     "cardCode": "01IO012",
     "cost": 3,
     "health": 0,
+    "level": "1",
     "name": "Twin Disciplines",
     "regionRef": "Ionia",
     "supertype": "",
@@ -2682,6 +3427,7 @@
     "cardCode": "01DE040",
     "cost": 2,
     "health": 2,
+    "level": "1",
     "name": "Mageseeker Persuader",
     "regionRef": "Demacia",
     "supertype": "",
@@ -2698,6 +3444,7 @@
     "cardCode": "01NX036",
     "cost": 6,
     "health": 6,
+    "level": "1",
     "name": "Minotaur Reckoner",
     "regionRef": "Noxus",
     "supertype": "",
@@ -2714,6 +3461,7 @@
     "cardCode": "01NX044",
     "cost": 6,
     "health": 12,
+    "level": "1",
     "name": "Battering Ram",
     "regionRef": "Noxus",
     "supertype": "",
@@ -2730,6 +3478,7 @@
     "cardCode": "01DE036",
     "cost": 4,
     "health": 3,
+    "level": "1",
     "name": "Vanguard Squire",
     "regionRef": "Demacia",
     "supertype": "",
@@ -2746,10 +3495,45 @@
     "cardCode": "01SI011",
     "cost": 0,
     "health": 2,
+    "level": "1",
     "name": "Ravenous Butcher",
     "regionRef": "ShadowIsles",
     "supertype": "",
     "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO009T3-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO009T3.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01IO009T3",
+    "cost": 3,
+    "health": 0,
+    "level": "3",
+    "name": "Zed's Shadowshift",
+    "regionRef": "Ionia",
+    "supertype": "Champion",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI042T2-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI042T2.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01SI042T2",
+    "cost": 2,
+    "health": 0,
+    "level": "3",
+    "name": "Hecarim's Onslaught of Shadows",
+    "regionRef": "ShadowIsles",
+    "supertype": "Champion",
+    "type": "Spell"
   },
   {
     "assets": [
@@ -2762,6 +3546,7 @@
     "cardCode": "01DE037",
     "cost": 4,
     "health": 0,
+    "level": "1",
     "name": "Riposte",
     "regionRef": "Demacia",
     "supertype": "",
@@ -2778,6 +3563,7 @@
     "cardCode": "01SI027",
     "cost": 3,
     "health": 0,
+    "level": "1",
     "name": "Fresh Offerings",
     "regionRef": "ShadowIsles",
     "supertype": "",
@@ -2794,6 +3580,7 @@
     "cardCode": "01PZ003",
     "cost": 3,
     "health": 1,
+    "level": "1",
     "name": "Assembly Bot",
     "regionRef": "PiltoverZaun",
     "supertype": "",
@@ -2810,6 +3597,7 @@
     "cardCode": "01IO022",
     "cost": 1,
     "health": 0,
+    "level": "1",
     "name": "Ghost",
     "regionRef": "Ionia",
     "supertype": "",
@@ -2826,6 +3614,7 @@
     "cardCode": "01IO021",
     "cost": 7,
     "health": 2,
+    "level": "1",
     "name": "Windfarer Hatchling",
     "regionRef": "Ionia",
     "supertype": "",
@@ -2842,6 +3631,7 @@
     "cardCode": "01FR016",
     "cost": 3,
     "health": 0,
+    "level": "1",
     "name": "Poro Snax",
     "regionRef": "Freljord",
     "supertype": "",
@@ -2858,9 +3648,27 @@
     "cardCode": "01NX005",
     "cost": 2,
     "health": 2,
+    "level": "1",
     "name": "Crimson Aristocrat",
     "regionRef": "Noxus",
     "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ040T1-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ040T1.png"
+      }
+    ],
+    "attack": 5,
+    "cardCode": "01PZ040T1",
+    "cost": 4,
+    "health": 4,
+    "level": "2",
+    "name": "Jinx",
+    "regionRef": "PiltoverZaun",
+    "supertype": "Champion",
     "type": "Unit"
   },
   {
@@ -2874,6 +3682,7 @@
     "cardCode": "01FR005",
     "cost": 8,
     "health": 0,
+    "level": "1",
     "name": "Battle Fury",
     "regionRef": "Freljord",
     "supertype": "",
@@ -2890,6 +3699,7 @@
     "cardCode": "01DE014",
     "cost": 8,
     "health": 0,
+    "level": "1",
     "name": "Reinforcements",
     "regionRef": "Demacia",
     "supertype": "",
@@ -2906,6 +3716,7 @@
     "cardCode": "01IO054",
     "cost": 2,
     "health": 0,
+    "level": "1",
     "name": "Insight of Ages",
     "regionRef": "Ionia",
     "supertype": "",
@@ -2922,10 +3733,28 @@
     "cardCode": "01IO009",
     "cost": 3,
     "health": 2,
+    "level": "1",
     "name": "Zed",
     "regionRef": "Ionia",
     "supertype": "Champion",
     "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX042T1-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX042T1.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01NX042T1",
+    "cost": 2,
+    "health": 0,
+    "level": "3",
+    "name": "Katarina's Death Lotus",
+    "regionRef": "Noxus",
+    "supertype": "Champion",
+    "type": "Spell"
   },
   {
     "assets": [
@@ -2938,10 +3767,28 @@
     "cardCode": "01NX016",
     "cost": 2,
     "health": 2,
+    "level": "1",
     "name": "Trifarian Hopeful",
     "regionRef": "Noxus",
     "supertype": "",
     "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR009T2-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR009T2.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01FR009T2",
+    "cost": 3,
+    "health": 0,
+    "level": "3",
+    "name": "Braum's Take Heart",
+    "regionRef": "Freljord",
+    "supertype": "Champion",
+    "type": "Spell"
   },
   {
     "assets": [
@@ -2954,6 +3801,7 @@
     "cardCode": "01SI014",
     "cost": 2,
     "health": 2,
+    "level": "1",
     "name": "Mistwraith",
     "regionRef": "ShadowIsles",
     "supertype": "",
@@ -2970,6 +3818,7 @@
     "cardCode": "01NX019",
     "cost": 3,
     "health": 0,
+    "level": "1",
     "name": "Might",
     "regionRef": "Noxus",
     "supertype": "",
@@ -2986,6 +3835,7 @@
     "cardCode": "01IO027",
     "cost": 2,
     "health": 1,
+    "level": "1",
     "name": "Silent Shadowseer",
     "regionRef": "Ionia",
     "supertype": "",
@@ -3002,6 +3852,7 @@
     "cardCode": "01SI007",
     "cost": 2,
     "health": 0,
+    "level": "1",
     "name": "Haunted Relic",
     "regionRef": "ShadowIsles",
     "supertype": "",
@@ -3018,6 +3869,7 @@
     "cardCode": "01SI022",
     "cost": 1,
     "health": 0,
+    "level": "1",
     "name": "Mark of the Isles",
     "regionRef": "ShadowIsles",
     "supertype": "",
@@ -3034,6 +3886,7 @@
     "cardCode": "01IO032",
     "cost": 4,
     "health": 5,
+    "level": "1",
     "name": "Shen",
     "regionRef": "Ionia",
     "supertype": "Champion",
@@ -3050,6 +3903,7 @@
     "cardCode": "01NX015",
     "cost": 1,
     "health": 1,
+    "level": "1",
     "name": "Precious Pet",
     "regionRef": "Noxus",
     "supertype": "",
@@ -3066,6 +3920,7 @@
     "cardCode": "01PZ044",
     "cost": 5,
     "health": 2,
+    "level": "1",
     "name": "Chempunk Shredder",
     "regionRef": "PiltoverZaun",
     "supertype": "",
@@ -3082,6 +3937,7 @@
     "cardCode": "01FR008",
     "cost": 1,
     "health": 1,
+    "level": "1",
     "name": "Lonely Poro",
     "regionRef": "Freljord",
     "supertype": "",
@@ -3098,6 +3954,7 @@
     "cardCode": "01IO041",
     "cost": 6,
     "health": 3,
+    "level": "1",
     "name": "Karma",
     "regionRef": "Ionia",
     "supertype": "Champion",
@@ -3114,6 +3971,7 @@
     "cardCode": "01SI006",
     "cost": 5,
     "health": 0,
+    "level": "1",
     "name": "Possession",
     "regionRef": "ShadowIsles",
     "supertype": "",
@@ -3130,6 +3988,7 @@
     "cardCode": "01DE015",
     "cost": 5,
     "health": 5,
+    "level": "1",
     "name": "Radiant Guardian",
     "regionRef": "Demacia",
     "supertype": "",
@@ -3146,6 +4005,7 @@
     "cardCode": "01PZ029",
     "cost": 4,
     "health": 3,
+    "level": "1",
     "name": "Eminent Benefactor",
     "regionRef": "PiltoverZaun",
     "supertype": "",
@@ -3162,6 +4022,7 @@
     "cardCode": "01NX050",
     "cost": 2,
     "health": 0,
+    "level": "1",
     "name": "Death Lotus",
     "regionRef": "Noxus",
     "supertype": "",
@@ -3178,6 +4039,7 @@
     "cardCode": "01IO031",
     "cost": 6,
     "health": 5,
+    "level": "1",
     "name": "Cloud Drinker",
     "regionRef": "Ionia",
     "supertype": "",
@@ -3194,6 +4056,7 @@
     "cardCode": "01DE003",
     "cost": 4,
     "health": 3,
+    "level": "1",
     "name": "Laurent Bladekeeper",
     "regionRef": "Demacia",
     "supertype": "",
@@ -3210,6 +4073,7 @@
     "cardCode": "01FR023",
     "cost": 12,
     "health": 0,
+    "level": "1",
     "name": "Warmother's Call",
     "regionRef": "Freljord",
     "supertype": "",
@@ -3226,6 +4090,7 @@
     "cardCode": "01PZ033",
     "cost": 5,
     "health": 0,
+    "level": "1",
     "name": "Purrsuit of Perfection",
     "regionRef": "PiltoverZaun",
     "supertype": "",
@@ -3242,6 +4107,7 @@
     "cardCode": "01PZ051",
     "cost": 5,
     "health": 3,
+    "level": "1",
     "name": "Funsmith",
     "regionRef": "PiltoverZaun",
     "supertype": "",
@@ -3258,6 +4124,7 @@
     "cardCode": "01SI028",
     "cost": 3,
     "health": 0,
+    "level": "1",
     "name": "Splinter Soul",
     "regionRef": "ShadowIsles",
     "supertype": "",
@@ -3274,9 +4141,27 @@
     "cardCode": "01SI025",
     "cost": 6,
     "health": 0,
+    "level": "1",
     "name": "Atrocity",
     "regionRef": "ShadowIsles",
     "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO015T2-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO015T2.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01IO015T2",
+    "cost": 2,
+    "health": 0,
+    "level": "3",
+    "name": "Yasuo's Steel Tempest",
+    "regionRef": "Ionia",
+    "supertype": "Champion",
     "type": "Spell"
   },
   {
@@ -3290,6 +4175,7 @@
     "cardCode": "01IO002",
     "cost": 5,
     "health": 0,
+    "level": "1",
     "name": "Will of Ionia",
     "regionRef": "Ionia",
     "supertype": "",
@@ -3306,6 +4192,7 @@
     "cardCode": "01FR047",
     "cost": 2,
     "health": 2,
+    "level": "1",
     "name": "Feral Mystic",
     "regionRef": "Freljord",
     "supertype": "",
@@ -3322,6 +4209,7 @@
     "cardCode": "01IO017",
     "cost": 1,
     "health": 1,
+    "level": "1",
     "name": "Navori Bladescout",
     "regionRef": "Ionia",
     "supertype": "",
@@ -3338,6 +4226,7 @@
     "cardCode": "01FR056",
     "cost": 7,
     "health": 5,
+    "level": "1",
     "name": "Icy Yeti",
     "regionRef": "Freljord",
     "supertype": "",
@@ -3354,6 +4243,7 @@
     "cardCode": "01NX056",
     "cost": 5,
     "health": 0,
+    "level": "1",
     "name": "Shunpo",
     "regionRef": "Noxus",
     "supertype": "",
@@ -3370,6 +4260,7 @@
     "cardCode": "01SI046",
     "cost": 3,
     "health": 0,
+    "level": "1",
     "name": "Mist's Call",
     "regionRef": "ShadowIsles",
     "supertype": "",
@@ -3386,6 +4277,7 @@
     "cardCode": "01DE026",
     "cost": 2,
     "health": 0,
+    "level": "1",
     "name": "Single Combat",
     "regionRef": "Demacia",
     "supertype": "",
@@ -3402,6 +4294,7 @@
     "cardCode": "01NX033",
     "cost": 4,
     "health": 3,
+    "level": "1",
     "name": "Trifarian Assessor",
     "regionRef": "Noxus",
     "supertype": "",
@@ -3418,10 +4311,28 @@
     "cardCode": "01DE032",
     "cost": 3,
     "health": 0,
+    "level": "1",
     "name": "Prismatic Barrier",
     "regionRef": "Demacia",
     "supertype": "",
     "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX006T1-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX006T1.png"
+      }
+    ],
+    "attack": 6,
+    "cardCode": "01NX006T1",
+    "cost": 5,
+    "health": 6,
+    "level": "2",
+    "name": "Vladimir",
+    "regionRef": "Noxus",
+    "supertype": "Champion",
+    "type": "Unit"
   },
   {
     "assets": [
@@ -3434,6 +4345,7 @@
     "cardCode": "01PZ023",
     "cost": 4,
     "health": 3,
+    "level": "1",
     "name": "Professor von Yipp",
     "regionRef": "PiltoverZaun",
     "supertype": "",
@@ -3450,6 +4362,7 @@
     "cardCode": "01FR039",
     "cost": 8,
     "health": 4,
+    "level": "1",
     "name": "Tryndamere",
     "regionRef": "Freljord",
     "supertype": "Champion",
@@ -3466,6 +4379,7 @@
     "cardCode": "01FR027",
     "cost": 4,
     "health": 5,
+    "level": "1",
     "name": "Bull Elnuk",
     "regionRef": "Freljord",
     "supertype": "",
@@ -3482,6 +4396,7 @@
     "cardCode": "01SI050",
     "cost": 6,
     "health": 0,
+    "level": "1",
     "name": "Brood Awakening",
     "regionRef": "ShadowIsles",
     "supertype": "",
@@ -3498,6 +4413,7 @@
     "cardCode": "01FR057",
     "cost": 7,
     "health": 0,
+    "level": "1",
     "name": "Pack Mentality",
     "regionRef": "Freljord",
     "supertype": "",
@@ -3514,6 +4430,7 @@
     "cardCode": "01PZ024",
     "cost": 5,
     "health": 4,
+    "level": "1",
     "name": "Unstable Voltician",
     "regionRef": "PiltoverZaun",
     "supertype": "",
@@ -3530,6 +4447,7 @@
     "cardCode": "01SI016",
     "cost": 4,
     "health": 3,
+    "level": "1",
     "name": "Wraithcaller",
     "regionRef": "ShadowIsles",
     "supertype": "",
@@ -3546,10 +4464,28 @@
     "cardCode": "01IO042",
     "cost": 1,
     "health": 1,
+    "level": "1",
     "name": "Sparring Student",
     "regionRef": "Ionia",
     "supertype": "",
     "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR038T1-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR038T1.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01FR038T1",
+    "cost": 3,
+    "health": 0,
+    "level": "3",
+    "name": "Ashe's Flash Freeze",
+    "regionRef": "Freljord",
+    "supertype": "Champion",
+    "type": "Spell"
   },
   {
     "assets": [
@@ -3562,6 +4498,7 @@
     "cardCode": "01FR021",
     "cost": 5,
     "health": 8,
+    "level": "1",
     "name": "Tarkaz the Tribeless",
     "regionRef": "Freljord",
     "supertype": "",
@@ -3578,6 +4515,7 @@
     "cardCode": "01FR004",
     "cost": 1,
     "health": 0,
+    "level": "1",
     "name": "Elixir of Iron",
     "regionRef": "Freljord",
     "supertype": "",
@@ -3594,6 +4532,7 @@
     "cardCode": "01IO006",
     "cost": 2,
     "health": 1,
+    "level": "1",
     "name": "Greenglade Duo",
     "regionRef": "Ionia",
     "supertype": "",
@@ -3610,6 +4549,7 @@
     "cardCode": "01NX052",
     "cost": 2,
     "health": 0,
+    "level": "1",
     "name": "Blood for Blood",
     "regionRef": "Noxus",
     "supertype": "",
@@ -3626,6 +4566,7 @@
     "cardCode": "01IO050",
     "cost": 4,
     "health": 3,
+    "level": "1",
     "name": "Kinkou Wayfinder",
     "regionRef": "Ionia",
     "supertype": "",
@@ -3642,6 +4583,7 @@
     "cardCode": "01NX042",
     "cost": 3,
     "health": 2,
+    "level": "1",
     "name": "Katarina",
     "regionRef": "Noxus",
     "supertype": "Champion",
@@ -3658,6 +4600,7 @@
     "cardCode": "01SI021",
     "cost": 2,
     "health": 1,
+    "level": "1",
     "name": "Shark Chariot",
     "regionRef": "ShadowIsles",
     "supertype": "",
@@ -3674,6 +4617,7 @@
     "cardCode": "01FR048",
     "cost": 3,
     "health": 3,
+    "level": "1",
     "name": "Avarosan Trapper",
     "regionRef": "Freljord",
     "supertype": "",
@@ -3690,6 +4634,7 @@
     "cardCode": "01PZ049",
     "cost": 8,
     "health": 0,
+    "level": "1",
     "name": "Progress Day!",
     "regionRef": "PiltoverZaun",
     "supertype": "",
@@ -3706,6 +4651,7 @@
     "cardCode": "01IO048",
     "cost": 5,
     "health": 3,
+    "level": "1",
     "name": "Yusari",
     "regionRef": "Ionia",
     "supertype": "",
@@ -3722,6 +4668,7 @@
     "cardCode": "01FR017",
     "cost": 5,
     "health": 3,
+    "level": "1",
     "name": "Troop of Elnuks",
     "regionRef": "Freljord",
     "supertype": "",
@@ -3738,6 +4685,7 @@
     "cardCode": "01SI032",
     "cost": 4,
     "health": 3,
+    "level": "1",
     "name": "Chronicler of Ruin",
     "regionRef": "ShadowIsles",
     "supertype": "",
@@ -3754,6 +4702,7 @@
     "cardCode": "01PZ006",
     "cost": 10,
     "health": 6,
+    "level": "1",
     "name": "Plaza Guardian",
     "regionRef": "PiltoverZaun",
     "supertype": "",
@@ -3770,9 +4719,27 @@
     "cardCode": "01IO007",
     "cost": 4,
     "health": 3,
+    "level": "1",
     "name": "Ren Shadowblade",
     "regionRef": "Ionia",
     "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR024T3-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR024T3.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "01FR024T3",
+    "cost": 6,
+    "health": 5,
+    "level": "2",
+    "name": "Anivia",
+    "regionRef": "Freljord",
+    "supertype": "Champion",
     "type": "Unit"
   },
   {
@@ -3786,6 +4753,7 @@
     "cardCode": "01SI058",
     "cost": 5,
     "health": 3,
+    "level": "1",
     "name": "Ethereal Remitter",
     "regionRef": "ShadowIsles",
     "supertype": "",
@@ -3802,6 +4770,7 @@
     "cardCode": "01PZ053",
     "cost": 2,
     "health": 2,
+    "level": "1",
     "name": "Clump of Whumps",
     "regionRef": "PiltoverZaun",
     "supertype": "",
@@ -3818,6 +4787,7 @@
     "cardCode": "01IO053",
     "cost": 3,
     "health": 2,
+    "level": "1",
     "name": "Emerald Awakener",
     "regionRef": "Ionia",
     "supertype": "",
@@ -3834,6 +4804,7 @@
     "cardCode": "01FR046",
     "cost": 3,
     "health": 0,
+    "level": "1",
     "name": "Take Heart",
     "regionRef": "Freljord",
     "supertype": "",
@@ -3850,6 +4821,7 @@
     "cardCode": "01NX045",
     "cost": 7,
     "health": 4,
+    "level": "1",
     "name": "Savage Reckoner",
     "regionRef": "Noxus",
     "supertype": "",
@@ -3866,6 +4838,7 @@
     "cardCode": "01IO004",
     "cost": 1,
     "health": 0,
+    "level": "1",
     "name": "Health Potion",
     "regionRef": "Ionia",
     "supertype": "",
@@ -3882,6 +4855,7 @@
     "cardCode": "01DE027",
     "cost": 3,
     "health": 0,
+    "level": "1",
     "name": "En Garde",
     "regionRef": "Demacia",
     "supertype": "",
@@ -3898,6 +4872,7 @@
     "cardCode": "01SI054",
     "cost": 5,
     "health": 0,
+    "level": "1",
     "name": "Grasp of the Undying",
     "regionRef": "ShadowIsles",
     "supertype": "",
@@ -3914,6 +4889,7 @@
     "cardCode": "01SI044",
     "cost": 8,
     "health": 6,
+    "level": "1",
     "name": "Spectral Matron",
     "regionRef": "ShadowIsles",
     "supertype": "",
@@ -3930,6 +4906,7 @@
     "cardCode": "01FR012",
     "cost": 5,
     "health": 0,
+    "level": "1",
     "name": "Catalyst of Aeons",
     "regionRef": "Freljord",
     "supertype": "",
@@ -3946,6 +4923,7 @@
     "cardCode": "01FR040",
     "cost": 5,
     "health": 3,
+    "level": "1",
     "name": "Rimetusk Shaman",
     "regionRef": "Freljord",
     "supertype": "",
@@ -3962,6 +4940,7 @@
     "cardCode": "01IO049",
     "cost": 4,
     "health": 0,
+    "level": "1",
     "name": "Deny",
     "regionRef": "Ionia",
     "supertype": "",
@@ -3978,6 +4957,7 @@
     "cardCode": "01NX031",
     "cost": 2,
     "health": 1,
+    "level": "1",
     "name": "Trifarian Gloryseeker",
     "regionRef": "Noxus",
     "supertype": "",
@@ -3994,6 +4974,7 @@
     "cardCode": "01PZ012",
     "cost": 2,
     "health": 2,
+    "level": "1",
     "name": "Flame Chompers!",
     "regionRef": "PiltoverZaun",
     "supertype": "",
@@ -4010,6 +4991,7 @@
     "cardCode": "01FR031",
     "cost": 7,
     "health": 5,
+    "level": "1",
     "name": "Ancient Yeti",
     "regionRef": "Freljord",
     "supertype": "",
@@ -4026,6 +5008,7 @@
     "cardCode": "01DE006",
     "cost": 3,
     "health": 3,
+    "level": "1",
     "name": "Vanguard Sergeant",
     "regionRef": "Demacia",
     "supertype": "",
@@ -4042,6 +5025,7 @@
     "cardCode": "01FR053",
     "cost": 3,
     "health": 3,
+    "level": "1",
     "name": "Mighty Poro",
     "regionRef": "Freljord",
     "supertype": "",
@@ -4058,6 +5042,7 @@
     "cardCode": "01SI039",
     "cost": 2,
     "health": 2,
+    "level": "1",
     "name": "Arachnoid Horror",
     "regionRef": "ShadowIsles",
     "supertype": "",
@@ -4074,6 +5059,7 @@
     "cardCode": "01PZ039",
     "cost": 3,
     "health": 0,
+    "level": "1",
     "name": "Get Excited!",
     "regionRef": "PiltoverZaun",
     "supertype": "",
@@ -4090,6 +5076,7 @@
     "cardCode": "01DE038",
     "cost": 3,
     "health": 2,
+    "level": "1",
     "name": "Senna, Sentinel of Light",
     "regionRef": "Demacia",
     "supertype": "",
@@ -4106,6 +5093,7 @@
     "cardCode": "01FR010",
     "cost": 4,
     "health": 0,
+    "level": "1",
     "name": "Bloodsworn Pledge",
     "regionRef": "Freljord",
     "supertype": "",
@@ -4122,6 +5110,7 @@
     "cardCode": "01IO052",
     "cost": 2,
     "health": 2,
+    "level": "1",
     "name": "Navori Highwayman",
     "regionRef": "Ionia",
     "supertype": "",
@@ -4138,6 +5127,7 @@
     "cardCode": "01IO030",
     "cost": 7,
     "health": 5,
+    "level": "1",
     "name": "The Empyrean",
     "regionRef": "Ionia",
     "supertype": "",
@@ -4154,6 +5144,7 @@
     "cardCode": "01DE041",
     "cost": 6,
     "health": 0,
+    "level": "1",
     "name": "Back to Back",
     "regionRef": "Demacia",
     "supertype": "",
@@ -4170,6 +5161,7 @@
     "cardCode": "01NX002",
     "cost": 5,
     "health": 0,
+    "level": "1",
     "name": "Decimate",
     "regionRef": "Noxus",
     "supertype": "",
@@ -4186,6 +5178,7 @@
     "cardCode": "01NX006",
     "cost": 5,
     "health": 5,
+    "level": "1",
     "name": "Vladimir",
     "regionRef": "Noxus",
     "supertype": "Champion",
@@ -4202,9 +5195,27 @@
     "cardCode": "01PZ016",
     "cost": 4,
     "health": 0,
+    "level": "1",
     "name": "Flash of Brilliance",
     "regionRef": "PiltoverZaun",
     "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ036T2-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01PZ036T2.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01PZ036T2",
+    "cost": 2,
+    "health": 0,
+    "level": "3",
+    "name": "Ezreal's Mystic Shot",
+    "regionRef": "PiltoverZaun",
+    "supertype": "Champion",
     "type": "Spell"
   },
   {
@@ -4218,6 +5229,7 @@
     "cardCode": "01DE035",
     "cost": 6,
     "health": 0,
+    "level": "1",
     "name": "For Demacia!",
     "regionRef": "Demacia",
     "supertype": "",
@@ -4234,6 +5246,7 @@
     "cardCode": "01NX008",
     "cost": 4,
     "health": 3,
+    "level": "1",
     "name": "Basilisk Rider",
     "regionRef": "Noxus",
     "supertype": "",
@@ -4250,6 +5263,7 @@
     "cardCode": "01IO019",
     "cost": 1,
     "health": 2,
+    "level": "1",
     "name": "Greenglade Caretaker",
     "regionRef": "Ionia",
     "supertype": "",
@@ -4266,6 +5280,7 @@
     "cardCode": "01DE018",
     "cost": 1,
     "health": 0,
+    "level": "1",
     "name": "Radiant Strike",
     "regionRef": "Demacia",
     "supertype": "",
@@ -4282,6 +5297,7 @@
     "cardCode": "01SI020",
     "cost": 7,
     "health": 4,
+    "level": "1",
     "name": "The Rekindler",
     "regionRef": "ShadowIsles",
     "supertype": "",
@@ -4298,6 +5314,7 @@
     "cardCode": "01FR001",
     "cost": 3,
     "health": 0,
+    "level": "1",
     "name": "Flash Freeze",
     "regionRef": "Freljord",
     "supertype": "",
@@ -4314,6 +5331,7 @@
     "cardCode": "01PZ058",
     "cost": 4,
     "health": 3,
+    "level": "1",
     "name": "Chump Whump",
     "regionRef": "PiltoverZaun",
     "supertype": "",
@@ -4330,6 +5348,7 @@
     "cardCode": "01SI042",
     "cost": 6,
     "health": 5,
+    "level": "1",
     "name": "Hecarim",
     "regionRef": "ShadowIsles",
     "supertype": "Champion",
@@ -4346,6 +5365,7 @@
     "cardCode": "01DE009",
     "cost": 2,
     "health": 2,
+    "level": "1",
     "name": "Brightsteel Protector",
     "regionRef": "Demacia",
     "supertype": "",
@@ -4362,6 +5382,7 @@
     "cardCode": "01SI029",
     "cost": 5,
     "health": 0,
+    "level": "1",
     "name": "Withering Wail",
     "regionRef": "ShadowIsles",
     "supertype": "",
@@ -4378,10 +5399,28 @@
     "cardCode": "01PZ009",
     "cost": 3,
     "health": 3,
+    "level": "1",
     "name": "Amateur Aeronaut",
     "regionRef": "PiltoverZaun",
     "supertype": "",
     "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO032T2-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01IO032T2.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01IO032T2",
+    "cost": 6,
+    "health": 0,
+    "level": "3",
+    "name": "Shen's Stand United",
+    "regionRef": "Ionia",
+    "supertype": "Champion",
+    "type": "Spell"
   },
   {
     "assets": [
@@ -4394,6 +5433,7 @@
     "cardCode": "01SI035",
     "cost": 8,
     "health": 5,
+    "level": "1",
     "name": "Rhasa the Sunderer",
     "regionRef": "ShadowIsles",
     "supertype": "",
@@ -4410,6 +5450,7 @@
     "cardCode": "01FR024",
     "cost": 6,
     "health": 4,
+    "level": "1",
     "name": "Anivia",
     "regionRef": "Freljord",
     "supertype": "Champion",
@@ -4426,6 +5467,7 @@
     "cardCode": "01NX034",
     "cost": 1,
     "health": 1,
+    "level": "1",
     "name": "Affectionate Poro",
     "regionRef": "Noxus",
     "supertype": "",
@@ -4442,6 +5484,7 @@
     "cardCode": "01PZ042",
     "cost": 2,
     "health": 3,
+    "level": "1",
     "name": "Intrepid Mariner",
     "regionRef": "PiltoverZaun",
     "supertype": "",
@@ -4458,10 +5501,28 @@
     "cardCode": "01DE042",
     "cost": 6,
     "health": 5,
+    "level": "1",
     "name": "Lux",
     "regionRef": "Demacia",
     "supertype": "Champion",
     "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE045T2-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01DE045T2.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01DE045T2",
+    "cost": 4,
+    "health": 0,
+    "level": "3",
+    "name": "Fiora's Riposte",
+    "regionRef": "Demacia",
+    "supertype": "Champion",
+    "type": "Spell"
   },
   {
     "assets": [
@@ -4474,6 +5535,7 @@
     "cardCode": "01NX035",
     "cost": 1,
     "health": 1,
+    "level": "1",
     "name": "Draven's Biggest Fan",
     "regionRef": "Noxus",
     "supertype": "",
@@ -4490,6 +5552,7 @@
     "cardCode": "01NX026",
     "cost": 3,
     "health": 4,
+    "level": "1",
     "name": "Reckless Trifarian",
     "regionRef": "Noxus",
     "supertype": "",
@@ -4506,6 +5569,7 @@
     "cardCode": "01SI004",
     "cost": 3,
     "health": 5,
+    "level": "1",
     "name": "Darkwater Scourge",
     "regionRef": "ShadowIsles",
     "supertype": "",
@@ -4522,6 +5586,7 @@
     "cardCode": "01IO046",
     "cost": 2,
     "health": 0,
+    "level": "1",
     "name": "Steel Tempest",
     "regionRef": "Ionia",
     "supertype": "",
@@ -4538,6 +5603,7 @@
     "cardCode": "01DE039",
     "cost": 1,
     "health": 2,
+    "level": "1",
     "name": "Cithria of Cloudfield",
     "regionRef": "Demacia",
     "supertype": "",
@@ -4554,10 +5620,28 @@
     "cardCode": "01DE056",
     "cost": 4,
     "health": 2,
+    "level": "1",
     "name": "Vanguard Firstblade",
     "regionRef": "Demacia",
     "supertype": "",
     "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX006T3-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01NX006T3.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01NX006T3",
+    "cost": 2,
+    "health": 0,
+    "level": "3",
+    "name": "Vladimir's Transfusion",
+    "regionRef": "Noxus",
+    "supertype": "Champion",
+    "type": "Spell"
   },
   {
     "assets": [
@@ -4570,6 +5654,7 @@
     "cardCode": "01DE029",
     "cost": 1,
     "health": 1,
+    "level": "1",
     "name": "Fleetfeather Tracker",
     "regionRef": "Demacia",
     "supertype": "",
@@ -4586,6 +5671,7 @@
     "cardCode": "01IO037",
     "cost": 4,
     "health": 0,
+    "level": "1",
     "name": "Spirit's Refuge",
     "regionRef": "Ionia",
     "supertype": "",
@@ -4602,10 +5688,28 @@
     "cardCode": "01NX027",
     "cost": 1,
     "health": 0,
+    "level": "1",
     "name": "Elixir of Wrath",
     "regionRef": "Noxus",
     "supertype": "",
     "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR024T4-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01FR024T4.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "01FR024T4",
+    "cost": 1,
+    "health": 1,
+    "level": "2",
+    "name": "Eggnivia",
+    "regionRef": "Freljord",
+    "supertype": "Champion",
+    "type": "Unit"
   },
   {
     "assets": [
@@ -4618,6 +5722,7 @@
     "cardCode": "01PZ026",
     "cost": 2,
     "health": 0,
+    "level": "1",
     "name": "Sumpworks Map",
     "regionRef": "PiltoverZaun",
     "supertype": "",
@@ -4634,6 +5739,7 @@
     "cardCode": "01DE028",
     "cost": 5,
     "health": 5,
+    "level": "1",
     "name": "Vanguard Cavalry",
     "regionRef": "Demacia",
     "supertype": "",
@@ -4650,6 +5756,7 @@
     "cardCode": "01IO043",
     "cost": 3,
     "health": 2,
+    "level": "1",
     "name": "Rivershaper",
     "regionRef": "Ionia",
     "supertype": "",
@@ -4666,6 +5773,7 @@
     "cardCode": "01PZ043",
     "cost": 2,
     "health": 2,
+    "level": "1",
     "name": "Chempunk Pickpocket",
     "regionRef": "PiltoverZaun",
     "supertype": "",
@@ -4682,6 +5790,7 @@
     "cardCode": "01FR032",
     "cost": 2,
     "health": 3,
+    "level": "1",
     "name": "Starlit Seer",
     "regionRef": "Freljord",
     "supertype": "",
@@ -4698,6 +5807,7 @@
     "cardCode": "01IO038",
     "cost": 3,
     "health": 3,
+    "level": "1",
     "name": "Solitary Monk",
     "regionRef": "Ionia",
     "supertype": "",
@@ -4714,6 +5824,7 @@
     "cardCode": "01FR052",
     "cost": 10,
     "health": 10,
+    "level": "1",
     "name": "She Who Wanders",
     "regionRef": "Freljord",
     "supertype": "",
@@ -4730,6 +5841,7 @@
     "cardCode": "01FR051",
     "cost": 3,
     "health": 0,
+    "level": "1",
     "name": "Tall Tales",
     "regionRef": "Freljord",
     "supertype": "",
@@ -4746,6 +5858,7 @@
     "cardCode": "01NX022",
     "cost": 3,
     "health": 0,
+    "level": "1",
     "name": "Noxian Guillotine",
     "regionRef": "Noxus",
     "supertype": "",
@@ -4762,6 +5875,7 @@
     "cardCode": "01PZ047",
     "cost": 0,
     "health": 1,
+    "level": "1",
     "name": "Caustic Cask",
     "regionRef": "PiltoverZaun",
     "supertype": "",
@@ -4778,6 +5892,7 @@
     "cardCode": "01SI026",
     "cost": 1,
     "health": 1,
+    "level": "1",
     "name": "Warden's Prey",
     "regionRef": "ShadowIsles",
     "supertype": "",
@@ -4794,6 +5909,7 @@
     "cardCode": "01DE013",
     "cost": 1,
     "health": 0,
+    "level": "1",
     "name": "Chain Vest",
     "regionRef": "Demacia",
     "supertype": "",
@@ -4810,6 +5926,7 @@
     "cardCode": "01IO039",
     "cost": 3,
     "health": 0,
+    "level": "1",
     "name": "Shadowshift",
     "regionRef": "Ionia",
     "supertype": "",
@@ -4826,6 +5943,7 @@
     "cardCode": "01NX032",
     "cost": 4,
     "health": 5,
+    "level": "1",
     "name": "Crimson Awakener",
     "regionRef": "Noxus",
     "supertype": "",
@@ -4842,6 +5960,7 @@
     "cardCode": "01DE023",
     "cost": 3,
     "health": 3,
+    "level": "1",
     "name": "Mageseeker Investigator",
     "regionRef": "Demacia",
     "supertype": "",
@@ -4858,6 +5977,7 @@
     "cardCode": "01NX024",
     "cost": 5,
     "health": 4,
+    "level": "1",
     "name": "Kato The Arm",
     "regionRef": "Noxus",
     "supertype": "",
@@ -4874,6 +5994,7 @@
     "cardCode": "01SI040",
     "cost": 2,
     "health": 0,
+    "level": "1",
     "name": "Vile Feast",
     "regionRef": "ShadowIsles",
     "supertype": "",
@@ -4890,6 +6011,7 @@
     "cardCode": "01FR034",
     "cost": 7,
     "health": 1,
+    "level": "1",
     "name": "They Who Endure",
     "regionRef": "Freljord",
     "supertype": "",
@@ -4906,6 +6028,7 @@
     "cardCode": "01DE051",
     "cost": 6,
     "health": 6,
+    "level": "1",
     "name": "Cithria the Bold",
     "regionRef": "Demacia",
     "supertype": "",
@@ -4922,6 +6045,7 @@
     "cardCode": "01IO056",
     "cost": 7,
     "health": 6,
+    "level": "1",
     "name": "Yone, Windchaser",
     "regionRef": "Ionia",
     "supertype": "",
@@ -4938,6 +6062,7 @@
     "cardCode": "01IO055",
     "cost": 2,
     "health": 0,
+    "level": "1",
     "name": "Ki Guardian",
     "regionRef": "Ionia",
     "supertype": "",
@@ -4954,10 +6079,28 @@
     "cardCode": "01SI015",
     "cost": 9,
     "health": 0,
+    "level": "1",
     "name": "The Ruination",
     "regionRef": "ShadowIsles",
     "supertype": "",
     "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI052T1-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set1/en_us/img/cards/01SI052T1.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "01SI052T1",
+    "cost": 5,
+    "health": 7,
+    "level": "2",
+    "name": "Thresh",
+    "regionRef": "ShadowIsles",
+    "supertype": "Champion",
+    "type": "Unit"
   },
   {
     "assets": [
@@ -4970,6 +6113,7 @@
     "cardCode": "01NX049",
     "cost": 1,
     "health": 0,
+    "level": "1",
     "name": "Guile",
     "regionRef": "Noxus",
     "supertype": "",
@@ -4986,6 +6130,7 @@
     "cardCode": "01FR007",
     "cost": 4,
     "health": 3,
+    "level": "1",
     "name": "Babbling Bjerg",
     "regionRef": "Freljord",
     "supertype": "",
@@ -5002,6 +6147,7 @@
     "cardCode": "01DE054",
     "cost": 3,
     "health": 3,
+    "level": "1",
     "name": "Vanguard Redeemer",
     "regionRef": "Demacia",
     "supertype": "",
@@ -5018,6 +6164,7 @@
     "cardCode": "01DE012",
     "cost": 5,
     "health": 5,
+    "level": "1",
     "name": "Garen",
     "regionRef": "Demacia",
     "supertype": "Champion",
@@ -5034,6 +6181,7 @@
     "cardCode": "01FR003",
     "cost": 2,
     "health": 1,
+    "level": "1",
     "name": "Avarosan Sentry",
     "regionRef": "Freljord",
     "supertype": "",
@@ -5050,6 +6198,7 @@
     "cardCode": "01SI055",
     "cost": 6,
     "health": 7,
+    "level": "1",
     "name": "Soulgorger",
     "regionRef": "ShadowIsles",
     "supertype": "",
@@ -5066,6 +6215,7 @@
     "cardCode": "01SI047",
     "cost": 0,
     "health": 0,
+    "level": "1",
     "name": "Fading Memories",
     "regionRef": "ShadowIsles",
     "supertype": "",
@@ -5082,6 +6232,7 @@
     "cardCode": "01DE030",
     "cost": 4,
     "health": 3,
+    "level": "1",
     "name": "Silverwing Diver",
     "regionRef": "Demacia",
     "supertype": "",
@@ -5098,6 +6249,7 @@
     "cardCode": "02PZ001",
     "cost": 5,
     "health": 5,
+    "level": "1",
     "name": "Subpurrsible",
     "regionRef": "PiltoverZaun",
     "supertype": "",
@@ -5114,6 +6266,7 @@
     "cardCode": "02BW040",
     "cost": 1,
     "health": 1,
+    "level": "1",
     "name": "Shellshocker ",
     "regionRef": "Bilgewater",
     "supertype": "",
@@ -5130,6 +6283,7 @@
     "cardCode": "02FR009",
     "cost": 4,
     "health": 3,
+    "level": "1",
     "name": "Wolfrider",
     "regionRef": "Freljord",
     "supertype": "",
@@ -5146,6 +6300,7 @@
     "cardCode": "02PZ010",
     "cost": 2,
     "health": 2,
+    "level": "1",
     "name": "Veteran Investigator",
     "regionRef": "PiltoverZaun",
     "supertype": "",
@@ -5162,6 +6317,7 @@
     "cardCode": "02NX001",
     "cost": 8,
     "health": 8,
+    "level": "1",
     "name": "The Leviathan",
     "regionRef": "Noxus",
     "supertype": "",
@@ -5178,6 +6334,7 @@
     "cardCode": "02BW057",
     "cost": 5,
     "health": 4,
+    "level": "1",
     "name": "Slippery Waverider",
     "regionRef": "Bilgewater",
     "supertype": "",
@@ -5194,6 +6351,7 @@
     "cardCode": "02DE003",
     "cost": 3,
     "health": 4,
+    "level": "1",
     "name": "Loyal Badgerbear",
     "regionRef": "Demacia",
     "supertype": "",
@@ -5210,6 +6368,7 @@
     "cardCode": "02SI005",
     "cost": 3,
     "health": 0,
+    "level": "1",
     "name": "Sap Magic",
     "regionRef": "ShadowIsles",
     "supertype": "",
@@ -5226,6 +6385,7 @@
     "cardCode": "02BW032",
     "cost": 5,
     "health": 5,
+    "level": "1",
     "name": "Gangplank",
     "regionRef": "Bilgewater",
     "supertype": "Champion",
@@ -5242,10 +6402,28 @@
     "cardCode": "02BW041",
     "cost": 4,
     "health": 4,
+    "level": "1",
     "name": "The Beast Below",
     "regionRef": "Bilgewater",
     "supertype": "",
     "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW032T2-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW032T2.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "02BW032T2",
+    "cost": 1,
+    "health": 0,
+    "level": "3",
+    "name": "Gangplank's Parrrley",
+    "regionRef": "Bilgewater",
+    "supertype": "Champion",
+    "type": "Spell"
   },
   {
     "assets": [
@@ -5258,6 +6436,7 @@
     "cardCode": "02PZ006",
     "cost": 4,
     "health": 0,
+    "level": "1",
     "name": "Gotcha!",
     "regionRef": "PiltoverZaun",
     "supertype": "",
@@ -5274,6 +6453,7 @@
     "cardCode": "02BW013",
     "cost": 1,
     "health": 1,
+    "level": "1",
     "name": "Prowling Cutthroat",
     "regionRef": "Bilgewater",
     "supertype": "",
@@ -5290,6 +6470,7 @@
     "cardCode": "02SI010",
     "cost": 3,
     "health": 2,
+    "level": "1",
     "name": "Deadbloom Wanderer",
     "regionRef": "ShadowIsles",
     "supertype": "",
@@ -5306,6 +6487,7 @@
     "cardCode": "02BW061",
     "cost": 3,
     "health": 0,
+    "level": "1",
     "name": "Pocket Aces",
     "regionRef": "Bilgewater",
     "supertype": "",
@@ -5322,10 +6504,45 @@
     "cardCode": "02BW060",
     "cost": 1,
     "health": 1,
+    "level": "1",
     "name": "Crackshot Corsair",
     "regionRef": "Bilgewater",
     "supertype": "",
     "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02NX007T2-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02NX007T2.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "02NX007T2",
+    "cost": 5,
+    "health": 7,
+    "level": "2",
+    "name": "Swain",
+    "regionRef": "Noxus",
+    "supertype": "Champion",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW022T3-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW022T3.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "02BW022T3",
+    "cost": 2,
+    "health": 0,
+    "level": "3",
+    "name": "Miss Fortune's Make it Rain",
+    "regionRef": "Bilgewater",
+    "supertype": "Champion",
+    "type": "Spell"
   },
   {
     "assets": [
@@ -5338,6 +6555,7 @@
     "cardCode": "02BW011",
     "cost": 4,
     "health": 3,
+    "level": "1",
     "name": "Yordle Grifter",
     "regionRef": "Bilgewater",
     "supertype": "",
@@ -5354,6 +6572,7 @@
     "cardCode": "02BW022",
     "cost": 3,
     "health": 3,
+    "level": "1",
     "name": "Miss Fortune",
     "regionRef": "Bilgewater",
     "supertype": "Champion",
@@ -5370,6 +6589,7 @@
     "cardCode": "02FR004",
     "cost": 2,
     "health": 0,
+    "level": "1",
     "name": "Caught in the Cold",
     "regionRef": "Freljord",
     "supertype": "",
@@ -5386,6 +6606,7 @@
     "cardCode": "02BW019",
     "cost": 3,
     "health": 6,
+    "level": "1",
     "name": "Bubble Bear",
     "regionRef": "Bilgewater",
     "supertype": "",
@@ -5402,6 +6623,7 @@
     "cardCode": "02BW007",
     "cost": 4,
     "health": 5,
+    "level": "1",
     "name": "Brash Gambler",
     "regionRef": "Bilgewater",
     "supertype": "",
@@ -5418,6 +6640,7 @@
     "cardCode": "02PZ004",
     "cost": 3,
     "health": 0,
+    "level": "1",
     "name": "Vault Breaker",
     "regionRef": "PiltoverZaun",
     "supertype": "",
@@ -5434,6 +6657,7 @@
     "cardCode": "02BW014",
     "cost": 2,
     "health": 2,
+    "level": "1",
     "name": "Coral Creatures",
     "regionRef": "Bilgewater",
     "supertype": "",
@@ -5450,6 +6674,7 @@
     "cardCode": "02NX006",
     "cost": 4,
     "health": 5,
+    "level": "1",
     "name": "Citybreaker",
     "regionRef": "Noxus",
     "supertype": "",
@@ -5466,6 +6691,7 @@
     "cardCode": "02DE008",
     "cost": 5,
     "health": 5,
+    "level": "1",
     "name": "Greathorn Companion",
     "regionRef": "Demacia",
     "supertype": "",
@@ -5482,6 +6708,7 @@
     "cardCode": "02BW024",
     "cost": 3,
     "health": 0,
+    "level": "1",
     "name": "Double Trouble",
     "regionRef": "Bilgewater",
     "supertype": "",
@@ -5498,6 +6725,7 @@
     "cardCode": "02BW062",
     "cost": 4,
     "health": 4,
+    "level": "1",
     "name": "Island Navigator",
     "regionRef": "Bilgewater",
     "supertype": "",
@@ -5514,6 +6742,7 @@
     "cardCode": "02BW055",
     "cost": 3,
     "health": 3,
+    "level": "1",
     "name": "Jagged Taskmaster",
     "regionRef": "Bilgewater",
     "supertype": "",
@@ -5530,6 +6759,7 @@
     "cardCode": "02DE004",
     "cost": 3,
     "health": 2,
+    "level": "1",
     "name": "Greenfang Warden",
     "regionRef": "Demacia",
     "supertype": "",
@@ -5546,10 +6776,28 @@
     "cardCode": "02BW030",
     "cost": 7,
     "health": 5,
+    "level": "1",
     "name": "Shipwreck Hoarder",
     "regionRef": "Bilgewater",
     "supertype": "",
     "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02DE006T3-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02DE006T3.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "02DE006T3",
+    "cost": 2,
+    "health": 0,
+    "level": "3",
+    "name": "Quinn's Blinding Assault",
+    "regionRef": "Demacia",
+    "supertype": "Champion",
+    "type": "Spell"
   },
   {
     "assets": [
@@ -5562,6 +6810,7 @@
     "cardCode": "02SI007",
     "cost": 2,
     "health": 4,
+    "level": "1",
     "name": "Thorny Toad",
     "regionRef": "ShadowIsles",
     "supertype": "",
@@ -5578,6 +6827,7 @@
     "cardCode": "02BW003",
     "cost": 6,
     "health": 0,
+    "level": "1",
     "name": "Strong-arm",
     "regionRef": "Bilgewater",
     "supertype": "",
@@ -5594,6 +6844,7 @@
     "cardCode": "02BW017",
     "cost": 6,
     "health": 5,
+    "level": "1",
     "name": "Citrus Courier",
     "regionRef": "Bilgewater",
     "supertype": "",
@@ -5610,9 +6861,44 @@
     "cardCode": "02SI003",
     "cost": 8,
     "health": 5,
+    "level": "1",
     "name": "Terror of the Tides",
     "regionRef": "ShadowIsles",
     "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02NX007T1-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02NX007T1.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "02NX007T1",
+    "cost": 1,
+    "health": 0,
+    "level": "3",
+    "name": "Swain's Ravenous Flock",
+    "regionRef": "Noxus",
+    "supertype": "Champion",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW022T2-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW022T2.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "02BW022T2",
+    "cost": 3,
+    "health": 4,
+    "level": "2",
+    "name": "Miss Fortune",
+    "regionRef": "Bilgewater",
+    "supertype": "Champion",
     "type": "Unit"
   },
   {
@@ -5626,6 +6912,7 @@
     "cardCode": "02PZ007",
     "cost": 4,
     "health": 3,
+    "level": "1",
     "name": "Insightful Investigator",
     "regionRef": "PiltoverZaun",
     "supertype": "",
@@ -5642,9 +6929,27 @@
     "cardCode": "02BW056",
     "cost": 6,
     "health": 4,
+    "level": "1",
     "name": "Devourer of the Depths",
     "regionRef": "Bilgewater",
     "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW046T3-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW046T3.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "02BW046T3",
+    "cost": 1,
+    "health": 2,
+    "level": "2",
+    "name": "Fizz",
+    "regionRef": "Bilgewater",
+    "supertype": "Champion",
     "type": "Unit"
   },
   {
@@ -5658,6 +6963,7 @@
     "cardCode": "02BW025",
     "cost": 4,
     "health": 0,
+    "level": "1",
     "name": "Chum the Waters",
     "regionRef": "Bilgewater",
     "supertype": "",
@@ -5674,6 +6980,7 @@
     "cardCode": "02DE009",
     "cost": 4,
     "health": 1,
+    "level": "1",
     "name": "Grizzled Ranger",
     "regionRef": "Demacia",
     "supertype": "",
@@ -5690,6 +6997,7 @@
     "cardCode": "02IO006",
     "cost": 6,
     "health": 6,
+    "level": "1",
     "name": "Lee Sin",
     "regionRef": "Ionia",
     "supertype": "Champion",
@@ -5706,6 +7014,7 @@
     "cardCode": "02BW038",
     "cost": 4,
     "health": 2,
+    "level": "1",
     "name": "Zap Sprayfin",
     "regionRef": "Bilgewater",
     "supertype": "",
@@ -5722,6 +7031,7 @@
     "cardCode": "02BW021",
     "cost": 5,
     "health": 4,
+    "level": "1",
     "name": "Razorscale Hunter",
     "regionRef": "Bilgewater",
     "supertype": "",
@@ -5738,6 +7048,7 @@
     "cardCode": "02SI001",
     "cost": 5,
     "health": 4,
+    "level": "1",
     "name": "Neverglade Collector",
     "regionRef": "ShadowIsles",
     "supertype": "",
@@ -5754,6 +7065,7 @@
     "cardCode": "02PZ002",
     "cost": 6,
     "health": 6,
+    "level": "1",
     "name": "Chief Mechanist Zevi",
     "regionRef": "PiltoverZaun",
     "supertype": "",
@@ -5770,9 +7082,27 @@
     "cardCode": "02BW012",
     "cost": 2,
     "health": 0,
+    "level": "1",
     "name": "More Powder!",
     "regionRef": "Bilgewater",
     "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02SI008T1-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02SI008T1.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "02SI008T1",
+    "cost": 3,
+    "health": 0,
+    "level": "3",
+    "name": "Maokai's Sap Magic",
+    "regionRef": "ShadowIsles",
+    "supertype": "Champion",
     "type": "Spell"
   },
   {
@@ -5786,6 +7116,7 @@
     "cardCode": "02NX002",
     "cost": 6,
     "health": 6,
+    "level": "1",
     "name": "Aurok Glinthorn ",
     "regionRef": "Noxus",
     "supertype": "",
@@ -5802,6 +7133,7 @@
     "cardCode": "02DE005",
     "cost": 8,
     "health": 0,
+    "level": "1",
     "name": "Unyielding Spirit",
     "regionRef": "Demacia",
     "supertype": "",
@@ -5818,6 +7150,7 @@
     "cardCode": "02BW035",
     "cost": 6,
     "health": 5,
+    "level": "1",
     "name": "Sheriff Lariette Rose",
     "regionRef": "Bilgewater",
     "supertype": "",
@@ -5834,6 +7167,7 @@
     "cardCode": "02SI002",
     "cost": 7,
     "health": 3,
+    "level": "1",
     "name": "Overgrown Snapvine",
     "regionRef": "ShadowIsles",
     "supertype": "",
@@ -5850,6 +7184,7 @@
     "cardCode": "02IO004",
     "cost": 6,
     "health": 6,
+    "level": "1",
     "name": "Horns of the Dragon",
     "regionRef": "Ionia",
     "supertype": "",
@@ -5866,9 +7201,27 @@
     "cardCode": "02BW058",
     "cost": 1,
     "health": 2,
+    "level": "1",
     "name": "Jagged Butcher",
     "regionRef": "Bilgewater",
     "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW026T3-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW026T3.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "02BW026T3",
+    "cost": 4,
+    "health": 3,
+    "level": "2",
+    "name": "Twisted Fate",
+    "regionRef": "Bilgewater",
+    "supertype": "Champion",
     "type": "Unit"
   },
   {
@@ -5882,6 +7235,7 @@
     "cardCode": "02BW018",
     "cost": 1,
     "health": 0,
+    "level": "1",
     "name": "Parrrley",
     "regionRef": "Bilgewater",
     "supertype": "",
@@ -5898,6 +7252,7 @@
     "cardCode": "02BW037",
     "cost": 5,
     "health": 3,
+    "level": "1",
     "name": "Abyssal Eye",
     "regionRef": "Bilgewater",
     "supertype": "",
@@ -5914,6 +7269,7 @@
     "cardCode": "02FR002",
     "cost": 6,
     "health": 6,
+    "level": "1",
     "name": "Sejuani",
     "regionRef": "Freljord",
     "supertype": "Champion",
@@ -5930,6 +7286,7 @@
     "cardCode": "02BW048",
     "cost": 1,
     "health": 0,
+    "level": "1",
     "name": "Jailbreak",
     "regionRef": "Bilgewater",
     "supertype": "",
@@ -5946,6 +7303,7 @@
     "cardCode": "02BW043",
     "cost": 3,
     "health": 0,
+    "level": "1",
     "name": "Pick a Card",
     "regionRef": "Bilgewater",
     "supertype": "",
@@ -5962,6 +7320,7 @@
     "cardCode": "02FR001",
     "cost": 3,
     "health": 2,
+    "level": "1",
     "name": "Ember Maiden",
     "regionRef": "Freljord",
     "supertype": "",
@@ -5978,6 +7337,7 @@
     "cardCode": "02BW051",
     "cost": 4,
     "health": 0,
+    "level": "1",
     "name": "Playful Trickster",
     "regionRef": "Bilgewater",
     "supertype": "",
@@ -5994,6 +7354,7 @@
     "cardCode": "02BW054",
     "cost": 4,
     "health": 0,
+    "level": "1",
     "name": "Riptide",
     "regionRef": "Bilgewater",
     "supertype": "",
@@ -6010,10 +7371,45 @@
     "cardCode": "02SI004",
     "cost": 3,
     "health": 1,
+    "level": "1",
     "name": "Blighted Caretaker",
     "regionRef": "ShadowIsles",
     "supertype": "",
     "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02IO006T1-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02IO006T1.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "02IO006T1",
+    "cost": 6,
+    "health": 7,
+    "level": "2",
+    "name": "Lee Sin",
+    "regionRef": "Ionia",
+    "supertype": "Champion",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW026T1-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW026T1.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "02BW026T1",
+    "cost": 3,
+    "health": 0,
+    "level": "3",
+    "name": "Twisted Fate's Pick a Card",
+    "regionRef": "Bilgewater",
+    "supertype": "Champion",
+    "type": "Spell"
   },
   {
     "assets": [
@@ -6026,10 +7422,28 @@
     "cardCode": "02IO003",
     "cost": 2,
     "health": 3,
+    "level": "1",
     "name": "Eye of the Dragon",
     "regionRef": "Ionia",
     "supertype": "",
     "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW053T2-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW053T2.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "02BW053T2",
+    "cost": 4,
+    "health": 0,
+    "level": "3",
+    "name": "Nautilus's Riptide",
+    "regionRef": "Bilgewater",
+    "supertype": "Champion",
+    "type": "Spell"
   },
   {
     "assets": [
@@ -6042,6 +7456,7 @@
     "cardCode": "02IO001",
     "cost": 2,
     "health": 2,
+    "level": "1",
     "name": "Claws of the Dragon",
     "regionRef": "Ionia",
     "supertype": "",
@@ -6058,6 +7473,7 @@
     "cardCode": "02SI008",
     "cost": 4,
     "health": 4,
+    "level": "1",
     "name": "Maokai",
     "regionRef": "ShadowIsles",
     "supertype": "Champion",
@@ -6074,6 +7490,7 @@
     "cardCode": "02PZ008",
     "cost": 5,
     "health": 4,
+    "level": "1",
     "name": "Vi",
     "regionRef": "PiltoverZaun",
     "supertype": "Champion",
@@ -6090,6 +7507,7 @@
     "cardCode": "02SI006",
     "cost": 1,
     "health": 1,
+    "level": "1",
     "name": "Barkbeast",
     "regionRef": "ShadowIsles",
     "supertype": "",
@@ -6106,6 +7524,7 @@
     "cardCode": "02BW047",
     "cost": 1,
     "health": 1,
+    "level": "1",
     "name": "Dreg Dredgers",
     "regionRef": "Bilgewater",
     "supertype": "",
@@ -6122,6 +7541,7 @@
     "cardCode": "02NX009",
     "cost": 1,
     "health": 0,
+    "level": "1",
     "name": "Ravenous Flock",
     "regionRef": "Noxus",
     "supertype": "",
@@ -6138,6 +7558,7 @@
     "cardCode": "02BW008",
     "cost": 3,
     "health": 2,
+    "level": "1",
     "name": "Petty Officer",
     "regionRef": "Bilgewater",
     "supertype": "",
@@ -6154,6 +7575,7 @@
     "cardCode": "02NX007",
     "cost": 5,
     "health": 6,
+    "level": "1",
     "name": "Swain",
     "regionRef": "Noxus",
     "supertype": "Champion",
@@ -6170,7 +7592,25 @@
     "cardCode": "02BW053",
     "cost": 7,
     "health": 12,
+    "level": "1",
     "name": "Nautilus",
+    "regionRef": "Bilgewater",
+    "supertype": "Champion",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW032T3-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW032T3.png"
+      }
+    ],
+    "attack": 6,
+    "cardCode": "02BW032T3",
+    "cost": 5,
+    "health": 6,
+    "level": "2",
+    "name": "Gangplank",
     "regionRef": "Bilgewater",
     "supertype": "Champion",
     "type": "Unit"
@@ -6186,6 +7626,7 @@
     "cardCode": "02FR010",
     "cost": 2,
     "health": 0,
+    "level": "1",
     "name": "Shared Spoils",
     "regionRef": "Freljord",
     "supertype": "",
@@ -6202,6 +7643,7 @@
     "cardCode": "02BW004",
     "cost": 2,
     "health": 2,
+    "level": "1",
     "name": "Dreadway Deckhand",
     "regionRef": "Bilgewater",
     "supertype": "",
@@ -6218,6 +7660,7 @@
     "cardCode": "02BW002",
     "cost": 9,
     "health": 8,
+    "level": "1",
     "name": "The Dreadway",
     "regionRef": "Bilgewater",
     "supertype": "",
@@ -6234,6 +7677,7 @@
     "cardCode": "02IO005",
     "cost": 4,
     "health": 2,
+    "level": "1",
     "name": "Concussive Palm",
     "regionRef": "Ionia",
     "supertype": "",
@@ -6250,6 +7694,7 @@
     "cardCode": "02NX004",
     "cost": 2,
     "health": 3,
+    "level": "1",
     "name": "Imperial Demolitionist",
     "regionRef": "Noxus",
     "supertype": "",
@@ -6266,6 +7711,7 @@
     "cardCode": "02BW016",
     "cost": 3,
     "health": 4,
+    "level": "1",
     "name": "Slotbot",
     "regionRef": "Bilgewater",
     "supertype": "",
@@ -6282,6 +7728,7 @@
     "cardCode": "02DE002",
     "cost": 2,
     "health": 0,
+    "level": "1",
     "name": "Blinding Assault",
     "regionRef": "Demacia",
     "supertype": "",
@@ -6298,6 +7745,7 @@
     "cardCode": "02NX003",
     "cost": 3,
     "health": 0,
+    "level": "1",
     "name": "Noxian Fervor",
     "regionRef": "Noxus",
     "supertype": "",
@@ -6314,10 +7762,28 @@
     "cardCode": "02FR008",
     "cost": 8,
     "health": 7,
+    "level": "1",
     "name": "The Tuskraider",
     "regionRef": "Freljord",
     "supertype": "",
     "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02FR002T1-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02FR002T1.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "02FR002T1",
+    "cost": 4,
+    "health": 0,
+    "level": "3",
+    "name": "Sejuani's Fury of the North",
+    "regionRef": "Freljord",
+    "supertype": "Champion",
+    "type": "Spell"
   },
   {
     "assets": [
@@ -6330,6 +7796,7 @@
     "cardCode": "02PZ009",
     "cost": 2,
     "health": 0,
+    "level": "1",
     "name": "Trail of Evidence",
     "regionRef": "PiltoverZaun",
     "supertype": "",
@@ -6346,6 +7813,7 @@
     "cardCode": "02DE010",
     "cost": 6,
     "health": 5,
+    "level": "1",
     "name": "Genevieve Elmheart",
     "regionRef": "Demacia",
     "supertype": "",
@@ -6362,6 +7830,7 @@
     "cardCode": "02IO002",
     "cost": 3,
     "health": 2,
+    "level": "1",
     "name": "Scales of the Dragon",
     "regionRef": "Ionia",
     "supertype": "",
@@ -6378,6 +7847,7 @@
     "cardCode": "02BW026",
     "cost": 4,
     "health": 2,
+    "level": "1",
     "name": "Twisted Fate",
     "regionRef": "Bilgewater",
     "supertype": "Champion",
@@ -6394,9 +7864,27 @@
     "cardCode": "02BW027",
     "cost": 4,
     "health": 6,
+    "level": "1",
     "name": "Hunting Fleet",
     "regionRef": "Bilgewater",
     "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02FR002T3-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02FR002T3.png"
+      }
+    ],
+    "attack": 6,
+    "cardCode": "02FR002T3",
+    "cost": 6,
+    "health": 7,
+    "level": "2",
+    "name": "Sejuani",
+    "regionRef": "Freljord",
+    "supertype": "Champion",
     "type": "Unit"
   },
   {
@@ -6410,6 +7898,7 @@
     "cardCode": "02IO010",
     "cost": 2,
     "health": 0,
+    "level": "1",
     "name": "Retreat",
     "regionRef": "Ionia",
     "supertype": "",
@@ -6426,6 +7915,7 @@
     "cardCode": "02BW042",
     "cost": 7,
     "health": 0,
+    "level": "1",
     "name": "Mind Meld",
     "regionRef": "Bilgewater",
     "supertype": "",
@@ -6442,6 +7932,7 @@
     "cardCode": "02BW059",
     "cost": 7,
     "health": 0,
+    "level": "1",
     "name": "Scrapshot",
     "regionRef": "Bilgewater",
     "supertype": "",
@@ -6458,6 +7949,7 @@
     "cardCode": "02FR007",
     "cost": 4,
     "health": 0,
+    "level": "1",
     "name": "Fury of the North",
     "regionRef": "Freljord",
     "supertype": "",
@@ -6474,9 +7966,27 @@
     "cardCode": "02BW050",
     "cost": 7,
     "health": 4,
+    "level": "1",
     "name": "Smooth Soloist",
     "regionRef": "Bilgewater",
     "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02DE006T1-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02DE006T1.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "02DE006T1",
+    "cost": 5,
+    "health": 5,
+    "level": "2",
+    "name": "Quinn",
+    "regionRef": "Demacia",
+    "supertype": "Champion",
     "type": "Unit"
   },
   {
@@ -6490,6 +8000,7 @@
     "cardCode": "02BW028",
     "cost": 8,
     "health": 4,
+    "level": "1",
     "name": "Riptide Rex",
     "regionRef": "Bilgewater",
     "supertype": "",
@@ -6506,6 +8017,7 @@
     "cardCode": "02BW023",
     "cost": 3,
     "health": 0,
+    "level": "1",
     "name": "Lure of the Depths",
     "regionRef": "Bilgewater",
     "supertype": "",
@@ -6522,6 +8034,7 @@
     "cardCode": "02SI009",
     "cost": 1,
     "health": 0,
+    "level": "1",
     "name": "Sapling Toss",
     "regionRef": "ShadowIsles",
     "supertype": "",
@@ -6538,6 +8051,7 @@
     "cardCode": "02DE007",
     "cost": 1,
     "health": 0,
+    "level": "1",
     "name": "Ranger's Resolve",
     "regionRef": "Demacia",
     "supertype": "",
@@ -6554,6 +8068,7 @@
     "cardCode": "02PZ003",
     "cost": 4,
     "health": 0,
+    "level": "1",
     "name": "Suit Up!",
     "regionRef": "PiltoverZaun",
     "supertype": "",
@@ -6570,6 +8085,7 @@
     "cardCode": "02BW031",
     "cost": 6,
     "health": 0,
+    "level": "1",
     "name": "Double Up",
     "regionRef": "Bilgewater",
     "supertype": "",
@@ -6586,9 +8102,27 @@
     "cardCode": "02BW034",
     "cost": 3,
     "health": 5,
+    "level": "1",
     "name": "Monkey Idol",
     "regionRef": "Bilgewater",
     "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02SI008T2-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02SI008T2.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "02SI008T2",
+    "cost": 4,
+    "health": 5,
+    "level": "2",
+    "name": "Maokai",
+    "regionRef": "ShadowIsles",
+    "supertype": "Champion",
     "type": "Unit"
   },
   {
@@ -6602,6 +8136,7 @@
     "cardCode": "02NX010",
     "cost": 6,
     "health": 5,
+    "level": "1",
     "name": "Armored Tuskrider",
     "regionRef": "Noxus",
     "supertype": "",
@@ -6618,6 +8153,7 @@
     "cardCode": "02DE001",
     "cost": 5,
     "health": 0,
+    "level": "1",
     "name": "Concerted Strike",
     "regionRef": "Demacia",
     "supertype": "",
@@ -6634,6 +8170,7 @@
     "cardCode": "02IO007",
     "cost": 7,
     "health": 0,
+    "level": "1",
     "name": "Dragon's Rage",
     "regionRef": "Ionia",
     "supertype": "",
@@ -6650,6 +8187,7 @@
     "cardCode": "02BW029",
     "cost": 4,
     "health": 0,
+    "level": "1",
     "name": "Salvage",
     "regionRef": "Bilgewater",
     "supertype": "",
@@ -6666,6 +8204,7 @@
     "cardCode": "02BW015",
     "cost": 7,
     "health": 7,
+    "level": "1",
     "name": "The Syren",
     "regionRef": "Bilgewater",
     "supertype": "",
@@ -6682,6 +8221,7 @@
     "cardCode": "02BW010",
     "cost": 1,
     "health": 1,
+    "level": "1",
     "name": "Plunder Poro",
     "regionRef": "Bilgewater",
     "supertype": "",
@@ -6698,6 +8238,7 @@
     "cardCode": "02BW009",
     "cost": 1,
     "health": 2,
+    "level": "1",
     "name": "Pool Shark",
     "regionRef": "Bilgewater",
     "supertype": "",
@@ -6714,6 +8255,7 @@
     "cardCode": "02BW005",
     "cost": 2,
     "health": 3,
+    "level": "1",
     "name": "Hired Gun",
     "regionRef": "Bilgewater",
     "supertype": "",
@@ -6730,6 +8272,7 @@
     "cardCode": "02BW046",
     "cost": 1,
     "health": 1,
+    "level": "1",
     "name": "Fizz",
     "regionRef": "Bilgewater",
     "supertype": "Champion",
@@ -6746,6 +8289,7 @@
     "cardCode": "02BW049",
     "cost": 3,
     "health": 0,
+    "level": "1",
     "name": "Pilfered Goods",
     "regionRef": "Bilgewater",
     "supertype": "",
@@ -6762,6 +8306,7 @@
     "cardCode": "02FR005",
     "cost": 5,
     "health": 6,
+    "level": "1",
     "name": "Ursine Spiritwalker",
     "regionRef": "Freljord",
     "supertype": "",
@@ -6778,6 +8323,7 @@
     "cardCode": "02BW039",
     "cost": 3,
     "health": 1,
+    "level": "1",
     "name": "Jaull Hunters",
     "regionRef": "Bilgewater",
     "supertype": "",
@@ -6794,9 +8340,27 @@
     "cardCode": "02BW006",
     "cost": 4,
     "health": 2,
+    "level": "1",
     "name": "Mystifying Magician",
     "regionRef": "Bilgewater",
     "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02PZ008T2-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02PZ008T2.png"
+      }
+    ],
+    "attack": 10,
+    "cardCode": "02PZ008T2",
+    "cost": 5,
+    "health": 5,
+    "level": "2",
+    "name": "Vi",
+    "regionRef": "PiltoverZaun",
+    "supertype": "Champion",
     "type": "Unit"
   },
   {
@@ -6810,6 +8374,7 @@
     "cardCode": "02DE006",
     "cost": 5,
     "health": 4,
+    "level": "1",
     "name": "Quinn",
     "regionRef": "Demacia",
     "supertype": "Champion",
@@ -6826,9 +8391,27 @@
     "cardCode": "02BW001",
     "cost": 1,
     "health": 0,
+    "level": "1",
     "name": "Ye Been Warned",
     "regionRef": "Bilgewater",
     "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02IO006T2-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02IO006T2.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "02IO006T2",
+    "cost": 7,
+    "health": 0,
+    "level": "3",
+    "name": "Lee Sin's Dragon's Rage",
+    "regionRef": "Ionia",
+    "supertype": "Champion",
     "type": "Spell"
   },
   {
@@ -6842,6 +8425,7 @@
     "cardCode": "02IO009",
     "cost": 5,
     "health": 0,
+    "level": "1",
     "name": "Deep Meditation",
     "regionRef": "Ionia",
     "supertype": "",
@@ -6858,6 +8442,7 @@
     "cardCode": "02BW063",
     "cost": 3,
     "health": 0,
+    "level": "1",
     "name": "Sleight of Hand",
     "regionRef": "Bilgewater",
     "supertype": "",
@@ -6874,6 +8459,7 @@
     "cardCode": "02BW036",
     "cost": 2,
     "health": 3,
+    "level": "1",
     "name": "Golden Narwhal",
     "regionRef": "Bilgewater",
     "supertype": "",
@@ -6890,6 +8476,7 @@
     "cardCode": "02BW045",
     "cost": 2,
     "health": 0,
+    "level": "1",
     "name": "Make it Rain",
     "regionRef": "Bilgewater",
     "supertype": "",
@@ -6906,10 +8493,28 @@
     "cardCode": "02BW033",
     "cost": 2,
     "health": 1,
+    "level": "1",
     "name": "Black Market Merchant",
     "regionRef": "Bilgewater",
     "supertype": "",
     "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02PZ008T1-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02PZ008T1.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "02PZ008T1",
+    "cost": 3,
+    "health": 0,
+    "level": "3",
+    "name": "Vi's Vault Breaker",
+    "regionRef": "PiltoverZaun",
+    "supertype": "Champion",
+    "type": "Spell"
   },
   {
     "assets": [
@@ -6922,6 +8527,7 @@
     "cardCode": "02BW020",
     "cost": 0,
     "health": 0,
+    "level": "1",
     "name": "Warning Shot",
     "regionRef": "Bilgewater",
     "supertype": "",
@@ -6938,6 +8544,7 @@
     "cardCode": "02NX008",
     "cost": 3,
     "health": 0,
+    "level": "1",
     "name": "Death's Hand",
     "regionRef": "Noxus",
     "supertype": "",
@@ -6954,6 +8561,7 @@
     "cardCode": "02PZ005",
     "cost": 3,
     "health": 3,
+    "level": "1",
     "name": "Patrol Wardens",
     "regionRef": "PiltoverZaun",
     "supertype": "",
@@ -6970,6 +8578,7 @@
     "cardCode": "02NX005",
     "cost": 3,
     "health": 3,
+    "level": "1",
     "name": "Iron Ballista",
     "regionRef": "Noxus",
     "supertype": "",
@@ -6986,9 +8595,44 @@
     "cardCode": "02FR006",
     "cost": 2,
     "health": 1,
+    "level": "1",
     "name": "Ruthless Raider",
     "regionRef": "Freljord",
     "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW046T1-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW046T1.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "02BW046T1",
+    "cost": 4,
+    "health": 0,
+    "level": "3",
+    "name": "Fizz's Playful Trickster",
+    "regionRef": "Bilgewater",
+    "supertype": "Champion",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW053T1-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_6_0/set2/en_us/img/cards/02BW053T1.png"
+      }
+    ],
+    "attack": 13,
+    "cardCode": "02BW053T1",
+    "cost": 7,
+    "health": 13,
+    "level": "2",
+    "name": "Nautilus",
+    "regionRef": "Bilgewater",
+    "supertype": "Champion",
     "type": "Unit"
   },
   {
@@ -7002,6 +8646,7 @@
     "cardCode": "02BW044",
     "cost": 1,
     "health": 0,
+    "level": "1",
     "name": "Jettison",
     "regionRef": "Bilgewater",
     "supertype": "",
@@ -7018,6 +8663,7 @@
     "cardCode": "02IO008",
     "cost": 2,
     "health": 0,
+    "level": "1",
     "name": "Sonic Wave",
     "regionRef": "Ionia",
     "supertype": "",
@@ -7034,6 +8680,7 @@
     "cardCode": "02FR003",
     "cost": 6,
     "health": 0,
+    "level": "1",
     "name": "Aurora Porealis",
     "regionRef": "Freljord",
     "supertype": "",

@@ -14,13 +14,13 @@ def find_card(source, args):
     attack = None
     health = None
 
-    type = ""
+    type = "1"
     for each in args:
 
         if each.lower() == "лвл2":
-            type = "T1"
+            type = "2"
         elif each.lower() == "сигна":
-            type = "T2"
+            type = "3"
         elif each not in costs and not ("/" in each):
             name += each + " "
             # print(name)
@@ -53,15 +53,15 @@ def find_card(source, args):
 
     for dict in jdata:
         # print((name in dict["name"].lower() or name == ""))
-        if (name == dict["name"].lower() or name == "") and ((dict["cost"] == cost or cost is None) and (dict["attack"] == attack or attack is None) and (dict["health"] == health or health is None)):
+        if (name == dict["name"].lower() or name == "") and (dict["level"] == type) and ((dict["cost"] == cost or cost is None) and (dict["attack"] == attack or attack is None) and (dict["health"] == health or health is None)):
             result = dict["cardCode"]
             found = True
             break
-        elif (name in dict["name"].lower() or name == "") and ((dict["cost"] == cost or cost is None) and (dict["attack"] == attack or attack is None) and (dict["health"] == health or health is None)):
+        elif (name in dict["name"].lower() or name == "") and (dict["level"] == type) and ((dict["cost"] == cost or cost is None) and (dict["attack"] == attack or attack is None) and (dict["health"] == health or health is None)):
             result = dict["cardCode"]
             found = True
             break
-        elif (dict["cost"] == cost or cost is None) and (dict["attack"] == attack or attack is None) and (dict["health"] == health or health is None) and (source == 0):
+        elif (dict["cost"] == cost or cost is None) and (dict["level"] == type) and (dict["attack"] == attack or attack is None) and (dict["health"] == health or health is None) and (source == 0):
             yo = distance(dict["name"], name)
             if  yo < min_distance:
                 min_distance = yo
@@ -71,13 +71,13 @@ def find_card(source, args):
         if found:
             break
         # print((name in dict["name"].lower() or name == ""))
-        if (name == dict["name"].lower() or name == "") and ((dict["cost"] == cost or cost is None) and (dict["attack"] == attack or attack is None) and (dict["health"] == health or health is None)):
+        if (name == dict["name"].lower() or name == "") and (dict["level"] == type) and ((dict["cost"] == cost or cost is None) and (dict["attack"] == attack or attack is None) and (dict["health"] == health or health is None)):
             result = dict["cardCode"]
             break
-        elif (name in dict["name"].lower() or name == "") and ((dict["cost"] == cost or cost is None) and (dict["attack"] == attack or attack is None) and (dict["health"] == health or health is None)):
+        elif (name in dict["name"].lower() or name == "") and (dict["level"] == type) and ((dict["cost"] == cost or cost is None) and (dict["attack"] == attack or attack is None) and (dict["health"] == health or health is None)):
             result = dict["cardCode"]
             break
-        elif (dict["cost"] == cost or cost is None) and (dict["attack"] == attack or attack is None) and (dict["health"] == health or health is None) and (source == 0):
+        elif (dict["cost"] == cost or cost is None) and (dict["level"] == type) and (dict["attack"] == attack or attack is None) and (dict["health"] == health or health is None) and (source == 0):
             yo = distance(dict["name"], name)
             if  yo < min_distance:
                 min_distance = yo
