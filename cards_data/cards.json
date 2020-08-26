@@ -4309,7 +4309,7 @@
     ],
     "attack": 4,
     "cardCode": "01NX033",
-    "cost": 4,
+    "cost": 5,
     "health": 3,
     "level": "1",
     "name": "Трифарианский инспектор",
@@ -8702,5 +8702,1756 @@
     "regionRef": "Freljord",
     "supertype": "",
     "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03BW006-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03BW006.png"
+      }
+    ],
+    "attack": 5,
+    "cardCode": "03BW006",
+    "cost": 5,
+    "health": 6,
+    "level": "1",
+    "name": "Джек Победитель",
+    "regionRef": "Bilgewater",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03SI004-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03SI004.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03SI004",
+    "cost": 2,
+    "health": 0,
+    "level": "1",
+    "name": "Крадущиеся тени",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03SI012-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03SI012.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03SI012",
+    "cost": 3,
+    "health": 0,
+    "level": "1",
+    "name": "Без права прохода",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03SI014-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03SI014.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03SI014",
+    "cost": 4,
+    "health": 0,
+    "level": "1",
+    "name": "Подступающий сумрак",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03SI007-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03SI007.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03SI007",
+    "cost": 1,
+    "health": 0,
+    "level": "1",
+    "name": "Покров тьмы",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03SI013-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03SI013.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03SI013",
+    "cost": 4,
+    "health": 0,
+    "level": "1",
+    "name": "Восставший туман",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03IO017-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03IO017.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03IO017",
+    "cost": 1,
+    "health": 1,
+    "level": "1",
+    "name": "Пикс!",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03SI005T3-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03SI005T3.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03SI005T3",
+    "cost": 2,
+    "health": 0,
+    "level": "3",
+    "name": "Невыразимый ужас Ноктюрна",
+    "regionRef": "ShadowIsles",
+    "supertype": "Чемпион",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03SI006-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03SI006.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "03SI006",
+    "cost": 3,
+    "health": 2,
+    "level": "1",
+    "name": "Служитель рока",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT060-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT060.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "03MT060",
+    "cost": 4,
+    "health": 7,
+    "level": "1",
+    "name": "Крепкий защитник",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT033-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT033.png"
+      }
+    ],
+    "attack": 8,
+    "cardCode": "03MT033",
+    "cost": 8,
+    "health": 4,
+    "level": "1",
+    "name": "Дедушка Румул",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03DE006-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03DE006.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "03DE006",
+    "cost": 5,
+    "health": 5,
+    "level": "1",
+    "name": "Кричащий дракон",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03FR007-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03FR007.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "03FR007",
+    "cost": 2,
+    "health": 3,
+    "level": "1",
+    "name": "Тролль-следопыт",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT021-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT021.png"
+      }
+    ],
+    "attack": 8,
+    "cardCode": "03MT021",
+    "cost": 8,
+    "health": 8,
+    "level": "1",
+    "name": "Раскалывающие разум",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT056T1-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT056T1.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "03MT056T1",
+    "cost": 2,
+    "health": 3,
+    "level": "2",
+    "name": "Диана",
+    "regionRef": "Targon",
+    "supertype": "Чемпион",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT092-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT092.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "03MT092",
+    "cost": 2,
+    "health": 1,
+    "level": "1",
+    "name": "Горный козел",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03IO001-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03IO001.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "03IO001",
+    "cost": 1,
+    "health": 2,
+    "level": "1",
+    "name": "Лисичка с цветочком",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03SI005T1-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03SI005T1.png"
+      }
+    ],
+    "attack": 6,
+    "cardCode": "03SI005T1",
+    "cost": 4,
+    "health": 4,
+    "level": "2",
+    "name": "Ноктюрн",
+    "regionRef": "ShadowIsles",
+    "supertype": "Чемпион",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT048-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT048.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "03MT048",
+    "cost": 1,
+    "health": 2,
+    "level": "1",
+    "name": "Дарительница",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03FR004-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03FR004.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03FR004",
+    "cost": 7,
+    "health": 0,
+    "level": "1",
+    "name": "Бодрящий рык",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT063-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT063.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "03MT063",
+    "cost": 5,
+    "health": 5,
+    "level": "1",
+    "name": "Лунная сновидица",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03BW014-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03BW014.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03BW014",
+    "cost": 2,
+    "health": 0,
+    "level": "1",
+    "name": "Обезьянничанье",
+    "regionRef": "Bilgewater",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT006-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT006.png"
+      }
+    ],
+    "attack": 5,
+    "cardCode": "03MT006",
+    "cost": 6,
+    "health": 6,
+    "level": "1",
+    "name": "Инвиолус Вокс",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03IO019-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03IO019.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03IO019",
+    "cost": 10,
+    "health": 0,
+    "level": "1",
+    "name": "Сила воли",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03FR017-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03FR017.png"
+      }
+    ],
+    "attack": 5,
+    "cardCode": "03FR017",
+    "cost": 6,
+    "health": 5,
+    "level": "1",
+    "name": "Пророчица древних",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT054T2-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT054T2.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03MT054T2",
+    "cost": 5,
+    "health": 0,
+    "level": "3",
+    "name": "Утренний свет Леоны",
+    "regionRef": "Targon",
+    "supertype": "Чемпион",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT014-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT014.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "03MT014",
+    "cost": 2,
+    "health": 1,
+    "level": "1",
+    "name": "Драконья вестница",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT058-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT058.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "03MT058",
+    "cost": 4,
+    "health": 4,
+    "level": "1",
+    "name": "Тарик",
+    "regionRef": "Targon",
+    "supertype": "Чемпион",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT098-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT098.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03MT098",
+    "cost": 2,
+    "health": 0,
+    "level": "1",
+    "name": "Солнечная бодрость",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT085-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT085.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03MT085",
+    "cost": 3,
+    "health": 0,
+    "level": "1",
+    "name": "Тишина",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT054-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT054.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "03MT054",
+    "cost": 4,
+    "health": 5,
+    "level": "1",
+    "name": "Леона",
+    "regionRef": "Targon",
+    "supertype": "Чемпион",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03FR006T2-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03FR006T2.png"
+      }
+    ],
+    "attack": 5,
+    "cardCode": "03FR006T2",
+    "cost": 5,
+    "health": 7,
+    "level": "2",
+    "name": "Трандл",
+    "regionRef": "Freljord",
+    "supertype": "Чемпион",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT075-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT075.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "03MT075",
+    "cost": 3,
+    "health": 1,
+    "level": "1",
+    "name": "Жрица Лунари",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT020-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT020.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "03MT020",
+    "cost": 5,
+    "health": 5,
+    "level": "1",
+    "name": "Великолепный звезднорог",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT071-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT071.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "03MT071",
+    "cost": 2,
+    "health": 2,
+    "level": "1",
+    "name": "Пилигрим Тиари",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03NX018-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03NX018.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03NX018",
+    "cost": 2,
+    "health": 0,
+    "level": "1",
+    "name": "Задержание",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03FR008-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03FR008.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03FR008",
+    "cost": 8,
+    "health": 0,
+    "level": "1",
+    "name": "Льдотрясение",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT002-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT002.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03MT002",
+    "cost": 15,
+    "health": 0,
+    "level": "1",
+    "name": "Небо рушится на землю",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03IO008-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03IO008.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03IO008",
+    "cost": 4,
+    "health": 0,
+    "level": "1",
+    "name": "Причуда",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT086-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT086.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "03MT086",
+    "cost": 1,
+    "health": 1,
+    "level": "1",
+    "name": "Художница-чудачка",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT087T1-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT087T1.png"
+      }
+    ],
+    "attack": 11,
+    "cardCode": "03MT087T1",
+    "cost": 10,
+    "health": 11,
+    "level": "2",
+    "name": "Аурелион Сол",
+    "regionRef": "Targon",
+    "supertype": "Чемпион",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT019-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT019.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03MT019",
+    "cost": 3,
+    "health": 0,
+    "level": "1",
+    "name": "Бастион",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03IO002-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03IO002.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "03IO002",
+    "cost": 3,
+    "health": 3,
+    "level": "1",
+    "name": "Лулу",
+    "regionRef": "Ionia",
+    "supertype": "Чемпион",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03IO011-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03IO011.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "03IO011",
+    "cost": 4,
+    "health": 4,
+    "level": "1",
+    "name": "Белка-боксер",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03IO009-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03IO009.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "03IO009",
+    "cost": 3,
+    "health": 2,
+    "level": "1",
+    "name": "Вкусное создание",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT023-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT023.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03MT023",
+    "cost": 6,
+    "health": 0,
+    "level": "1",
+    "name": "Солнечная вспышка",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03IO003-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03IO003.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "03IO003",
+    "cost": 4,
+    "health": 3,
+    "level": "1",
+    "name": "Проводник с Поляны",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT096-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT096.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "03MT096",
+    "cost": 3,
+    "health": 2,
+    "level": "1",
+    "name": "Жрица Солари",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03IO002T5-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03IO002T5.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03IO002T5",
+    "cost": 4,
+    "health": 0,
+    "level": "3",
+    "name": "Причуда Лулу",
+    "regionRef": "Ionia",
+    "supertype": "Чемпион",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT044-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT044.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "03MT044",
+    "cost": 6,
+    "health": 3,
+    "level": "1",
+    "name": "Солнечный защитник",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03FR002-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03FR002.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03FR002",
+    "cost": 2,
+    "health": 0,
+    "level": "1",
+    "name": "Тролльский напев",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03IO010-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03IO010.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "03IO010",
+    "cost": 2,
+    "health": 1,
+    "level": "1",
+    "name": "Юная ведьмочка",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT041-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT041.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "03MT041",
+    "cost": 3,
+    "health": 1,
+    "level": "1",
+    "name": "Самоцветный мудрец",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT028-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT028.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "03MT028",
+    "cost": 2,
+    "health": 2,
+    "level": "1",
+    "name": "Щитоносец Солари",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT072-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT072.png"
+      }
+    ],
+    "attack": 5,
+    "cardCode": "03MT072",
+    "cost": 5,
+    "health": 5,
+    "level": "1",
+    "name": "Огнедышащий исполин",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT025-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT025.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03MT025",
+    "cost": 4,
+    "health": 0,
+    "level": "1",
+    "name": "Осколки Горы",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT017-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT017.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03MT017",
+    "cost": 1,
+    "health": 0,
+    "level": "1",
+    "name": "Знак Гонца",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT051-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT051.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03MT051",
+    "cost": 2,
+    "health": 0,
+    "level": "1",
+    "name": "Напутственное касание",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT012-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT012.png"
+      }
+    ],
+    "attack": 6,
+    "cardCode": "03MT012",
+    "cost": 10,
+    "health": 6,
+    "level": "1",
+    "name": "Судия вершины",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03FR011-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03FR011.png"
+      }
+    ],
+    "attack": 7,
+    "cardCode": "03FR011",
+    "cost": 8,
+    "health": 7,
+    "level": "1",
+    "name": "Узгар Древний",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT094-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT094.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "03MT094",
+    "cost": 2,
+    "health": 3,
+    "level": "1",
+    "name": "Разведчица Лунари",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT076-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT076.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "03MT076",
+    "cost": 4,
+    "health": 3,
+    "level": "1",
+    "name": "Горный гадатель",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03FR005-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03FR005.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "03FR005",
+    "cost": 4,
+    "health": 5,
+    "level": "1",
+    "name": "Тролль-опустошитель",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03SI005-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03SI005.png"
+      }
+    ],
+    "attack": 5,
+    "cardCode": "03SI005",
+    "cost": 4,
+    "health": 3,
+    "level": "1",
+    "name": "Ноктюрн",
+    "regionRef": "ShadowIsles",
+    "supertype": "Чемпион",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03IO002T1-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03IO002T1.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "03IO002T1",
+    "cost": 3,
+    "health": 4,
+    "level": "2",
+    "name": "Лулу",
+    "regionRef": "Ionia",
+    "supertype": "Чемпион",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03FR018-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03FR018.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03FR018",
+    "cost": 3,
+    "health": 0,
+    "level": "1",
+    "name": "Зов природы",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT087-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT087.png"
+      }
+    ],
+    "attack": 10,
+    "cardCode": "03MT087",
+    "cost": 10,
+    "health": 10,
+    "level": "1",
+    "name": "Аурелион Сол",
+    "regionRef": "Targon",
+    "supertype": "Чемпион",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT058T1-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT058T1.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "03MT058T1",
+    "cost": 4,
+    "health": 5,
+    "level": "2",
+    "name": "Тарик",
+    "regionRef": "Targon",
+    "supertype": "Чемпион",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT029-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT029.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03MT029",
+    "cost": 1,
+    "health": 3,
+    "level": "1",
+    "name": "Пастушка звезд",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03FR010-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03FR010.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03FR010",
+    "cost": 2,
+    "health": 2,
+    "level": "1",
+    "name": "Лица предков",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT062-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT062.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "03MT062",
+    "cost": 3,
+    "health": 2,
+    "level": "1",
+    "name": "Сияющая хохотушка",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT082-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT082.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03MT082",
+    "cost": 5,
+    "health": 0,
+    "level": "1",
+    "name": "Утренний свет",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT047-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT047.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "03MT047",
+    "cost": 6,
+    "health": 2,
+    "level": "1",
+    "name": "Сигнус, лунный следопыт",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT038-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT038.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "03MT038",
+    "cost": 4,
+    "health": 4,
+    "level": "1",
+    "name": "Защитник белого пламени",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT087T2-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT087T2.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03MT087T2",
+    "cost": 15,
+    "health": 0,
+    "level": "3",
+    "name": "Небо рушится на землю Аурелиона Сола",
+    "regionRef": "Targon",
+    "supertype": "Чемпион",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT081-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT081.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "03MT081",
+    "cost": 5,
+    "health": 5,
+    "level": "1",
+    "name": "Скалолазы",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03PZ017-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03PZ017.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03PZ017",
+    "cost": 4,
+    "health": 0,
+    "level": "1",
+    "name": "Трехлучевой невероятор",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT007-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT007.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "03MT007",
+    "cost": 3,
+    "health": 2,
+    "level": "1",
+    "name": "Малыш-звезднорог",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT015-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT015.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03MT015",
+    "cost": 2,
+    "health": 0,
+    "level": "1",
+    "name": "Узрите бесконечность",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT058T2-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT058T2.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03MT058T2",
+    "cost": 5,
+    "health": 0,
+    "level": "3",
+    "name": "Благословение Таргона Тарика",
+    "regionRef": "Targon",
+    "supertype": "Чемпион",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03FR006-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03FR006.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "03FR006",
+    "cost": 5,
+    "health": 6,
+    "level": "1",
+    "name": "Трандл",
+    "regionRef": "Freljord",
+    "supertype": "Чемпион",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT054T1-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT054T1.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "03MT054T1",
+    "cost": 4,
+    "health": 6,
+    "level": "2",
+    "name": "Леона",
+    "regionRef": "Targon",
+    "supertype": "Чемпион",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03SI003-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03SI003.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "03SI003",
+    "cost": 1,
+    "health": 1,
+    "level": "1",
+    "name": "Жуткий наблюдатель",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03NX017-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03NX017.png"
+      }
+    ],
+    "attack": 7,
+    "cardCode": "03NX017",
+    "cost": 7,
+    "health": 4,
+    "level": "1",
+    "name": "Кровожадный василиск",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT026-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT026.png"
+      }
+    ],
+    "attack": 5,
+    "cardCode": "03MT026",
+    "cost": 5,
+    "health": 5,
+    "level": "1",
+    "name": "Рахвун, Копье полудня",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03SI002-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03SI002.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03SI002",
+    "cost": 2,
+    "health": 0,
+    "level": "1",
+    "name": "Невыразимый ужас",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03PZ018-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03PZ018.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03PZ018",
+    "cost": 0,
+    "health": 0,
+    "level": "1",
+    "name": "Поропушка",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT003-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT003.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03MT003",
+    "cost": 3,
+    "health": 0,
+    "level": "1",
+    "name": "Драконье гнездо",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT088-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT088.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "03MT088",
+    "cost": 1,
+    "health": 2,
+    "level": "1",
+    "name": "Воин Солари",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT089-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT089.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "03MT089",
+    "cost": 3,
+    "health": 3,
+    "level": "1",
+    "name": "Страж полумесяца",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03DE012-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03DE012.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03DE012",
+    "cost": 8,
+    "health": 0,
+    "level": "1",
+    "name": "Во имя павших",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT056-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT056.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "03MT056",
+    "cost": 2,
+    "health": 2,
+    "level": "1",
+    "name": "Диана",
+    "regionRef": "Targon",
+    "supertype": "Чемпион",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT073-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT073.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "03MT073",
+    "cost": 1,
+    "health": 1,
+    "level": "1",
+    "name": "Лунари – вестница заката",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03FR006T3-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03FR006T3.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03FR006T3",
+    "cost": 8,
+    "health": 0,
+    "level": "3",
+    "name": "Льдотрясение Трандла",
+    "regionRef": "Freljord",
+    "supertype": "Чемпион",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT027-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT027.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03MT027",
+    "cost": 3,
+    "health": 0,
+    "level": "1",
+    "name": "Клинок зенита",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT084-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT084.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03MT084",
+    "cost": 5,
+    "health": 0,
+    "level": "1",
+    "name": "Сотворение звезд",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT016-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT016.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "03MT016",
+    "cost": 2,
+    "health": 3,
+    "level": "1",
+    "name": "Трогательный топотун",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT056T2-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT056T2.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03MT056T2",
+    "cost": 2,
+    "health": 0,
+    "level": "3",
+    "name": "Бледный каскад Дианы",
+    "regionRef": "Targon",
+    "supertype": "Чемпион",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT035-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT035.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03MT035",
+    "cost": 2,
+    "health": 0,
+    "level": "1",
+    "name": "Бледный каскад",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03IO018-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03IO018.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "03IO018",
+    "cost": 4,
+    "health": 3,
+    "level": "1",
+    "name": "Заботливый пушистик",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03SI010-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03SI010.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "03SI010",
+    "cost": 5,
+    "health": 5,
+    "level": "1",
+    "name": "Сумрачный скакун",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT036-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT036.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03MT036",
+    "cost": 5,
+    "health": 0,
+    "level": "1",
+    "name": "Благословение Таргона",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT039-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/ru_ru/img/cards/03MT039.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "03MT039",
+    "cost": 1,
+    "health": 1,
+    "level": "1",
+    "name": "Летучий поро",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Боец"
   }
 ]

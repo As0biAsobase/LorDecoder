@@ -4292,7 +4292,7 @@
     ],
     "attack": 4,
     "cardCode": "01NX033",
-    "cost": 4,
+    "cost": 5,
     "health": 3,
     "level": "1",
     "name": "Trifarian Assessor",
@@ -8685,5 +8685,1756 @@
     "regionRef": "Freljord",
     "supertype": "",
     "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03BW006-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03BW006.png"
+      }
+    ],
+    "attack": 5,
+    "cardCode": "03BW006",
+    "cost": 5,
+    "health": 6,
+    "level": "1",
+    "name": "Jack, the Winner",
+    "regionRef": "Bilgewater",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03SI004-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03SI004.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03SI004",
+    "cost": 2,
+    "health": 0,
+    "level": "1",
+    "name": "Stalking Shadows",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03SI012-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03SI012.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03SI012",
+    "cost": 3,
+    "health": 0,
+    "level": "1",
+    "name": "Passage Unearned",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03SI014-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03SI014.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03SI014",
+    "cost": 4,
+    "health": 0,
+    "level": "1",
+    "name": "Encroaching Shadows",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03SI007-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03SI007.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03SI007",
+    "cost": 1,
+    "health": 0,
+    "level": "1",
+    "name": "Shroud of Darkness",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03SI013-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03SI013.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03SI013",
+    "cost": 4,
+    "health": 0,
+    "level": "1",
+    "name": "Risen Mists",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03IO017-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03IO017.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03IO017",
+    "cost": 1,
+    "health": 1,
+    "level": "1",
+    "name": "Pix!",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03SI005T3-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03SI005T3.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03SI005T3",
+    "cost": 2,
+    "health": 0,
+    "level": "3",
+    "name": "Nocturne's Unspeakable Horror",
+    "regionRef": "ShadowIsles",
+    "supertype": "Champion",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03SI006-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03SI006.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "03SI006",
+    "cost": 3,
+    "health": 2,
+    "level": "1",
+    "name": "Doombeast",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT060-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT060.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "03MT060",
+    "cost": 4,
+    "health": 7,
+    "level": "1",
+    "name": "Broadbacked Protector",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT033-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT033.png"
+      }
+    ],
+    "attack": 8,
+    "cardCode": "03MT033",
+    "cost": 8,
+    "health": 4,
+    "level": "1",
+    "name": "Grandfather Rumul",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03DE006-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03DE006.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "03DE006",
+    "cost": 5,
+    "health": 5,
+    "level": "1",
+    "name": "Screeching Dragon",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03FR007-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03FR007.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "03FR007",
+    "cost": 2,
+    "health": 3,
+    "level": "1",
+    "name": "Troll Scavenger",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT021-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT021.png"
+      }
+    ],
+    "attack": 8,
+    "cardCode": "03MT021",
+    "cost": 8,
+    "health": 8,
+    "level": "1",
+    "name": "The Infinite Mindsplitter",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT056T1-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT056T1.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "03MT056T1",
+    "cost": 2,
+    "health": 3,
+    "level": "2",
+    "name": "Diana",
+    "regionRef": "Targon",
+    "supertype": "Champion",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT092-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT092.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "03MT092",
+    "cost": 2,
+    "health": 1,
+    "level": "1",
+    "name": "Mountain Goat",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03IO001-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03IO001.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "03IO001",
+    "cost": 1,
+    "health": 2,
+    "level": "1",
+    "name": "Flower Child",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03SI005T1-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03SI005T1.png"
+      }
+    ],
+    "attack": 6,
+    "cardCode": "03SI005T1",
+    "cost": 4,
+    "health": 4,
+    "level": "2",
+    "name": "Nocturne",
+    "regionRef": "ShadowIsles",
+    "supertype": "Champion",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT048-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT048.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "03MT048",
+    "cost": 1,
+    "health": 2,
+    "level": "1",
+    "name": "Gift Giver",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03FR004-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03FR004.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03FR004",
+    "cost": 7,
+    "health": 0,
+    "level": "1",
+    "name": "Revitalizing Roar",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT063-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT063.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "03MT063",
+    "cost": 5,
+    "health": 5,
+    "level": "1",
+    "name": "Moondreamer",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03BW014-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03BW014.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03BW014",
+    "cost": 2,
+    "health": 0,
+    "level": "1",
+    "name": "Monkey Business",
+    "regionRef": "Bilgewater",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT006-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT006.png"
+      }
+    ],
+    "attack": 5,
+    "cardCode": "03MT006",
+    "cost": 6,
+    "health": 6,
+    "level": "1",
+    "name": "Inviolus Vox",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03IO019-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03IO019.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03IO019",
+    "cost": 10,
+    "health": 0,
+    "level": "1",
+    "name": "Singular Will",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03FR017-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03FR017.png"
+      }
+    ],
+    "attack": 5,
+    "cardCode": "03FR017",
+    "cost": 6,
+    "health": 5,
+    "level": "1",
+    "name": "Augur of the Old Ones",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT054T2-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT054T2.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03MT054T2",
+    "cost": 5,
+    "health": 0,
+    "level": "3",
+    "name": "Leona's Morning Light",
+    "regionRef": "Targon",
+    "supertype": "Champion",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT014-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT014.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "03MT014",
+    "cost": 2,
+    "health": 1,
+    "level": "1",
+    "name": "Herald of Dragons",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT058-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT058.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "03MT058",
+    "cost": 4,
+    "health": 4,
+    "level": "1",
+    "name": "Taric",
+    "regionRef": "Targon",
+    "supertype": "Champion",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT098-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT098.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03MT098",
+    "cost": 2,
+    "health": 0,
+    "level": "1",
+    "name": "Sunblessed Vigor",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT085-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT085.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03MT085",
+    "cost": 3,
+    "health": 0,
+    "level": "1",
+    "name": "Hush",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT054-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT054.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "03MT054",
+    "cost": 4,
+    "health": 5,
+    "level": "1",
+    "name": "Leona",
+    "regionRef": "Targon",
+    "supertype": "Champion",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03FR006T2-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03FR006T2.png"
+      }
+    ],
+    "attack": 5,
+    "cardCode": "03FR006T2",
+    "cost": 5,
+    "health": 7,
+    "level": "2",
+    "name": "Trundle",
+    "regionRef": "Freljord",
+    "supertype": "Champion",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT075-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT075.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "03MT075",
+    "cost": 3,
+    "health": 1,
+    "level": "1",
+    "name": "Lunari Priestess",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT020-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT020.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "03MT020",
+    "cost": 5,
+    "health": 5,
+    "level": "1",
+    "name": "Resplendent Stellacorn",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT071-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT071.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "03MT071",
+    "cost": 2,
+    "health": 2,
+    "level": "1",
+    "name": "Tyari the Traveler",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03NX018-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03NX018.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03NX018",
+    "cost": 2,
+    "health": 0,
+    "level": "1",
+    "name": "Apprehend",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03FR008-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03FR008.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03FR008",
+    "cost": 8,
+    "health": 0,
+    "level": "1",
+    "name": "Icequake ",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT002-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT002.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03MT002",
+    "cost": 15,
+    "health": 0,
+    "level": "1",
+    "name": "The Skies Descend",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03IO008-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03IO008.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03IO008",
+    "cost": 4,
+    "health": 0,
+    "level": "1",
+    "name": "Whimsy!",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT086-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT086.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "03MT086",
+    "cost": 1,
+    "health": 1,
+    "level": "1",
+    "name": "Spacey Sketcher",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT087T1-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT087T1.png"
+      }
+    ],
+    "attack": 11,
+    "cardCode": "03MT087T1",
+    "cost": 10,
+    "health": 11,
+    "level": "2",
+    "name": "Aurelion Sol",
+    "regionRef": "Targon",
+    "supertype": "Champion",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT019-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT019.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03MT019",
+    "cost": 3,
+    "health": 0,
+    "level": "1",
+    "name": "Bastion",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03IO002-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03IO002.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "03IO002",
+    "cost": 3,
+    "health": 3,
+    "level": "1",
+    "name": "Lulu",
+    "regionRef": "Ionia",
+    "supertype": "Champion",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03IO011-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03IO011.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "03IO011",
+    "cost": 4,
+    "health": 4,
+    "level": "1",
+    "name": "Swole Squirrel",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03IO009-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03IO009.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "03IO009",
+    "cost": 3,
+    "health": 2,
+    "level": "1",
+    "name": "Tasty Faefolk",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT023-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT023.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03MT023",
+    "cost": 6,
+    "health": 0,
+    "level": "1",
+    "name": "Sunburst",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03IO003-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03IO003.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "03IO003",
+    "cost": 4,
+    "health": 3,
+    "level": "1",
+    "name": "Fae Guide",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT096-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT096.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "03MT096",
+    "cost": 3,
+    "health": 2,
+    "level": "1",
+    "name": "Solari Priestess",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03IO002T5-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03IO002T5.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03IO002T5",
+    "cost": 4,
+    "health": 0,
+    "level": "3",
+    "name": "Lulu's Whimsy!",
+    "regionRef": "Ionia",
+    "supertype": "Champion",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT044-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT044.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "03MT044",
+    "cost": 6,
+    "health": 3,
+    "level": "1",
+    "name": "Sun Guardian",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03FR002-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03FR002.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03FR002",
+    "cost": 2,
+    "health": 0,
+    "level": "1",
+    "name": "Troll Chant",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03IO010-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03IO010.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "03IO010",
+    "cost": 2,
+    "health": 1,
+    "level": "1",
+    "name": "Young Witch",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT041-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT041.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "03MT041",
+    "cost": 3,
+    "health": 1,
+    "level": "1",
+    "name": "Mentor of the Stones",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT028-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT028.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "03MT028",
+    "cost": 2,
+    "health": 2,
+    "level": "1",
+    "name": "Solari Shieldbearer",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT072-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT072.png"
+      }
+    ],
+    "attack": 5,
+    "cardCode": "03MT072",
+    "cost": 5,
+    "health": 5,
+    "level": "1",
+    "name": "Fused Firebrand",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT025-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT025.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03MT025",
+    "cost": 4,
+    "health": 0,
+    "level": "1",
+    "name": "Shards of the Mountain",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT017-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT017.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03MT017",
+    "cost": 1,
+    "health": 0,
+    "level": "1",
+    "name": "Messenger's Sigil",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT051-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT051.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03MT051",
+    "cost": 2,
+    "health": 0,
+    "level": "1",
+    "name": "Guiding Touch",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT012-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT012.png"
+      }
+    ],
+    "attack": 6,
+    "cardCode": "03MT012",
+    "cost": 10,
+    "health": 6,
+    "level": "1",
+    "name": "Arbiter of the Peak",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03FR011-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03FR011.png"
+      }
+    ],
+    "attack": 7,
+    "cardCode": "03FR011",
+    "cost": 8,
+    "health": 7,
+    "level": "1",
+    "name": "Uzgar the Ancient",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT094-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT094.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "03MT094",
+    "cost": 2,
+    "health": 3,
+    "level": "1",
+    "name": "Lunari Shadestalker",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT076-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT076.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "03MT076",
+    "cost": 4,
+    "health": 3,
+    "level": "1",
+    "name": "Mountain Scryer",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03FR005-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03FR005.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "03FR005",
+    "cost": 4,
+    "health": 5,
+    "level": "1",
+    "name": "Troll Ravager",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03SI005-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03SI005.png"
+      }
+    ],
+    "attack": 5,
+    "cardCode": "03SI005",
+    "cost": 4,
+    "health": 3,
+    "level": "1",
+    "name": "Nocturne",
+    "regionRef": "ShadowIsles",
+    "supertype": "Champion",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03IO002T1-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03IO002T1.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "03IO002T1",
+    "cost": 3,
+    "health": 4,
+    "level": "2",
+    "name": "Lulu",
+    "regionRef": "Ionia",
+    "supertype": "Champion",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03FR018-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03FR018.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03FR018",
+    "cost": 3,
+    "health": 0,
+    "level": "1",
+    "name": "Call the Wild",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT087-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT087.png"
+      }
+    ],
+    "attack": 10,
+    "cardCode": "03MT087",
+    "cost": 10,
+    "health": 10,
+    "level": "1",
+    "name": "Aurelion Sol",
+    "regionRef": "Targon",
+    "supertype": "Champion",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT058T1-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT058T1.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "03MT058T1",
+    "cost": 4,
+    "health": 5,
+    "level": "2",
+    "name": "Taric",
+    "regionRef": "Targon",
+    "supertype": "Champion",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT029-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT029.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03MT029",
+    "cost": 1,
+    "health": 3,
+    "level": "1",
+    "name": "Star Shepherd",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03FR010-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03FR010.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03FR010",
+    "cost": 2,
+    "health": 2,
+    "level": "1",
+    "name": "Faces of the Old Ones",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT062-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT062.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "03MT062",
+    "cost": 3,
+    "health": 2,
+    "level": "1",
+    "name": "Giddy Sparkleologist",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT082-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT082.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03MT082",
+    "cost": 5,
+    "health": 0,
+    "level": "1",
+    "name": "Morning Light",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT047-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT047.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "03MT047",
+    "cost": 6,
+    "health": 2,
+    "level": "1",
+    "name": "Cygnus the Moonstalker",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT038-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT038.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "03MT038",
+    "cost": 4,
+    "health": 4,
+    "level": "1",
+    "name": "Whiteflame Protector",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT087T2-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT087T2.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03MT087T2",
+    "cost": 15,
+    "health": 0,
+    "level": "3",
+    "name": "Aurelion Sol's The Skies Descend",
+    "regionRef": "Targon",
+    "supertype": "Champion",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT081-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT081.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "03MT081",
+    "cost": 5,
+    "health": 5,
+    "level": "1",
+    "name": "Mountain Sojourners",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03PZ017-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03PZ017.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03PZ017",
+    "cost": 4,
+    "health": 0,
+    "level": "1",
+    "name": "Tri-beam Improbulator",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT007-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT007.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "03MT007",
+    "cost": 3,
+    "health": 2,
+    "level": "1",
+    "name": "Fledgling Stellacorn",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT015-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT015.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03MT015",
+    "cost": 2,
+    "health": 0,
+    "level": "1",
+    "name": "Behold the Infinite ",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT058T2-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT058T2.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03MT058T2",
+    "cost": 5,
+    "health": 0,
+    "level": "3",
+    "name": "Taric's Blessing of Targon",
+    "regionRef": "Targon",
+    "supertype": "Champion",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03FR006-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03FR006.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "03FR006",
+    "cost": 5,
+    "health": 6,
+    "level": "1",
+    "name": "Trundle",
+    "regionRef": "Freljord",
+    "supertype": "Champion",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT054T1-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT054T1.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "03MT054T1",
+    "cost": 4,
+    "health": 6,
+    "level": "2",
+    "name": "Leona",
+    "regionRef": "Targon",
+    "supertype": "Champion",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03SI003-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03SI003.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "03SI003",
+    "cost": 1,
+    "health": 1,
+    "level": "1",
+    "name": "Stygian Onlooker",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03NX017-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03NX017.png"
+      }
+    ],
+    "attack": 7,
+    "cardCode": "03NX017",
+    "cost": 7,
+    "health": 4,
+    "level": "1",
+    "name": "Basilisk Bloodseeker",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT026-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT026.png"
+      }
+    ],
+    "attack": 5,
+    "cardCode": "03MT026",
+    "cost": 5,
+    "health": 5,
+    "level": "1",
+    "name": "Rahvun, Daylight's Spear",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03SI002-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03SI002.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03SI002",
+    "cost": 2,
+    "health": 0,
+    "level": "1",
+    "name": "Unspeakable Horror",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03PZ018-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03PZ018.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03PZ018",
+    "cost": 0,
+    "health": 0,
+    "level": "1",
+    "name": "Poro Cannon",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT003-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT003.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03MT003",
+    "cost": 3,
+    "health": 0,
+    "level": "1",
+    "name": "Dragon's Clutch",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT088-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT088.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "03MT088",
+    "cost": 1,
+    "health": 2,
+    "level": "1",
+    "name": "Solari Soldier",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT089-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT089.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "03MT089",
+    "cost": 3,
+    "health": 3,
+    "level": "1",
+    "name": "Crescent Guardian",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03DE012-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03DE012.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03DE012",
+    "cost": 8,
+    "health": 0,
+    "level": "1",
+    "name": "For The Fallen",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT056-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT056.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "03MT056",
+    "cost": 2,
+    "health": 2,
+    "level": "1",
+    "name": "Diana",
+    "regionRef": "Targon",
+    "supertype": "Champion",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT073-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT073.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "03MT073",
+    "cost": 1,
+    "health": 1,
+    "level": "1",
+    "name": "Lunari Duskbringer",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03FR006T3-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03FR006T3.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03FR006T3",
+    "cost": 8,
+    "health": 0,
+    "level": "3",
+    "name": "Trundle's Icequake",
+    "regionRef": "Freljord",
+    "supertype": "Champion",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT027-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT027.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03MT027",
+    "cost": 3,
+    "health": 0,
+    "level": "1",
+    "name": "Zenith Blade",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT084-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT084.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03MT084",
+    "cost": 5,
+    "health": 0,
+    "level": "1",
+    "name": "Starshaping",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT016-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT016.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "03MT016",
+    "cost": 2,
+    "health": 3,
+    "level": "1",
+    "name": "Startled Stomper",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT056T2-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT056T2.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03MT056T2",
+    "cost": 2,
+    "health": 0,
+    "level": "3",
+    "name": "Diana's Pale Cascade",
+    "regionRef": "Targon",
+    "supertype": "Champion",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT035-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT035.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03MT035",
+    "cost": 2,
+    "health": 0,
+    "level": "1",
+    "name": "Pale Cascade",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03IO018-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03IO018.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "03IO018",
+    "cost": 4,
+    "health": 3,
+    "level": "1",
+    "name": "Fuzzy Caretaker",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03SI010-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03SI010.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "03SI010",
+    "cost": 5,
+    "health": 5,
+    "level": "1",
+    "name": "Duskrider",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Unit"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT036-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT036.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "03MT036",
+    "cost": 5,
+    "health": 0,
+    "level": "1",
+    "name": "Blessing of Targon",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Spell"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT039-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/1_8_0/set3/en_us/img/cards/03MT039.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "03MT039",
+    "cost": 1,
+    "health": 1,
+    "level": "1",
+    "name": "Porofly",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Unit"
   }
 ]

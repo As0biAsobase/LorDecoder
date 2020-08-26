@@ -31,6 +31,7 @@ def generate_image(code, user_id):
 
     deck = LoRDeck.from_deckcode(code)
 
+
     for each in deck:
         for dict in jdata:
             q, code = each.split(':')
