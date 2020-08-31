@@ -53,7 +53,13 @@ def generate_image(code, user_id):
     height = max([len(champions), len(followers), len(spells)]) * 72 + 200
 
     ratio = height / 960
-    background = Image.open("background/1gs.png")
+
+    if user_id == 103657653:
+        background = Image.open("background/biolog.jpg")
+    else:
+        background = Image.open("background/1gs.png")
+
+
 
     if ratio > 1:
         new_width = 1920 * ratio
