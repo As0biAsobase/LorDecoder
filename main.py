@@ -53,7 +53,7 @@ def generate_image(code, user_id):
                     spells_total += q
 
     height = max([len(champions), len(followers), len(spells)]) * 72 + 200
-    background = Image.new('RGBA', (1920, height), (30, 30, 30, 255))
+    background = Image.new('RGBA', (1920, height), (61, 61, 61, 255))
 
     print(user_id)
     if user_id == 103657653:
