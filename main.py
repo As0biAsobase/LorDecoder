@@ -7,8 +7,6 @@ from io import BytesIO
 import PIL.ImageDraw as ImageDraw
 import PIL.ImageFont as ImageFont
 
-
-
 # Decoding
 def generate_image(code, user_id):
     champions = []
@@ -56,11 +54,14 @@ def generate_image(code, user_id):
 
     ratio = height / 960
     background = Image.open("background/1gs.png")
-    new_width = 1920 * ratio
-    background = background.resize(new_width, height)
 
-    margin = (new_width - 1920) // 2
-    background = background.crop(margin, 0, new_width-margin, height) 
+    if ratio > 1:
+        new_width = 1920 * ratio
+        background = background.resize((int(new_width), int(height)))
+        margin = (new_width - 1920) // 2
+        background = background.crop((margin, 0, new_width-margin, height))
+    else:
+        background = background.crop((0, 0, 1920, height))
 
     # background = Image.new('RGBA', (1920, height), (61, 61, 61, 255))
 

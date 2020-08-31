@@ -100,6 +100,7 @@ class Commander:
 
                         return ["", d, keyboard]
                     except TypeError:
+                        traceback.print_exc()
                         return ["Блип-блоп, глупый бот не пониимет код", "", keyboard]
 
                 elif args[0].lower() == "карта":
