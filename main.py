@@ -13,6 +13,7 @@ def generate_image(code, user_id):
     followers = []
     spells = []
 
+
     champions_total = 0
     followers_total = 0
     spells_total = 0
