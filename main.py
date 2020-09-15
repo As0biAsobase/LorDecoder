@@ -6,6 +6,7 @@ import requests
 from io import BytesIO
 import PIL.ImageDraw as ImageDraw
 import PIL.ImageFont as ImageFont
+import operator
 
 # Decoding
 def generate_image(code, user_id):
@@ -13,6 +14,7 @@ def generate_image(code, user_id):
     followers = []
     spells = []
 
+    deck_regions = {}
 
     champions_total = 0
     followers_total = 0
@@ -36,18 +38,23 @@ def generate_image(code, user_id):
             q, code = each.split(':')
             q = int(q)
             if dict["cardCode"] == code:
-            # print(dict["name"])
+                # this is a workaround for finding deck regions
+                # technically can be derived from code itself but is not supported by library
+                if dict["regionRef"] not in deck_regions:
+                    deck_regions[dict["regionRef"]] = 1
+                else:
+                    deck_regions[dict["regionRef"]] +=1
+
+                # populating arrays of three card types
+                # will need to improve using MongoDB instead of simply looping through json
                 if dict["type"] == "Боец":
                     if dict["supertype"] == "Чемпион":
-                    # background.paste(img, (50, 100 + len(champions)*110))
                         champions.append({"name" : dict["name"], "cost" : dict["cost"], "cardCode" :  dict["cardCode"], "regionRef" :  dict["regionRef"], "quantity" :  q})
                         champions_total += q
                     else:
-                    # background.paste(img, (550, 100 + len(followers)*110))
                         followers.append({"name" : dict["name"], "cost" : dict["cost"], "cardCode" :  dict["cardCode"], "regionRef" :  dict["regionRef"], "quantity" :  q})
                         followers_total += q
                 else:
-                    # background.paste(img, (1050, 100 + len(followers)*110))
                     spells.append({"name" : dict["name"], "cost" : dict["cost"], "cardCode" :  dict["cardCode"], "regionRef" :  dict["regionRef"], "quantity" :  q})
                     spells_total += q
 
@@ -55,13 +62,15 @@ def generate_image(code, user_id):
 
     ratio = height / 960
 
+    # we find region with most cartds (not counting individual copies)
+    top_region = max(deck_regions.items(), key=operator.itemgetter(1))[0]
+
     if user_id == 103657653:
         background = Image.open("background/biolog.jpg")
     else:
-        background = Image.open("background/1gs.png")
+        background = Image.open("background/poros/gs/%s.png" % (top_region))
 
-
-
+    # background processing
     if ratio > 1:
         new_width = 1920 * ratio
         background = background.resize((int(new_width), int(height)))
