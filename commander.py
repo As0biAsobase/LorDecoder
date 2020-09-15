@@ -88,10 +88,14 @@ class Commander:
 
                     return ["Вся информация в этой статье: vk.com/@natum_perdere-natum-perdere-instrukciya-po-primeneniu", "", keyboard]
 
-                if args[0].lower() in Command.code_list.value and len(args) == 2:
+                if args[0].lower() in Command.code_list.value and len(args) >= 2:
                     try:
-                        generate_image(args[1], sender["id"])
-                        d = server.upload_deck_image()
+                        generate_image(args, sender["id"])
+
+                        if "пнг" in args:
+                            d = server.upload_deck_file(sender["id"])
+                        else:
+                            d = server.upload_deck_image()
 
                         print(d)
 

@@ -9,7 +9,15 @@ import PIL.ImageFont as ImageFont
 import operator
 
 # Decoding
-def generate_image(code, user_id):
+def generate_image(args, user_id):
+    empty_bg = False
+
+    # code should always be the last parameter
+    code = args[len(args)-1]
+
+    if "пнг" in args:
+        empty_bg = True
+
     champions = []
     followers = []
     spells = []
@@ -65,10 +73,13 @@ def generate_image(code, user_id):
     # we find region with most cartds (not counting individual copies)
     top_region = max(deck_regions.items(), key=operator.itemgetter(1))[0]
 
-    if user_id == 103657653:
-        background = Image.open("background/biolog.jpg")
+    if not empty_bg:
+        if user_id == 103657653:
+            background = Image.open("background/biolog.jpg")
+        else:
+            background = Image.open("background/poros/gs/%s.png" % (top_region))
     else:
-        background = Image.open("background/poros/gs/%s.png" % (top_region))
+        background = Image.open("background/empty.png")
 
     # background processing
     if ratio > 1:

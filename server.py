@@ -1,5 +1,6 @@
-import vk_api.vk_api
+import vk_api
 from vk_api.bot_longpoll import VkBotLongPoll, VkBotEventType
+from vk_api import VkUpload
 import time
 from datetime import datetime
 import requests
@@ -20,7 +21,10 @@ class Server:
         self.long_poll = VkBotLongPoll(self.vk, group_id)
 
         # Для вызова методов vk_api
-        self.vk_api = self.vk.get_api()
+        # self.vk = self.vk.get_api()
+        self.vk = self.vk.get_api()
+
+        self.upload = VkUpload(self.vk)
 
         self.users = {}
 
@@ -28,7 +32,7 @@ class Server:
         try:
 
             print([send_id, response[0], response[1], response[2]])
-            self.vk_api.messages.send(peer_id=send_id,
+            self.vk.messages.send(peer_id=send_id,
                                   message=response[0],
                                   attachment=response[1],
                                   random_id=(datetime.utcnow()-Server.base_time).total_seconds(),
@@ -48,7 +52,7 @@ class Server:
 
                         if event.type == VkBotEventType.MESSAGE_NEW:
                             print(event.message.from_id)
-                            sender = self.vk_api.users.get(user_ids = (event.message.from_id))
+                            sender = self.vk.users.get(user_ids = (event.message.from_id))
                             sender = sender[0]
                             # print(self.users[event.object.from_id].input(self, event.message.text, sender, event.message.peer_id))
                             self.send_msg(event.message.peer_id,
@@ -64,18 +68,28 @@ class Server:
                 traceback.print_exc()
 
     def upload_deck_image(self):
-        server = self.vk_api.photos.getMessagesUploadServer()
+        server = self.vk.photos.getMessagesUploadServer()
         b = requests.post(server['upload_url'], files={'photo': open('output/output.png', 'rb')}).json()
         params = {'photo': b['photo'], 'server': b['server'], 'hash': b['hash']}
-        c = self.vk_api.photos.saveMessagesPhoto(**params)[0]
+        c = self.vk.photos.saveMessagesPhoto(**params)[0]
         d = "photo{}_{}".format(c["owner_id"], c["id"])
         return d
 
+    def upload_deck_file(self, sender):
+        server = self.vk.docs.getMessagesUploadServer(peer_id = sender)
+        b = requests.post(server['upload_url'], files={'file': open('output/output.png', 'rb')})
+        # print(b.text)
+        params = {'file': b.json()['file']}
+        c = self.vk.docs.save(**params)
+        print(c["doc"])
+        d = "doc{}_{}".format(c["doc"]["owner_id"], c["doc"]["id"])
+        return d
+
     def upload_card_image(self, code):
-        server = self.vk_api.photos.getMessagesUploadServer()
+        server = self.vk.photos.getMessagesUploadServer()
         b = requests.post(server['upload_url'], files={'photo': open('ru_ru/img/cards/' + code + '.png', 'rb')}).json()
         params = {'photo': b['photo'], 'server': b['server'], 'hash': b['hash']}
-        c = self.vk_api.photos.saveMessagesPhoto(**params)[0]
+        c = self.vk.photos.saveMessagesPhoto(**params)[0]
         d = "photo{}_{}".format(c["owner_id"], c["id"])
         return d
 
