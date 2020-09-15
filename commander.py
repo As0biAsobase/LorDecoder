@@ -111,7 +111,11 @@ class Commander:
                     try:
                         code = find_card(source, args[1:])
                         # print('ru_ru/img/cards/' + code + '.png')
-                        d = server.upload_card_image(code)
+                        if "пнг" in args:
+                            d = server.upload_card_file(sender["id"], code)
+                        else:
+                            d = server.upload_card_image(code)
+
 
                         if source == 0:
                             keyboard = "keyboards/default_keyboard.json"

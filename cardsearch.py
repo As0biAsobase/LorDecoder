@@ -21,7 +21,7 @@ def find_card(source, args):
             type = "2"
         elif each.lower() == "сигна":
             type = "3"
-        elif each not in costs and not ("/" in each):
+        elif each not in costs and not ("/" in each) and each != "пнг":
             name += each + " "
             # print(name)
         elif each in costs and not ("/" in each):

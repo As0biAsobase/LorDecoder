@@ -81,7 +81,7 @@ class Server:
         # print(b.text)
         params = {'file': b.json()['file']}
         c = self.vk.docs.save(**params)
-        print(c["doc"])
+        # print(c["doc"])
         d = "doc{}_{}".format(c["doc"]["owner_id"], c["doc"]["id"])
         return d
 
@@ -91,6 +91,14 @@ class Server:
         params = {'photo': b['photo'], 'server': b['server'], 'hash': b['hash']}
         c = self.vk.photos.saveMessagesPhoto(**params)[0]
         d = "photo{}_{}".format(c["owner_id"], c["id"])
+        return d
+
+    def upload_card_file(self, sender, code):
+        server = self.vk.docs.getMessagesUploadServer(peer_id = sender)
+        b = requests.post(server['upload_url'], files={'file': open('ru_ru/img/cards/' + code + '.png', 'rb')})
+        params = {'file': b.json()['file']}
+        c = self.vk.docs.save(**params)
+        d = "doc{}_{}".format(c["doc"]["owner_id"], c["doc"]["id"])
         return d
 
     def test(self):
