@@ -40,6 +40,7 @@ class Server:
         except TypeError:
             pass
         except vk_api.exceptions.ApiError:
+            traceback.print_exc()
             print("Факир был пьян, сообщение не отправилось")
 
     def start(self):

@@ -3,9 +3,11 @@ from mode_enum import Mode
 import re
 from main import generate_image
 from cardsearch import find_card
+from meta_stats import query_archetype_wr
 from calculator import Calculator
 import requests
 import traceback
+import json
 
 class Commander:
 
@@ -48,38 +50,6 @@ class Commander:
                     return ["Блип-блоп, пустое сообщене", "", keyboard]
                 else:
                     return ["", "", "keyboards/empty.json"]
-            # print(parameter)
-            # print(args)
-            # if args[0].lower() in Command.ban_list.value and self.now_mode != Mode.ban and source == 0:
-            #     self.change_mode(Mode.ban)
-            #     self.last_command = args[0].lower()
-            #
-            #     keyboard = "keyboards/ban_mode_selection.json"
-            #
-            #     return ["Вы вошли в режим банов, выберите настроки (количество банов/количество колод)", "", keyboard]
-            # elif args[0].lower() in Command.calculator_list.value and self.now_mode != Mode.calculator and source == 0:
-            #     self.change_mode(Mode.calculator)
-            #     self.last_command = args[0].lower()
-            #
-            #     keyboard = "keyboards/calculator/type.json"
-            #
-            #     return ["Покулюляторим?", "", keyboard]
-            # elif args[0].lower() in Command.default_list.value and self.now_mode != Mode.default:
-            #     self.change_mode(Mode.default)
-            #     self.last_command = args[0].lower()
-            #
-            #     keyboard = "keyboards/default_keyboard.json"
-            #
-            #     return ["Вы вернулись в главное меню", "", keyboard]
-            #
-            # if args[0].lower() in Command.back_list.value:
-            #     if self.now_mode != Mode.default:
-            #         self.change_mode(Mode.default)
-            #         self.last_command = args[0].lower()
-            #
-            #         keyboard = "keyboards/default_keyboard.json"
-            #
-            #         return ["Вы вернулись в главное меню", "", keyboard]
 
             if self.now_mode == Mode.default:
                 if args[0].lower() in Command.info_list.value:
@@ -125,46 +95,24 @@ class Commander:
                         traceback.print_exc()
                         if source == 0:
                             return ["Блип-блоп, глупый бот не нашёл карту", "", keyboard]
+                elif args[0].lower() == "статы":
+                    try:
+                        if sender["id"] == 151646757 or sender["id"] == 103657653
+                            input_cards = args[1:]
+                            text = query_archetype_wr(input_cards)
+                            print(text)
+                        else:
+                            text = "You have no right to be here"
+
+                        return [text, "", keyboard]
+
+                    except:
+                        traceback.print_exc()
                 else:
                     if source == 0:
                         keyboard = "keyboards/default_keyboard.json"
 
                         return ["Блип-блоп, не очень тебя понял", "", keyboard]
-
-
-            # elif self.now_mode == Mode.calculator:
-            #     if (len(self.calculator_params) == 0 or len(self.calculator_params) == 5) and args[0].lower() in Command.hypergeom_list.value:
-            #         self.calculator_params = []
-            #         self.calculator_params.append("hypergeom")
-            #
-            #
-            #         return["Блип-блоп калькуятор, введите размер колоды (population size)", "", "keyboards/empty.json"]
-            #
-            #     elif len(args) == 1 and args[0].isdigit():
-            #         if len(self.calculator_params) == 1:
-            #             self.calculator_params.append(args[0])
-            #
-            #             return["Размер колоды: " + str(args[0]) + "\nСколько нужных карт всего?", "", "keyboards/empty.json"]
-            #         elif len(self.calculator_params) == 2:
-            #             self.calculator_params.append(args[0])
-            #
-            #             return["Нужных карт: " + str(args[0]) + "\nСколько подровались?", "", "keyboards/empty.json"]
-            #         elif len(self.calculator_params) == 3:
-            #             self.calculator_params.append(args[0])
-            #
-            #             return["Подровались " + str(args[0]) + " раз \nСколько хотим увидеть?", "", "keyboards/empty.json"]
-            #         elif len(self.calculator_params) == 4:
-            #             self.calculator_params.append(args[0])
-            #
-            #             с = Calculator()
-            #
-            #             self.change_mode(Mode.default)
-            #             keyboard = "keyboards/default_keyboard.json"
-            #             print(self.calculator_params)
-            #             return["Вероятность данного блип-блопа: " +
-            #             str(round(с.hypergeom_pmf(int(self.calculator_params[1]), int(self.calculator_params[2]), int(self.calculator_params[3]), int(self.calculator_params[4])), 6))
-            #             , "", keyboard]
-
 
 
         except ValueError:
