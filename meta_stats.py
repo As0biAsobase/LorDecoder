@@ -4,6 +4,7 @@ import os
 
 def query_archetype_wr(input_cards):
     # input_cards = ['01DE039', '01DE026', '02DE010', '02BW008']
+    load_dotenv(find_dotenv())
     client = MongoClient(os.getenv("MONGODB_KEY"))
     result = client['Natum_Perdere']['Meta'].aggregate([
         {
