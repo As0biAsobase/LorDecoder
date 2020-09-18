@@ -52,4 +52,5 @@ def query_archetype_wr(input_cards):
     ])
 
     result = list(result)
+    print(result)
     return result
