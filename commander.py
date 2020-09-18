@@ -97,7 +97,7 @@ class Commander:
                             return ["Блип-блоп, глупый бот не нашёл карту", "", keyboard]
                 elif args[0].lower() == "статы":
                     try:
-                        if sender["id"] == 151646757 or sender["id"] == 103657653
+                        if sender["id"] == 151646757 or sender["id"] == 103657653:
                             input_cards = args[1:]
                             text = query_archetype_wr(input_cards)
                             print(text)
