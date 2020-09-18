@@ -38,7 +38,10 @@ def query_archetype_wr(input_cards):
                 }
                 }
         }, {
-            '$set': {
+            '$project': {
+                '_id' : 0,
+                'total_won': '$total_won',
+                'total_collected': "$total_collected",
                 'average_winrate': {
                     '$divide': [
                         '$total_won', '$total_collected'
