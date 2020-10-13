@@ -101,7 +101,7 @@ class Commander:
                         if sender["id"] == 177252253:
                             iq = 12
                         else:
-                            iq = randrange(12)
+                            iq = randrange(100)
 
                         return [str(iq), "", keyboard]
 
