@@ -8,6 +8,7 @@ from calculator import Calculator
 import requests
 import traceback
 import json
+from random import randrange
 
 class Commander:
 
@@ -95,16 +96,14 @@ class Commander:
                         traceback.print_exc()
                         if source == 0:
                             return ["Блип-блоп, глупый бот не нашёл карту", "", keyboard]
-                elif args[0].lower() == "статы":
+                elif args[0].lower() == "iq":
                     try:
-                        if sender["id"] == 151646757 or sender["id"] == 103657653:
-                            input_cards = args[1:]
-                            text = query_archetype_wr(input_cards)
-                            print(text)
+                        if sender["id"] == 177252253:
+                            iq = 12
                         else:
-                            text = "You have no right to be here"
+                            iq = randrange(12)
 
-                        return [text, "", keyboard]
+                        return [str(iq), "", keyboard]
 
                     except:
                         traceback.print_exc()
