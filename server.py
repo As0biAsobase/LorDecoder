@@ -105,3 +105,9 @@ class Server:
     def test(self):
         # Посылаем сообщение пользователю с указанным ID
         self.send_msg(151646757, "Привет-привет!")
+
+    def get_chat_users(self, peer_id):
+        response = self.vk.messages.getConversationMembers(peer_id=peer_id)
+
+
+        return response["profiles"]

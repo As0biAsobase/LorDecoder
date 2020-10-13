@@ -8,7 +8,7 @@ from calculator import Calculator
 import requests
 import traceback
 import json
-from random import randrange
+from random import randrange, choice
 
 class Commander:
 
@@ -104,6 +104,21 @@ class Commander:
                             iq = randrange(100)
 
                         return [str(iq), "", keyboard]
+
+                    except:
+                        traceback.print_exc()
+                elif args[0].lower() == "посрать":
+                    try:
+                        user_list = server.get_chat_users(source_id)
+                        user = choice(user_list)
+                        id = user["id"]
+                        name = user["first_name"]
+                        print(name)
+
+                        # response_str = "@id" + str(sender["id"]) + " (" + sender["first_name"] +") пытался насрать под дверь стримеру, но попал в @id" + str(id) + " (" + name + ")"
+                        response_str = "@id%s (%s) пытался насрать под дверь стримеру, но попал в @id%s (%s)" % (sender["id"], sender["first_name"], id, name)
+
+                        return [response_str, "", keyboard]
 
                     except:
                         traceback.print_exc()
