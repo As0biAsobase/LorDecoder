@@ -100,6 +100,8 @@ class Commander:
                     try:
                         if sender["id"] == 177252253:
                             iq = 12
+                        elif sender["id"] == 488352580:
+                            iq = -3
                         else:
                             iq = randrange(100)
 
@@ -116,7 +118,7 @@ class Commander:
                         print(name)
 
                         # response_str = "@id" + str(sender["id"]) + " (" + sender["first_name"] +") пытался насрать под дверь стримеру, но попал в @id" + str(id) + " (" + name + ")"
-                        response_str = "@id%s (%s) пытался насрать под дверь стримеру, но попал в @id%s (%s)" % (sender["id"], sender["first_name"], id, name)
+                        response_str = "@id%s (%s) пытался насрать под дверь админам, но попал в @id%s (%s)" % (sender["id"], sender["first_name"], id, name)
 
                         return [response_str, "", keyboard]
 
