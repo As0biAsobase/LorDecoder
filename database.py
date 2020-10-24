@@ -1,10 +1,15 @@
 from pymongo import MongoClient
 from dotenv import load_dotenv, find_dotenv
-import os#
+import os
 
-load_dotenv(find_dotenv())
-client = MongoClient(os.getenv("MONGODB_KEY"))
+class DBConnection:
+    def __init__(self):
+        load_dotenv(find_dotenv())
+        client = MongoClient(os.getenv("MONGODB_KEY"))
 
-result = client['natum-perdere']['cardsCollection'].find({})
+    def searchCard(self, name):
+        result = client['natum-perdere']['cardsCollection'].find({ "name" : {$regex : new RegExp(name, "i")}})
+        print(list(result))
 
-print(list(result))
+connection = DBConnection()
+connection.searchCard("Кровожадный василиск")
