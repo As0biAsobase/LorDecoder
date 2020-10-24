@@ -7,4 +7,4 @@ client = MongoClient(os.getenv("MONGODB_KEY"))
 
 result = client['natum-perdere']['cardsCollection'].find({})
 
-print(result)
+print(list(result))
