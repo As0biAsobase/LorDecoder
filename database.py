@@ -10,7 +10,7 @@ class DBConnection:
 
     def searchCard(self, name):
         result = self.client['natum-perdere']['cardsCollection'].find({ "name" : re.compile(name, re.IGNORECASE)})
-        print(list(result))
+        # print(list(result))
 
         result = list(result)
         print(result)
