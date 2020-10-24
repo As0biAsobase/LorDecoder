@@ -10,27 +10,32 @@ import traceback
 import json
 from random import randrange, choice
 
+from database import DBConnection
+
 class Commander:
 
     def __init__(self):
-        # Текущий, предыдущий режимы
+        # Database connection object
+        self.connection = DBConnection()
+        # TODO: mode switching
         self.now_mode = Mode.default
         self.last_mode = Mode.default
 
         self.last_command = None
-        # Для запомминания ответов пользователя
+        # Should be used for mode switching
         self.last_ans = None
+        # Calculator feature is deleted
+        # TODO: Either delete it completed or re-implement
         self.calculator_params = []
 
     def change_mode(self, to_mode):
-
+        # Used for mode switching
         self.last_mode = self.now_mode
         self.now_mode = to_mode
-
         self.last_ans = None
 
     def input(self, server, msg, sender, source_id):
-        # print(self.now_mode)
+        # account for different ways bot can be mentioned in a chat
         message_text = re.sub('\[.*\],?\s*','', msg)
 
         source = 0 # 0 for PM, 1 for group chat
@@ -42,8 +47,10 @@ class Commander:
         keyboard = ""
 
         try:
+            # split user message into command itself and arguments
             args = re.sub("[^\w\-\/]", " ", message_text).split()
 
+            # empty message (i.e. emoji was sent)
             if len(args) == 0:
                 if source == 0:
                     keyboard = "keyboards/default_keyboard.json"
@@ -52,13 +59,16 @@ class Commander:
                 else:
                     return ["", "", "keyboards/empty.json"]
 
+            # default mode is only one atm
             if self.now_mode == Mode.default:
+                # send link to info article
                 if args[0].lower() in Command.info_list.value:
                     if source == 0:
                         keyboard = "keyboards/default_keyboard.json"
 
                     return ["Вся информация в этой статье: vk.com/@natum_perdere-natum-perdere-instrukciya-po-primeneniu", "", keyboard]
 
+                # Process code and send deck image
                 if args[0].lower() in Command.code_list.value and len(args) >= 2:
                     try:
                         generate_image(args, sender["id"])
@@ -78,9 +88,10 @@ class Commander:
                         traceback.print_exc()
                         return ["Блип-блоп, глупый бот не пониимет код", "", keyboard]
 
+                # Process card name and send matching image
                 elif args[0].lower() == "карта":
                     try:
-                        code = find_card(source, args[1:])
+                        code = find_card(source, args[1:], self.connection)
                         # print('ru_ru/img/cards/' + code + '.png')
                         if "пнг" in args:
                             d = server.upload_card_file(sender["id"], code)
