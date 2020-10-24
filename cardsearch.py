@@ -43,7 +43,7 @@ def find_card(source, args, connection):
 
     name = name.strip()
     name = name.lower()
-    min_distance = sys.maxsize
+
     result = ""
 
     found = False
