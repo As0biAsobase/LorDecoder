@@ -89,7 +89,7 @@ class Commander:
                         return ["Блип-блоп, глупый бот не пониимет код", "", keyboard]
 
                 # Process card name and send matching image
-            elif args[0].lower() in Command.card_list.value:
+                elif args[0].lower() in Command.card_list.value:
                     try:
                         code = find_card(source, args[1:], self.connection)
                         # print('ru_ru/img/cards/' + code + '.png')
