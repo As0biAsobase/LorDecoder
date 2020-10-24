@@ -13,3 +13,6 @@ class DBConnection:
         print(list(result))
 
         return list(result)
+
+# connection = DBConnection()
+# connection.searchCard("Кровожадный василиск")
