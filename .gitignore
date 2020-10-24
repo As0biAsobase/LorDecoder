@@ -1,5 +1,6 @@
 processed/
 utils/
+ru_ru/img/cards/
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
