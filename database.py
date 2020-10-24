@@ -12,7 +12,13 @@ class DBConnection:
         result = self.client['natum-perdere']['cardsCollection'].find({ "name" : re.compile(name, re.IGNORECASE)})
         print(list(result))
 
-        return list(result)
+        result = list(result)
+        print(result)
+
+        result = result[0]
+        print(result)
+
+        return result
 
 # connection = DBConnection()
 # connection.searchCard("Кровожадный василиск")
