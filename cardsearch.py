@@ -49,7 +49,7 @@ def find_card(source, args, connection):
     found = False
 
     result = connection.searchCard(name,cost, attack, health)
-    print(result)
+    
     result = result["cardCode"]
     # for dict in jdata:
     #     # print((name in dict["name"].lower() or name == ""))

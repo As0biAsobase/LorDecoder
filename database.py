@@ -43,8 +43,6 @@ class DBConnection:
         result = list(result)
         result = result[0]
 
-        print(result)
-
         return result
 # connection = DBConnection()
 # connection.searchCard("Кровожадный василиск")

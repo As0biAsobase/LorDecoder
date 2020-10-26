@@ -98,7 +98,6 @@ class Commander:
                         else:
                             d = server.upload_card_image(code)
 
-
                         if source == 0:
                             keyboard = "keyboards/default_keyboard.json"
 
