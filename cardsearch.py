@@ -2,8 +2,8 @@ from Levenshtein import distance
 import json
 
 def find_card(source, args, connection):
-    jdata = json.loads(open("cards_data/cards.json",  encoding='utf-8').read())
-    en_jdata = json.loads(open("cards_data/en_cards.json",  encoding='utf-8').read())
+    # jdata = json.loads(open("cards_data/cards.json",  encoding='utf-8').read())
+    # en_jdata = json.loads(open("cards_data/en_cards.json",  encoding='utf-8').read())
 
     costs = ["0", "1", "2", "3", "4", "5", "6",
                 "7", "8", "9", "10", "11", "12"]
@@ -48,7 +48,7 @@ def find_card(source, args, connection):
 
     found = False
 
-    result = connection.searchCard(name)
+    result = connection.searchCard(name,cost, attack, health)
     print(result)
     result = result["cardCode"]
     # for dict in jdata:

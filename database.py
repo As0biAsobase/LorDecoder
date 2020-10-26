@@ -8,8 +8,11 @@ class DBConnection:
         load_dotenv(find_dotenv())
         self.client = MongoClient(os.getenv("MONGODB_KEY"))
 
-    def searchCard(self, name):
-        result = self.client['natum-perdere']['cardsCollection'].find({ "name" : re.compile(name, re.IGNORECASE)})
+        self.namePattern = "([a-zA-Z]{0,3}kekw[a-zA-Z]{0,3})"
+
+    def searchCard(self, name, cost, attack, health):
+
+        result = self.client['natum-perdere']['cardsCollection'].find({ "name" : re.compile(re.compile(name, re.IGNORECASE), self.namePattern)})
 
         result = list(result)
         result = result[0]
