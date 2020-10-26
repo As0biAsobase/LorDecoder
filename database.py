@@ -32,8 +32,8 @@ class DBConnection:
                 elif dif < min_distance:
                     min_distance = dif
                     result = each
-
-        result = result[0]
+        else:
+            result = result[0]
 
         return result
 
