@@ -9,7 +9,7 @@ import PIL.ImageFont as ImageFont
 import operator
 
 # Decoding
-def generate_image(args, user_id):
+def generate_image(args, user_id, connection):
     empty_bg = False
 
     # code should always be the last parameter
@@ -44,32 +44,32 @@ def generate_image(args, user_id):
     deck = LoRDeck.from_deckcode(code)
 
     for each in deck:
-        for dict in jdata:
-            q, code = each.split(':')
-            q = int(q)
-            if dict["cardCode"] == code:
-                # this is a workaround for finding deck regions
-                # technically can be derived from code itself but is not supported by library
-                if dict["regionRef"] not in deck_regions:
-                    deck_regions[dict["regionRef"]] = 1
-                else:
-                    deck_regions[dict["regionRef"]] +=1
+        q, code = each.split(':')
+        q = int(q)
 
-                # populating arrays of three card types
-                # will need to improve using MongoDB instead of simply looping through json
-                if dict["type"] == "Боец":
-                    if dict["supertype"] == "Чемпион":
-                        champions.append({"name" : dict["name"], "cost" : dict["cost"], "cardCode" :  dict["cardCode"], "regionRef" :  dict["regionRef"], "quantity" :  q})
-                        champions_total += q
-                    else:
-                        followers.append({"name" : dict["name"], "cost" : dict["cost"], "cardCode" :  dict["cardCode"], "regionRef" :  dict["regionRef"], "quantity" :  q})
-                        followers_total += q
-                elif dict["type"] == "Место силы":
-                    landmarks.append({"name" : dict["name"], "cost" : dict["cost"], "cardCode" :  dict["cardCode"], "regionRef" :  dict["regionRef"], "quantity" :  q})
-                    landmarks_total += q
-                else:
-                    spells.append({"name" : dict["name"], "cost" : dict["cost"], "cardCode" :  dict["cardCode"], "regionRef" :  dict["regionRef"], "quantity" :  q})
-                    spells_total += q
+        dict = connection.getCardByCode(code)
+        # this is a workaround for finding deck regions
+        # technically can be derived from code itself but is not supported by library
+        if dict["regionRef"] not in deck_regions:
+            deck_regions[dict["regionRef"]] = 1
+        else:
+            deck_regions[dict["regionRef"]] +=1
+
+        # populating arrays of three card types
+        # will need to improve using MongoDB instead of simply looping through json
+        if dict["type"] == "Боец":
+            if dict["supertype"] == "Чемпион":
+                champions.append({"name" : dict["name"], "cost" : dict["cost"], "cardCode" :  dict["cardCode"], "regionRef" :  dict["regionRef"], "quantity" :  q})
+                champions_total += q
+            else:
+                followers.append({"name" : dict["name"], "cost" : dict["cost"], "cardCode" :  dict["cardCode"], "regionRef" :  dict["regionRef"], "quantity" :  q})
+                followers_total += q
+        elif dict["type"] == "Место силы":
+            landmarks.append({"name" : dict["name"], "cost" : dict["cost"], "cardCode" :  dict["cardCode"], "regionRef" :  dict["regionRef"], "quantity" :  q})
+            landmarks_total += q
+        else:
+            spells.append({"name" : dict["name"], "cost" : dict["cost"], "cardCode" :  dict["cardCode"], "regionRef" :  dict["regionRef"], "quantity" :  q})
+            spells_total += q
 
     height = max([len(champions)+len(landmarks)+6, len(followers), len(spells)]) * 72 + 200
 
