@@ -12,7 +12,7 @@ class DBConnection:
 
     def searchCard(self, name, cost, attack, health):
 
-        result = self.client['natum-perdere']['cardsCollection'].find({ "name" : re.compile(re.compile(name, re.IGNORECASE), self.namePattern)})
+        result = self.client['natum-perdere']['cardsCollection'].find({ "name" : re.compile('([a-zA-Z]{0,3}' + name + '[a-zA-Z]{0,3})', re.IGNORECASE)})
 
         result = list(result)
         result = result[0]
