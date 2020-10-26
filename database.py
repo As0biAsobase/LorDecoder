@@ -3,6 +3,7 @@ from dotenv import load_dotenv, find_dotenv
 from Levenshtein import distance
 import os
 import re
+import sys
 
 class DBConnection:
     def __init__(self):
@@ -31,7 +32,7 @@ class DBConnection:
                 elif dif < min_distance:
                     min_distance = dif
                     result = each
-        
+
         result = result[0]
 
         return result
