@@ -13,8 +13,10 @@ def generate_image(args, user_id, connection):
     empty_bg = False
 
     # code should always be the last parameter
-
-    code = args[len(args)-1]
+    if len(args) > 1:
+        code = args[len(args)-1]
+    else:
+        code = args
     print(code)
 
     if "пнг" in args:
