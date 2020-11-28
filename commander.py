@@ -115,7 +115,7 @@ class Commander:
                             if deck["matchesCollected"] > 2000:
                                 my_deck = deck
                                 break
-    
+
                         generate_image(["moba", my_deck["cardsCode"]], sender["id"], self.connection)
 
                         d = server.upload_deck_image()
@@ -123,7 +123,32 @@ class Commander:
                         if source == 0:
                             keyboard = "keyboards/default_keyboard.json"
 
-                        response_str = "Колода:%s \nМатчей сыграно:%s \nПобед:%s" % (my_deck["cardsCode"], my_deck["matchesCollected"], my_deck["matchesWin"])
+                        response_str = "Колода: %s \nМатчей сыграно: %s \nПобед: %s" % (my_deck["cardsCode"], my_deck["matchesCollected"], my_deck["matchesWin"])
+
+                        return [response_str, d, keyboard]
+                    except:
+                        traceback.print_exc()
+                        if source == 0:
+                            keyboard = "keyboards/default_keyboard.json"
+                            return ["Блип-блоп, глупый бот улетел, хихи", "", keyboard]
+
+                elif args[0].lower() == "колода" and args[1].lower() == "случайная":
+                    try:
+                        r = requests.get('https://lor.mobalytics.gg/api/v2/meta/statistics/decks?from=0&count=100')
+
+                        r = r.json()
+
+                        my_deck = r["decksStats"][randrange(100)]
+
+                        generate_image(["moba", my_deck["cardsCode"]], sender["id"], self.connection)
+
+                        d = server.upload_deck_image()
+
+                        if source == 0:
+                            keyboard = "keyboards/default_keyboard.json"
+
+                        response_str = "Колода: %s \nМатчей сыграно: %s \nПобед: %s" % (my_deck["cardsCode"], my_deck["matchesCollected"], my_deck["matchesWin"])
+
                         return [response_str, d, keyboard]
                     except:
                         traceback.print_exc()
