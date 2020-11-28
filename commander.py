@@ -115,13 +115,16 @@ class Commander:
                             if deck["matchesCollected"] > 2000:
                                 my_deck = deck
                                 break
-                        print(my_deck["cardsCode"])
+    
                         generate_image(["moba", my_deck["cardsCode"]], sender["id"], self.connection)
+
+                        d = server.upload_deck_image()
 
                         if source == 0:
                             keyboard = "keyboards/default_keyboard.json"
 
-                        return ["Колода:%s \nМатчей сыграно:%s \nПобед:%s" % (my_deck["cardsCode"], my_deck["matchesCollected"], my_deck["matchesWin"]), d, keyboard]
+                        response_str = "Колода:%s \nМатчей сыграно:%s \nПобед:%s" % (my_deck["cardsCode"], my_deck["matchesCollected"], my_deck["matchesWin"])
+                        return [response_str, d, keyboard]
                     except:
                         traceback.print_exc()
                         if source == 0:
