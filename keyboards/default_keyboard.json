@@ -4,9 +4,25 @@
     [{
         "action": {
           "type": "text",
+          "label": "Колода случайная"
+        },
+        "color": "primary"
+    }],
+    [{
+        "action": {
+          "type": "text",
+          "label": "Колода рвущая"
+        },
+        "color": "primary"
+    }],
+    [{
+        "action": {
+          "type": "text",
           "label": "Инфо"
         },
         "color": "secondary"
       }]
+
+
   ]
 }
