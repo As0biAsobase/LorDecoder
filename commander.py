@@ -106,6 +106,26 @@ class Commander:
                         traceback.print_exc()
                         if source == 0:
                             return ["Блип-блоп, глупый бот не нашёл карту", "", keyboard]
+
+                elif args[0].lower() == "колода рвущая":
+                    try:
+                        r = requests.get('https://lor.mobalytics.gg/api/v2/meta/statistics/decks?sortBy=winRateDesc&from=0&count=100')
+
+                        for deck in r.json():
+                            if deck["matchesCollected"] > 2000:
+                                my_deck = deck
+                                break
+
+                        generate_image(my_deck["cardsCode"], sender["id"], self.connection)
+
+                        if source == 0:
+                            keyboard = "keyboards/default_keyboard.json"
+
+                        return ["Колода:%s \nМатчей сыграно:%s \nПобед:%s" % (my_deck["cardsCode"], my_deck["matchesCollected"], my_deck["matchesWin"]), d, keyboard]
+                    except:
+                        traceback.print_exc()
+                        if source == 0:
+                            return ["Блип-блоп, глупый бот улетел, хихи", "", keyboard]
                 elif args[0].lower() == "iq":
                     try:
                         if sender["id"] == 177252253:
