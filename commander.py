@@ -125,7 +125,7 @@ class Commander:
                         if source == 0:
                             keyboard = "keyboards/default_keyboard.json"
 
-                        response_str = "Колода: %s \nМатчей сыграно: %s \nПобед: %s\nВинрейт: %s%" % (my_deck["cardsCode"], my_deck["matchesCollected"], my_deck["matchesWin"], winrate)
+                        response_str = "Колода: %s \nМатчей сыграно: %s \nПобед: %s\nВинрейт: %s\%" % (my_deck["cardsCode"], my_deck["matchesCollected"], my_deck["matchesWin"], winrate)
 
                         return [response_str, d, keyboard]
                     except:
@@ -151,7 +151,7 @@ class Commander:
                         if source == 0:
                             keyboard = "keyboards/default_keyboard.json"
 
-                        response_str = "Колода: %s \nМатчей сыграно: %s \nПобед: %s\nВинрейт: %s%" % (my_deck["cardsCode"], my_deck["matchesCollected"], my_deck["matchesWin"], winrate)
+                        response_str = "Колода: %s \nМатчей сыграно: %s \nПобед: %s\nВинрейт: %s\%" % (my_deck["cardsCode"], my_deck["matchesCollected"], my_deck["matchesWin"], winrate)
 
                         return [response_str, d, keyboard]
                     except:
