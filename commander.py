@@ -125,7 +125,7 @@ class Commander:
                         if source == 0:
                             keyboard = "keyboards/default_keyboard.json"
 
-                        response_str = "Колода: %s \nМатчей сыграно: %s \nПобед: %s\nВинрейт: %s" % (my_deck["cardsCode"], my_deck["matchesCollected"], my_deck["matchesWin"], winrate)
+                        response_str = "Колода: %s \nМатчей сыграно: %s \nПобед: %s\nВинрейт: %s%" % (my_deck["cardsCode"], my_deck["matchesCollected"], my_deck["matchesWin"], winrate)
 
                         return [response_str, d, keyboard]
                     except:
@@ -139,8 +139,8 @@ class Commander:
                         r = requests.get('https://lor.mobalytics.gg/api/v2/meta/statistics/decks?from=0&count=100')
 
                         r = r.json()
-
-                        my_deck = r["decksStats"][randrange(100)]
+                        r =["decksStats"]
+                        my_deck = r[randrange(len(r)-1)]
 
                         generate_image(["moba", my_deck["cardsCode"]], sender["id"], self.connection)
 
@@ -151,7 +151,7 @@ class Commander:
                         if source == 0:
                             keyboard = "keyboards/default_keyboard.json"
 
-                        response_str = "Колода: %s \nМатчей сыграно: %s \nПобед: %s\nВинрейт: %s" % (my_deck["cardsCode"], my_deck["matchesCollected"], my_deck["matchesWin"], winrate)
+                        response_str = "Колода: %s \nМатчей сыграно: %s \nПобед: %s\nВинрейт: %s%" % (my_deck["cardsCode"], my_deck["matchesCollected"], my_deck["matchesWin"], winrate)
 
                         return [response_str, d, keyboard]
                     except:
