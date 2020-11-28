@@ -116,7 +116,7 @@ class Commander:
                                 my_deck = deck
                                 break
                         print(my_deck["cardsCode"])
-                        generate_image(my_deck["cardsCode"], sender["id"], self.connection)
+                        generate_image(["moba", my_deck["cardsCode"]], sender["id"], self.connection)
 
                         if source == 0:
                             keyboard = "keyboards/default_keyboard.json"
