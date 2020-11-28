@@ -111,11 +111,11 @@ class Commander:
                     try:
                         r = requests.get('https://lor.mobalytics.gg/api/v2/meta/statistics/decks?sortBy=winRateDesc&from=0&count=100')
 
-                        for deck in r.json():
+                        for deck in r.json()["decksStats"]:
                             if deck["matchesCollected"] > 2000:
                                 my_deck = deck
                                 break
-
+                        print(my_deck["cardsCode"])
                         generate_image(my_deck["cardsCode"], sender["id"], self.connection)
 
                         if source == 0:
@@ -125,6 +125,7 @@ class Commander:
                     except:
                         traceback.print_exc()
                         if source == 0:
+                            keyboard = "keyboards/default_keyboard.json"
                             return ["Блип-блоп, глупый бот улетел, хихи", "", keyboard]
                 elif args[0].lower() == "iq":
                     try:
