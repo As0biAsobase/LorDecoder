@@ -71,7 +71,7 @@ class Commander:
                 # Process code and send deck image
                 if args[0].lower() in Command.code_list.value and len(args) >= 2:
                     try:
-                        generate_image(args, sender["id"], self.connection)
+                        generate_image(args, sender["id"], self.connection, "output/output.png")
 
                         if "пнг" in args:
                             d = server.upload_deck_file(sender["id"])
@@ -116,7 +116,7 @@ class Commander:
                                 my_deck = deck
                                 break
 
-                        generate_image(["moba", my_deck["cardsCode"]], sender["id"], self.connection)
+                        generate_image(["moba", my_deck["cardsCode"]], sender["id"], self.connection, "output/output.png")
 
                         d = server.upload_deck_image()
 
@@ -143,7 +143,7 @@ class Commander:
                         r = r["decksStats"]
                         my_deck = r[randrange(len(r)-1)]
 
-                        generate_image(["moba", my_deck["cardsCode"]], sender["id"], self.connection)
+                        generate_image(["moba", my_deck["cardsCode"]], sender["id"], self.connection, "output/output.png")
 
                         d = server.upload_deck_image()
 
