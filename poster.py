@@ -60,12 +60,7 @@ def upload_image(filename):
     result = "photo{}_{}".format(result["owner_id"], result["id"])
 
     return result
-    # Теперь этот id остается лишь прикрепить в attachments метода wall.post
-    # method_url = 'https://api.vk.com/method/wall.post?'
-    # data = dict(access_token=token, owner_id='-' + gid, attachments=result, message='kekw', v='5.126')
-    # response = requests.post(method_url, data)
-    # result = json.loads(response.text)
-    # print(result)
+
 def generate_player_data(message):
     message += "Топ10 ранкеда ЕУ:\n"
 
@@ -106,8 +101,11 @@ def generate_player_data(message):
 
     return message
 
-message += generate_mobalytics_data(message)
+moba_message += generate_mobalytics_data(message)
+print(moba_message)
+message += moba_message
 message += "\n&#127385;&#127385;&#127385;&#127385;\n\n"
+
 photo_id = upload_image('')
 
 player_message = generate_player_data(message)
