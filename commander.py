@@ -139,7 +139,7 @@ class Commander:
                         r = requests.get('https://lor.mobalytics.gg/api/v2/meta/statistics/decks?from=0&count=100')
 
                         r = r.json()
-                        r =["decksStats"]
+                        r = r["decksStats"]
                         my_deck = r[randrange(len(r)-1)]
 
                         generate_image(["moba", my_deck["cardsCode"]], sender["id"], self.connection)

@@ -103,7 +103,9 @@ def generate_player_data(message):
 moba_message = generate_mobalytics_data("")
 print(moba_message)
 message += moba_message
-message += "\n&#127385;&#127385;&#127385;&#127385;\n\n"
+message += "\n"
+message += ("&#127385;" * 10)
+message += "\n\n"
 
 photo_id = upload_image('')
 
