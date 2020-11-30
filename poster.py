@@ -101,14 +101,14 @@ def generate_player_data(message):
 
     return message
 
-moba_message = generate_mobalytics_data(message)
+moba_message = generate_mobalytics_data("")
 print(moba_message)
 message += moba_message
 message += "\n&#127385;&#127385;&#127385;&#127385;\n\n"
 
 photo_id = upload_image('')
 
-player_message = generate_player_data(message)
+player_message = generate_player_data("")
 message += player_message
 
 message += "\n&#9940; Это сообщение было сгенерировано и отправлено автоматически &#9940;"
