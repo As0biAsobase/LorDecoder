@@ -2,17 +2,41 @@ import os
 from dotenv import load_dotenv, find_dotenv
 import requests
 import json
+import traceback
+from main import generate_image
+from database import DBConnection
 
 load_dotenv(find_dotenv())
 token = os.getenv("VKAPI_USER_TOKEN")
 gid = '196727308'
 message = ""
+connection = DBConnection()
+
 
 def generate_mobalytics_data(message):
-    pass
+    try:
+        r = requests.get('https://lor.mobalytics.gg/api/v2/meta/statistics/decks?sortBy=winRateDesc&from=0&count=100')
+
+        for deck in r.json()["decksStats"]:
+            if deck["matchesCollected"] > 2000:
+                my_deck = deck
+                break
+
+        generate_image(["moba", my_deck["cardsCode"]], 0, connection, "output/posting/output.png")
+
+
+        winrate = round(my_deck["matchesWin"] / my_deck["matchesCollected"], 4) * 100
+        winrate = str(winrate)[0:5:]
+
+        response_str = "Колода: %s \nМатчей сыграно: %s \nПобед: %s\nВинрейт: %s%%" % (my_deck["cardsCode"], my_deck["matchesCollected"], my_deck["matchesWin"], winrate)
+
+        return response_str
+    except:
+        traceback.print_exc()
+        return ""
 
 def upload_image(filename):
-    img = {'photo': ('img.jpg', open(r'output/output.png', 'rb'))}
+    img = {'photo': ('img.jpg', open(r'output/posting/output.png', 'rb'))}
 
     # Получаем ссылку для загрузки изображений
     method_url = 'https://api.vk.com/method/photos.getWallUploadServer?'
@@ -82,8 +106,13 @@ def generate_player_data(message):
 
     return message
 
+message = generate_mobalytics_data(message)
+message = message + "&#127385&#127385&#127385&#127385\n\n"
 photo_id = upload_image('')
-message = generate_player_data(message)
+
+player_message = generate_player_data(message)
+message += player_message
+
 message += "\n&#9940; Это сообщение было сгенерировано и отправлено автоматически &#9940;"
 params = (
     ('owner_id', '-196727308'),
