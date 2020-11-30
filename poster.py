@@ -101,7 +101,7 @@ def generate_player_data(message):
 
     return message
 
-moba_message += generate_mobalytics_data(message)
+moba_message = generate_mobalytics_data(message)
 print(moba_message)
 message += moba_message
 message += "\n&#127385;&#127385;&#127385;&#127385;\n\n"
