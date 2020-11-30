@@ -71,7 +71,7 @@ class Commander:
                 # Process code and send deck image
                 if args[0].lower() in Command.code_list.value and len(args) >= 2:
                     try:
-                        generate_image(args, sender["id"], self.connection, "output/output.png")
+                        generate_image(args, sender["id"], self.connection)
 
                         if "пнг" in args:
                             d = server.upload_deck_file(sender["id"])
@@ -116,12 +116,11 @@ class Commander:
                                 my_deck = deck
                                 break
 
-                        generate_image(["moba", my_deck["cardsCode"]], sender["id"], self.connection, "output/output.png")
+                        generate_image(["moba", my_deck["cardsCode"]], sender["id"], self.connection)
 
                         d = server.upload_deck_image()
 
                         winrate = round(my_deck["matchesWin"] / my_deck["matchesCollected"], 4) * 100
-                        winrate = str(winrate)[0:5:]
 
                         if source == 0:
                             keyboard = "keyboards/default_keyboard.json"
@@ -140,15 +139,14 @@ class Commander:
                         r = requests.get('https://lor.mobalytics.gg/api/v2/meta/statistics/decks?from=0&count=100')
 
                         r = r.json()
-                        r = r["decksStats"]
+                        r =["decksStats"]
                         my_deck = r[randrange(len(r)-1)]
 
-                        generate_image(["moba", my_deck["cardsCode"]], sender["id"], self.connection, "output/output.png")
+                        generate_image(["moba", my_deck["cardsCode"]], sender["id"], self.connection)
 
                         d = server.upload_deck_image()
 
                         winrate = round(my_deck["matchesWin"] / my_deck["matchesCollected"], 4) * 100
-                        winrate = str(winrate)[0:5:]
 
                         if source == 0:
                             keyboard = "keyboards/default_keyboard.json"
