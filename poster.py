@@ -107,7 +107,7 @@ def generate_player_data(message):
     return message
 
 message = generate_mobalytics_data(message)
-message = message + "&#127385&#127385&#127385&#127385\n\n"
+message += "&#127385;&#127385;&#127385;&#127385;\n\n"
 photo_id = upload_image('')
 
 player_message = generate_player_data(message)
