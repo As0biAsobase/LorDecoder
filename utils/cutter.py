@@ -46,7 +46,7 @@ for dict in jdata:
         background = background.crop((0, 0, 600, 70))
         background.save("../processed/" + dict["cardCode"] + ".png")
 
-        print(str(i) + " " + dict["cardCode"])
+        print(i)
         i+=1
 
 #

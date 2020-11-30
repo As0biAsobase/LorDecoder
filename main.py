@@ -9,7 +9,7 @@ import PIL.ImageFont as ImageFont
 import operator
 
 # Decoding
-def generate_image(args, user_id, connection, location):
+def generate_image(args, user_id, connection):
     empty_bg = False
 
     # code should always be the last parameter
@@ -213,7 +213,7 @@ def generate_image(args, user_id, connection, location):
     draw.text((660, 10), follower_string + str(followers_total), font=title_font, fill='rgb(255, 255, 255)')
     draw.text((1290, 10), spell_string + str(spells_total), font=title_font, fill='rgb(255, 255, 255)')
 
-    background.save(location)
+    background.save("output/output.png")
 
 # generate_image("CEBAIAIDDYVC4LYEAEBAECAJHECAGAIDBMNSYAICAMEQEAICBQSQCAQCAUBACAIDCMAQCARR")
 # print("Чемпион: " + str(len(champions)) + " Боец: " + str(len(followers)) + " Заклинание: " + str(len(spells)))
