@@ -71,7 +71,6 @@ def generate_player_data(message):
     r = requests.get('https://europe.api.riotgames.com/lor/ranked/v1/leaderboards', headers=headers)
 
     r = r.json()
-    print(r)
     r = r["players"]
 
     for i in range(10):
