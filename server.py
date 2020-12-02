@@ -6,6 +6,7 @@ from datetime import datetime
 import requests
 from commander import Commander
 import traceback
+from datetime import datetime
 
 class Server:
     base_time = datetime(1970,1,1)
@@ -27,11 +28,18 @@ class Server:
         self.upload = VkUpload(self.vk)
 
         self.users = {}
+        self.msg_counter = 0
 
     def send_msg(self, send_id, response):
         try:
+            self.msg_counter += 1
+            
+            now = datetime.now()
+            dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
 
+            print("%s Users since last restart: %s, messages since last restart:%s" % (dt_string, len(self.users), self.msg_counter))
             print([send_id, response[0], response[1], response[2]])
+
             self.vk.messages.send(peer_id=send_id,
                                   message=response[0],
                                   attachment=response[1],
