@@ -14,16 +14,27 @@ message = ""
 connection = DBConnection()
 
 
-def generate_mobalytics_data(message):
+def generate_mobalytics_data(type):
     try:
-        r = requests.get('https://lor.mobalytics.gg/api/v2/meta/statistics/decks?sortBy=winRateDesc&from=0&count=100')
+        if type == "best_deck":
+            location = "output/posting/best_deck.png"
+            filter = "winRateDesc"
+        elif type == "popular_deck":
+            location = "output/posting/popular_deck.png"
+            filter = "matchesDesc"
+        else:
+            location = "output/posting/deck.png"
+            filter = ""
+
+        r = requests.get('https://lor.mobalytics.gg/api/v2/meta/statistics/decks?sortBy=%s&from=0&count=100' % (filter))
 
         for deck in r.json()["decksStats"]:
             if deck["matchesCollected"] > 2000:
                 my_deck = deck
                 break
 
-        generate_image(["moba", my_deck["cardsCode"]], 0, connection, "output/posting/output.png")
+
+        generate_image(["moba", my_deck["cardsCode"]], 0, connection, location)
 
 
         winrate = round(my_deck["matchesWin"] / my_deck["matchesCollected"], 4) * 100
@@ -36,8 +47,15 @@ def generate_mobalytics_data(message):
         traceback.print_exc()
         return ""
 
-def upload_image(filename):
-    img = {'photo': ('img.jpg', open(r'output/posting/output.png', 'rb'))}
+def upload_image(type):
+    if type == "best_deck":
+        location = "output/posting/best_deck.png"
+    elif type == "popular_deck":
+        location = "output/posting/popular_deck.png"
+    else:
+        location = "output/posting/deck.png"
+
+    img = {'photo': ('img.jpg', open(location, 'rb'))}
 
     # Получаем ссылку для загрузки изображений
     method_url = 'https://api.vk.com/method/photos.getWallUploadServer?'
@@ -100,14 +118,15 @@ def generate_player_data(message):
 
     return message
 
-moba_message = generate_mobalytics_data("")
+message += "Лучшая колода на данный момент:\n"
+moba_message = generate_mobalytics_data("best_deck")
 print(moba_message)
 message += moba_message
 message += "\n"
 message += ("&#127385;" * 10)
 message += "\n\n"
 
-photo_id = upload_image('')
+photo_id = upload_image("best_deck")
 
 player_message = generate_player_data("")
 message += player_message
