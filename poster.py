@@ -127,7 +127,8 @@ message += moba_message
 message += "\n"
 message += ("&#127385;" * 10)
 message += "\n"
-photo_ids.insert(0, upload_image("best_deck"))
+photo_ids.append(upload_image("best_deck"))
+# photo_ids.insert(0, upload_image("best_deck"))
 
 message += "\n"
 
@@ -138,7 +139,8 @@ message += moba_message
 message += "\n"
 message += ("&#127385;" * 10)
 message += "\n"
-photo_ids.insert(0, upload_image("popular_deck"))
+photo_ids.append(upload_image("popular_deck"))
+# photo_ids.insert(0, upload_image("popular_deck"))
 
 message += "\n\n"
 
