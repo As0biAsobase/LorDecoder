@@ -118,25 +118,47 @@ def generate_player_data(message):
 
     return message
 
+photo_ids = []
+
 message += "Лучшая колода на данный момент:\n"
 moba_message = generate_mobalytics_data("best_deck")
 print(moba_message)
 message += moba_message
 message += "\n"
 message += ("&#127385;" * 10)
+message += "\n"
+photo_ids.append(upload_image("best_deck"))
+
+
+message += "Самая популярная колода на данный момент:\n"
+moba_message = generate_mobalytics_data("popular_deck")
+print(moba_message)
+message += moba_message
+message += "\n"
+message += ("&#127385;" * 10)
+message += "\n"
+photo_ids.append(upload_image("popular_deck"))
+
 message += "\n\n"
 
-photo_id = upload_image("best_deck")
+attachment_str = ""
+print(photo_ids)
+for i, each in enumerate(photo_ids):
+    attachment_str += each
+    if i < len(list)-1:
+        attachment_str += ","
+
+print(attachment_str)
 
 player_message = generate_player_data("")
 message += player_message
 
-message += "\n&#9940; Это сообщение было сгенерировано и отправлено автоматически &#9940;"
+message += "\n&#9940; Это сообщение было сгенерировано и отправлено автоматически. Данные Mobalytics &#9940;"
 params = (
     ('owner_id', '-196727308'),
     ('from_group', '1'),
     ('message', message),
-    ('attachments', photo_id),
+    ('attachments', attachment_str),
     ('access_token', token),
     ('v', '5.126')
 )
