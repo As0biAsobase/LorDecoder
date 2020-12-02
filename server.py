@@ -33,7 +33,7 @@ class Server:
     def send_msg(self, send_id, response):
         try:
             self.msg_counter += 1
-            
+
             now = datetime.now()
             dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
 
@@ -60,7 +60,7 @@ class Server:
                             self.users[event.object.from_id] = Commander()
 
                         if event.type == VkBotEventType.MESSAGE_NEW:
-                            print(event.message.from_id)
+                            # print(event.message.from_id)
                             sender = self.vk.users.get(user_ids = (event.message.from_id))
                             sender = sender[0]
                             # print(self.users[event.object.from_id].input(self, event.message.text, sender, event.message.peer_id))

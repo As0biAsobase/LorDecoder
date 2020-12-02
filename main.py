@@ -99,7 +99,7 @@ def generate_image(args, user_id, connection, location):
 
     # background = Image.new('RGBA', (1920, height), (61, 61, 61, 255))
 
-    print(user_id)
+    # print(user_id)
     if user_id == 103657653:
         logo = Image.open("logos/Biolog.png")
         logo = logo.resize((640, 360))

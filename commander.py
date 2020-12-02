@@ -182,7 +182,7 @@ class Commander:
                         user = choice(user_list)
                         id = user["id"]
                         name = user["first_name"]
-                        print(name)
+                        # print(name)
 
                         # response_str = "@id" + str(sender["id"]) + " (" + sender["first_name"] +") пытался насрать под дверь стримеру, но попал в @id" + str(id) + " (" + name + ")"
                         response_str = "@id%s (%s) пытался насрать под дверь админам, но попал в @id%s (%s)" % (sender["id"], sender["first_name"], id, name)
