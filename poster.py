@@ -145,14 +145,13 @@ attachment_str = ""
 print(photo_ids)
 for i, each in enumerate(photo_ids):
     attachment_str += each
-    if i < len(list)-1:
+    if i < len(photo_ids)-1:
         attachment_str += ","
 
 print(attachment_str)
 
 player_message = generate_player_data("")
 message += player_message
-
 
 message += "\n&#9940; Это сообщение было сгенерировано и отправлено автоматически. Данные Mobalytics &#9940;"
 params = (
