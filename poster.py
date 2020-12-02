@@ -153,6 +153,7 @@ print(attachment_str)
 player_message = generate_player_data("")
 message += player_message
 
+
 message += "\n&#9940; Это сообщение было сгенерировано и отправлено автоматически. Данные Mobalytics &#9940;"
 params = (
     ('owner_id', '-196727308'),
