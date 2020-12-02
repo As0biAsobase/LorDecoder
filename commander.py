@@ -121,6 +121,8 @@ class Commander:
                         d = server.upload_deck_image()
 
                         winrate = round(my_deck["matchesWin"] / my_deck["matchesCollected"], 4) * 100
+                        winrate = str(winrate)
+                        winrate = winrate[0:5:]
 
                         if source == 0:
                             keyboard = "keyboards/default_keyboard.json"
@@ -147,7 +149,6 @@ class Commander:
                         d = server.upload_deck_image()
 
                         winrate = round(my_deck["matchesWin"] / my_deck["matchesCollected"], 4) * 100
-
                         winrate = str(winrate)
                         winrate = winrate[0:5:]
 
