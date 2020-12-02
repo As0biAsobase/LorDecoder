@@ -127,8 +127,9 @@ message += moba_message
 message += "\n"
 message += ("&#127385;" * 10)
 message += "\n"
-photo_ids.append(upload_image("best_deck"))
+photo_ids.insert(0, upload_image("best_deck"))
 
+message += "\n"
 
 message += "Самая популярная колода на данный момент:\n"
 moba_message = generate_mobalytics_data("popular_deck")
@@ -137,7 +138,7 @@ message += moba_message
 message += "\n"
 message += ("&#127385;" * 10)
 message += "\n"
-photo_ids.append(upload_image("popular_deck"))
+photo_ids.insert(0, upload_image("popular_deck"))
 
 message += "\n\n"
 
@@ -153,7 +154,7 @@ print(attachment_str)
 player_message = generate_player_data("")
 message += player_message
 
-message += "\n&#9940; Это сообщение было сгенерировано и отправлено автоматически. Данные Mobalytics &#9940;"
+message += "\n&#9940; Это сообщение было сгенерировано и отправлено автоматически. Данные Mobalytics и Riot Games &#9940;"
 params = (
     ('owner_id', '-196727308'),
     ('from_group', '1'),
