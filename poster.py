@@ -63,8 +63,6 @@ def upload_image(filename):
     return result
 
 def generate_player_data(message):
-    message += "Топ10 ранкеда ЕУ:\n"
-
     headers = {
         "X-Riot-Token": os.getenv("RIOT_API_KEY")
     }
@@ -74,13 +72,14 @@ def generate_player_data(message):
     r = r.json()
     r = r["players"]
 
-    for i in range(10):
-        player = r[i]
+    # message += "Топ10 ранкеда ЕУ:\n"
+    # for i in range(10):
+    #     player = r[i]
+    #
+    #     player_string = "%s. %s %s LP\n" % ((i+1), player["name"], player["lp"])
+    #     message += player_string
 
-        player_string = "%s. %s %s LP\n" % ((i+1), player["name"], player["lp"])
-        message += player_string
-
-    message += "\nТоп5 игроков из России:\n"
+    message += "Топ5 игроков из России:\n"
     russian_top = []
 
     for each in r:
@@ -96,7 +95,7 @@ def generate_player_data(message):
 
     i = 0
     for i, player in enumerate(russian_top):
-        player_string = "%s. %s %s LP\n" % ((i+1), player["name"], player["lp"])
+        player_string = "%s(%s). %s %s LP\n" % ((i+1), player["rank"], player["name"], player["lp"])
         message += player_string
 
     return message
