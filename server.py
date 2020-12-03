@@ -32,12 +32,6 @@ class Server:
 
     def send_msg(self, send_id, response):
         try:
-            self.msg_counter += 1
-
-            now = datetime.now()
-            dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
-
-            print("%s Users since last restart: %s, messages since last restart:%s" % (dt_string, len(self.users), self.msg_counter))
             print([send_id, response[0], response[1], response[2]])
 
             self.vk.messages.send(peer_id=send_id,
@@ -56,6 +50,13 @@ class Server:
             try:
                 for event in self.long_poll.listen():
                     if event.type == VkBotEventType.MESSAGE_NEW and event.message.text:
+                        self.msg_counter += 1
+
+                        now = datetime.now()
+                        dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
+
+                        print("%s Users since last restart: %s, messages since last restart:%s" % (dt_string, len(self.users), self.msg_counter))
+                        print(self.users)
                         if event.object.from_id not in self.users:
                             self.users[event.object.from_id] = Commander()
 
