@@ -55,12 +55,12 @@ class Server:
                         now = datetime.now()
                         dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
 
-                        print("%s Users since last restart: %s, messages since last restart:%s" % (dt_string, len(self.users), self.msg_counter))
-                        print(self.users)
-
                         if event.message.from_id not in self.users:
                             self.users[event.message.from_id] = Commander()
 
+                        print("%s Users since last restart: %s, messages since last restart:%s" % (dt_string, len(self.users), self.msg_counter))
+                        print(self.users)
+                        
                         if event.type == VkBotEventType.MESSAGE_NEW:
                             # print(event.message.from_id)
                             sender = self.vk.users.get(user_ids = (event.message.from_id))
