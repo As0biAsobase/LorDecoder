@@ -39,7 +39,7 @@ def generate_mobalytics_data(type):
 
         generate_image(["moba", my_deck["cardsCode"]], 0, connection, location)
 
-        deck = LoRDeck.from_deckcode(code)
+        deck = LoRDeck.from_deckcode(my_deck["cardsCode"])
         deck_name = ""
         champions = []
 
