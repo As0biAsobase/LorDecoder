@@ -53,7 +53,7 @@ def generate_mobalytics_data(type):
                 if dict["supertype"] == "Чемпион":
                     champions.append({"name" : dict["name"], "quantity" :  q})
 
-        for i, each in enumerate(photo_ids):
+        for i, each in enumerate(champions):
             deck_name += each["name"].split()[0]
             if i < len(photo_ids)-1:
                 deck_name += "-"
@@ -119,7 +119,7 @@ def generate_player_data(message):
 
     r = r.json()
     with open("output/posting/yesterday_palyers.json", "w", encoding='utf-8') as fp:
-        json.dump(r.json(), fp, ensure_ascii=False, indent=2, sort_keys=True)
+        json.dump(r, fp, ensure_ascii=False, indent=2, sort_keys=True)
 
     r = r["players"]
 
