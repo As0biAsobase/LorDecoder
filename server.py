@@ -67,7 +67,7 @@ class Server:
                             sender = sender[0]
                             # print(self.users[event.object.from_id].input(self, event.message.text, sender, event.message.peer_id))
                             self.send_msg(event.message.peer_id,
-                                      self.users[event.object.from_id].input(self, event.message.text, sender, event.message.peer_id))
+                                      self.users[event.message.from_id].input(self, event.message.text, sender, event.message.peer_id))
 
             except requests.exceptions.ReadTimeout:
                 print("\n Переподключение к серверам ВК \n")
