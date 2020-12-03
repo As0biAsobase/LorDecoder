@@ -55,7 +55,7 @@ def generate_mobalytics_data(type):
 
         for i, each in enumerate(champions):
             deck_name += each["name"].split()[0]
-            if i < len(photo_ids)-1:
+            if i < len(champions)-1:
                 deck_name += "-"
 
         regions_str = ""
