@@ -57,8 +57,9 @@ class Server:
 
                         print("%s Users since last restart: %s, messages since last restart:%s" % (dt_string, len(self.users), self.msg_counter))
                         print(self.users)
-                        if event.object.from_id not in self.users:
-                            self.users[event.object.from_id] = Commander()
+
+                        if event.message.from_id not in self.users:
+                            self.users[event.message.from_id] = Commander()
 
                         if event.type == VkBotEventType.MESSAGE_NEW:
                             # print(event.message.from_id)
