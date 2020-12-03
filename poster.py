@@ -6,6 +6,7 @@ import json
 import traceback
 from main import generate_image
 from database import DBConnection
+from lor_deckcodes import LoRDeck, CardCodeAndCount
 
 load_dotenv(find_dotenv())
 token = os.getenv("VKAPI_USER_TOKEN")
@@ -28,19 +29,48 @@ def generate_mobalytics_data(type):
 
         r = requests.get('https://lor.mobalytics.gg/api/v2/meta/statistics/decks?sortBy=%s&from=0&count=100' % (filter))
 
+        with open("output/posting/yesterday_decks_" + filter +".json", "w", encoding='utf-8') as fp:
+            json.dump(r.json(), fp, ensure_ascii=False, indent=2, sort_keys=True)
+
         for deck in r.json()["decksStats"]:
             if deck["matchesCollected"] > 2000:
                 my_deck = deck
                 break
 
-
         generate_image(["moba", my_deck["cardsCode"]], 0, connection, location)
 
+        deck = LoRDeck.from_deckcode(code)
+        deck_name = ""
+        champions = []
+
+        for each in deck:
+            q, code = each.split(':')
+            q = int(q)
+
+            dict = connection.getCardByCode(code)
+
+            if dict["type"] == "Боец":
+                if dict["supertype"] == "Чемпион":
+                    champions.append({"name" : dict["name"], "quantity" :  q})
+
+        for i, each in enumerate(photo_ids):
+            deck_name += each["name"].split()[0]
+            if i < len(photo_ids)-1:
+                deck_name += "-"
+
+        regions_str = ""
+        if len(my_deck["regions"]) > 1:
+            regions_str = " (%s/%s)" % (my_deck["regions"][0], my_deck["regions"][1])
+        else:
+            regions_str = " (%s)" % (my_deck["regions"][0])
+
+        deck_name += regions_str
+        print(deck_name)
 
         winrate = round(my_deck["matchesWin"] / my_deck["matchesCollected"], 4) * 100
         winrate = str(winrate)[0:5:]
 
-        response_str = "Колода: %s \nМатчей сыграно: %s \nПобед: %s\nВинрейт: %s%%" % (my_deck["cardsCode"], my_deck["matchesCollected"], my_deck["matchesWin"], winrate)
+        response_str = "Колода: %s \nКод: %s \nМатчей сыграно: %s \nПобед: %s\nВинрейт: %s%%" % (deck_name, my_deck["cardsCode"], my_deck["matchesCollected"], my_deck["matchesWin"], winrate)
 
         return response_str
     except:
@@ -88,14 +118,10 @@ def generate_player_data(message):
     r = requests.get('https://europe.api.riotgames.com/lor/ranked/v1/leaderboards', headers=headers)
 
     r = r.json()
-    r = r["players"]
+    with open("output/posting/yesterday_palyers.json", "w", encoding='utf-8') as fp:
+        json.dump(r.json(), fp, ensure_ascii=False, indent=2, sort_keys=True)
 
-    # message += "Топ10 ранкеда ЕУ:\n"
-    # for i in range(10):
-    #     player = r[i]
-    #
-    #     player_string = "%s. %s %s LP\n" % ((i+1), player["name"], player["lp"])
-    #     message += player_string
+    r = r["players"]
 
     message += "Топ5 игроков из России:\n"
     russian_top = []
