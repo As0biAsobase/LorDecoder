@@ -1,0 +1,245 @@
+{
+  "decksStats": [
+    {
+      "cardsCode": "CIBQCAYJEMDQCBIOCAPCOMJVHACAGBIDAQDA2AICAECQGFQA",
+      "losses": 13361,
+      "matchesCollected": 29395,
+      "matchesWin": 16034,
+      "playRate": 0.02066,
+      "playStyle": "UNDEFINED",
+      "rank": 0,
+      "regions": [
+        "SI",
+        "MT"
+      ],
+      "title": "",
+      "uid": "",
+      "wins": 16034
+    },
+    {
+      "cardsCode": "CICAGAIDCQXDOAICAMEQOAIEAENR6JBGGQ5ACAYECEAQEAIDCYZQA",
+      "losses": 11917,
+      "matchesCollected": 27388,
+      "matchesWin": 15471,
+      "playRate": 0.019074,
+      "playStyle": "UNDEFINED",
+      "rank": 0,
+      "regions": [
+        "NX",
+        "PZ"
+      ],
+      "title": "",
+      "uid": "",
+      "wins": 15471
+    },
+    {
+      "cardsCode": "CIBQIAIDA4ESONYGAECAYDI4E4UC2AIDAQJAEAIBAQAQEAIDCQRQCAIBAQEA",
+      "losses": 11404,
+      "matchesCollected": 25017,
+      "matchesWin": 13613,
+      "playRate": 0.016949,
+      "playStyle": "UNDEFINED",
+      "rank": 0,
+      "regions": [
+        "NX",
+        "PZ"
+      ],
+      "title": "",
+      "uid": "",
+      "wins": 13613
+    },
+    {
+      "cardsCode": "CICAIAIDAIHSKKAFAIDBMIBGHI6AEAQDAMCACAYGAYBACAIDGMAQEAYFAA",
+      "losses": 7393,
+      "matchesCollected": 17073,
+      "matchesWin": 9680,
+      "playRate": 0.011612,
+      "playStyle": "UNDEFINED",
+      "rank": 0,
+      "regions": [
+        "BW",
+        "NX"
+      ],
+      "title": "",
+      "uid": "",
+      "wins": 9680
+    },
+    {
+      "cardsCode": "CICACAIFGEBAGBIGCADAEBQEBENB2JR2AEBQMCACAMAQKAIPGUAQGBIIAIAQCBJAAEBAMIA",
+      "losses": 7199,
+      "matchesCollected": 15567,
+      "matchesWin": 8368,
+      "playRate": 0.011567,
+      "playStyle": "UNDEFINED",
+      "rank": 0,
+      "regions": [
+        "SI",
+        "BW"
+      ],
+      "title": "",
+      "uid": "",
+      "wins": 8368
+    },
+    {
+      "cardsCode": "CIBQCAQGCYDQCAABBEFRKGQ5E4BQEAACAYEQEAQCAADQUAIDAAHACAIBAASQ",
+      "losses": 6761,
+      "matchesCollected": 14220,
+      "matchesWin": 7459,
+      "playRate": 0.009697,
+      "playStyle": "UNDEFINED",
+      "rank": 0,
+      "regions": [
+        "DE",
+        "BW"
+      ],
+      "title": "",
+      "uid": "",
+      "wins": 7459
+    },
+    {
+      "cardsCode": "CICAGAICEAVTCAYBAAERULIBAIAACAIDAADAGAQBAIJSKBABAAOSKMZUAEBQADQBAIAQAFJV",
+      "losses": 5296,
+      "matchesCollected": 12232,
+      "matchesWin": 6936,
+      "playRate": 0.014622,
+      "playStyle": "UNDEFINED",
+      "rank": 0,
+      "regions": [
+        "DE",
+        "IO"
+      ],
+      "title": "",
+      "uid": "",
+      "wins": 6936
+    },
+    {
+      "cardsCode": "CICACAIBEIDACBILDIPCWMBRAIBAKBAGAMBQKAQEAYAQEAIFCAMQA",
+      "losses": 4050,
+      "matchesCollected": 9541,
+      "matchesWin": 5491,
+      "playRate": 0.00667,
+      "playStyle": "UNDEFINED",
+      "rank": 0,
+      "regions": [
+        "FR",
+        "SI"
+      ],
+      "title": "",
+      "uid": "",
+      "wins": 5491
+    },
+    {
+      "cardsCode": "CIBQKAIEDMTCONBYAEBAICAHAMESGM2QKRKVYYAAAEAQCBA7",
+      "losses": 3957,
+      "matchesCollected": 7663,
+      "matchesWin": 3706,
+      "playRate": 0.005709,
+      "playStyle": "UNDEFINED",
+      "rank": 0,
+      "regions": [
+        "PZ",
+        "MT"
+      ],
+      "title": "",
+      "uid": "",
+      "wins": 3706
+    },
+    {
+      "cardsCode": "CIBAIAIBAMKBQMQIAECQCAYPCQOSQMJWAIAQCAI5AEAQKIAA",
+      "losses": 3431,
+      "matchesCollected": 7280,
+      "matchesWin": 3849,
+      "playRate": 0.005066,
+      "playStyle": "UNDEFINED",
+      "rank": 0,
+      "regions": [
+        "FR",
+        "SI"
+      ],
+      "title": "",
+      "uid": "",
+      "wins": 3849
+    },
+    {
+      "cardsCode": "CIBQCAICB4AQEAQFA4BQSEY2DQRTMWDAAMBACAROGEAQGAQUAMBQSFJTKUAQCAYJAE",
+      "losses": 3569,
+      "matchesCollected": 6339,
+      "matchesWin": 2770,
+      "playRate": 0.010491,
+      "playStyle": "UNDEFINED",
+      "rank": 0,
+      "regions": [
+        "MT",
+        "IO"
+      ],
+      "title": "",
+      "uid": "",
+      "wins": 2770
+    },
+    {
+      "cardsCode": "CIBQEAIDFY3QKAIEDMPSINB2AMBAGAIHBEBQCAIEAEAQCAYEAEBAGCADAEAQIJYCAEBRMMYBAMBQ2",
+      "losses": 2702,
+      "matchesCollected": 5934,
+      "matchesWin": 3232,
+      "playRate": 0.005989,
+      "playStyle": "UNDEFINED",
+      "rank": 0,
+      "regions": [
+        "NX",
+        "PZ"
+      ],
+      "title": "",
+      "uid": "",
+      "wins": 3232
+    },
+    {
+      "cardsCode": "CIBAIAYGAQDQQDYIAMERGHJDFUZTINZ4AEBAGCKVMIAA",
+      "losses": 2101,
+      "matchesCollected": 4570,
+      "matchesWin": 2469,
+      "playRate": 0.005766,
+      "playStyle": "UNDEFINED",
+      "rank": 0,
+      "regions": [
+        "BW",
+        "MT"
+      ],
+      "title": "",
+      "uid": "",
+      "wins": 2469
+    },
+    {
+      "cardsCode": "CIBAIAYGAQDQQDYHAMER2IZNGM2DOVICAEBQMCICAMETYYQBAEBQSEY",
+      "losses": 2044,
+      "matchesCollected": 4231,
+      "matchesWin": 2187,
+      "playRate": 0.005508,
+      "playStyle": "UNDEFINED",
+      "rank": 0,
+      "regions": [
+        "BW",
+        "MT"
+      ],
+      "title": "",
+      "uid": "",
+      "wins": 2187
+    },
+    {
+      "cardsCode": "CIBQCAYJEMDQCBIDBYIB4JZVHACAGBIDAQDA2AIBAECRMAICAECRSMI",
+      "losses": 1057,
+      "matchesCollected": 2440,
+      "matchesWin": 1383,
+      "playRate": 0.006128,
+      "playStyle": "UNDEFINED",
+      "rank": 0,
+      "regions": [
+        "SI",
+        "MT"
+      ],
+      "title": "",
+      "uid": "",
+      "wins": 1383
+    }
+  ],
+  "hasNext": false
+}

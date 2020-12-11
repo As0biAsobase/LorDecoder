@@ -27,7 +27,7 @@ def generate_mobalytics_data(type):
             location = "output/posting/deck.png"
             filter = ""
 
-        r = requests.get('https://lor.mobalytics.gg/api/v2/meta/statistics/decks?sortBy=%s&from=0&count=100' % (filter))
+        r = requests.get('https://lor.mobalytics.gg/api/v2/meta/statistics/decks?sortBy=%s&from=0&count=100&threshold=all' % (filter))
 
         with open("output/posting/yesterday_decks_" + filter +".json", "w", encoding='utf-8') as fp:
             json.dump(r.json(), fp, ensure_ascii=False, indent=2, sort_keys=True)
