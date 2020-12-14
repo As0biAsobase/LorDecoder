@@ -188,8 +188,7 @@ class Commander:
                         response_str = """Колода: %s \n
                         Матчей сыграно: %s >>> %s \n
                         Побед: %s >>> %s\n
-                        Винрейт: %s%% >>> %s"""
-                        % (max_deck["cardsCode"], max_previous["matchesCollected"], max_deck["matchesCollected"], max_previous["matchesWin"], max_deck["matchesWin"], old_winrate, new_winrate)
+                        Винрейт: %s%% >>> %s""" % (max_deck["cardsCode"], max_previous["matchesCollected"], max_deck["matchesCollected"], max_previous["matchesWin"], max_deck["matchesWin"], old_winrate, new_winrate)
 
                         return [response_str, d, keyboard]
                     except:
