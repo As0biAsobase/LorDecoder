@@ -185,10 +185,7 @@ class Commander:
                         if source == 0:
                             keyboard = "keyboards/default_keyboard.json"
 
-                        response_str = """Колода: %s
-                        Матчей сыграно: %s > %s
-                        Побед: %s > %s
-                        Винрейт: %s%% > %s""" % (max_deck["cardsCode"], max_previous["matchesCollected"], max_deck["matchesCollected"], max_previous["matchesWin"], max_deck["matchesWin"], old_winrate, new_winrate)
+                        response_str = """Колода: %s \nМатчей сыграно: %s > %s \nПобед: %s > %s \nВинрейт: %s%% > %s""" % (max_deck["cardsCode"], max_previous["matchesCollected"], max_deck["matchesCollected"], max_previous["matchesWin"], max_deck["matchesWin"], old_winrate, new_winrate)
 
                         return [response_str, d, keyboard]
                     except:
