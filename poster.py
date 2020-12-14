@@ -20,14 +20,16 @@ def generate_mobalytics_data(type):
         if type == "best_deck":
             location = "output/posting/best_deck.png"
             filter = "winRateDesc"
+            threshold = ""
         elif type == "popular_deck":
             location = "output/posting/popular_deck.png"
             filter = "matchesDesc"
+            threshold = "all"
         else:
             location = "output/posting/deck.png"
             filter = ""
 
-        r = requests.get('https://lor.mobalytics.gg/api/v2/meta/statistics/decks?sortBy=%s&from=0&count=100&threshold=all' % (filter))
+        r = requests.get('https://lor.mobalytics.gg/api/v2/meta/statistics/decks?sortBy=%s&from=0&count=500&threshold=%s' % (filter, threshold))
 
         with open("output/posting/yesterday_decks_" + filter +".json", "w", encoding='utf-8') as fp:
             json.dump(r.json(), fp, ensure_ascii=False, indent=2, sort_keys=True)
