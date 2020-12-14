@@ -18,11 +18,16 @@
     [{
         "action": {
           "type": "text",
+          "label": "Колода растущая"
+        },
+        "color": "primary"
+    }],
+    [{
+        "action": {
+          "type": "text",
           "label": "Инфо"
         },
         "color": "secondary"
       }]
-
-
   ]
 }

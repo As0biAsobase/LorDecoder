@@ -9,7 +9,7 @@ import requests
 import traceback
 import json
 from random import randrange, choice
-
+from deckchanges import get_highest_growth
 from database import DBConnection
 
 class Commander:
@@ -156,6 +156,40 @@ class Commander:
                             keyboard = "keyboards/default_keyboard.json"
 
                         response_str = "Колода: %s \nМатчей сыграно: %s \nПобед: %s\nВинрейт: %s%%" % (my_deck["cardsCode"], my_deck["matchesCollected"], my_deck["matchesWin"], winrate)
+
+                        return [response_str, d, keyboard]
+                    except:
+                        traceback.print_exc()
+                        if source == 0:
+                            keyboard = "keyboards/default_keyboard.json"
+                            return ["Блип-блоп, глупый бот улетел, хихи", "", keyboard]
+
+                elif args[0].lower() == "колода" and args[1].lower() == "растущая":
+                    try:
+                        decks = get_highest_growth()
+                        max_deck = decks[0]
+                        max_previous = decks[1]
+
+                        generate_image(["moba", max_deck["cardsCode"]], sender["id"], self.connection, "output/output.png")
+
+                        d = server.upload_deck_image()
+
+                        new_winrate = round(max_deck["matchesWin"] / max_deck["matchesCollected"], 4) * 100
+                        old_winrate = round(max_previous["matchesWin"] / max_previous["matchesCollected"], 4) * 100
+
+                        new_winrate = str(new_winrate)
+                        new_winrate = new_winrate[0:5:]
+                        old_winrate = str(old_winrate)
+                        old_winrate = old_winrate[0:5:]
+
+                        if source == 0:
+                            keyboard = "keyboards/default_keyboard.json"
+
+                        response_str = "Колода: %s \n" +
+                        "Матчей сыграно: %s >>> %s \n" +
+                        "Побед: %s >>> %s\n" +
+                        "Винрейт: %s%% >>> %s"
+                        % (max_deck["cardsCode"], max_previous["matchesCollected"], max_deck["matchesCollected"], max_previous["matchesWin"], max_deck["matchesWin"], old_winrate, new_winrate)
 
                         return [response_str, d, keyboard]
                     except:

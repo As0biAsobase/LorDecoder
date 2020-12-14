@@ -1,10 +1,10 @@
 import json
 import requests
 
-def get_highest_grow():
+def get_highest_growth():
     jdata = json.loads(open("output/posting/yesterday_decks_matchesDesc.json",  encoding='utf-8').read())
     jdata = jdata["decksStats"]
-
+    filter = "matchesDesc"
     r = requests.get('https://lor.mobalytics.gg/api/v2/meta/statistics/decks?sortBy=%s&from=0&count=100&threshold=all' % (filter))
     r = r.json()["decksStats"]
 
@@ -13,7 +13,7 @@ def get_highest_grow():
     max_deck = None
     max_previous = None
     for dict in jdata:
-        print(dict)
+        # print(dict)
         for deck in r:
             if deck["cardsCode"] == dict["cardsCode"]:
                 print("It's a match!")
@@ -27,7 +27,4 @@ def get_highest_grow():
                         max_previous = dict
                         max_wr = deck_winrate - dict_winrate
 
-    print(max_deck)
-    print(max_previous)
-    print(max_wr)
-get_highest_grow()
+    return [max_deck, max_previous]
