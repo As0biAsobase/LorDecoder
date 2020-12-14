@@ -16,12 +16,12 @@ def get_highest_growth():
         # print(dict)
         for deck in r:
             if deck["cardsCode"] == dict["cardsCode"]:
-                print("It's a match!")
+                # print("It's a match!")
                 deck_winrate = round(deck["matchesWin"] / deck["matchesCollected"], 4) * 100
                 dict_winrate = round(dict["matchesWin"] / dict["matchesCollected"], 4) * 100
 
                 if deck_winrate > dict_winrate:
-                    print("Growth!")
+                    # print("Growth!")
                     if deck_winrate - dict_winrate > max_wr:
                         max_deck = deck
                         max_previous = dict
