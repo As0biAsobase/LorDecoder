@@ -32,9 +32,9 @@ def generate_image(args, user_id, connection, location):
     spells_total = 0
     landmarks_total = 0
 
-    cost_font = ImageFont.truetype("fonts/Roboto-Black.ttf", 50)
-    name_font = ImageFont.truetype("fonts/Roboto-Regular.ttf", 37)
-    title_font = ImageFont.truetype("fonts/AmaticSC-Bold.ttf", 70)
+    cost_font = ImageFont.truetype("/home/khun/LorDecoder/fonts/Roboto-Black.ttf", 50)
+    name_font = ImageFont.truetype("/home/khun/LorDecoder/fonts/Roboto-Regular.ttf", 37)
+    title_font = ImageFont.truetype("/home/khun/LorDecoder/fonts/AmaticSC-Bold.ttf", 70)
 
     champion_string = "Главари: "
     follower_string = "Воены: "
