@@ -41,7 +41,7 @@ def generate_image(args, user_id, connection, location):
     spell_string = "Колдунства: "
     landmark_string = "Главарства: "
 
-    jdata = json.loads(open("cards_data/cards.json",  encoding='utf-8').read())
+    jdata = json.loads(open("/home/khun/LorDecoder/cards_data/cards.json",  encoding='utf-8').read())
 
     deck = LoRDeck.from_deckcode(code)
 
@@ -82,11 +82,11 @@ def generate_image(args, user_id, connection, location):
 
     if not empty_bg:
         if user_id == 103657653:
-            background = Image.open("background/biolog.jpg")
+            background = Image.open("/home/khun/LorDecoder/background/biolog.jpg")
         else:
-            background = Image.open("background/poros/gs/%s.png" % (top_region))
+            background = Image.open("/home/khun/LorDecoder/background/poros/gs/%s.png" % (top_region))
     else:
-        background = Image.open("background/empty.png")
+        background = Image.open("/home/khun/LorDecoder/background/empty.png")
 
     # background processing
     if ratio > 1:
@@ -101,15 +101,15 @@ def generate_image(args, user_id, connection, location):
 
     # print(user_id)
     if user_id == 103657653:
-        logo = Image.open("logos/Biolog.png")
+        logo = Image.open("/home/khun/LorDecoder/logos/Biolog.png")
         logo = logo.resize((640, 360))
         background.paste(logo, (0, height-360), mask = logo)
     elif user_id == 283942422 or user_id == 488352580:
-        logo = Image.open("logos/okolo.png")
+        logo = Image.open("/home/khun/LorDecoder/logos/okolo.png")
         logo = logo.resize((640, 360))
         background.paste(logo, (0, height-360), mask = logo)
     elif user_id ==3015002:
-        logo = Image.open("logos/numi.png")
+        logo = Image.open("/home/khun/LorDecoder/logos/numi.png")
         logo = logo.resize((640, 360))
         background.paste(logo, (0, height-360), mask = logo)
 
@@ -117,7 +117,7 @@ def generate_image(args, user_id, connection, location):
         follower_string = "Подданные: "
         spell_string = "Йордловская магия: "
     else:
-        logo = Image.open("logos/Natum_Perdere_Logo.png")
+        logo = Image.open("/home/khun/LorDecoder/logos/Natum_Perdere_Logo.png")
         logo = logo.resize((640, 360))
         background.paste(logo, (0, height-360), mask = logo)
 
@@ -130,7 +130,7 @@ def generate_image(args, user_id, connection, location):
 
     i = 0
     for each in champions:
-        img = Image.open("processed/" + each["cardCode"] + ".png")
+        img = Image.open("/home/khun/LorDecoder/processed/" + each["cardCode"] + ".png")
         img = img.resize((600, 70))
         draw = ImageDraw.Draw(img)
 
@@ -153,7 +153,7 @@ def generate_image(args, user_id, connection, location):
 
         i = 0
         for each in landmarks:
-            img = Image.open("processed/" + each["cardCode"] + ".png")
+            img = Image.open("/home/khun/LorDecoder/processed/" + each["cardCode"] + ".png")
             img = img.resize((600, 70))
             draw = ImageDraw.Draw(img)
 
@@ -171,7 +171,7 @@ def generate_image(args, user_id, connection, location):
 
     i = 0
     for each in followers:
-        img = Image.open("processed/" + each["cardCode"] + ".png")
+        img = Image.open("/home/khun/LorDecoder/processed/" + each["cardCode"] + ".png")
         img = img.resize((600, 70))
         draw = ImageDraw.Draw(img)
 
@@ -190,7 +190,7 @@ def generate_image(args, user_id, connection, location):
 
     i = 0
     for each in spells:
-        img = Image.open("processed/" + each["cardCode"] + ".png")
+        img = Image.open("/home/khun/LorDecoder/processed/" + each["cardCode"] + ".png")
         img = img.resize((600, 70))
         draw = ImageDraw.Draw(img)
 
