@@ -18,15 +18,15 @@ connection = DBConnection()
 def generate_mobalytics_data(type):
     try:
         if type == "best_deck":
-            location = "output/posting/best_deck.png"
+            location = "/home/khun/LorDecoder/output/posting/best_deck.png"
             filter = "winRateDesc"
             threshold = ""
         elif type == "popular_deck":
-            location = "output/posting/popular_deck.png"
+            location = "/home/khun/LorDecoder/output/posting/popular_deck.png"
             filter = "matchesDesc"
             threshold = "all"
         else:
-            location = "output/posting/deck.png"
+            location = "/home/khun/LorDecoder/output/posting/deck.png"
             filter = ""
 
         r = requests.get('https://lor.mobalytics.gg/api/v2/meta/statistics/decks?sortBy=%s&from=0&count=500&threshold=%s' % (filter, threshold))
@@ -81,11 +81,11 @@ def generate_mobalytics_data(type):
 
 def upload_image(type):
     if type == "best_deck":
-        location = "output/posting/best_deck.png"
+        location = "/home/khun/LorDecoder/output/posting/best_deck.png"
     elif type == "popular_deck":
-        location = "output/posting/popular_deck.png"
+        location = "/home/khun/LorDecoder/output/posting/popular_deck.png"
     else:
-        location = "output/posting/deck.png"
+        location = "/home/khun/LorDecoder/output/posting/posting/deck.png"
 
     img = {'photo': ('img.jpg', open(location, 'rb'))}
 
@@ -120,7 +120,7 @@ def generate_player_data(message):
     r = requests.get('https://europe.api.riotgames.com/lor/ranked/v1/leaderboards', headers=headers)
 
     r = r.json()
-    with open("output/posting/yesterday_palyers.json", "w", encoding='utf-8') as fp:
+    with open("/home/khun/LorDecoder/output/posting/yesterday_palyers.json", "w", encoding='utf-8') as fp:
         json.dump(r, fp, ensure_ascii=False, indent=2, sort_keys=True)
 
     r = r["players"]
