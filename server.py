@@ -59,8 +59,7 @@ class Server:
                             self.users[event.message.from_id] = Commander()
 
                         print("%s Users since last restart: %s, messages since last restart:%s" % (dt_string, len(self.users), self.msg_counter))
-                        print(self.users)
-                        
+
                         if event.type == VkBotEventType.MESSAGE_NEW:
                             # print(event.message.from_id)
                             sender = self.vk.users.get(user_ids = (event.message.from_id))
