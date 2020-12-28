@@ -103,11 +103,63 @@ def generate_mobalytics_data(type):
         traceback.print_exc()
         return ""
 
+def generate_donut_data(type):
+    try:
+        deck = None
+        archetype = None
+
+        if type == "best_for_popular":
+            location = "/home/khun/LorDecoder/output/posting/best_for_popular.png"
+            filter = "matchesDesc"
+            threshold = "all"
+
+        r = requests.get('https://lor.mobalytics.gg/api/v2/meta/statistics/decks?sortBy=%s&from=0&count=500&threshold=%s' % (filter, threshold))
+
+        for deck in r.json()["decksStats"]:
+            if deck["matchesCollected"] > 2000:
+                my_deck = deck
+                break
+
+        if len(my_deck["regions"]) > 1:
+            r = requests.get('https://lor.mobalytics.gg/api/v2/meta/statistics/regions/overview?region=%s&region=%s' % (my_deck["regions"][0], my_deck["regions"][1]))
+        else:
+            r = requests.get('https://lor.mobalytics.gg/api/v2/meta/statistics/regions/overview?region=%s' % (my_deck["regions"][0]))
+
+        r = r.json()
+
+        print(r["worstMatchups"])
+
+        for each in r["worstMatchups"]:
+            if each["matchesCollected"] > 1000
+                archetype = each
+                break
+
+        if len(archetype["regions"]) > 1:
+            r = requests.get('https://lor.mobalytics.gg/api/v2/meta/statistics/regions/overview?region=%s&region=%s' % (archetype["regions"][0], archetype["regions"][1]))
+        else:
+            r = requests.get('https://lor.mobalytics.gg/api/v2/meta/statistics/regions/overview?region=%s' % (archetype["regions"][0]))
+
+        r = r.json()
+        for each in r["popularDecks"]:
+            if each["matchesCollected"] > 1000
+                deck = each
+                break
+
+        generate_image(["moba", deck["cardsCode"]], 0, connection, location)
+        response_str = generate_deck_desc(deck)
+
+        return response_str
+    except:
+        traceback.print_exc()
+        return ""
+
 def upload_image(type):
     if type == "best_deck":
         location = "/home/khun/LorDecoder/output/posting/best_deck.png"
     elif type == "popular_deck":
         location = "/home/khun/LorDecoder/output/posting/popular_deck.png"
+    elif type == "best_for_popular":
+        location = "/home/khun/LorDecoder/output/posting/best_for_popular.png"
     elif type == "rising_deck":
         location = "/home/khun/LorDecoder/output/posting/rising_deck.png"
     else:
@@ -248,43 +300,14 @@ def generate_donut_post():
     message = ""
 
     try:
-        r = generate_deck_changes()
-        message += "Колода с самым большим приростом винрейта за день (+%s%%):\n" % (r[1])
-        moba_message = r[0]
+        message += "Худший матчап самой популярной колоды на данный момент:\n"
+        moba_message = generate_donut_data("best_for_popular")
         print(moba_message)
         message += moba_message
         message += "\n"
         message += ("&#10004;" * 10)
         message += "\n"
-        photo_ids.append(upload_image("rising_deck"))
-    except:
-        message += "Блип блоп"
-
-    message += "\n"
-
-    try:
-        message += "Лучшая колода на данный момент:\n"
-        moba_message = generate_mobalytics_data("best_deck")
-        print(moba_message)
-        message += moba_message
-        message += "\n"
-        message += ("&#10004;" * 10)
-        message += "\n"
-        photo_ids.append(upload_image("best_deck"))
-    except:
-        message += "Блип блоп"
-
-    message += "\n"
-
-    try:
-        message += "Самая популярная колода на данный момент:\n"
-        moba_message = generate_mobalytics_data("popular_deck")
-        print(moba_message)
-        message += moba_message
-        message += "\n"
-        message += ("&#10004;" * 10)
-        message += "\n"
-        photo_ids.append(upload_image("popular_deck"))
+        photo_ids.append(upload_image("best_for_popular"))
     except:
         message += "Блип блоп"
 
@@ -299,9 +322,6 @@ def generate_donut_post():
 
     print(attachment_str)
 
-    player_message = generate_player_data("")
-    message += player_message
-
     message += "\n&#8265; Это сообщение было сгенерировано и отправлено автоматически. Данные Mobalytics и Riot Games &#8265;"
     params = (
         ('owner_id', '-196727308'),
@@ -315,7 +335,7 @@ def generate_donut_post():
 
     response = requests.get('https://api.vk.com/method/wall.post', params=params)
     print(response)
-    
+
 if __name__ == "__main__":
     a = sys.argv[1]
     print(a)
