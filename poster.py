@@ -243,10 +243,85 @@ def generate_normal_post():
 
     response = requests.get('https://api.vk.com/method/wall.post', params=params)
 
+def generate_donut_post():
+    photo_ids = []
+    message = ""
+
+    try:
+        r = generate_deck_changes()
+        message += "Колода с самым большим приростом винрейта за день (+%s%%):\n" % (r[1])
+        moba_message = r[0]
+        print(moba_message)
+        message += moba_message
+        message += "\n"
+        message += ("&#10004;" * 10)
+        message += "\n"
+        photo_ids.append(upload_image("rising_deck"))
+    except:
+        message += "Блип блоп"
+
+    message += "\n"
+
+    try:
+        message += "Лучшая колода на данный момент:\n"
+        moba_message = generate_mobalytics_data("best_deck")
+        print(moba_message)
+        message += moba_message
+        message += "\n"
+        message += ("&#10004;" * 10)
+        message += "\n"
+        photo_ids.append(upload_image("best_deck"))
+    except:
+        message += "Блип блоп"
+
+    message += "\n"
+
+    try:
+        message += "Самая популярная колода на данный момент:\n"
+        moba_message = generate_mobalytics_data("popular_deck")
+        print(moba_message)
+        message += moba_message
+        message += "\n"
+        message += ("&#10004;" * 10)
+        message += "\n"
+        photo_ids.append(upload_image("popular_deck"))
+    except:
+        message += "Блип блоп"
+
+    message += "\n\n"
+
+    attachment_str = ""
+    print(photo_ids)
+    for i, each in enumerate(photo_ids):
+        attachment_str += each
+        if i < len(photo_ids)-1:
+            attachment_str += ","
+
+    print(attachment_str)
+
+    player_message = generate_player_data("")
+    message += player_message
+
+    message += "\n&#8265; Это сообщение было сгенерировано и отправлено автоматически. Данные Mobalytics и Riot Games &#8265;"
+    params = (
+        ('owner_id', '-196727308'),
+        ('from_group', '1'),
+        ('message', message),
+        ('attachments', attachment_str),
+        ('access_token', token),
+        ('v', '5.126'),
+        ('donut_paid_duration', 86400)
+    )
+
+    response = requests.get('https://api.vk.com/method/wall.post', params=params)
+    print(response)
+    
 if __name__ == "__main__":
     a = sys.argv[1]
     print(a)
     if a == "normal":
         generate_normal_post()
+    elif a == "donut":
+        generate_donut_post()
     else:
         print("Hi, hello!")
