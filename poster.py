@@ -130,7 +130,7 @@ def generate_donut_data(type):
         print(r["worstMatchups"])
 
         for each in r["worstMatchups"]:
-            if each["matchesCollected"] > 1000
+            if each["matchesCollected"] > 1000:
                 archetype = each
                 break
 
@@ -141,7 +141,7 @@ def generate_donut_data(type):
 
         r = r.json()
         for each in r["popularDecks"]:
-            if each["matchesCollected"] > 1000
+            if each["matchesCollected"] > 1000:
                 deck = each
                 break
 
