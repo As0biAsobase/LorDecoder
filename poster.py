@@ -7,6 +7,7 @@ import traceback
 from main import generate_image
 from database import DBConnection
 from lor_deckcodes import LoRDeck, CardCodeAndCount
+from deckchanges import get_highest_growth
 
 load_dotenv(find_dotenv())
 token = os.getenv("VKAPI_USER_TOKEN")
@@ -14,6 +15,50 @@ gid = '196727308'
 message = ""
 connection = DBConnection()
 
+def generate_deck_desc(code):
+    deck = LoRDeck.from_deckcode(code)
+    deck_name = ""
+    champions = []
+
+    for each in deck:
+        q, code = each.split(':')
+        q = int(q)
+
+        dict = connection.getCardByCode(code)
+
+        if dict["type"] == "Боец":
+            if dict["supertype"] == "Чемпион":
+                champions.append({"name" : dict["name"], "quantity" :  q})
+
+    for i, each in enumerate(champions):
+        deck_name += each["name"].split()[0]
+        if i < len(champions)-1:
+            deck_name += "-"
+
+    regions_str = ""
+    if len(my_deck["regions"]) > 1:
+        regions_str = " (%s/%s)" % (my_deck["regions"][0], my_deck["regions"][1])
+    else:
+        regions_str = " (%s)" % (my_deck["regions"][0])
+
+    deck_name += regions_str
+    print(deck_name)
+
+    winrate = round(my_deck["matchesWin"] / my_deck["matchesCollected"], 4) * 100
+    winrate = str(winrate)[0:5:]
+
+    response_str = "Колода: %s \nКод: %s \nМатчей сыграно: %s \nПобед: %s\nВинрейт: %s%%" % (deck_name, my_deck["cardsCode"], my_deck["matchesCollected"], my_deck["matchesWin"], winrate)
+
+    return response_str
+
+def generate_deck_changes():
+    result = get_highest_growth()
+    max_deck = result[0]
+
+    generate_image(["moba", max_deck["cardsCode"]], 0, connection, "/home/khun/LorDecoder/output/posting/rising_deck.png")
+    response_str = generate_deck_desc(max_deck["cardsCode"])
+
+    return response_str
 
 def generate_mobalytics_data(type):
     try:
@@ -41,38 +86,7 @@ def generate_mobalytics_data(type):
 
         generate_image(["moba", my_deck["cardsCode"]], 0, connection, location)
 
-        deck = LoRDeck.from_deckcode(my_deck["cardsCode"])
-        deck_name = ""
-        champions = []
-
-        for each in deck:
-            q, code = each.split(':')
-            q = int(q)
-
-            dict = connection.getCardByCode(code)
-
-            if dict["type"] == "Боец":
-                if dict["supertype"] == "Чемпион":
-                    champions.append({"name" : dict["name"], "quantity" :  q})
-
-        for i, each in enumerate(champions):
-            deck_name += each["name"].split()[0]
-            if i < len(champions)-1:
-                deck_name += "-"
-
-        regions_str = ""
-        if len(my_deck["regions"]) > 1:
-            regions_str = " (%s/%s)" % (my_deck["regions"][0], my_deck["regions"][1])
-        else:
-            regions_str = " (%s)" % (my_deck["regions"][0])
-
-        deck_name += regions_str
-        print(deck_name)
-
-        winrate = round(my_deck["matchesWin"] / my_deck["matchesCollected"], 4) * 100
-        winrate = str(winrate)[0:5:]
-
-        response_str = "Колода: %s \nКод: %s \nМатчей сыграно: %s \nПобед: %s\nВинрейт: %s%%" % (deck_name, my_deck["cardsCode"], my_deck["matchesCollected"], my_deck["matchesWin"], winrate)
+        response_str = generate_deck_desc(my_deck["cardsCode"])
 
         return response_str
     except:
@@ -84,6 +98,8 @@ def upload_image(type):
         location = "/home/khun/LorDecoder/output/posting/best_deck.png"
     elif type == "popular_deck":
         location = "/home/khun/LorDecoder/output/posting/popular_deck.png"
+    elif type == "rising_deck":
+        location = "/home/khun/LorDecoder/output/posting/rising_deck.png"
     else:
         location = "/home/khun/LorDecoder/output/posting/posting/deck.png"
 
@@ -146,52 +162,66 @@ def generate_player_data(message):
 
     return message
 
-photo_ids = []
+def generate_normal_post():
+    photo_ids = []
 
-message += "Лучшая колода на данный момент:\n"
-moba_message = generate_mobalytics_data("best_deck")
-print(moba_message)
-message += moba_message
-message += "\n"
-message += ("&#127385;" * 10)
-message += "\n"
-photo_ids.append(upload_image("best_deck"))
-# photo_ids.insert(0, upload_image("best_deck"))
+    message += "Колода с самым большим приростом винрейта за день:\n"
+    moba_message = generate_deck_changes()
+    print(moba_message)
+    message += moba_message
+    message += "\n"
+    message += ("&#127385;" * 10)
+    message += "\n"
+    photo_ids.append(upload_image("rising_deck"))
 
-message += "\n"
+    message += "\n"
 
-message += "Самая популярная колода на данный момент:\n"
-moba_message = generate_mobalytics_data("popular_deck")
-print(moba_message)
-message += moba_message
-message += "\n"
-message += ("&#127385;" * 10)
-message += "\n"
-photo_ids.append(upload_image("popular_deck"))
-# photo_ids.insert(0, upload_image("popular_deck"))
+    message += "Лучшая колода на данный момент:\n"
+    moba_message = generate_mobalytics_data("best_deck")
+    print(moba_message)
+    message += moba_message
+    message += "\n"
+    message += ("&#127385;" * 10)
+    message += "\n"
+    photo_ids.append(upload_image("best_deck"))
+    # photo_ids.insert(0, upload_image("best_deck"))
 
-message += "\n\n"
+    message += "\n"
 
-attachment_str = ""
-print(photo_ids)
-for i, each in enumerate(photo_ids):
-    attachment_str += each
-    if i < len(photo_ids)-1:
-        attachment_str += ","
+    message += "Самая популярная колода на данный момент:\n"
+    moba_message = generate_mobalytics_data("popular_deck")
+    print(moba_message)
+    message += moba_message
+    message += "\n"
+    message += ("&#127385;" * 10)
+    message += "\n"
+    photo_ids.append(upload_image("popular_deck"))
+    # photo_ids.insert(0, upload_image("popular_deck"))
 
-print(attachment_str)
+    message += "\n\n"
 
-player_message = generate_player_data("")
-message += player_message
+    attachment_str = ""
+    print(photo_ids)
+    for i, each in enumerate(photo_ids):
+        attachment_str += each
+        if i < len(photo_ids)-1:
+            attachment_str += ","
 
-message += "\n&#9940; Это сообщение было сгенерировано и отправлено автоматически. Данные Mobalytics и Riot Games &#9940;"
-params = (
-    ('owner_id', '-196727308'),
-    ('from_group', '1'),
-    ('message', message),
-    ('attachments', attachment_str),
-    ('access_token', token),
-    ('v', '5.126')
-)
+    print(attachment_str)
 
-response = requests.get('https://api.vk.com/method/wall.post', params=params)
+    player_message = generate_player_data("")
+    message += player_message
+
+    message += "\n&#9940; Это сообщение было сгенерировано и отправлено автоматически. Данные Mobalytics и Riot Games &#9940;"
+    params = (
+        ('owner_id', '-196727308'),
+        ('from_group', '1'),
+        ('message', message),
+        ('attachments', attachment_str),
+        ('access_token', token),
+        ('v', '5.126')
+    )
+
+    response = requests.get('https://api.vk.com/method/wall.post', params=params)
+
+generate_normal_post()

@@ -2,7 +2,7 @@ import json
 import requests
 
 def get_highest_growth():
-    jdata = json.loads(open("output/posting/yesterday_decks_matchesDesc.json",  encoding='utf-8').read())
+    jdata = json.loads(open("/home/khun/LorDecoder/output/posting/yesterday_decks_matchesDesc.json",  encoding='utf-8').read())
     jdata = jdata["decksStats"]
     filter = "matchesDesc"
     r = requests.get('https://lor.mobalytics.gg/api/v2/meta/statistics/decks?sortBy=%s&from=0&count=100&threshold=all' % (filter))
@@ -19,12 +19,12 @@ def get_highest_growth():
                 # print("It's a match!")
                 deck_winrate = round(deck["matchesWin"] / deck["matchesCollected"], 4) * 100
                 dict_winrate = round(dict["matchesWin"] / dict["matchesCollected"], 4) * 100
-
-                if deck_winrate > dict_winrate:
-                    # print("Growth!")
-                    if deck_winrate - dict_winrate > max_wr:
-                        max_deck = deck
-                        max_previous = dict
-                        max_wr = deck_winrate - dict_winrate
+                if dict_winrate > 50:
+                    if deck_winrate > dict_winrate:
+                        # print("Growth!")
+                        if deck_winrate - dict_winrate > max_wr:
+                            max_deck = deck
+                            max_previous = dict
+                            max_wr = deck_winrate - dict_winrate
 
     return [max_deck, max_previous]
