@@ -12,7 +12,6 @@ from deckchanges import get_highest_growth
 load_dotenv(find_dotenv())
 token = os.getenv("VKAPI_USER_TOKEN")
 gid = '196727308'
-message = ""
 connection = DBConnection()
 
 def generate_deck_desc(code):
@@ -164,6 +163,7 @@ def generate_player_data(message):
 
 def generate_normal_post():
     photo_ids = []
+    message = ""
 
     message += "Колода с самым большим приростом винрейта за день:\n"
     moba_message = generate_deck_changes()
