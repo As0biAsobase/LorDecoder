@@ -175,39 +175,46 @@ def generate_normal_post():
     photo_ids = []
     message = ""
 
-    r = generate_deck_changes()
-    message += "Колода с самым большим приростом винрейта за день (+%s%%):\n" % (r[1])
-    moba_message = r[0]
-    print(moba_message)
-    message += moba_message
-    message += "\n"
-    message += ("&#127385;" * 10)
-    message += "\n"
-    photo_ids.append(upload_image("rising_deck"))
+    try:
+        r = generate_deck_changes()
+        message += "Колода с самым большим приростом винрейта за день (+%s%%):\n" % (r[1])
+        moba_message = r[0]
+        print(moba_message)
+        message += moba_message
+        message += "\n"
+        message += ("&#10004;" * 10)
+        message += "\n"
+        photo_ids.append(upload_image("rising_deck"))
+    except:
+        message += "Блип блоп"
 
     message += "\n"
 
-    message += "Лучшая колода на данный момент:\n"
-    moba_message = generate_mobalytics_data("best_deck")
-    print(moba_message)
-    message += moba_message
-    message += "\n"
-    message += ("&#127385;" * 10)
-    message += "\n"
-    photo_ids.append(upload_image("best_deck"))
-    # photo_ids.insert(0, upload_image("best_deck"))
+    try:
+        message += "Лучшая колода на данный момент:\n"
+        moba_message = generate_mobalytics_data("best_deck")
+        print(moba_message)
+        message += moba_message
+        message += "\n"
+        message += ("&#10004;" * 10)
+        message += "\n"
+        photo_ids.append(upload_image("best_deck"))
+    except:
+        message += "Блип блоп"
 
     message += "\n"
 
-    message += "Самая популярная колода на данный момент:\n"
-    moba_message = generate_mobalytics_data("popular_deck")
-    print(moba_message)
-    message += moba_message
-    message += "\n"
-    message += ("&#127385;" * 10)
-    message += "\n"
-    photo_ids.append(upload_image("popular_deck"))
-    # photo_ids.insert(0, upload_image("popular_deck"))
+    try:
+        message += "Самая популярная колода на данный момент:\n"
+        moba_message = generate_mobalytics_data("popular_deck")
+        print(moba_message)
+        message += moba_message
+        message += "\n"
+        message += ("&#10004;" * 10)
+        message += "\n"
+        photo_ids.append(upload_image("popular_deck"))
+    except:
+        message += "Блип блоп"
 
     message += "\n\n"
 
@@ -223,7 +230,7 @@ def generate_normal_post():
     player_message = generate_player_data("")
     message += player_message
 
-    message += "\n&#9940; Это сообщение было сгенерировано и отправлено автоматически. Данные Mobalytics и Riot Games &#9940;"
+    message += "\n&#8265; Это сообщение было сгенерировано и отправлено автоматически. Данные Mobalytics и Riot Games &#8265;"
     params = (
         ('owner_id', '-196727308'),
         ('from_group', '1'),
@@ -235,4 +242,10 @@ def generate_normal_post():
 
     response = requests.get('https://api.vk.com/method/wall.post', params=params)
 
-generate_normal_post()
+if __name__ = "__main__":
+    a = sys.argv[1]
+    print(a)
+    if a == "normal":
+        generate_normal_post()
+    else:
+        print("Hi, hello!")
