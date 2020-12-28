@@ -53,12 +53,21 @@ def generate_deck_desc(my_deck):
 
 def generate_deck_changes():
     result = get_highest_growth()
+
     max_deck = result[0]
+    max_previous = result[1]
+
+    new_winrate = round(max_deck["matchesWin"] / max_deck["matchesCollected"], 4) * 100
+    old_winrate = round(max_previous["matchesWin"] / max_previous["matchesCollected"], 4) * 100
+
+    wr_diff = new_winrate - old_winrate
+    wr_diff = str(wr_diff)
+    wr_diff = wr_diff[0:5]
 
     generate_image(["moba", max_deck["cardsCode"]], 0, connection, "/home/khun/LorDecoder/output/posting/rising_deck.png")
     response_str = generate_deck_desc(max_deck)
 
-    return response_str
+    return [response_str, wr_diff]
 
 def generate_mobalytics_data(type):
     try:
@@ -166,8 +175,9 @@ def generate_normal_post():
     photo_ids = []
     message = ""
 
-    message += "Колода с самым большим приростом винрейта за день:\n"
-    moba_message = generate_deck_changes()
+    r = generate_deck_changes()
+    message += "Колода с самым большим приростом винрейта за день (+%s%%):\n" % (r[1])
+    moba_message = r[0]
     print(moba_message)
     message += moba_message
     message += "\n"
