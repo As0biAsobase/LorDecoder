@@ -14,10 +14,11 @@ token = os.getenv("VKAPI_USER_TOKEN")
 gid = '196727308'
 connection = DBConnection()
 
-def generate_deck_desc(code):
-    deck = LoRDeck.from_deckcode(code)
+def generate_deck_desc(my_deck):
+    deck = LoRDeck.from_deckcode(my_deck["cardsCode"])
     deck_name = ""
     champions = []
+    regions_str = ""
 
     for each in deck:
         q, code = each.split(':')
@@ -34,7 +35,7 @@ def generate_deck_desc(code):
         if i < len(champions)-1:
             deck_name += "-"
 
-    regions_str = ""
+
     if len(my_deck["regions"]) > 1:
         regions_str = " (%s/%s)" % (my_deck["regions"][0], my_deck["regions"][1])
     else:
@@ -55,7 +56,7 @@ def generate_deck_changes():
     max_deck = result[0]
 
     generate_image(["moba", max_deck["cardsCode"]], 0, connection, "/home/khun/LorDecoder/output/posting/rising_deck.png")
-    response_str = generate_deck_desc(max_deck["cardsCode"])
+    response_str = generate_deck_desc(max_deck)
 
     return response_str
 
@@ -85,7 +86,7 @@ def generate_mobalytics_data(type):
 
         generate_image(["moba", my_deck["cardsCode"]], 0, connection, location)
 
-        response_str = generate_deck_desc(my_deck["cardsCode"])
+        response_str = generate_deck_desc(my_deck)
 
         return response_str
     except:
