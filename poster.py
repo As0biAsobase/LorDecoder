@@ -242,7 +242,7 @@ def generate_normal_post():
 
     response = requests.get('https://api.vk.com/method/wall.post', params=params)
 
-if __name__ = "__main__":
+if __name__ == "__main__":
     a = sys.argv[1]
     print(a)
     if a == "normal":
