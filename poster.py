@@ -112,6 +112,10 @@ def generate_donut_data(type):
             location = "/home/khun/LorDecoder/output/posting/best_for_popular.png"
             filter = "matchesDesc"
             threshold = "all"
+        elif type == "best_for_best":
+            location = "/home/khun/LorDecoder/output/posting/best_deck.png"
+            filter = "winRateDesc"
+            threshold = ""
 
         r = requests.get('https://lor.mobalytics.gg/api/v2/meta/statistics/decks?sortBy=%s&from=0&count=500&threshold=%s' % (filter, threshold))
 
@@ -300,6 +304,18 @@ def generate_donut_post():
     message = ""
 
     try:
+        message += "Худший матчап лучшей колоды на данный момент:\n"
+        moba_message = generate_donut_data("best_for_best")
+        print(moba_message)
+        message += moba_message
+        message += "\n"
+        message += ("&#10004;" * 10)
+        message += "\n"
+        photo_ids.append(upload_image("best_for_best"))
+    except:
+        message += "Блип блоп"
+
+    try:
         message += "Худший матчап самой популярной колоды на данный момент:\n"
         moba_message = generate_donut_data("best_for_popular")
         print(moba_message)
@@ -322,7 +338,7 @@ def generate_donut_post():
 
     print(attachment_str)
 
-    message += "\n&#8265; Это сообщение было сгенерировано и отправлено автоматически. Данные Mobalytics и Riot Games &#8265;"
+    message += "\n&#8265; Это сообщение было сгенерировано для VK Donut и отправлено автоматически. Данные Mobalytics и Riot Games &#8265;"
     params = (
         ('owner_id', '-196727308'),
         ('from_group', '1'),
