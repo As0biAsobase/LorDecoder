@@ -113,7 +113,7 @@ def generate_donut_data(type):
             filter = "matchesDesc"
             threshold = "all"
         elif type == "best_for_best":
-            location = "/home/khun/LorDecoder/output/posting/best_deck.png"
+            location = "/home/khun/LorDecoder/output/posting/best_for_best.png"
             filter = "winRateDesc"
             threshold = ""
 
@@ -164,6 +164,8 @@ def upload_image(type):
         location = "/home/khun/LorDecoder/output/posting/popular_deck.png"
     elif type == "best_for_popular":
         location = "/home/khun/LorDecoder/output/posting/best_for_popular.png"
+    elif type == "best_for_best":
+        location = "/home/khun/LorDecoder/output/posting/best_for_best.png"
     elif type == "rising_deck":
         location = "/home/khun/LorDecoder/output/posting/rising_deck.png"
     else:
