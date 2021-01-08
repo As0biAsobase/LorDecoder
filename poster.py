@@ -348,7 +348,7 @@ def generate_donut_post():
         ('attachments', attachment_str),
         ('access_token', token),
         ('v', '5.126'),
-        ('donut_paid_duration', 86400)
+        ('donut_paid_duration', -1)
     )
 
     response = requests.get('https://api.vk.com/method/wall.post', params=params)
