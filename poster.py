@@ -286,8 +286,11 @@ def generate_normal_post():
 
     print(attachment_str)
 
-    player_message = generate_player_data("")
-    message += player_message
+    try:
+        player_message = generate_player_data("")
+        message += player_message
+    except:
+        message += "Не удалось получить данные игроков. Блип-блоп."
 
     message += "\n&#8265; Это сообщение было сгенерировано и отправлено автоматически. Данные Mobalytics и Riot Games &#8265;"
     params = (
