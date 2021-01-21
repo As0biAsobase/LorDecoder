@@ -201,7 +201,7 @@ def generate_player_data(message):
         "X-Riot-Token": os.getenv("RIOT_API_KEY")
     }
 
-    r = requests.get('https://europe.api.riotgames.com/lor/ranked/v1/leaderboards', headers=headers)
+    r = requests.get('https://www.perdere.ru:4444/api/v1/get_leaderboard')
 
     r = r.json()
     with open("/home/khun/LorDecoder/output/posting/yesterday_palyers.json", "w", encoding='utf-8') as fp:
