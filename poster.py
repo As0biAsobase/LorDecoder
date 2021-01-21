@@ -245,6 +245,7 @@ def generate_normal_post():
         message += "\n"
         photo_ids.append(upload_image("rising_deck"))
     except:
+        traceback.print_exc()
         message += "Блип блоп"
 
     message += "\n"
@@ -259,6 +260,7 @@ def generate_normal_post():
         message += "\n"
         photo_ids.append(upload_image("best_deck"))
     except:
+        traceback.print_exc()
         message += "Блип блоп"
 
     message += "\n"
@@ -273,6 +275,7 @@ def generate_normal_post():
         message += "\n"
         photo_ids.append(upload_image("popular_deck"))
     except:
+        traceback.print_exc()
         message += "Блип блоп"
 
     message += "\n\n"
@@ -290,6 +293,7 @@ def generate_normal_post():
         player_message = generate_player_data("")
         message += player_message
     except:
+        traceback.print_exc()
         message += "Не удалось получить данные игроков. Блип-блоп."
 
     message += "\n&#8265; Это сообщение было сгенерировано и отправлено автоматически. Данные Mobalytics и Riot Games &#8265;"
