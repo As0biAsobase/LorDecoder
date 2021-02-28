@@ -108,6 +108,9 @@ def generate_image(args, user_id, connection, location):
         logo = Image.open("/home/khun/LorDecoder/logos/okolo.png")
         logo = logo.resize((640, 360))
         background.paste(logo, (0, height-360), mask = logo)
+
+        follower_string = "Подписчики: "
+        landmark_string = "Достопримечательности: "
     elif user_id ==3015002:
         logo = Image.open("/home/khun/LorDecoder/logos/numi.png")
         logo = logo.resize((640, 360))
