@@ -15,9 +15,8 @@ def find_card(source, args, connection):
 
     type = "1"
     for each in args:
-
+        type_counter = 0
         if each.lower()[0] == "ы":
-            type_counter = 0
             for c in each:
                 if c.lower()[0] == "ы":
                     type_counter += 1
@@ -54,7 +53,8 @@ def find_card(source, args, connection):
 
     result = connection.getCodeByName(name)
 
-    result += "T%s" % (type_counter)
+    if type_counter > 0:
+        result += "T%s" % (type_counter)
 
     return result
 
