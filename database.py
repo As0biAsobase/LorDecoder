@@ -44,5 +44,30 @@ class DBConnection:
         result = result[0]
 
         return result
+
+    def getCodeByName(self, name):
+        result = self.client['natum-perdere']['cardsCollection'].find({ "name" : re.compile(name, re.IGNORECASE)})
+
+        result = list(result)
+
+        if len(result) == 0 and len(name) >= 3:
+            result = self.client['natum-perdere']['cardsCollection'].find({})
+            result = list(result)
+
+            min_distance = sys.maxsize
+            for each in result:
+                dif = distance(each["name"], name)
+                if dif == 1:
+                    result = each
+                    break
+                elif dif < min_distance:
+                    min_distance = dif
+                    result = each
+        else:
+            result = result[0]
+
+        result = result["cardCode"]
+
+        return result
 # connection = DBConnection()
 # connection.searchCard("Кровожадный василиск")

@@ -16,10 +16,13 @@ def find_card(source, args, connection):
     type = "1"
     for each in args:
 
-        if each.lower() == "лвл2":
-            type = "2"
-        elif each.lower() == "сигна":
-            type = "3"
+        if each.lower()[0] == "ы":
+            type_counter = 0
+            for c in each:
+                if c.lower()[0] == "ы":
+                    type_counter += 1
+                else:
+                    break
         elif each not in costs and not ("/" in each) and each != "пнг":
             name += each + " "
         elif each in costs and not ("/" in each):
@@ -36,6 +39,7 @@ def find_card(source, args, connection):
                 health = int(stats[1])
 
     print(name)
+    print(type_counter)
     print(cost)
     print(attack)
     print(health)
@@ -48,40 +52,10 @@ def find_card(source, args, connection):
 
     found = False
 
-    result = connection.searchCard(name,cost, attack, health)
-    
-    result = result["cardCode"]
-    # for dict in jdata:
-    #     # print((name in dict["name"].lower() or name == ""))
-    #     if (name == dict["name"].lower() or name == "") and (dict["level"] == type) and ((dict["cost"] == cost or cost is None) and (dict["attack"] == attack or attack is None) and (dict["health"] == health or health is None)):
-    #         result = dict["cardCode"]
-    #         found = True
-    #         break
-    #     elif (name in dict["name"].lower() or name == "") and (dict["level"] == type) and ((dict["cost"] == cost or cost is None) and (dict["attack"] == attack or attack is None) and (dict["health"] == health or health is None)):
-    #         result = dict["cardCode"]
-    #         found = True
-    #         break
-    #     elif (dict["cost"] == cost or cost is None) and (dict["level"] == type) and (dict["attack"] == attack or attack is None) and (dict["health"] == health or health is None) and (source == 0):
-    #         yo = distance(dict["name"], name)
-    #         if  yo < min_distance:
-    #             min_distance = yo
-    #             result = dict["cardCode"]
+    result = connection.getCodeByName(name)
 
-    # for dict in en_jdata:
-    #     if found:
-    #         break
-    #     # print((name in dict["name"].lower() or name == ""))
-    #     if (name == dict["name"].lower() or name == "") and (dict["level"] == type) and ((dict["cost"] == cost or cost is None) and (dict["attack"] == attack or attack is None) and (dict["health"] == health or health is None)):
-    #         result = dict["cardCode"]
-    #         break
-    #     elif (name in dict["name"].lower() or name == "") and (dict["level"] == type) and ((dict["cost"] == cost or cost is None) and (dict["attack"] == attack or attack is None) and (dict["health"] == health or health is None)):
-    #         result = dict["cardCode"]
-    #         break
-    #     elif (dict["cost"] == cost or cost is None) and (dict["level"] == type) and (dict["attack"] == attack or attack is None) and (dict["health"] == health or health is None) and (source == 0):
-    #         yo = distance(dict["name"], name)
-    #         if  yo < min_distance:
-    #             min_distance = yo
-    #             result = dict["cardCode"]
+    result += "T%s" % (type_counter)
+
     return result
 
 # find_card("Бодряч")
