@@ -10,6 +10,7 @@ import traceback
 import json
 from random import randrange, choice
 from deckchanges import get_highest_growth
+from card_guesser import genera_quiz
 from database import DBConnection
 
 class Commander:
@@ -106,7 +107,23 @@ class Commander:
                         traceback.print_exc()
                         if source == 0:
                             return ["Блип-блоп, глупый бот не нашёл карту", "", keyboard]
+                elif args[0].lower() in Command.guesser_list.value:
+                    try:
+                        code = find_card(source, args[1:], self.connection)
+                        # print('ru_ru/img/cards/' + code + '.png')
+                        if "пнг" in args:
+                            d = server.upload_card_file(sender["id"], code)
+                        else:
+                            d = server.upload_card_image(code)
 
+                        if source == 0:
+                            keyboard = "keyboards/default_keyboard.json"
+
+                        return["", d, keyboard]
+                    except:
+                        traceback.print_exc()
+                        if source == 0:
+                            return ["Блип-блоп, глупый бот не нашёл карту", "", keyboard]
                 elif args[0].lower() == "колода" and args[1].lower() == "рвущая":
                     try:
                         r = requests.get('https://lor.mobalytics.gg/api/v2/meta/statistics/decks?sortBy=winRateDesc&from=0&count=100')
