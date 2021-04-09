@@ -140,13 +140,13 @@ class Commander:
                                     text = "МОЛОДЕЦ!"
 
                                     result, rating = self.connection.getUserRating(sender["id"])
-                                    text += "\nТвой счёт: %s. Место: %s" % (score["score"], rating)
+                                    text += "\nТвой счёт: %s. Место: %s" % (result["score"], rating)
                                     self.guesser = None
                                 else:
                                     text = "Чел, ты..."
 
                                     result, rating = self.connection.getUserRating(sender["id"])
-                                    text += "\nТвой счёт: %s. Место: %s" % (score["score"], rating)
+                                    text += "\nТвой счёт: %s. Место: %s" % (result["score"], rating)
 
                             if source == 0:
                                 keyboard = "keyboards/default_keyboard.json"
