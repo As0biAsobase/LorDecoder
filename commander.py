@@ -117,9 +117,9 @@ class Commander:
                         if source != 0:
                             if self.guesser == None:
                                 randomize = random.random()
-                                if randomize < 0.34:
+                                if randomize < 0.25:
                                     source = "flavorText"
-                                elif randomize < 0.67:
+                                elif randomize < 0.5:
                                     source = "flavorText"
                                 else:
                                     source = "image"
