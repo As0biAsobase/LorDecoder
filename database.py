@@ -45,6 +45,18 @@ class DBConnection:
 
         return result
 
+    def getAllCards(self):
+        result = self.client['natum-perdere']['cardsCollection'].find({})
+        result = list(result)
+
+        return result
+
+    def getCardsByRegion(self, region):
+        result = self.client['natum-perdere']['cardsCollection'].find({ "region" : region})
+        result = list(result)
+
+        return result
+        
     def getCodeByName(self, name):
         result = self.client['natum-perdere']['cardsCollection'].find({ "name" : re.compile(name, re.IGNORECASE)})
 
