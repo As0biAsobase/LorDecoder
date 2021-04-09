@@ -117,6 +117,7 @@ class Server:
 
     def get_username_from_id(self, user_id):
         response = self.vk.users.get(user_ids=int(user_id))
+        response = response[0]
         return response["first_name"] + " " + response["last_name"]
 
     def get_chat_users(self, peer_id):
