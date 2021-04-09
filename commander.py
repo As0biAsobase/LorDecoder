@@ -111,17 +111,18 @@ class Commander:
                             return ["Блип-блоп, глупый бот не нашёл карту", "", keyboard]
                 elif args[0].lower() in Command.guesser_list.value:
                     try:
-                        if self.guesser == None:
-                            self.guesser = Guesser(source_id)
+                        if source != 0:
+                            if self.guesser == None:
+                                self.guesser = Guesser(source_id)
 
-                            self.guesser.generate_quiz(self.connection)
-                        else:
-                            return ["Сначала реши предыдущую загадку!", "", keyboard]
+                                self.guesser.generate_quiz(self.connection)
+                            else:
+                                return ["Сначала реши предыдущую загадку!", "", keyboard]
 
-                        if source == 0:
-                            keyboard = "keyboards/default_keyboard.json"
+                            if source == 0:
+                                keyboard = "keyboards/default_keyboard.json"
 
-                        return[self.guesser.question, "", keyboard]
+                            return[self.guesser.question, "", keyboard]
                     except:
                         traceback.print_exc()
                         if source == 0:
@@ -129,19 +130,20 @@ class Commander:
 
                 elif args[0].lower() in Command.make_a_guess_list.value:
                     try:
-                        if self.guesser == None:
-                            return ["Сначала реши предыдущую загадку!", "", keyboard]
-                        else:
-                            if self.guesser.make_a_guess(args[1]) == True:
-                                text = "МОЛОДЕЦ!"
-                                self.guesser = None
+                        if source != 0:
+                            if self.guesser == None:
+                                return ["!", "Я ещё ничего не загодал...", keyboard]
                             else:
-                                text = "Чел, ты..."
+                                if self.guesser.make_a_guess(args[1]) == True:
+                                    text = "МОЛОДЕЦ!"
+                                    self.guesser = None
+                                else:
+                                    text = "Чел, ты..."
 
-                        if source == 0:
-                            keyboard = "keyboards/default_keyboard.json"
+                            if source == 0:
+                                keyboard = "keyboards/default_keyboard.json"
 
-                        return[text, "", keyboard]
+                            return[text, "", keyboard]
                     except:
                         traceback.print_exc()
                         if source == 0:

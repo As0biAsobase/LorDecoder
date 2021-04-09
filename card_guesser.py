@@ -30,7 +30,7 @@ class Guesser:
 
 
     def generate_question(self):
-        question  = self.correct_answer["flavorText"]
+        question  = self.obfuscate_text(self.correct_answer["flavorText"])
         question += "\n Варианты ответа:"
 
         for i in range(len(self.options)):
@@ -44,6 +44,17 @@ class Guesser:
 
             question += "\n %s. %s" % (i+1, self.options[i]["name"])
         return question
+
+    def obfuscate_text(self, text):
+        text = text.split()
+        new_text = ""
+        for each in text:
+            if random.random() < 0.25:
+                new_text += "*** "
+            else:
+                new_text += each + " "
+
+        return new_text
 
     def make_a_guess(self, guess):
         if len(guess) == 1:
