@@ -1,17 +1,20 @@
 from command_enum import Command
 from mode_enum import Mode
-import re
 from main import generate_image
 from cardsearch import find_card
 from meta_stats import query_archetype_wr
 from calculator import Calculator
-import requests
-import traceback
-import json
-from random import randrange, choice
 from deckchanges import get_highest_growth
 from card_guesser import Guesser
 from database import DBConnection
+
+import requests
+import traceback
+import json
+import re
+import random
+from random import randrange, choice
+
 
 class Commander:
 
