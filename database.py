@@ -59,7 +59,7 @@ class DBConnection:
         return result
 
     def getUserLeaderboard(self):
-        result = self.client['natum-perdere']['userLeaderboard'].find({}).sort( {"score" : pymongo.DESCENDING })
+        result = self.client['natum-perdere']['userLeaderboard'].find({}).sort( "score" : pymongo.DESCENDING )
         result = list(result)
 
         return result
