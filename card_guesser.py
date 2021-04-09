@@ -26,7 +26,7 @@ class Guesser:
             question += "\n %s. %s" % (i+1, self.options[i]["name"])
         return question
 
-    def make_a_guess(self. guess):
+    def make_a_guess(self, guess):
         if len(guess) == 1:
             position = int(guess) - 1
             if self.options[position] == self.correct_answer:
