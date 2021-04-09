@@ -52,7 +52,7 @@ class Guesser:
             self.increase = 2
             self.decrease = 1
 
-            image = image.filter(ImageFilter.GaussianBlur(radius=5))
+            image = image.filter(ImageFilter.GaussianBlur(radius=3))
         elif randomize < 0.90:
             self.increase = 1
             self.decrease = 0
@@ -65,7 +65,7 @@ class Guesser:
             self.increase = 20
             self.decrease = 19
 
-            image = image.filter(ImageFilter.GaussianBlur(radius=5))
+            image = image.filter(ImageFilter.GaussianBlur(radius=3))
             image = ImageOps.grayscale(image)
 
         if self.correct_answer["type"] == "Боец":
