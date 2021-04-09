@@ -44,7 +44,7 @@ class Guesser:
 
     def generate_image(self):
         image = Image.open("/home/khun/LorDecoder/ru_ru/img/cards/%s-full.png" % (self.correct_answer["cardCode"]))
-        image.save(background.save('output/quiz.png'))
+        image.save('output/quiz.png')
 
     def generate_question(self):
         if self.source == "image":
