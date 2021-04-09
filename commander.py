@@ -144,6 +144,9 @@ class Commander:
                                     self.guesser = None
                                 else:
                                     text = "Чел, ты..."
+                                    
+                                    score = self.connection.getUserRating(sender["id"])["score"]
+                                    text += "\nТвой счёт: %s" % (score)
 
                             if source == 0:
                                 keyboard = "keyboards/default_keyboard.json"

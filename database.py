@@ -68,7 +68,7 @@ class DBConnection:
         if len(list(result)) == 0:
             self.client['natum-perdere']['userLeaderboard'].insertOne({ "user" : user_id, "score" : 1})
         else:
-            self.client['natum-perdere']['userLeaderboard'].update( { "user" : user_id }, {$inc: { "score" : 1}});
+            self.client['natum-perdere']['userLeaderboard'].update( { "user" : user_id }, {$inc: { "score" : 1}})
 
     def getUserRating(self, user_id):
         result = self.client['natum-perdere']['userLeaderboard'].find({ "user" : user_id})
@@ -77,7 +77,7 @@ class DBConnection:
         result = result[0]
 
         return result
-        
+
     def getCodeByName(self, name):
         result = self.client['natum-perdere']['cardsCollection'].find({ "name" : re.compile(name, re.IGNORECASE)})
 
