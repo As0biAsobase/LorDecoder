@@ -134,7 +134,7 @@ class Commander:
                                     d = ""
                                 else:
                                     self.guesser.generate_image_quiz(self.connection)
-                                    d = server.upload_quiz_image(code)
+                                    d = server.upload_quiz_image()
                             else:
                                 return ["Сначала реши предыдущую загадку!", "", keyboard]
 
