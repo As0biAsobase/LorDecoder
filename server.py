@@ -55,8 +55,8 @@ class Server:
                         now = datetime.now()
                         dt_string = now.strftime("%d/%m/%Y %H:%M:%S")
 
-                        if event.message.from_id not in self.users:
-                            self.users[event.message.from_id] = Commander()
+                        if event.message.peer_id not in self.users:
+                            self.users[event.message.peer_id] = Commander()
 
                         print("%s Users since last restart: %s, messages since last restart:%s" % (dt_string, len(self.users), self.msg_counter))
 
@@ -64,9 +64,9 @@ class Server:
                             # print(event.message.from_id)
                             sender = self.vk.users.get(user_ids = (event.message.from_id))
                             sender = sender[0]
-                            # print(self.users[event.object.from_id].input(self, event.message.text, sender, event.message.peer_id))
+                            print([event.message.peer_id, event.message.from_id])
                             self.send_msg(event.message.peer_id,
-                                      self.users[event.message.from_id].input(self, event.message.text, sender, event.message.peer_id))
+                                      self.users[event.message.peer_id].input(self, event.message.text, sender, event.message.peer_id))
 
             except requests.exceptions.ReadTimeout:
                 print("\n Переподключение к серверам ВК \n")

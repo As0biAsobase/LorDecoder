@@ -112,9 +112,10 @@ class Commander:
                 elif args[0].lower() in Command.guesser_list.value:
                     try:
                         if self.guesser == None:
-                            self.guesser = Guesser()
+                            self.guesser = Guesser(source_id)
+
                             self.guesser.generate_quiz(self.connection)
-                        else:
+                        else :
                             return ["Сначала реши предыдущую загадку!", "", keyboard]
 
                         if source == 0:

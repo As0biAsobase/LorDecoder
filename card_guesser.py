@@ -3,7 +3,8 @@ import re
 
 class Guesser:
 
-    def __init__(self):
+    def __init__(self, chat):
+        self.chat = chat
         self.correct_answer = None
         self.options = []
         self.question = ""
@@ -18,7 +19,7 @@ class Guesser:
 
 
     def generate_question(self):
-        question  = re.sub("[^\w\-\/]", " ", self.correct_answer["flavorText"]).split()
+        question  = self.correct_answer["flavorText"]
         question += "\n Варианты ответа:"
 
         for i in range(len(self.options)):
