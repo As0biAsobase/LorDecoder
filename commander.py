@@ -116,17 +116,27 @@ class Commander:
                     try:
                         if source != 0:
                             if self.guesser == None:
-                                if random.random() < 0.0:
+                                randomize = random.random()
+                                if randomize < 0.34:
+                                    source = "flavorText"
+                                elif randomize < 0.67:
                                     source = "flavorText"
                                 else:
                                     source = "image"
 
-                                if random.random() < 0.34:
+                                randomize = random.random()
+                                if randomize < 0.34:
                                     increase = 2
                                     decrease = 1
-                                else:
+                                elif randomize < 0.90:
                                     increase = 1
                                     decrease = 0
+                                elif randomize < 0.99:
+                                    increase = 5
+                                    decrease = 4
+                                else:
+                                    increase = 20
+                                    decrease = 19
 
                                 self.guesser = Guesser(source_id, increase, decrease, source)
                                 if source != "image":
