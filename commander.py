@@ -129,7 +129,7 @@ class Commander:
                                     decrease = 0
 
                                 self.guesser = Guesser(source_id, increase, decrease, source)
-                                if source != "image"
+                                if source != "image":
                                     self.guesser.generate_text_quiz(self.connection)
                                     d = ""
                                 else:
