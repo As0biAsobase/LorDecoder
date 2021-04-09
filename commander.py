@@ -132,7 +132,7 @@ class Commander:
                     try:
                         if source != 0:
                             if self.guesser == None:
-                                return ["!", "Я ещё ничего не загодал...", keyboard]
+                                return ["Я ещё ничего не загадал...!", "", keyboard]
                             else:
                                 if self.guesser.make_a_guess(args[1]) == True:
                                     self.connection.increaseUserRating(sender["id"])
@@ -147,6 +147,24 @@ class Commander:
 
                                     result, rating = self.connection.getUserRating(sender["id"])
                                     text += "\nТвой счёт: %s. Место: %s" % (result["score"], rating)
+
+                            if source == 0:
+                                keyboard = "keyboards/default_keyboard.json"
+
+                            return[text, "", keyboard]
+                    except:
+                        traceback.print_exc()
+                        if source == 0:
+                            return ["Блип-блоп, глупый бот смог создать викторину", "", keyboard]
+
+                elif args[0].lower() in Command.show_leaderboard_list.value:
+                    try:
+                        if source != 0:
+                            leaderboard = self.connection.getUserLeaderboard()
+                            text = ""
+
+                            for i in range(10):
+                                text += "%s. %s : %s \n" % (i+1, server.get_username_from_id(leaderboard[i]["user"]), leaderboard[i]["score"])
 
                             if source == 0:
                                 keyboard = "keyboards/default_keyboard.json"
