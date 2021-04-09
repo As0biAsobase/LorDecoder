@@ -164,7 +164,9 @@ class Commander:
                             text = ""
 
                             for i in range(min(10, len(leaderboard))):
-                                text += "%s. %s : %s \n" % (i+1, server.get_username_from_id(leaderboard[i]["user"]), leaderboard[i]["score"])
+                                user = server.get_user_from_id(leaderboard[i]["user"])
+
+                                text += "%s. @id%s (%s): %s \n" % (i+1, user["id"], user["first_name"], leaderboard[i]["score"])
 
                             if source == 0:
                                 keyboard = "keyboards/default_keyboard.json"
