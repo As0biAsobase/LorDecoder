@@ -113,7 +113,19 @@ class Commander:
                     try:
                         if source != 0:
                             if self.guesser == None:
-                                self.guesser = Guesser(source_id)
+                                if random.random() < 0.66:
+                                    source = "flavorText"
+                                else:
+                                    source = "descriptionRaw"
+
+                                if random.random() < 0.34:
+                                    increase = 2
+                                    decrease = 1
+                                else:
+                                    increase = 1
+                                    decrease = 0
+
+                                self.guesser = Guesser(source_id, increase, decrease, source)
 
                                 self.guesser.generate_quiz(self.connection)
                             else:
@@ -135,7 +147,7 @@ class Commander:
                                 return ["Я ещё ничего не загадал...!", "", keyboard]
                             else:
                                 if self.guesser.make_a_guess(args[1]) == True:
-                                    self.connection.increaseUserRating(sender["id"])
+                                    self.connection.increaseUserRating(sender["id"], self.guesser.increase)
 
                                     text = "МОЛОДЕЦ!"
 
@@ -143,7 +155,7 @@ class Commander:
                                     text += "\nТвой счёт: %s. Место: %s" % (result["score"], rating)
                                     self.guesser = None
                                 else:
-                                    self.connection.decreaseUserRating(sender["id"])
+                                    self.connection.decreaseUserRating(sender["id"], self.guesser.decrease)
                                     text = "Чел, ты..."
 
                                     result, rating = self.connection.getUserRating(sender["id"])

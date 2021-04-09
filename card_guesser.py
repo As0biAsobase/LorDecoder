@@ -14,11 +14,15 @@ class Guesser:
         "Шурима"
     ]
 
-    def __init__(self, chat):
+    def __init__(self, chat, increase, decrease, source):
         self.chat = chat
         self.correct_answer = None
         self.options = []
         self.question = ""
+
+        self.increase = increase
+        self.decrease = decrease
+        self.source = source
         pass
 
     def generate_quiz(self, connection):
@@ -30,7 +34,13 @@ class Guesser:
 
 
     def generate_question(self):
-        question  = self.obfuscate_text(self.correct_answer["flavorText"])
+        if self.source == "flavorText":
+            question = "Флавор:\n"
+            question += self.obfuscate_text(self.correct_answer["flavorText"])
+        else:
+            question = "Описание:\n"
+            question += self.obfuscate_text(self.correct_answer["descriptionRaw"])
+        question += "+%s/-%s" % (self.increase, self.decrease)
         question += "\n Варианты ответа:"
 
         for i in range(len(self.options)):

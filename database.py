@@ -64,17 +64,19 @@ class DBConnection:
 
         return result
 
-    def decreaseUserRating(self, user_id):
+    def decreaseUserRating(self, user_id, decrease):
         result = self.client['natum-perdere']['userLeaderboard'].find({ "user" : user_id})
         if len(list(result)) == 0:
             self.client['natum-perdere']['userLeaderboard'].insert({ "user" : user_id, "score" : 0})
+        else:
+            self.client['natum-perdere']['userLeaderboard'].update( { "user" : user_id }, { '$inc': { "score" : decrease}})
 
-    def increaseUserRating(self, user_id):
+    def increaseUserRating(self, user_id, increase):
         result = self.client['natum-perdere']['userLeaderboard'].find({ "user" : user_id})
         if len(list(result)) == 0:
             self.client['natum-perdere']['userLeaderboard'].insert({ "user" : user_id, "score" : 1})
         else:
-            self.client['natum-perdere']['userLeaderboard'].update( { "user" : user_id }, { '$inc': { "score" : 1}})
+            self.client['natum-perdere']['userLeaderboard'].update( { "user" : user_id }, { '$inc': { "score" : increase}})
 
     def getUserRating(self, user_id):
         result = self.client['natum-perdere']['userLeaderboard'].find({ "user" : user_id})
