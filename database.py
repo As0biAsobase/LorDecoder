@@ -64,6 +64,11 @@ class DBConnection:
 
         return result
 
+    def decreaseUserRating(self, user_id):
+        result = self.client['natum-perdere']['userLeaderboard'].find({ "user" : user_id})
+        if len(list(result)) == 0:
+            self.client['natum-perdere']['userLeaderboard'].insert({ "user" : user_id, "score" : 0})
+
     def increaseUserRating(self, user_id):
         result = self.client['natum-perdere']['userLeaderboard'].find({ "user" : user_id})
         if len(list(result)) == 0:

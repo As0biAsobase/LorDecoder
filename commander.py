@@ -143,6 +143,7 @@ class Commander:
                                     text += "\nТвой счёт: %s. Место: %s" % (result["score"], rating)
                                     self.guesser = None
                                 else:
+                                    self.connection.decreaseUserRating(sender["id"])
                                     text = "Чел, ты..."
 
                                     result, rating = self.connection.getUserRating(sender["id"])
