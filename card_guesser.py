@@ -22,7 +22,7 @@ class Guesser:
         pass
 
     def generate_quiz(self, connection):
-        card_list = connection.getCardsByRegion(random.choice(factions))
+        card_list = connection.getCardsByRegion(random.choice(Guesser.factions))
         self.options = random.sample(card_list, 4)
         self.correct_answer = random.choice(self.options)
 
