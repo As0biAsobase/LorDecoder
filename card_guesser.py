@@ -34,7 +34,7 @@ class Guesser:
         question += "\n Варианты ответа:"
 
         for i in range(len(self.options)):
-            if self.options[i]["supertype"] == "Чемпион":
+            if self.options[i]["supertype"] == "Чемпион" and self.options[i]["type"] == "Боец":
                 if len(self.options[i]["cardCode"]) > 6:
                     name = self.options[i]["name"] + " 2"
                 else:
@@ -49,7 +49,7 @@ class Guesser:
         text = text.split()
         new_text = ""
         for each in text:
-            if random.random() < 0.25:
+            if random.random() < 0.25 and each != "–":
                 new_text += "*** "
             else:
                 new_text += each + " "

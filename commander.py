@@ -135,7 +135,12 @@ class Commander:
                                 return ["!", "Я ещё ничего не загодал...", keyboard]
                             else:
                                 if self.guesser.make_a_guess(args[1]) == True:
+                                    self.connection.increaseUserRating(sender["id"])
+
                                     text = "МОЛОДЕЦ!"
+
+                                    score = self.connection.getUserRating(sender["id"])["score"]
+                                    text += "\nТвой счёт: %s" % (score)
                                     self.guesser = None
                                 else:
                                     text = "Чел, ты..."
