@@ -1,5 +1,7 @@
 import random
 import re
+from PIL import Image
+import PIL.ImageDraw as ImageDraw
 
 class Guesser:
     factions = [
@@ -25,16 +27,29 @@ class Guesser:
         self.source = source
         pass
 
-    def generate_quiz(self, connection):
+    def generate_text_quiz(self, connection):
         card_list = connection.getCardsByRegion(random.choice(Guesser.factions))
         self.options = random.sample(card_list, 4)
         self.correct_answer = random.choice(self.options)
 
         self.question = self.generate_question()
 
+    def generate_image_quiz(self, connection):
+        card_list = connection.getCardsByRegion(random.choice(Guesser.factions))
+        self.options = random.sample(card_list, 4)
+        self.correct_answer = random.choice(self.options)
+
+        self.generate_image()
+        self.question = self.generate_question()
+
+    def generate_image(self):
+        image = Image.open("/home/khun/LorDecoder/ru_ru/img/%s-full.png" % (self.correct_answer["cardCode"]))
+        image.save(background.save('output/quiz.png'))
 
     def generate_question(self):
-        if self.source == "flavorText":
+        if self.source == "image":
+            question = "Изображение:\n"
+        elif self.source == "flavorText":
             question = "Флавор:\n"
             question += self.obfuscate_text(self.correct_answer["flavorText"])
         else:

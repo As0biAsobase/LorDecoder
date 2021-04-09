@@ -111,6 +111,14 @@ class Server:
         d = "doc{}_{}".format(c["doc"]["owner_id"], c["doc"]["id"])
         return d
 
+    def upload_quiz_image(self):
+        server = self.vk.photos.getMessagesUploadServer()
+        b = requests.post(server['upload_url'], files={'photo': open('output/quiz.png', 'rb')}).json()
+        params = {'photo': b['photo'], 'server': b['server'], 'hash': b['hash']}
+        c = self.vk.photos.saveMessagesPhoto(**params)[0]
+        d = "photo{}_{}".format(c["owner_id"], c["id"])
+        return d
+        
     def test(self):
         # Посылаем сообщение пользователю с указанным ID
         self.send_msg(151646757, "Привет-привет!")

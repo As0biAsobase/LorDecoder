@@ -116,10 +116,10 @@ class Commander:
                     try:
                         if source != 0:
                             if self.guesser == None:
-                                if random.random() < 0.66:
+                                if random.random() < 0.0:
                                     source = "flavorText"
                                 else:
-                                    source = "descriptionRaw"
+                                    source = "image"
 
                                 if random.random() < 0.34:
                                     increase = 2
@@ -129,15 +129,19 @@ class Commander:
                                     decrease = 0
 
                                 self.guesser = Guesser(source_id, increase, decrease, source)
-
-                                self.guesser.generate_quiz(self.connection)
+                                if source != "image"
+                                    self.guesser.generate_text_quiz(self.connection)
+                                    d = ""
+                                else:
+                                    self.guesser.generate_image_quiz(self.connection)
+                                    d = server.upload_quiz_image(code)
                             else:
                                 return ["Сначала реши предыдущую загадку!", "", keyboard]
 
                             if source == 0:
                                 keyboard = "keyboards/default_keyboard.json"
 
-                            return[self.guesser.question, "", keyboard]
+                            return[self.guesser.question, d, keyboard]
                     except:
                         traceback.print_exc()
                         if source == 0:
