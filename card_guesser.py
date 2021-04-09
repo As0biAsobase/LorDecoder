@@ -2,6 +2,17 @@ import random
 import re
 
 class Guesser:
+    factions = [
+        "Иония",
+        "Ноксус",
+        "Демасия",
+        "Пилтовер и Заун",
+        "Фрельйорд",
+        "Сумрачные острова",
+        "Билджвотер",
+        "Таргон",
+        "Шурима"
+    ]
 
     def __init__(self, chat):
         self.chat = chat
@@ -11,7 +22,7 @@ class Guesser:
         pass
 
     def generate_quiz(self, connection):
-        card_list = connection.getAllCards()
+        card_list = connection.getCardsByRegion(random.choice(factions))
         self.options = random.sample(card_list, 4)
         self.correct_answer = random.choice(self.options)
 
@@ -23,6 +34,14 @@ class Guesser:
         question += "\n Варианты ответа:"
 
         for i in range(len(self.options)):
+            if self.options[i]["supertype"] == "Чемпион":
+                if len(self.options[i]["cardCode"]) > 6:
+                    name = self.options[i]["name"] + " 2"
+                else:
+                    name = self.options[i]["name"]
+            else:
+                name = self.options[i]["name"]
+
             question += "\n %s. %s" % (i+1, self.options[i]["name"])
         return question
 
