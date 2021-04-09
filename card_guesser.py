@@ -13,7 +13,7 @@ class Guesser:
         self.options = random.sample(card_list, 4)
         self.correct_answer = random.choice(self.options)
 
-        self.question = selfgenerate_question():
+        self.question = self.generate_question()
 
     def generate_question(self):
         question  = re.sub("[^\w\-\/]", " ", self.correct_answer["flavorText"]).split()
