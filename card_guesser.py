@@ -40,7 +40,7 @@ class Guesser:
         else:
             question = "Описание:\n"
             question += self.obfuscate_text(self.correct_answer["descriptionRaw"])
-        question += "+%s/-%s" % (self.increase, self.decrease)
+        question += "\n+%s/-%s" % (self.increase, self.decrease)
         question += "\n Варианты ответа:"
 
         for i in range(len(self.options)):
