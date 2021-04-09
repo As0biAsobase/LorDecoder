@@ -42,7 +42,7 @@ class Guesser:
             else:
                 name = self.options[i]["name"]
 
-            question += "\n %s. %s" % (i+1, self.options[i]["name"])
+            question += "\n %s. %s" % (i+1, name)
         return question
 
     def obfuscate_text(self, text):
