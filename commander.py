@@ -124,7 +124,7 @@ class Commander:
                     except:
                         traceback.print_exc()
                         if source == 0:
-                            return ["Блип-блоп, глупый бот не нашёл карту", "", keyboard]
+                            return ["Блип-блоп, глупый бот смог создать викторину", "", keyboard]
                 elif args[0].lower() == "колода" and args[1].lower() == "рвущая":
                     try:
                         r = requests.get('https://lor.mobalytics.gg/api/v2/meta/statistics/decks?sortBy=winRateDesc&from=0&count=100')
