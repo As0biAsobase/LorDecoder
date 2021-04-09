@@ -1,4 +1,4 @@
-from pymongo import MongoClient
+from pymongo import MongoClient, DESCENDING
 from dotenv import load_dotenv, find_dotenv
 from Levenshtein import distance
 import os
@@ -58,7 +58,7 @@ class DBConnection:
         return result
 
     def getUserLeaderboard(self):
-        result = self.client['natum-perdere']['userLeaderboard'].find({}).sort( {'score' : -1 })
+        result = self.client['natum-perdere']['userLeaderboard'].find({}).sort( {'score' : DESCENDING })
         result = list(result)
 
         return result
