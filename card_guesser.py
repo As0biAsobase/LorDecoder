@@ -6,7 +6,7 @@ class Guesser:
     def __init__(self):
         self.correct_answer = None
         self.options = []
-        self.question = []
+        self.question = ""
         pass
 
     def generate_quiz(self, connection):
