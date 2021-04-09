@@ -64,7 +64,7 @@ class Server:
                             # print(event.message.from_id)
                             sender = self.vk.users.get(user_ids = (event.message.from_id))
                             sender = sender[0]
-                            print([event.message.peer_id, event.message.from_id])
+                            # print([event.message.peer_id, event.message.from_id])
                             self.send_msg(event.message.peer_id,
                                       self.users[event.message.peer_id].input(self, event.message.text, sender, event.message.peer_id))
 

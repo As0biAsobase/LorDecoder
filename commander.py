@@ -163,7 +163,7 @@ class Commander:
                             leaderboard = self.connection.getUserLeaderboard()
                             text = ""
 
-                            for i in range(10):
+                            for i in range(min(10, len(leaderboard))):
                                 text += "%s. %s : %s \n" % (i+1, server.get_username_from_id(leaderboard[i]["user"]), leaderboard[i]["score"])
 
                             if source == 0:
