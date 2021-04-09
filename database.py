@@ -58,7 +58,7 @@ class DBConnection:
         return result
 
     def getUserLeaderboard(self):
-        result = self.client['natum-perdere']['userLeaderboard'].find({})
+        result = self.client['natum-perdere']['userLeaderboard'].find({}).sort( {'score' : -1 })
         result = list(result)
 
         return result
@@ -76,7 +76,16 @@ class DBConnection:
         result = list(result)
         result = result[0]
 
-        return result
+        table = self.getUserLeaderboard()
+
+        rating = -1
+
+        for i in range(len(table)):
+            if table[i]["user"] == user_id:
+                rating = i+1
+                break
+
+        return [result, rating]
 
     def getCodeByName(self, name):
         result = self.client['natum-perdere']['cardsCollection'].find({ "name" : re.compile(name, re.IGNORECASE)})
