@@ -124,19 +124,8 @@ class Commander:
                                 else:
                                     source = "image"
 
-                                randomize = random.random()
-                                if randomize < 0.34:
-                                    increase = 2
-                                    decrease = 1
-                                elif randomize < 0.90:
-                                    increase = 1
-                                    decrease = 0
-                                elif randomize < 0.99:
-                                    increase = 5
-                                    decrease = 4
-                                else:
-                                    increase = 20
-                                    decrease = 19
+                                increase = 1
+                                decrease = 0
 
                                 self.guesser = Guesser(source_id, increase, decrease, source)
                                 if source != "image":

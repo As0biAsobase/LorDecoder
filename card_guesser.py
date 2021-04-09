@@ -1,6 +1,7 @@
 import random
 import re
-from PIL import Image
+from PIL import Image, ImageOps
+from PIL import ImageFilter
 import PIL.ImageDraw as ImageDraw
 
 class Guesser:
@@ -45,6 +46,28 @@ class Guesser:
     def generate_image(self):
         image = Image.open("/home/khun/LorDecoder/ru_ru/img/cards/%s-full.png" % (self.correct_answer["cardCode"]))
         width, height = image.size
+
+        randomize = random.random()
+        if randomize < 0.34:
+            self.increase = 2
+            self.decrease = 1
+
+            image = image.filter(ImageFilter.GaussianBlur(radius=2))
+        elif randomize < 0.90:
+            self.increase = 1
+            self.decrease = 0
+        elif randomize < 0.98:
+            self.increase = 5
+            self.decrease = 4
+
+            image = ImageOps.grayscale(image)
+        else:
+            self.increase = 20
+            self.decrease = 19
+
+            image = image.filter(ImageFilter.GaussianBlur(radius=2))
+            image = ImageOps.grayscale(image)
+
         if self.correct_answer["type"] == "Боец":
             starting_width = random.randrange(0, width*0.875)
             starting_height = random.randrange(0, height*0.875)
@@ -81,10 +104,34 @@ class Guesser:
         return question
 
     def obfuscate_text(self, text):
+        randomize = random.random()
+        chance_value = 0.25
+        if randomize < 0.34:
+            self.increase = 2
+            self.decrease = 1
+            chance_value = 0.3
+
+        elif randomize < 0.90:
+            self.increase = 1
+            self.decrease = 0
+
+            chance_value = 0.25
+        elif randomize < 0.98:
+            self.increase = 5
+            self.decrease = 4
+
+            chance_value = 0.5
+        else:
+            self.increase = 20
+            self.decrease = 19
+
+            text = text[::-1]
+            chance_value = 0
+
         text = text.split()
         new_text = ""
         for each in text:
-            if random.random() < 0.25 and each != "–":
+            if random.random() < chance_value and each != "–":
                 new_text += "*** "
             else:
                 new_text += each + " "
