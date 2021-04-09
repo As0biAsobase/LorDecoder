@@ -115,13 +115,33 @@ class Commander:
                             self.guesser = Guesser(source_id)
 
                             self.guesser.generate_quiz(self.connection)
-                        else :
+                        else:
                             return ["Сначала реши предыдущую загадку!", "", keyboard]
 
                         if source == 0:
                             keyboard = "keyboards/default_keyboard.json"
 
                         return[self.guesser.question, "", keyboard]
+                    except:
+                        traceback.print_exc()
+                        if source == 0:
+                            return ["Блип-блоп, глупый бот смог создать викторину", "", keyboard]
+
+                elif args[0].lower() in Command.make_a_guess_list.value:
+                    try:
+                        if self.guesser == None:
+                            return ["Сначала реши предыдущую загадку!", "", keyboard]
+                        else:
+                            if self.guesser.make_a_guess(args[1]) == True:
+                                text = "МОЛОДЕЦ!"
+                                self.guesser = None
+                            else:
+                                text = "Чел, ты..."
+
+                        if source == 0:
+                            keyboard = "keyboards/default_keyboard.json"
+
+                        return[text, "", keyboard]
                     except:
                         traceback.print_exc()
                         if source == 0:
