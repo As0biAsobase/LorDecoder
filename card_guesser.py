@@ -45,10 +45,14 @@ class Guesser:
     def generate_image(self):
         image = Image.open("/home/khun/LorDecoder/ru_ru/img/cards/%s-full.png" % (self.correct_answer["cardCode"]))
         width, height = image.size
-        starting_width = random.randrange(0, width*0.875)
-        starting_height = random.randrange(0, height*0.875)
-
-        image = image.crop((starting_width, starting_height, starting_width+width*0.125, starting_height+height*0.125))
+        if self.correct_answer["type"] == "Боец":
+            starting_width = random.randrange(0, width*0.875)
+            starting_height = random.randrange(0, height*0.875)
+            image = image.crop((starting_width, starting_height, starting_width+width*0.125, starting_height+height*0.125))
+        else:
+            starting_width = random.randrange(width*0.25, width*0.75)
+            starting_height = random.randrange(height*0.25, height*0.75)
+            image = image.crop((starting_width, starting_height, starting_width+width*0.125, starting_height+height*0.125))
 
         image.save('output/quiz.png')
 
