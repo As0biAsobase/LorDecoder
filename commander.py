@@ -153,7 +153,7 @@ class Commander:
                             if self.guesser == None:
                                 return ["Я ещё ничего не загадал...!", "", keyboard]
                             else:
-                                cd_passed, time_left = self.guesser.check_cd_passed(7)
+                                cd_passed, time_left = self.guesser.check_cd_passed(10)
                                 if cd_passed:
                                     if self.guesser.make_a_guess(args[1]):
                                         self.connection.increaseUserRating(sender["id"], self.guesser.increase)
