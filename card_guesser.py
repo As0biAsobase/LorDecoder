@@ -3,6 +3,7 @@ import re
 from PIL import Image, ImageOps
 from PIL import ImageFilter
 import PIL.ImageDraw as ImageDraw
+import time
 
 class Guesser:
     factions = [
@@ -17,7 +18,7 @@ class Guesser:
         "Шурима"
     ]
 
-    def __init__(self, chat, increase, decrease, source):
+    def __init__(self, chat, increase, decrease, source, created_at):
         self.chat = chat
         self.correct_answer = None
         self.options = []
@@ -26,7 +27,13 @@ class Guesser:
         self.increase = increase
         self.decrease = decrease
         self.source = source
-        pass
+        self.created_at = created_at
+
+    def check_cd_passed(self, cd):
+        if (time.time() - self.created_at > cd):
+            return True
+        else:
+            return False
 
     def generate_text_quiz(self, connection):
         card_list = connection.getCardsByRegion(random.choice(Guesser.factions))

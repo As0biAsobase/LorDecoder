@@ -14,6 +14,7 @@ import json
 import re
 import random
 from random import randrange, choice
+import time
 
 
 class Commander:
@@ -127,7 +128,7 @@ class Commander:
                                 increase = 1
                                 decrease = 0
 
-                                self.guesser = Guesser(source_id, increase, decrease, source)
+                                self.guesser = Guesser(source_id, increase, decrease, source, time.time())
                                 if source != "image":
                                     self.guesser.generate_text_quiz(self.connection)
                                     d = ""
@@ -152,21 +153,23 @@ class Commander:
                             if self.guesser == None:
                                 return ["Я ещё ничего не загадал...!", "", keyboard]
                             else:
-                                if self.guesser.make_a_guess(args[1]) == True:
-                                    self.connection.increaseUserRating(sender["id"], self.guesser.increase)
+                                if self.guesser.check_cd_passed(10):
+                                    if self.guesser.make_a_guess(args[1]):
+                                        self.connection.increaseUserRating(sender["id"], self.guesser.increase)
 
-                                    text = "МОЛОДЕЦ!"
+                                        text = "МОЛОДЕЦ!"
 
-                                    result, rating = self.connection.getUserRating(sender["id"])
-                                    text += "\nТвой счёт: %s. Место: %s" % (result["score"], rating)
-                                    self.guesser = None
+                                        result, rating = self.connection.getUserRating(sender["id"])
+                                        text += "\nТвой счёт: %s. Место: %s" % (result["score"], rating)
+                                        self.guesser = None
+                                    else:
+                                        self.connection.decreaseUserRating(sender["id"], self.guesser.decrease)
+                                        text = "Чел, ты..."
+
+                                        result, rating = self.connection.getUserRating(sender["id"])
+                                        text += "\nТвой счёт: %s. Место: %s" % (result["score"], rating)
                                 else:
-                                    self.connection.decreaseUserRating(sender["id"], self.guesser.decrease)
-                                    text = "Чел, ты..."
-
-                                    result, rating = self.connection.getUserRating(sender["id"])
-                                    text += "\nТвой счёт: %s. Место: %s" % (result["score"], rating)
-
+                                    text = "Чел, ты...\nпоторопился"
                             if source == 0:
                                 keyboard = "keyboards/default_keyboard.json"
 
