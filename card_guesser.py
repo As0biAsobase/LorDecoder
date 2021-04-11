@@ -101,7 +101,7 @@ class Guesser:
 
         for i in range(len(self.options)):
             if self.options[i]["supertype"] == "Чемпион" and self.options[i]["type"] == "Боец":
-                if len(self.options[i]["cardCode"]) > 6:
+                if len(self.options[i]["cardCode"]) > 7:
                     name = self.options[i]["name"] + " 2"
                 else:
                     name = self.options[i]["name"]
