@@ -30,10 +30,11 @@ class Guesser:
         self.created_at = created_at
 
     def check_cd_passed(self, cd):
-        if (time.time() - self.created_at > cd):
-            return True
+        elapsed = time.time() - self.created_at
+        if (elapsed > cd):
+            return True, 0
         else:
-            return False
+            return False, cd-elapsed
 
     def generate_text_quiz(self, connection):
         card_list = connection.getCardsByRegion(random.choice(Guesser.factions))

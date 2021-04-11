@@ -153,7 +153,8 @@ class Commander:
                             if self.guesser == None:
                                 return ["Я ещё ничего не загадал...!", "", keyboard]
                             else:
-                                if self.guesser.check_cd_passed(10):
+                                cd_passed, time_left = self.guesser.check_cd_passed(7)
+                                if cd_passed:
                                     if self.guesser.make_a_guess(args[1]):
                                         self.connection.increaseUserRating(sender["id"], self.guesser.increase)
 
@@ -169,7 +170,7 @@ class Commander:
                                         result, rating = self.connection.getUserRating(sender["id"])
                                         text += "\nТвой счёт: %s. Место: %s" % (result["score"], rating)
                                 else:
-                                    text = "Чел, ты...\nпоторопился"
+                                    text = "Чел, ты...\nпоторопился, потерпи ещё %s сек" % (str(time_left)[0])
                             if source == 0:
                                 keyboard = "keyboards/default_keyboard.json"
 
