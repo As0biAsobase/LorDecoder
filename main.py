@@ -108,7 +108,7 @@ def generate_image(args, user_id, connection, location):
         logo = Image.open("/home/khun/LorDecoder/logos/Biolog.png")
         logo = logo.resize((640, 360))
         background.paste(logo, (0, height-360), mask = logo)
-    elif user_id == 283942422 or user_id == 488352580:
+    elif user_id == 488352580:
         logo = Image.open("/home/khun/LorDecoder/logos/okolo.png")
         logo = logo.resize((640, 360))
         background.paste(logo, (0, height-360), mask = logo)
