@@ -146,7 +146,7 @@ def generate_image(args, user_id, connection, location):
         draw.text((x-2, y+2), text, (0,0,0),font=name_font)
         draw.text((570, 10), text, font=name_font, fill='rgb(255, 255, 255)')
 
-        background.paste(img, (30, 100 + i*72), img)
+        background.paste(img, (30, 100 + i*75), img)
         i += 1
 
     if landmarks_total > 0:
@@ -169,7 +169,7 @@ def generate_image(args, user_id, connection, location):
             draw.text((x-2, y+2), text, (0,0,0),font=name_font)
             draw.text((570, 10), text, font=name_font, fill='rgb(255, 255, 255)')
 
-            background.paste(img, (30, 100 + offset + i*72), img)
+            background.paste(img, (30, 100 + offset + i*85), img)
             i += 1
 
     i = 0
@@ -188,7 +188,7 @@ def generate_image(args, user_id, connection, location):
 
         draw.text((x, y), text, font=name_font, fill='rgb(255, 255, 255)')
 
-        background.paste(img, (621, 100 + i*72), img)
+        background.paste(img, (621, 100 + i*75), img)
         i += 1
 
     i = 0
@@ -207,7 +207,7 @@ def generate_image(args, user_id, connection, location):
 
         draw.text((x, y), text, font=name_font, fill='rgb(255, 255, 255)')
 
-        background.paste(img, (1212, 100 + i*72), img)
+        background.paste(img, (1212, 100 + i*85), img)
         i += 1
 
 
