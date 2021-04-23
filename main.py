@@ -134,7 +134,7 @@ def generate_image(args, user_id, connection, location):
     i = 0
     for each in champions:
         img = Image.open("/home/khun/LorDecoder/processed/" + each["cardCode"] + ".png")
-        img = img.resize((600, 70))
+        img = img.resize((498, 70))
         draw = ImageDraw.Draw(img)
 
         text = str(each["quantity"])
@@ -157,7 +157,7 @@ def generate_image(args, user_id, connection, location):
         i = 0
         for each in landmarks:
             img = Image.open("/home/khun/LorDecoder/processed/" + each["cardCode"] + ".png")
-            img = img.resize((600, 70))
+            img = img.resize((498, 70))
             draw = ImageDraw.Draw(img)
 
             text = str(each["quantity"])
@@ -175,7 +175,7 @@ def generate_image(args, user_id, connection, location):
     i = 0
     for each in followers:
         img = Image.open("/home/khun/LorDecoder/processed/" + each["cardCode"] + ".png")
-        img = img.resize((600, 70))
+        img = img.resize((498, 70))
         draw = ImageDraw.Draw(img)
 
         text = str(each["quantity"])
@@ -188,13 +188,13 @@ def generate_image(args, user_id, connection, location):
 
         draw.text((x, y), text, font=name_font, fill='rgb(255, 255, 255)')
 
-        background.paste(img, (660, 100 + i*72), img)
+        background.paste(img, (530, 100 + i*72), img)
         i += 1
 
     i = 0
     for each in spells:
         img = Image.open("/home/khun/LorDecoder/processed/" + each["cardCode"] + ".png")
-        img = img.resize((600, 70))
+        img = img.resize((498, 70))
         draw = ImageDraw.Draw(img)
 
         text = str(each["quantity"])
@@ -207,7 +207,7 @@ def generate_image(args, user_id, connection, location):
 
         draw.text((x, y), text, font=name_font, fill='rgb(255, 255, 255)')
 
-        background.paste(img, (1290, 100 + i*72))
+        background.paste(img, (1060, 100 + i*72), img)
         i += 1
 
 
