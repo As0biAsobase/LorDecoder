@@ -3,7 +3,7 @@ import json
 import PIL.ImageDraw as ImageDraw
 import PIL.ImageFont as ImageFont
 
-cost_font = ImageFont.truetype("../fonts/Roboto-Black.ttf", 28)
+cost_font = ImageFont.truetype("../fonts/Roboto-Black.ttf", 34)
 name_font = ImageFont.truetype("../fonts/YanoneKaffeesatz-Medium.ttf", 38)
 
 jdata = json.loads(open("../cards_data/card_data.json",  encoding='utf-8').read())
@@ -33,7 +33,7 @@ for dict in jdata:
             image_offset_top = 7
             image_crop_size_y = 60
             cost_left_offset = (26, 19)
-            cost_top_offset = 20
+            cost_top_offset = 15
             text_x, text_y = 75, 20
             size_x = 580
             size_y = 72
@@ -42,15 +42,15 @@ for dict in jdata:
             image_crop_size_y = 55
             cost_left_offset = (16, 14)
             cost_top_offset = 15
-            text_x, text_y = 65, 15
+            text_x, text_y = 85, 15
             size_x = 600
             size_y = 83
         else:
             image_offset_top = 15
-            image_crop_size_y = 55
-            cost_left_offset = (35, 25)
+            image_crop_size_y = 60
+            cost_left_offset = (37, 25)
             cost_top_offset = 25
-            text_x, text_y = 80, 28
+            text_x, text_y = 90, 28
             size_x = 600
             size_y = 83
 
