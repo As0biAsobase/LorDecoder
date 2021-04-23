@@ -35,7 +35,7 @@ for dict in jdata:
             cost_left_offset = (25, 18)
             cost_top_offset = 20
             text_x, text_y = 75, 20
-            size_x = 522
+            size_x = 605
             size_y = 72
         elif type == "Landmark":
             image_offset_top = 2
@@ -43,7 +43,7 @@ for dict in jdata:
             cost_left_offset = (16, 14)
             cost_top_offset = 15
             text_x, text_y = 65, 15
-            size_x = 522
+            size_x = 630
             size_y = 75
         else:
             image_offset_top = 15
@@ -51,7 +51,7 @@ for dict in jdata:
             cost_left_offset = (30, 20)
             cost_top_offset = 23
             text_x, text_y = 70, 25
-            size_x = 522
+            size_x = 630
             size_y = 75
 
         img = img.resize((size_x-100, image_crop_size_y))
