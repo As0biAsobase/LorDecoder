@@ -138,7 +138,7 @@ def generate_image(args, user_id, connection, location):
         draw = ImageDraw.Draw(img)
 
         text = str(each["quantity"])
-        x, y = 565, 12
+        x, y = 555, 12
 
         draw.text((x-2, y-2), text, (0,0,0), font=name_font)
         draw.text((x+2, y-2), text,(0,0,0),font=name_font)
@@ -179,7 +179,7 @@ def generate_image(args, user_id, connection, location):
         draw = ImageDraw.Draw(img)
 
         text = str(each["quantity"])
-        x, y = 565, 12
+        x, y = 555, 12
 
         draw.text((x-2, y-2), text, (0,0,0), font=name_font)
         draw.text((x+2, y-2), text,(0,0,0),font=name_font)

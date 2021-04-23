@@ -31,8 +31,8 @@ for dict in jdata:
 
         if type == "Ally" or type == "Champion":
             image_offset_top = 7
-            image_crop_size_y = 65
-            cost_left_offset = (25, 18)
+            image_crop_size_y = 62
+            cost_left_offset = (26, 19)
             cost_top_offset = 20
             text_x, text_y = 75, 20
             size_x = 580
@@ -44,15 +44,15 @@ for dict in jdata:
             cost_top_offset = 15
             text_x, text_y = 65, 15
             size_x = 600
-            size_y = 75
+            size_y = 80
         else:
             image_offset_top = 15
             image_crop_size_y = 55
-            cost_left_offset = (30, 20)
-            cost_top_offset = 23
-            text_x, text_y = 70, 25
+            cost_left_offset = (35, 25)
+            cost_top_offset = 25
+            text_x, text_y = 75, 25
             size_x = 600
-            size_y = 75
+            size_y = 80
 
         img = img.resize((size_x-100, image_crop_size_y))
         background.paste(img, (75, image_offset_top))
