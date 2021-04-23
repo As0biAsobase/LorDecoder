@@ -73,7 +73,7 @@ def generate_image(args, user_id, connection, location):
             spells.append({"name" : dict["name"], "cost" : dict["cost"], "cardCode" :  dict["cardCode"], "regionRef" :  dict["regionRef"], "quantity" :  q})
             spells_total += q
 
-    height = max([len(champions)+len(landmarks)+6, len(followers), len(spells)]) * 72 + 200
+    height = max([len(champions)+len(landmarks)+6, len(followers), len(spells)]) * 85 + 200
 
     ratio = height / 960
 
@@ -138,15 +138,16 @@ def generate_image(args, user_id, connection, location):
         draw = ImageDraw.Draw(img)
 
         text = str(each["quantity"])
-        x, y = 555, 12
+        x, y = 545, 12
 
         draw.text((x-2, y-2), text, (0,0,0), font=name_font)
         draw.text((x+2, y-2), text,(0,0,0),font=name_font)
         draw.text((x+2, y+2), text, (0,0,0), font=name_font)
         draw.text((x-2, y+2), text, (0,0,0),font=name_font)
-        draw.text((570, 10), text, font=name_font, fill='rgb(255, 255, 255)')
 
-        background.paste(img, (30, 100 + i*75), img)
+        draw.text((x, y), text, font=name_font, fill='rgb(255, 255, 255)')
+
+        background.paste(img, (30, 100 + i*80), img)
         i += 1
 
     if landmarks_total > 0:
@@ -179,7 +180,7 @@ def generate_image(args, user_id, connection, location):
         draw = ImageDraw.Draw(img)
 
         text = str(each["quantity"])
-        x, y = 555, 12
+        x, y = 545, 12
 
         draw.text((x-2, y-2), text, (0,0,0), font=name_font)
         draw.text((x+2, y-2), text,(0,0,0),font=name_font)
@@ -188,7 +189,7 @@ def generate_image(args, user_id, connection, location):
 
         draw.text((x, y), text, font=name_font, fill='rgb(255, 255, 255)')
 
-        background.paste(img, (621, 100 + i*75), img)
+        background.paste(img, (621, 100 + i*80), img)
         i += 1
 
     i = 0
@@ -198,7 +199,7 @@ def generate_image(args, user_id, connection, location):
         draw = ImageDraw.Draw(img)
 
         text = str(each["quantity"])
-        x, y = 565, 15
+        x, y = 565, 17
 
         draw.text((x-2, y-2), text, (0,0,0), font=name_font)
         draw.text((x+2, y-2), text,(0,0,0),font=name_font)
