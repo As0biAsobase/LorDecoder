@@ -134,7 +134,7 @@ def generate_image(args, user_id, connection, location):
     i = 0
     for each in champions:
         img = Image.open("/home/khun/LorDecoder/processed/" + each["cardCode"] + ".png")
-        img = img.resize((498, 70))
+        img = img.resize((561, 70))
         draw = ImageDraw.Draw(img)
 
         text = str(each["quantity"])
@@ -175,7 +175,7 @@ def generate_image(args, user_id, connection, location):
     i = 0
     for each in followers:
         img = Image.open("/home/khun/LorDecoder/processed/" + each["cardCode"] + ".png")
-        img = img.resize((498, 70))
+        img = img.resize((561, 70))
         draw = ImageDraw.Draw(img)
 
         text = str(each["quantity"])
@@ -188,13 +188,13 @@ def generate_image(args, user_id, connection, location):
 
         draw.text((x, y), text, font=name_font, fill='rgb(255, 255, 255)')
 
-        background.paste(img, (530, 100 + i*72), img)
+        background.paste(img, (621, 100 + i*72), img)
         i += 1
 
     i = 0
     for each in spells:
         img = Image.open("/home/khun/LorDecoder/processed/" + each["cardCode"] + ".png")
-        img = img.resize((498, 70))
+        img = img.resize((480, 70))
         draw = ImageDraw.Draw(img)
 
         text = str(each["quantity"])
@@ -207,14 +207,14 @@ def generate_image(args, user_id, connection, location):
 
         draw.text((x, y), text, font=name_font, fill='rgb(255, 255, 255)')
 
-        background.paste(img, (1060, 100 + i*72), img)
+        background.paste(img, (1212, 100 + i*72), img)
         i += 1
 
 
     draw = ImageDraw.Draw(background)
     draw.text((30, 10), champion_string + str(champions_total), font=title_font, fill='rgb(255, 255, 255)')
-    draw.text((660, 10), follower_string + str(followers_total), font=title_font, fill='rgb(255, 255, 255)')
-    draw.text((1290, 10), spell_string + str(spells_total), font=title_font, fill='rgb(255, 255, 255)')
+    draw.text((621, 10), follower_string + str(followers_total), font=title_font, fill='rgb(255, 255, 255)')
+    draw.text((1212, 10), spell_string + str(spells_total), font=title_font, fill='rgb(255, 255, 255)')
 
     background.save(location)
 
