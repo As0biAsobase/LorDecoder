@@ -31,11 +31,12 @@ for dict in jdata:
 
         if type == "Ally" or type == "Champion":
             image_offset_top = 7
-            image_crop_size_y = 55
+            image_crop_size_y = 70
             cost_left_offset = (25, 18)
             cost_top_offset = 20
-            text_x, text_y = 70, 20
+            text_x, text_y = 75, 20
             size_x = 561
+            size_y = 70
         elif type == "Landmark":
             image_offset_top = 2
             image_crop_size_y = 55
@@ -43,17 +44,19 @@ for dict in jdata:
             cost_top_offset = 15
             text_x, text_y = 65, 15
             size_x = 498
+            size_y = 75
         else:
             image_offset_top = 15
-            image_crop_size_y = 50
+            image_crop_size_y = 55
             cost_left_offset = (30, 20)
             cost_top_offset = 23
             text_x, text_y = 70, 25
             size_x = 480
+            size_y = 75
 
         img = img.resize((size_x-100, image_crop_size_y))
         background.paste(img, (75, image_offset_top))
-        gradient = gradient.resize((size_x, 70))
+        gradient = gradient.resize((size_x, size_y))
 
         # img = img.convert("RGBA")
         background.paste(gradient, (0, 0),  mask=gradient)
