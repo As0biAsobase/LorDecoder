@@ -43,7 +43,7 @@ for dict in jdata:
             cost_left_offset = (24, 22)
             cost_top_offset = 15
             text_x, text_y = 82, 20
-            size_x = 585
+            size_x = 575
             size_y = 80
         else:
             image_offset_top = 15
