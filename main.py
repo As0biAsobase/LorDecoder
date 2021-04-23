@@ -146,7 +146,7 @@ def generate_image(args, user_id, connection, location):
         draw.text((x-2, y+2), text, (0,0,0),font=name_font)
         draw.text((570, 10), text, font=name_font, fill='rgb(255, 255, 255)')
 
-        background.paste(img, (30, 100 + i*72))
+        background.paste(img, (30, 100 + i*72), img)
         i += 1
 
     if landmarks_total > 0:

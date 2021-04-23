@@ -18,9 +18,6 @@ for dict in jdata:
         img = Image.open("../ru_ru/img/cards/" + dict["cardCode"] + ".png")
         w, h = img.size
         img = img.crop((100, 175, w-150, h - 675))
-        img = img.resize((400, 55))
-
-        background.paste(img, (75, 7))
 
         if dict["type"] == "Место силы":
             type = "Landmark"
@@ -31,7 +28,26 @@ for dict in jdata:
         else:
             type = "Ally"
         gradient = Image.open("../gradients/big/"+ type + "/" + dict["regionRef"] +".png")
-        gradient = gradient.resize((498, 70))
+
+        if type == "Ally" or type == "Champion":
+            image_offset_top = 7
+            image_crop_size_y = 55
+            cost_left_offset = (16, 24)
+            cost_top_offset = 20
+        elif type == "Landmark":
+            image_offset_top = 2
+            image_crop_size_y = 55
+            cost_left_offset = (10, 18)
+            cost_top_offset = 15
+        else:
+            image_offset_top = 15
+            image_crop_size_y = 50
+            cost_left_offset = (20, 28)
+            cost_top_offset = 23
+
+        img = img.resize((400, image_crop_size_y))
+        background.paste(img, (75, image_offset_top))
+        gradient = gradient.resize((600, 70))
 
         # img = img.convert("RGBA")
         background.paste(gradient, (0, 0),  mask=gradient)
@@ -39,9 +55,9 @@ for dict in jdata:
 
         draw = ImageDraw.Draw(background)
         if (dict["cost"] >= 10):
-            draw.text((16, 20), str(dict["cost"]), font=cost_font, fill='rgb(255, 255, 255)')
+            draw.text((cost_left_offset[1], cost_top_offset), str(dict["cost"]), font=cost_font, fill='rgb(255, 255, 255)')
         else:
-            draw.text((24, 20), str(dict["cost"]), font=cost_font, fill='rgb(255, 255, 255)')
+            draw.text((cost_left_offset[0], cost_top_offset), str(dict["cost"]), font=cost_font, fill='rgb(255, 255, 255)')
 
         x, y = 65, 20
         text = dict["name"]
