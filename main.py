@@ -170,13 +170,13 @@ def generate_image(args, user_id, connection, location):
             draw = ImageDraw.Draw(img)
 
             text = str(each["quantity"])
-            x, y = 555, 10
+            x, y = 540, 10
 
             draw.text((x-2, y-2), text, (0,0,0), font=name_font)
             draw.text((x+2, y-2), text,(0,0,0),font=name_font)
             draw.text((x+2, y+2), text, (0,0,0), font=name_font)
             draw.text((x-2, y+2), text, (0,0,0),font=name_font)
-            draw.text((570, 10), text, font=name_font, fill='rgb(255, 255, 255)')
+            draw.text((x, y), text, font=name_font, fill='rgb(255, 255, 255)')
 
             background.paste(img, (30, 100 + offset + i*85), img)
             i += 1
