@@ -84,7 +84,7 @@ def generate_image(args, user_id, connection, location):
         if user_id == 103657653:
             background = Image.open("/home/khun/LorDecoder/background/biolog.jpg")
         else:
-            background = Image.open("/home/khun/LorDecoder/background/poros/gs/%s.png" % (top_region))
+            background = Image.open("/home/khun/LorDecoder/background/poros/%s.png" % (top_region))
     else:
         background = Image.open("/home/khun/LorDecoder/background/empty.png")
 

@@ -13,29 +13,37 @@ for dict in jdata:
     if True:
 
         result.append({"supertype" : dict["supertype"], "type" : dict["type"], "name" : dict["name"], "cost" : dict["cost"], "cardCode" :  dict["cardCode"], "regionRef" :  dict["regionRef"]})
-
         background = Image.new('RGBA', (600, 110), (255, 255, 255, 0))
 
         img = Image.open("../ru_ru/img/cards/" + dict["cardCode"] + ".png")
         w, h = img.size
         img = img.crop((100, 175, w-150, h - 675))
-        img = img.resize((350, 70))
+        img = img.resize((400, 55))
 
-        background.paste(img, (250,0))
+        background.paste(img, (75, 7))
 
-        gradient = Image.open("../gradients/big/"+ dict["regionRef"] +".png")
-        gradient = gradient.resize((600, 70))
+        if dict["type"] == "Место силы":
+            type = "Landmark"
+        elif dict["rarityRef"] == "Champion":
+            type = "Champion"
+        elif dict["type"] == "Заклинание":
+            type = "Spell"
+        else:
+            type = "Ally"
+        gradient = Image.open("../gradients/big/"+ type + "/" + dict["regionRef"] +".png")
+        gradient = gradient.resize((498, 70))
 
         # img = img.convert("RGBA")
         background.paste(gradient, (0, 0),  mask=gradient)
-        background.paste(Image.new('RGBA', (35, 56), (66, 114, 245, 255)), (7, 7))
+        # background.paste(Image.new('RGBA', (35, 56), (66, 114, 245, 255)), (7, 7))
 
         draw = ImageDraw.Draw(background)
         if (dict["cost"] >= 10):
-            draw.text((8, 20), str(dict["cost"]), font=cost_font, fill='rgb(255, 255, 255)')
-        else:
             draw.text((16, 20), str(dict["cost"]), font=cost_font, fill='rgb(255, 255, 255)')
-        x, y = 50, 25
+        else:
+            draw.text((24, 20), str(dict["cost"]), font=cost_font, fill='rgb(255, 255, 255)')
+
+        x, y = 65, 20
         text = dict["name"]
         draw.text((x, y-2), text, (0,0,0), font=name_font)
         draw.text((x, y+2), text,(0,0,0),font=name_font)
