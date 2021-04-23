@@ -39,10 +39,10 @@ for dict in jdata:
             size_y = 72
         elif type == "Landmark":
             image_offset_top = 2
-            image_crop_size_y = 55
-            cost_left_offset = (16, 14)
+            image_crop_size_y = 63
+            cost_left_offset = (24, 22)
             cost_top_offset = 15
-            text_x, text_y = 85, 15
+            text_x, text_y = 82, 20
             size_x = 600
             size_y = 83
         else:
@@ -50,7 +50,7 @@ for dict in jdata:
             image_crop_size_y = 60
             cost_left_offset = (37, 25)
             cost_top_offset = 25
-            text_x, text_y = 90, 28
+            text_x, text_y = 90, 30
             size_x = 600
             size_y = 83
 
