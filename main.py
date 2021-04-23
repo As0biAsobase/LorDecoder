@@ -11,6 +11,7 @@ import operator
 # Decoding
 def generate_image(args, user_id, connection, location):
     empty_bg = False
+    serious = False
 
     # code should always be the last parameter
 
@@ -19,6 +20,8 @@ def generate_image(args, user_id, connection, location):
 
     if "пнг" in args:
         empty_bg = True
+    if "духота" in args:
+        serious = True
 
     champions = []
     followers = []
@@ -100,6 +103,7 @@ def generate_image(args, user_id, connection, location):
     # background = Image.new('RGBA', (1920, height), (61, 61, 61, 255))
 
     # print(user_id)
+
     if user_id == 103657653:
         logo = Image.open("/home/khun/LorDecoder/logos/Biolog.png")
         logo = logo.resize((640, 360))
@@ -124,7 +128,11 @@ def generate_image(args, user_id, connection, location):
         logo = logo.resize((640, 360))
         background.paste(logo, (0, height-360), mask = logo)
 
-
+    if serious == True:
+        champion_string = "Чемпионы: "
+        follower_string = "Союзники: "
+        spell_string = "Заклинания: "
+        landmark_string = "Места силы: "
 
     champions = sorted(champions, key = lambda i: i['cost'])
     followers = sorted(followers, key = lambda i: i['cost'])
