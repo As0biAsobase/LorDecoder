@@ -37,7 +37,7 @@ def generate_image(args, user_id, connection, location):
 
     cost_font = ImageFont.truetype("/home/khun/LorDecoder/fonts/Roboto-Black.ttf", 50)
     name_font = ImageFont.truetype("/home/khun/LorDecoder/fonts/Roboto-Regular.ttf", 37)
-    title_font = ImageFont.truetype("/home/khun/LorDecoder/fonts/YanoneKaffeesatz-Medium.ttf", 70)
+    title_font = ImageFont.truetype("/home/khun/LorDecoder/fonts/YanoneKaffeesatz-Medium.ttf", 75)
 
     champion_string = "Главари: "
     follower_string = "Воены: "
@@ -197,7 +197,7 @@ def generate_image(args, user_id, connection, location):
 
         draw.text((x, y), text, font=name_font, fill='rgb(255, 255, 255)')
 
-        background.paste(img, (621, 100 + i*80), img)
+        background.paste(img, (625, 100 + i*80), img)
         i += 1
 
     i = 0
@@ -216,14 +216,14 @@ def generate_image(args, user_id, connection, location):
 
         draw.text((x, y), text, font=name_font, fill='rgb(255, 255, 255)')
 
-        background.paste(img, (1212, 100 + i*85), img)
+        background.paste(img, (1215, 100 + i*85), img)
         i += 1
 
 
     draw = ImageDraw.Draw(background)
-    draw.text((30, 10), champion_string + str(champions_total), font=title_font, fill='rgb(255, 255, 255)')
-    draw.text((621, 10), follower_string + str(followers_total), font=title_font, fill='rgb(255, 255, 255)')
-    draw.text((1212, 10), spell_string + str(spells_total), font=title_font, fill='rgb(255, 255, 255)')
+    draw.text((30, 15), champion_string + str(champions_total), font=title_font, fill='rgb(255, 255, 255)')
+    draw.text((621, 15), follower_string + str(followers_total), font=title_font, fill='rgb(255, 255, 255)')
+    draw.text((1212, 15), spell_string + str(spells_total), font=title_font, fill='rgb(255, 255, 255)')
 
     background.save(location)
 
