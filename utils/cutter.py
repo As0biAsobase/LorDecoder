@@ -17,7 +17,7 @@ for dict in jdata:
 
         img = Image.open("../ru_ru/img/cards/" + dict["cardCode"] + ".png")
         w, h = img.size
-        img = img.crop((100, 175, w-150, h - 675))
+        img = img.crop((75, 200, w-75, h - 650))
 
         if dict["type"] == "Место силы":
             type = "Landmark"
