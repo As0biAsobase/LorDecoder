@@ -37,7 +37,7 @@ def generate_image(args, user_id, connection, location):
 
     cost_font = ImageFont.truetype("/home/khun/LorDecoder/fonts/Roboto-Black.ttf", 50)
     name_font = ImageFont.truetype("/home/khun/LorDecoder/fonts/Roboto-Regular.ttf", 37)
-    title_font = ImageFont.truetype("/home/khun/LorDecoder/fonts/Roboto-Regular.ttf", 70)
+    title_font = ImageFont.truetype("/home/khun/LorDecoder/fonts/YanoneKaffeesatz-Medium.ttf", 70)
 
     champion_string = "Главари: "
     follower_string = "Воены: "
