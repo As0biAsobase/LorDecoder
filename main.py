@@ -93,9 +93,9 @@ def generate_image(args, user_id, connection, location):
 
     # background processing
     if ratio > 1:
-        new_width = 1920 * ratio
+        new_width = 1650 * ratio
         background = background.resize((int(new_width), int(height)))
-        margin = (new_width - 1920) // 2
+        margin = (new_width - 1650) // 2
         background = background.crop((margin, 0, new_width-margin, height))
     else:
         background = background.crop((0, 0, 1650, height))
