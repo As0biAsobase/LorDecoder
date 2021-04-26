@@ -178,7 +178,7 @@ def generate_image(args, user_id, connection, location):
             draw.text((x-2, y+2), text, (0,0,0),font=name_font)
             draw.text((x, y), text, font=name_font, fill='rgb(255, 255, 255)')
 
-            background.paste(img, (30, 100 + offset + i*85), img)
+            background.paste(img, (30, 100 + offset + i*80), img)
             i += 1
 
     i = 0
@@ -216,7 +216,7 @@ def generate_image(args, user_id, connection, location):
 
         draw.text((x, y), text, font=name_font, fill='rgb(255, 255, 255)')
 
-        background.paste(img, (1110, 100 + i*85), img)
+        background.paste(img, (1110, 100 + i*80), img)
         i += 1
 
 
