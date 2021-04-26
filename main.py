@@ -146,7 +146,7 @@ def generate_image(args, user_id, connection, location):
         draw = ImageDraw.Draw(img)
 
         text = str(each["quantity"])
-        x, y = 480, 10
+        x, y = 475, 12
 
         draw.text((x-2, y-2), text, (0,0,0), font=name_font)
         draw.text((x+2, y-2), text,(0,0,0),font=name_font)
@@ -170,7 +170,7 @@ def generate_image(args, user_id, connection, location):
             draw = ImageDraw.Draw(img)
 
             text = str(each["quantity"])
-            x, y = 480, 10
+            x, y = 475, 12
 
             draw.text((x-2, y-2), text, (0,0,0), font=name_font)
             draw.text((x+2, y-2), text,(0,0,0),font=name_font)
@@ -188,7 +188,7 @@ def generate_image(args, user_id, connection, location):
         draw = ImageDraw.Draw(img)
 
         text = str(each["quantity"])
-        x, y = 480, 15
+        x, y = 477, 15
 
         draw.text((x-2, y-2), text, (0,0,0), font=name_font)
         draw.text((x+2, y-2), text,(0,0,0),font=name_font)
@@ -207,7 +207,7 @@ def generate_image(args, user_id, connection, location):
         draw = ImageDraw.Draw(img)
 
         text = str(each["quantity"])
-        x, y = 480, 15
+        x, y = 477, 12
 
         draw.text((x-2, y-2), text, (0,0,0), font=name_font)
         draw.text((x+2, y-2), text,(0,0,0),font=name_font)

@@ -4,7 +4,6 @@ import PIL.ImageDraw as ImageDraw
 import PIL.ImageFont as ImageFont
 
 cost_font = ImageFont.truetype("../fonts/Roboto-Black.ttf", 34)
-name_font = ImageFont.truetype("../fonts/YanoneKaffeesatz-Medium.ttf", 38)
 
 jdata = json.loads(open("../cards_data/card_data.json",  encoding='utf-8').read())
 result = []
@@ -34,7 +33,7 @@ for dict in jdata:
             image_crop_size_y = 68
             cost_left_offset = (22, 17)
             cost_top_offset = 15
-            text_x, text_y = 75, 20
+            text_x, text_y = 70, 20
             size_x = 510
             size_y = 72
         elif type == "Landmark":
@@ -42,7 +41,7 @@ for dict in jdata:
             image_crop_size_y = 68
             cost_left_offset = (20, 16)
             cost_top_offset = 12
-            text_x, text_y = 82, 20
+            text_x, text_y = 75, 20
             size_x = 510
             size_y = 70
         else:
@@ -50,7 +49,7 @@ for dict in jdata:
             image_crop_size_y = 67
             cost_left_offset = (28, 20)
             cost_top_offset = 20
-            text_x, text_y = 90, 30
+            text_x, text_y = 75, 20
             size_x = 510
             size_y = 70
 
@@ -70,6 +69,11 @@ for dict in jdata:
 
         x, y = text_x, text_y
         text = dict["name"]
+        if len(text) > 25:
+            name_font = ImageFont.truetype("../fonts/YanoneKaffeesatz-Medium.ttf", 33)
+        else:
+            name_font = ImageFont.truetype("../fonts/YanoneKaffeesatz-Medium.ttf", 38)
+
         draw.text((x, y-2), text, (0,0,0), font=name_font)
         draw.text((x, y+2), text,(0,0,0),font=name_font)
         draw.text((x-2, y), text, (0,0,0), font=name_font)
