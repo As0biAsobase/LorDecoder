@@ -30,32 +30,32 @@ for dict in jdata:
         gradient = Image.open("../gradients/big/"+ type + "/" + dict["regionRef"] +".png")
 
         if type == "Ally" or type == "Champion":
-            image_offset_top = 7
-            image_crop_size_y = 60
-            cost_left_offset = (26, 19)
+            image_offset_top = 2
+            image_crop_size_y = 68
+            cost_left_offset = (22, 17)
             cost_top_offset = 15
             text_x, text_y = 75, 20
-            size_x = 580
+            size_x = 510
             size_y = 72
         elif type == "Landmark":
-            image_offset_top = 2
-            image_crop_size_y = 63
-            cost_left_offset = (24, 22)
-            cost_top_offset = 15
+            image_offset_top = 1
+            image_crop_size_y = 68
+            cost_left_offset = (20, 16)
+            cost_top_offset = 12
             text_x, text_y = 82, 20
-            size_x = 575
-            size_y = 80
+            size_x = 510
+            size_y = 70
         else:
-            image_offset_top = 15
-            image_crop_size_y = 60
-            cost_left_offset = (37, 25)
-            cost_top_offset = 25
+            image_offset_top = 1
+            image_crop_size_y = 67
+            cost_left_offset = (28, 20)
+            cost_top_offset = 20
             text_x, text_y = 90, 30
-            size_x = 600
-            size_y = 83
+            size_x = 510
+            size_y = 70
 
         img = img.resize((size_x-100, image_crop_size_y))
-        background.paste(img, (75, image_offset_top))
+        background.paste(img, (78, image_offset_top))
         gradient = gradient.resize((size_x, size_y))
 
         # img = img.convert("RGBA")

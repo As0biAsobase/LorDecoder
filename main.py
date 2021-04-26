@@ -161,7 +161,7 @@ def generate_image(args, user_id, connection, location):
     if landmarks_total > 0:
         draw = ImageDraw.Draw(background)
         offset = 100+(i)*72
-        draw.text((30, offset), landmark_string + str(landmarks_total), font=title_font, fill='rgb(255, 255, 255)')
+        draw.text((30, offset+10), landmark_string + str(landmarks_total), font=title_font, fill='rgb(255, 255, 255)')
 
         i = 0
         for each in landmarks:
@@ -197,7 +197,7 @@ def generate_image(args, user_id, connection, location):
 
         draw.text((x, y), text, font=name_font, fill='rgb(255, 255, 255)')
 
-        background.paste(img, (625, 100 + i*80), img)
+        background.paste(img, (570, 100 + i*80), img)
         i += 1
 
     i = 0
@@ -216,7 +216,7 @@ def generate_image(args, user_id, connection, location):
 
         draw.text((x, y), text, font=name_font, fill='rgb(255, 255, 255)')
 
-        background.paste(img, (1215, 100 + i*85), img)
+        background.paste(img, (1110, 100 + i*85), img)
         i += 1
 
 
