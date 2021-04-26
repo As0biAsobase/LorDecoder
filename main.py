@@ -98,7 +98,7 @@ def generate_image(args, user_id, connection, location):
         margin = (new_width - 1920) // 2
         background = background.crop((margin, 0, new_width-margin, height))
     else:
-        background = background.crop((0, 0, 1920, height))
+        background = background.crop((0, 0, 1650, height))
 
     # background = Image.new('RGBA', (1920, height), (61, 61, 61, 255))
 
@@ -146,7 +146,7 @@ def generate_image(args, user_id, connection, location):
         draw = ImageDraw.Draw(img)
 
         text = str(each["quantity"])
-        x, y = 545, 12
+        x, y = 480, 10
 
         draw.text((x-2, y-2), text, (0,0,0), font=name_font)
         draw.text((x+2, y-2), text,(0,0,0),font=name_font)
@@ -161,7 +161,7 @@ def generate_image(args, user_id, connection, location):
     if landmarks_total > 0:
         draw = ImageDraw.Draw(background)
         offset = 100+(i)*72
-        draw.text((30, offset+10), landmark_string + str(landmarks_total), font=title_font, fill='rgb(255, 255, 255)')
+        draw.text((30, offset+20), landmark_string + str(landmarks_total), font=title_font, fill='rgb(255, 255, 255)')
 
         i = 0
         for each in landmarks:
@@ -170,7 +170,7 @@ def generate_image(args, user_id, connection, location):
             draw = ImageDraw.Draw(img)
 
             text = str(each["quantity"])
-            x, y = 540, 10
+            x, y = 480, 10
 
             draw.text((x-2, y-2), text, (0,0,0), font=name_font)
             draw.text((x+2, y-2), text,(0,0,0),font=name_font)
@@ -188,7 +188,7 @@ def generate_image(args, user_id, connection, location):
         draw = ImageDraw.Draw(img)
 
         text = str(each["quantity"])
-        x, y = 545, 12
+        x, y = 480, 15
 
         draw.text((x-2, y-2), text, (0,0,0), font=name_font)
         draw.text((x+2, y-2), text,(0,0,0),font=name_font)
@@ -207,7 +207,7 @@ def generate_image(args, user_id, connection, location):
         draw = ImageDraw.Draw(img)
 
         text = str(each["quantity"])
-        x, y = 565, 22
+        x, y = 480, 15
 
         draw.text((x-2, y-2), text, (0,0,0), font=name_font)
         draw.text((x+2, y-2), text,(0,0,0),font=name_font)
@@ -222,8 +222,8 @@ def generate_image(args, user_id, connection, location):
 
     draw = ImageDraw.Draw(background)
     draw.text((30, 15), champion_string + str(champions_total), font=title_font, fill='rgb(255, 255, 255)')
-    draw.text((621, 15), follower_string + str(followers_total), font=title_font, fill='rgb(255, 255, 255)')
-    draw.text((1212, 15), spell_string + str(spells_total), font=title_font, fill='rgb(255, 255, 255)')
+    draw.text((570, 15), follower_string + str(followers_total), font=title_font, fill='rgb(255, 255, 255)')
+    draw.text((1110, 15), spell_string + str(spells_total), font=title_font, fill='rgb(255, 255, 255)')
 
     background.save(location)
 
