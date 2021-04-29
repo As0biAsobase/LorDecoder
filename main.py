@@ -84,10 +84,7 @@ def generate_image(args, user_id, connection, location):
     top_region = max(deck_regions.items(), key=operator.itemgetter(1))[0]
 
     if not empty_bg:
-        if user_id == 103657653:
-            background = Image.open("/home/khun/LorDecoder/background/biolog.jpg")
-        else:
-            background = Image.open("/home/khun/LorDecoder/background/poros/%s.png" % (top_region))
+        background = Image.open("/home/khun/LorDecoder/background/poros/%s.png" % (top_region))
     else:
         background = Image.open("/home/khun/LorDecoder/background/empty.png")
 
@@ -108,6 +105,12 @@ def generate_image(args, user_id, connection, location):
         logo = Image.open("/home/khun/LorDecoder/logos/Biolog.png")
         logo = logo.resize((640, 360))
         background.paste(logo, (0, height-360), mask = logo)
+
+        champion_string = "Магистры ордена: "
+        follower_string = "Рыцари: "
+        spell_string = "Молитвы: "
+        landmark_string = "Цитадели: "
+        title_font = ImageFont.truetype("/home/khun/LorDecoder/fonts/YanoneKaffeesatz-Medium.ttf", 65)
     elif user_id == 488352580:
         logo = Image.open("/home/khun/LorDecoder/logos/okolo.png")
         logo = logo.resize((640, 360))
@@ -115,7 +118,7 @@ def generate_image(args, user_id, connection, location):
 
         follower_string = "Подписчики: "
         landmark_string = "Достопримечательности: "
-    elif user_id ==3015002:
+    elif user_id == 3015002:
         logo = Image.open("/home/khun/LorDecoder/logos/numi.png")
         logo = logo.resize((640, 360))
         background.paste(logo, (0, height-360), mask = logo)
