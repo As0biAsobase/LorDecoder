@@ -12378,2167 +12378,42 @@
   {
     "assets": [
       {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH070-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH070.png"
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04BW002-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04BW002.png"
       }
     ],
     "attack": 0,
-    "cardCode": "04SH070",
+    "cardCode": "04BW002",
     "cost": 2,
     "health": 0,
     "level": "1",
-    "name": "Недостойный",
-    "regionRef": "Shurima",
+    "name": "Костяной гарпун",
+    "regionRef": "Bilgewater",
     "supertype": "",
     "type": "Заклинание"
   },
   {
     "assets": [
       {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH081-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH081.png"
-      }
-    ],
-    "attack": 5,
-    "cardCode": "04SH081",
-    "cost": 4,
-    "health": 3,
-    "level": "1",
-    "name": "Баккай – заклинательница песка",
-    "regionRef": "Shurima",
-    "supertype": "",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH077-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH077.png"
-      }
-    ],
-    "attack": 3,
-    "cardCode": "04SH077",
-    "cost": 4,
-    "health": 4,
-    "level": "1",
-    "name": "Глас восставших",
-    "regionRef": "Shurima",
-    "supertype": "",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH089-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH089.png"
-      }
-    ],
-    "attack": 2,
-    "cardCode": "04SH089",
-    "cost": 4,
-    "health": 4,
-    "level": "1",
-    "name": "Натуралистка из пустыни",
-    "regionRef": "Shurima",
-    "supertype": "",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH015-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH015.png"
-      }
-    ],
-    "attack": 6,
-    "cardCode": "04SH015",
-    "cost": 7,
-    "health": 6,
-    "level": "1",
-    "name": "Разз Кровавая Грива",
-    "regionRef": "Shurima",
-    "supertype": "",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH058-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH058.png"
-      }
-    ],
-    "attack": 3,
-    "cardCode": "04SH058",
-    "cost": 4,
-    "health": 5,
-    "level": "1",
-    "name": "Ваятель песка",
-    "regionRef": "Shurima",
-    "supertype": "",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH035-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH035.png"
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04BW010-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04BW010.png"
       }
     ],
     "attack": 0,
-    "cardCode": "04SH035",
-    "cost": 2,
-    "health": 0,
-    "level": "1",
-    "name": "Нажива",
-    "regionRef": "Shurima",
-    "supertype": "",
-    "type": "Заклинание"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH028-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH028.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04SH028",
-    "cost": 1,
-    "health": 0,
-    "level": "1",
-    "name": "Древние механизмы",
-    "regionRef": "Shurima",
-    "supertype": "",
-    "type": "Место силы"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH002-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH002.png"
-      }
-    ],
-    "attack": 1,
-    "cardCode": "04SH002",
-    "cost": 1,
-    "health": 2,
-    "level": "1",
-    "name": "Баккай-жнец",
-    "regionRef": "Shurima",
-    "supertype": "",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH042-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH042.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04SH042",
-    "cost": 2,
-    "health": 0,
-    "level": "1",
-    "name": "Спящий камненосец",
-    "regionRef": "Shurima",
-    "supertype": "",
-    "type": "Место силы"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH032-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH032.png"
-      }
-    ],
-    "attack": 6,
-    "cardCode": "04SH032",
-    "cost": 4,
-    "health": 4,
-    "level": "1",
-    "name": "Жестокая силачка",
-    "regionRef": "Shurima",
-    "supertype": "",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH055-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH055.png"
-      }
-    ],
-    "attack": 6,
-    "cardCode": "04SH055",
-    "cost": 5,
-    "health": 4,
-    "level": "1",
-    "name": "Исследовательница руин",
-    "regionRef": "Shurima",
-    "supertype": "",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH073-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH073.png"
-      }
-    ],
-    "attack": 2,
-    "cardCode": "04SH073",
-    "cost": 5,
-    "health": 4,
-    "level": "1",
-    "name": "Талия",
-    "regionRef": "Shurima",
-    "supertype": "Чемпион",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH073T2-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH073T2.png"
-      }
-    ],
-    "attack": 3,
-    "cardCode": "04SH073T2",
-    "cost": 5,
-    "health": 5,
-    "level": "2",
-    "name": "Талия",
-    "regionRef": "Shurima",
-    "supertype": "Чемпион",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH073T3-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH073T3.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04SH073T3",
-    "cost": 1,
-    "health": 0,
-    "level": "3",
-    "name": "Прядение камней Талии",
-    "regionRef": "Shurima",
-    "supertype": "Чемпион",
-    "type": "Заклинание"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH091-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH091.png"
-      }
-    ],
-    "attack": 3,
-    "cardCode": "04SH091",
-    "cost": 3,
-    "health": 3,
-    "level": "1",
-    "name": "Кахири-ученик",
-    "regionRef": "Shurima",
-    "supertype": "",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH024-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH024.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04SH024",
-    "cost": 4,
-    "health": 0,
-    "level": "1",
-    "name": "Соляной шпиль",
-    "regionRef": "Shurima",
-    "supertype": "",
-    "type": "Место силы"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH003-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH003.png"
-      }
-    ],
-    "attack": 1,
-    "cardCode": "04SH003",
-    "cost": 3,
-    "health": 5,
-    "level": "1",
-    "name": "Азир",
-    "regionRef": "Shurima",
-    "supertype": "Чемпион",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH003T2-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH003T2.png"
-      }
-    ],
-    "attack": 6,
-    "cardCode": "04SH003T2",
-    "cost": 3,
-    "health": 6,
-    "level": "2",
-    "name": "Азир",
-    "regionRef": "Shurima",
-    "supertype": "Чемпион",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH003T3-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH003T3.png"
-      }
-    ],
-    "attack": 2,
-    "cardCode": "04SH003T3",
-    "cost": 3,
-    "health": 6,
-    "level": "2",
-    "name": "Азир",
-    "regionRef": "Shurima",
-    "supertype": "Чемпион",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH003T4-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH003T4.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04SH003T4",
-    "cost": 3,
-    "health": 0,
-    "level": "3",
-    "name": "Восстань! Азира",
-    "regionRef": "Shurima",
-    "supertype": "Чемпион",
-    "type": "Заклинание"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH011-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH011.png"
-      }
-    ],
-    "attack": 3,
-    "cardCode": "04SH011",
-    "cost": 3,
-    "health": 3,
-    "level": "1",
-    "name": "Исследовательницы ксенотипов",
-    "regionRef": "Shurima",
-    "supertype": "",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH114-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH114.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04SH114",
-    "cost": 4,
-    "health": 0,
-    "level": "1",
-    "name": "Гнев пустыни",
-    "regionRef": "Shurima",
-    "supertype": "",
-    "type": "Заклинание"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH067-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH067.png"
-      }
-    ],
-    "attack": 4,
-    "cardCode": "04SH067",
-    "cost": 4,
-    "health": 4,
-    "level": "1",
-    "name": "Ренектон",
-    "regionRef": "Shurima",
-    "supertype": "Чемпион",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH067T1-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH067T1.png"
-      }
-    ],
-    "attack": 10,
-    "cardCode": "04SH067T1",
-    "cost": 4,
-    "health": 10,
-    "level": "2",
-    "name": "Ренектон",
-    "regionRef": "Shurima",
-    "supertype": "Чемпион",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH067T4-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH067T4.png"
-      }
-    ],
-    "attack": 5,
-    "cardCode": "04SH067T4",
-    "cost": 4,
-    "health": 5,
-    "level": "2",
-    "name": "Ренектон",
-    "regionRef": "Shurima",
-    "supertype": "Чемпион",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH067T2-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH067T2.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04SH067T2",
-    "cost": 2,
-    "health": 0,
-    "level": "3",
-    "name": "Беспощадный хищник Ренектона",
-    "regionRef": "Shurima",
-    "supertype": "Чемпион",
-    "type": "Заклинание"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH119-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH119.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04SH119",
+    "cardCode": "04BW010",
     "cost": 6,
     "health": 0,
     "level": "1",
-    "name": "Рикошет",
-    "regionRef": "Shurima",
+    "name": "Гарпун для чудовища",
+    "regionRef": "Bilgewater",
     "supertype": "",
     "type": "Заклинание"
   },
   {
     "assets": [
       {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH093-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH093.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04SH093",
-    "cost": 1,
-    "health": 0,
-    "level": "1",
-    "name": "Выточенный камень",
-    "regionRef": "Shurima",
-    "supertype": "",
-    "type": "Заклинание"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH038-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH038.png"
-      }
-    ],
-    "attack": 3,
-    "cardCode": "04SH038",
-    "cost": 2,
-    "health": 1,
-    "level": "1",
-    "name": "Пустынный лихач",
-    "regionRef": "Shurima",
-    "supertype": "",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH099-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH099.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04SH099",
-    "cost": 3,
-    "health": 0,
-    "level": "1",
-    "name": "Восстань!",
-    "regionRef": "Shurima",
-    "supertype": "",
-    "type": "Заклинание"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH048-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH048.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04SH048",
-    "cost": 3,
-    "health": 0,
-    "level": "1",
-    "name": "Внутреннее святилище",
-    "regionRef": "Shurima",
-    "supertype": "",
-    "type": "Место силы"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH020-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH020.png"
-      }
-    ],
-    "attack": 5,
-    "cardCode": "04SH020",
-    "cost": 4,
-    "health": 3,
-    "level": "1",
-    "name": "Сивир",
-    "regionRef": "Shurima",
-    "supertype": "Чемпион",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH057-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH057.png"
-      }
-    ],
-    "attack": 4,
-    "cardCode": "04SH057",
-    "cost": 5,
-    "health": 6,
-    "level": "1",
-    "name": "Вдохновляющий маршал",
-    "regionRef": "Shurima",
-    "supertype": "",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH082-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH082.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04SH082",
-    "cost": 2,
-    "health": 0,
-    "level": "1",
-    "name": "Гибельный путь",
-    "regionRef": "Shurima",
-    "supertype": "",
-    "type": "Заклинание"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH075-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH075.png"
-      }
-    ],
-    "attack": 3,
-    "cardCode": "04SH075",
-    "cost": 7,
-    "health": 7,
-    "level": "1",
-    "name": "Разделяй и властвуй",
-    "regionRef": "Shurima",
-    "supertype": "",
-    "type": "Заклинание"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH018-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH018.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04SH018",
-    "cost": 4,
-    "health": 0,
-    "level": "1",
-    "name": "Ритуал подчинения",
-    "regionRef": "Shurima",
-    "supertype": "",
-    "type": "Заклинание"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH009-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH009.png"
-      }
-    ],
-    "attack": 4,
-    "cardCode": "04SH009",
-    "cost": 5,
-    "health": 6,
-    "level": "1",
-    "name": "Буйствующий баккай",
-    "regionRef": "Shurima",
-    "supertype": "",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH049-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH049.png"
-      }
-    ],
-    "attack": 1,
-    "cardCode": "04SH049",
-    "cost": 1,
-    "health": 1,
-    "level": "1",
-    "name": "Удачливый поро",
-    "regionRef": "Shurima",
-    "supertype": "",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH045-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH045.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04SH045",
-    "cost": 1,
-    "health": 0,
-    "level": "1",
-    "name": "Изнурение",
-    "regionRef": "Shurima",
-    "supertype": "",
-    "type": "Заклинание"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH037-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH037.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04SH037",
-    "cost": 3,
-    "health": 0,
-    "level": "1",
-    "name": "Вздыбленная земля",
-    "regionRef": "Shurima",
-    "supertype": "",
-    "type": "Заклинание"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH107-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH107.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04SH107",
-    "cost": 7,
-    "health": 0,
-    "level": "1",
-    "name": "Торжество вознесшегося",
-    "regionRef": "Shurima",
-    "supertype": "",
-    "type": "Заклинание"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH047-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH047.png"
-      }
-    ],
-    "attack": 2,
-    "cardCode": "04SH047",
-    "cost": 6,
-    "health": 2,
-    "level": "1",
-    "name": "Насус",
-    "regionRef": "Shurima",
-    "supertype": "Чемпион",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH097-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH097.png"
-      }
-    ],
-    "attack": 8,
-    "cardCode": "04SH097",
-    "cost": 8,
-    "health": 5,
-    "level": "1",
-    "name": "Хранительница святилища",
-    "regionRef": "Shurima",
-    "supertype": "",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH026-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH026.png"
-      }
-    ],
-    "attack": 2,
-    "cardCode": "04SH026",
-    "cost": 1,
-    "health": 1,
-    "level": "1",
-    "name": "Хранитель дюн",
-    "regionRef": "Shurima",
-    "supertype": "",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH102-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH102.png"
-      }
-    ],
-    "attack": 3,
-    "cardCode": "04SH102",
-    "cost": 4,
-    "health": 2,
-    "level": "1",
-    "name": "Золотая посланница",
-    "regionRef": "Shurima",
-    "supertype": "",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH001-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH001.png"
-      }
-    ],
-    "attack": 2,
-    "cardCode": "04SH001",
-    "cost": 2,
-    "health": 3,
-    "level": "1",
-    "name": "Начинающий хрономант",
-    "regionRef": "Shurima",
-    "supertype": "",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH013-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH013.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04SH013",
-    "cost": 2,
-    "health": 0,
-    "level": "1",
-    "name": "Заповедник",
-    "regionRef": "Shurima",
-    "supertype": "",
-    "type": "Место силы"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH062-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH062.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04SH062",
-    "cost": 1,
-    "health": 0,
-    "level": "1",
-    "name": "Погребенный солнечный диск",
-    "regionRef": "Shurima",
-    "supertype": "",
-    "type": "Место силы"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH016-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH016.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04SH016",
-    "cost": 5,
-    "health": 0,
-    "level": "1",
-    "name": "Вытягивающий удар",
-    "regionRef": "Shurima",
-    "supertype": "",
-    "type": "Заклинание"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH108-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH108.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04SH108",
-    "cost": 7,
-    "health": 0,
-    "level": "1",
-    "name": "Клинок-бумеранг",
-    "regionRef": "Shurima",
-    "supertype": "",
-    "type": "Заклинание"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH047T1-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH047T1.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04SH047T1",
-    "cost": 5,
-    "health": 0,
-    "level": "3",
-    "name": "Вытягивающий удар Насуса",
-    "regionRef": "Shurima",
-    "supertype": "Чемпион",
-    "type": "Заклинание"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH047T2-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH047T2.png"
-      }
-    ],
-    "attack": 10,
-    "cardCode": "04SH047T2",
-    "cost": 6,
-    "health": 10,
-    "level": "2",
-    "name": "Насус",
-    "regionRef": "Shurima",
-    "supertype": "Чемпион",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH047T3-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH047T3.png"
-      }
-    ],
-    "attack": 3,
-    "cardCode": "04SH047T3",
-    "cost": 6,
-    "health": 3,
-    "level": "2",
-    "name": "Насус",
-    "regionRef": "Shurima",
-    "supertype": "Чемпион",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH021-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH021.png"
-      }
-    ],
-    "attack": 4,
-    "cardCode": "04SH021",
-    "cost": 6,
-    "health": 4,
-    "level": "1",
-    "name": "Вернувшийся Кахири",
-    "regionRef": "Shurima",
-    "supertype": "",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH101-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH101.png"
-      }
-    ],
-    "attack": 1,
-    "cardCode": "04SH101",
-    "cost": 3,
-    "health": 6,
-    "level": "1",
-    "name": "Верный вассал",
-    "regionRef": "Shurima",
-    "supertype": "",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH012-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH012.png"
-      }
-    ],
-    "attack": 3,
-    "cardCode": "04SH012",
-    "cost": 3,
-    "health": 4,
-    "level": "1",
-    "name": "Почтенный иерофант",
-    "regionRef": "Shurima",
-    "supertype": "",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH020T2-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH020T2.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04SH020T2",
-    "cost": 6,
-    "health": 0,
-    "level": "3",
-    "name": "Рикошет Сивир",
-    "regionRef": "Shurima",
-    "supertype": "Чемпион",
-    "type": "Заклинание"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH020T1-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH020T1.png"
-      }
-    ],
-    "attack": 6,
-    "cardCode": "04SH020T1",
-    "cost": 4,
-    "health": 4,
-    "level": "2",
-    "name": "Сивир",
-    "regionRef": "Shurima",
-    "supertype": "Чемпион",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH031-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH031.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04SH031",
-    "cost": 4,
-    "health": 0,
-    "level": "1",
-    "name": "Большое будущее",
-    "regionRef": "Shurima",
-    "supertype": "",
-    "type": "Заклинание"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH004-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH004.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04SH004",
-    "cost": 4,
-    "health": 0,
-    "level": "1",
-    "name": "Взвешенное решение",
-    "regionRef": "Shurima",
-    "supertype": "",
-    "type": "Заклинание"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH059-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH059.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04SH059",
-    "cost": 4,
-    "health": 0,
-    "level": "1",
-    "name": "Ритуал отрицания",
-    "regionRef": "Shurima",
-    "supertype": "",
-    "type": "Заклинание"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH076-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH076.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04SH076",
-    "cost": 2,
-    "health": 0,
-    "level": "1",
-    "name": "Древние песочные часы",
-    "regionRef": "Shurima",
-    "supertype": "",
-    "type": "Заклинание"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH118-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH118.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04SH118",
-    "cost": 2,
-    "health": 0,
-    "level": "1",
-    "name": "Пробуждение песков",
-    "regionRef": "Shurima",
-    "supertype": "",
-    "type": "Заклинание"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH041-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH041.png"
-      }
-    ],
-    "attack": 2,
-    "cardCode": "04SH041",
-    "cost": 3,
-    "health": 4,
-    "level": "1",
-    "name": "Разведчица Сай",
-    "regionRef": "Shurima",
-    "supertype": "",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH005-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH005.png"
-      }
-    ],
-    "attack": 3,
-    "cardCode": "04SH005",
-    "cost": 1,
-    "health": 1,
-    "level": "1",
-    "name": "Кровожадный мародер",
-    "regionRef": "Shurima",
-    "supertype": "",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH046-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH046.png"
-      }
-    ],
-    "attack": 6,
-    "cardCode": "04SH046",
-    "cost": 12,
-    "health": 6,
-    "level": "1",
-    "name": "Песчаная химера",
-    "regionRef": "Shurima",
-    "supertype": "",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH105-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH105.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04SH105",
-    "cost": 5,
-    "health": 0,
-    "level": "1",
-    "name": "Гробница в песках",
-    "regionRef": "Shurima",
-    "supertype": "",
-    "type": "Место силы"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH069-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH069.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04SH069",
-    "cost": 2,
-    "health": 0,
-    "level": "1",
-    "name": "Беспощадный хищник",
-    "regionRef": "Shurima",
-    "supertype": "",
-    "type": "Заклинание"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH121-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH121.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04SH121",
-    "cost": 0,
-    "health": 0,
-    "level": "1",
-    "name": "Ритуал призыва",
-    "regionRef": "Shurima",
-    "supertype": "",
-    "type": "Заклинание"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH110-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH110.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04SH110",
-    "cost": 1,
-    "health": 0,
-    "level": "1",
-    "name": "Прядение камней",
-    "regionRef": "Shurima",
-    "supertype": "",
-    "type": "Заклинание"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH051-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH051.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04SH051",
-    "cost": 2,
-    "health": 0,
-    "level": "1",
-    "name": "Пьедестал императора",
-    "regionRef": "Shurima",
-    "supertype": "",
-    "type": "Место силы"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH106-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH106.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04SH106",
-    "cost": 7,
-    "health": 0,
-    "level": "1",
-    "name": "Призрачный огонь",
-    "regionRef": "Shurima",
-    "supertype": "",
-    "type": "Заклинание"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH109-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SH109.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04SH109",
-    "cost": 3,
-    "health": 0,
-    "level": "1",
-    "name": "Зыбучий песок",
-    "regionRef": "Shurima",
-    "supertype": "",
-    "type": "Заклинание"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04FR006-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04FR006.png"
-      }
-    ],
-    "attack": 4,
-    "cardCode": "04FR006",
-    "cost": 5,
-    "health": 5,
-    "level": "1",
-    "name": "Дарклорн-инквизитор",
-    "regionRef": "Freljord",
-    "supertype": "",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04FR016-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04FR016.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04FR016",
-    "cost": 3,
-    "health": 0,
-    "level": "1",
-    "name": "Трофеи",
-    "regionRef": "Freljord",
-    "supertype": "",
-    "type": "Заклинание"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04FR013-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04FR013.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04FR013",
-    "cost": 5,
-    "health": 0,
-    "level": "1",
-    "name": "Морозостойкость",
-    "regionRef": "Freljord",
-    "supertype": "",
-    "type": "Заклинание"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04FR005-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04FR005.png"
-      }
-    ],
-    "attack": 2,
-    "cardCode": "04FR005",
-    "cost": 3,
-    "health": 3,
-    "level": "1",
-    "name": "Лиссандра",
-    "regionRef": "Freljord",
-    "supertype": "Чемпион",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04FR005T1-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04FR005T1.png"
-      }
-    ],
-    "attack": 3,
-    "cardCode": "04FR005T1",
-    "cost": 3,
-    "health": 4,
-    "level": "2",
-    "name": "Лиссандра",
-    "regionRef": "Freljord",
-    "supertype": "Чемпион",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04FR005T2-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04FR005T2.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04FR005T2",
-    "cost": 5,
-    "health": 0,
-    "level": "3",
-    "name": "Погребение Лиссандры",
-    "regionRef": "Freljord",
-    "supertype": "Чемпион",
-    "type": "Заклинание"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04FR001-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04FR001.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04FR001",
-    "cost": 1,
-    "health": 0,
-    "level": "1",
-    "name": "Ледяной раб",
-    "regionRef": "Freljord",
-    "supertype": "",
-    "type": "Место силы"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04FR007-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04FR007.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04FR007",
-    "cost": 5,
-    "health": 0,
-    "level": "1",
-    "name": "Погребение",
-    "regionRef": "Freljord",
-    "supertype": "",
-    "type": "Заклинание"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04FR017-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04FR017.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04FR017",
-    "cost": 2,
-    "health": 0,
-    "level": "1",
-    "name": "Благословение предков",
-    "regionRef": "Freljord",
-    "supertype": "",
-    "type": "Заклинание"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04FR014-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04FR014.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04FR014",
-    "cost": 4,
-    "health": 0,
-    "level": "1",
-    "name": "Проклятое ущелье",
-    "regionRef": "Freljord",
-    "supertype": "",
-    "type": "Место силы"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04FR009-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04FR009.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04FR009",
-    "cost": 3,
-    "health": 0,
-    "level": "1",
-    "name": "Ледяной осколок",
-    "regionRef": "Freljord",
-    "supertype": "",
-    "type": "Заклинание"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04FR010-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04FR010.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04FR010",
-    "cost": 1,
-    "health": 0,
-    "level": "1",
-    "name": "Три сестры",
-    "regionRef": "Freljord",
-    "supertype": "",
-    "type": "Заклинание"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04NX002-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04NX002.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04NX002",
-    "cost": 4,
-    "health": 0,
-    "level": "1",
-    "name": "Вкрадчивый шепот",
-    "regionRef": "Noxus",
-    "supertype": "",
-    "type": "Заклинание"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04NX010-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04NX010.png"
-      }
-    ],
-    "attack": 5,
-    "cardCode": "04NX010",
-    "cost": 3,
-    "health": 1,
-    "level": "1",
-    "name": "Шип Розы",
-    "regionRef": "Noxus",
-    "supertype": "",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04NX015-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04NX015.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04NX015",
-    "cost": 4,
-    "health": 0,
-    "level": "1",
-    "name": "Дело крови",
-    "regionRef": "Noxus",
-    "supertype": "",
-    "type": "Заклинание"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04NX006-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04NX006.png"
-      }
-    ],
-    "attack": 3,
-    "cardCode": "04NX006",
-    "cost": 2,
-    "health": 2,
-    "level": "1",
-    "name": "Шпионка Черной Розы",
-    "regionRef": "Noxus",
-    "supertype": "",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04NX001-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04NX001.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04NX001",
-    "cost": 3,
-    "health": 0,
-    "level": "1",
-    "name": "Копия",
-    "regionRef": "Noxus",
-    "supertype": "",
-    "type": "Заклинание"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04NX004-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04NX004.png"
-      }
-    ],
-    "attack": 5,
-    "cardCode": "04NX004",
-    "cost": 3,
-    "health": 2,
-    "level": "1",
-    "name": "Ле Блан",
-    "regionRef": "Noxus",
-    "supertype": "Чемпион",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04NX004T1-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04NX004T1.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04NX004T1",
-    "cost": 4,
-    "health": 0,
-    "level": "3",
-    "name": "Печать порока Ле Блан",
-    "regionRef": "Noxus",
-    "supertype": "Чемпион",
-    "type": "Заклинание"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04NX004T2-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04NX004T2.png"
-      }
-    ],
-    "attack": 6,
-    "cardCode": "04NX004T2",
-    "cost": 3,
-    "health": 3,
-    "level": "2",
-    "name": "Ле Блан",
-    "regionRef": "Noxus",
-    "supertype": "Чемпион",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04NX016-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04NX016.png"
-      }
-    ],
-    "attack": 2,
-    "cardCode": "04NX016",
-    "cost": 4,
-    "health": 5,
-    "level": "1",
-    "name": "Шипящий прядильщик",
-    "regionRef": "Noxus",
-    "supertype": "",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04NX018-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04NX018.png"
-      }
-    ],
-    "attack": 1,
-    "cardCode": "04NX018",
-    "cost": 1,
-    "health": 2,
-    "level": "1",
-    "name": "Алая кровопускательница ",
-    "regionRef": "Noxus",
-    "supertype": "",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04NX003-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04NX003.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04NX003",
-    "cost": 4,
-    "health": 0,
-    "level": "1",
-    "name": "Печать порока",
-    "regionRef": "Noxus",
-    "supertype": "",
-    "type": "Заклинание"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04NX017-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04NX017.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04NX017",
-    "cost": 8,
-    "health": 0,
-    "level": "1",
-    "name": "Сила в количестве",
-    "regionRef": "Noxus",
-    "supertype": "",
-    "type": "Заклинание"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SI005-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SI005.png"
-      }
-    ],
-    "attack": 4,
-    "cardCode": "04SI005",
-    "cost": 5,
-    "health": 4,
-    "level": "1",
-    "name": "Киндред",
-    "regionRef": "ShadowIsles",
-    "supertype": "Чемпион",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SI005T4-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SI005T4.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04SI005T4",
-    "cost": 5,
-    "health": 0,
-    "level": "3",
-    "name": "Духовное путешествие Киндред",
-    "regionRef": "ShadowIsles",
-    "supertype": "Чемпион",
-    "type": "Заклинание"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SI005T1-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SI005T1.png"
-      }
-    ],
-    "attack": 5,
-    "cardCode": "04SI005T1",
-    "cost": 5,
-    "health": 5,
-    "level": "2",
-    "name": "Киндред",
-    "regionRef": "ShadowIsles",
-    "supertype": "Чемпион",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SI016-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SI016.png"
-      }
-    ],
-    "attack": 4,
-    "cardCode": "04SI016",
-    "cost": 4,
-    "health": 1,
-    "level": "1",
-    "name": "Душепийца ",
-    "regionRef": "ShadowIsles",
-    "supertype": "",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SI007-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SI007.png"
-      }
-    ],
-    "attack": 6,
-    "cardCode": "04SI007",
-    "cost": 7,
-    "health": 4,
-    "level": "1",
-    "name": "Пожиратель памяти",
-    "regionRef": "ShadowIsles",
-    "supertype": "",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SI011-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SI011.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04SI011",
-    "cost": 2,
-    "health": 0,
-    "level": "1",
-    "name": "В сумрак",
-    "regionRef": "ShadowIsles",
-    "supertype": "",
-    "type": "Заклинание"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SI015-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SI015.png"
-      }
-    ],
-    "attack": 2,
-    "cardCode": "04SI015",
-    "cost": 2,
-    "health": 3,
-    "level": "1",
-    "name": "Морской скарабей",
-    "regionRef": "ShadowIsles",
-    "supertype": "",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SI017-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SI017.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04SI017",
-    "cost": 2,
-    "health": 0,
-    "level": "1",
-    "name": "Песнь Островов",
-    "regionRef": "ShadowIsles",
-    "supertype": "",
-    "type": "Заклинание"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SI001-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SI001.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04SI001",
-    "cost": 2,
-    "health": 0,
-    "level": "1",
-    "name": "Милость Овечки",
-    "regionRef": "ShadowIsles",
-    "supertype": "",
-    "type": "Заклинание"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SI009-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SI009.png"
-      }
-    ],
-    "attack": 3,
-    "cardCode": "04SI009",
-    "cost": 3,
-    "health": 2,
-    "level": "1",
-    "name": "Ткач душ",
-    "regionRef": "ShadowIsles",
-    "supertype": "",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SI013-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SI013.png"
-      }
-    ],
-    "attack": 2,
-    "cardCode": "04SI013",
-    "cost": 2,
-    "health": 2,
-    "level": "1",
-    "name": "Матерь масок",
-    "regionRef": "ShadowIsles",
-    "supertype": "",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SI002-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SI002.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04SI002",
-    "cost": 5,
-    "health": 0,
-    "level": "1",
-    "name": "Духовное путешествие",
-    "regionRef": "ShadowIsles",
-    "supertype": "",
-    "type": "Заклинание"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SI003-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04SI003.png"
-      }
-    ],
-    "attack": 3,
-    "cardCode": "04SI003",
-    "cost": 2,
-    "health": 1,
-    "level": "1",
-    "name": "Полузабытый божок",
-    "regionRef": "ShadowIsles",
-    "supertype": "",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04PZ014-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04PZ014.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04PZ014",
-    "cost": 0,
-    "health": 0,
-    "level": "1",
-    "name": "Производственный бум",
-    "regionRef": "PiltoverZaun",
-    "supertype": "",
-    "type": "Заклинание"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04PZ010-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04PZ010.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04PZ010",
-    "cost": 1,
-    "health": 0,
-    "level": "1",
-    "name": "Параллельные потоки",
-    "regionRef": "PiltoverZaun",
-    "supertype": "",
-    "type": "Заклинание"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04MT010-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04MT010.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04MT010",
-    "cost": 2,
-    "health": 0,
-    "level": "1",
-    "name": "Звездный пик",
-    "regionRef": "Targon",
-    "supertype": "",
-    "type": "Место силы"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04MT012-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04MT012.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04MT012",
-    "cost": 8,
-    "health": 0,
-    "level": "1",
-    "name": "Зов судьбы",
-    "regionRef": "Targon",
-    "supertype": "",
-    "type": "Заклинание"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04DE014-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04DE014.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04DE014",
-    "cost": 1,
-    "health": 3,
-    "level": "1",
-    "name": "Драконья закуска",
-    "regionRef": "Demacia",
-    "supertype": "",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04DE001-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04DE001.png"
-      }
-    ],
-    "attack": 3,
-    "cardCode": "04DE001",
-    "cost": 2,
-    "health": 2,
-    "level": "1",
-    "name": "Почтенный лорд",
-    "regionRef": "Demacia",
-    "supertype": "",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04DE003-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04DE003.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04DE003",
-    "cost": 3,
-    "health": 0,
-    "level": "1",
-    "name": "Катаклизм",
-    "regionRef": "Demacia",
-    "supertype": "",
-    "type": "Заклинание"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04DE002-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04DE002.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04DE002",
-    "cost": 4,
-    "health": 0,
-    "level": "1",
-    "name": "Золотая эгида",
-    "regionRef": "Demacia",
-    "supertype": "",
-    "type": "Заклинание"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04DE006-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04DE006.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04DE006",
-    "cost": 1,
-    "health": 0,
-    "level": "1",
-    "name": "Военная выправка",
-    "regionRef": "Demacia",
-    "supertype": "",
-    "type": "Заклинание"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04DE008-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04DE008.png"
-      }
-    ],
-    "attack": 6,
-    "cardCode": "04DE008",
-    "cost": 6,
-    "health": 4,
-    "level": "1",
-    "name": "Джарван IV",
-    "regionRef": "Demacia",
-    "supertype": "Чемпион",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04DE008T1-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04DE008T1.png"
-      }
-    ],
-    "attack": 7,
-    "cardCode": "04DE008T1",
-    "cost": 6,
-    "health": 5,
-    "level": "2",
-    "name": "Джарван IV",
-    "regionRef": "Demacia",
-    "supertype": "Чемпион",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04DE008T2-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04DE008T2.png"
-      }
-    ],
-    "attack": 0,
-    "cardCode": "04DE008T2",
-    "cost": 3,
-    "health": 0,
-    "level": "3",
-    "name": "Катаклизм Джарвана IV",
-    "regionRef": "Demacia",
-    "supertype": "Чемпион",
-    "type": "Заклинание"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04DE010-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04DE010.png"
-      }
-    ],
-    "attack": 3,
-    "cardCode": "04DE010",
-    "cost": 7,
-    "health": 6,
-    "level": "1",
-    "name": "Король Джарван III",
-    "regionRef": "Demacia",
-    "supertype": "",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04DE013-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04DE013.png"
-      }
-    ],
-    "attack": 7,
-    "cardCode": "04DE013",
-    "cost": 6,
-    "health": 7,
-    "level": "1",
-    "name": "Гигантский кремнерог",
-    "regionRef": "Demacia",
-    "supertype": "",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04DE007-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04DE007.png"
-      }
-    ],
-    "attack": 2,
-    "cardCode": "04DE007",
-    "cost": 1,
-    "health": 2,
-    "level": "1",
-    "name": "Провинившаяся адъютантка",
-    "regionRef": "Demacia",
-    "supertype": "",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04DE009-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04DE009.png"
-      }
-    ],
-    "attack": 4,
-    "cardCode": "04DE009",
-    "cost": 4,
-    "health": 4,
-    "level": "1",
-    "name": "Благородный всадник",
-    "regionRef": "Demacia",
-    "supertype": "",
-    "type": "Боец"
-  },
-  {
-    "assets": [
-      {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04BW011-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04BW011.png"
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04BW011-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04BW011.png"
       }
     ],
     "attack": 0,
@@ -14554,8 +12429,8 @@
   {
     "assets": [
       {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04BW008-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04BW008.png"
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04BW008-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04BW008.png"
       }
     ],
     "attack": 0,
@@ -14571,8 +12446,2609 @@
   {
     "assets": [
       {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04IO014-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04IO014.png"
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04PZ005-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04PZ005.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "04PZ005",
+    "cost": 2,
+    "health": 2,
+    "level": "1",
+    "name": "Чиркун-чернорабочий",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04PZ014-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04PZ014.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04PZ014",
+    "cost": 0,
+    "health": 0,
+    "level": "1",
+    "name": "Производственный бум",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04PZ010-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04PZ010.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04PZ010",
+    "cost": 1,
+    "health": 0,
+    "level": "1",
+    "name": "Параллельные потоки",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04PZ015-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04PZ015.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "04PZ015",
+    "cost": 1,
+    "health": 3,
+    "level": "1",
+    "name": "Адаптатрон-3000",
+    "regionRef": "PiltoverZaun",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH070-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH070.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04SH070",
+    "cost": 2,
+    "health": 0,
+    "level": "1",
+    "name": "Недостойный",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH081-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH081.png"
+      }
+    ],
+    "attack": 5,
+    "cardCode": "04SH081",
+    "cost": 4,
+    "health": 3,
+    "level": "1",
+    "name": "Баккай – заклинательница песка",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH077-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH077.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "04SH077",
+    "cost": 4,
+    "health": 4,
+    "level": "1",
+    "name": "Глас восставших",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH089-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH089.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "04SH089",
+    "cost": 4,
+    "health": 4,
+    "level": "1",
+    "name": "Натуралистка из пустыни",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH015-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH015.png"
+      }
+    ],
+    "attack": 6,
+    "cardCode": "04SH015",
+    "cost": 7,
+    "health": 6,
+    "level": "1",
+    "name": "Разз Кровавая Грива",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH058-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH058.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "04SH058",
+    "cost": 4,
+    "health": 5,
+    "level": "1",
+    "name": "Ваятель песка",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH035-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH035.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04SH035",
+    "cost": 2,
+    "health": 0,
+    "level": "1",
+    "name": "Нажива",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH028-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH028.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04SH028",
+    "cost": 1,
+    "health": 0,
+    "level": "1",
+    "name": "Древние механизмы",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Место силы"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH002-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH002.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "04SH002",
+    "cost": 1,
+    "health": 2,
+    "level": "1",
+    "name": "Баккай-жнец",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH042-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH042.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04SH042",
+    "cost": 2,
+    "health": 0,
+    "level": "1",
+    "name": "Спящий камненосец",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Место силы"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH032-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH032.png"
+      }
+    ],
+    "attack": 6,
+    "cardCode": "04SH032",
+    "cost": 4,
+    "health": 4,
+    "level": "1",
+    "name": "Жестокая силачка",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH055-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH055.png"
+      }
+    ],
+    "attack": 6,
+    "cardCode": "04SH055",
+    "cost": 5,
+    "health": 4,
+    "level": "1",
+    "name": "Исследовательница руин",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH039-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH039.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "04SH039",
+    "cost": 2,
+    "health": 4,
+    "level": "1",
+    "name": "Зилеан",
+    "regionRef": "Shurima",
+    "supertype": "Чемпион",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH039T2-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH039T2.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04SH039T2",
+    "cost": 7,
+    "health": 0,
+    "level": "3",
+    "name": "Временной сдвиг Зилеана",
+    "regionRef": "Shurima",
+    "supertype": "Чемпион",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH039T1-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH039T1.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "04SH039T1",
+    "cost": 2,
+    "health": 5,
+    "level": "2",
+    "name": "Зилеан",
+    "regionRef": "Shurima",
+    "supertype": "Чемпион",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH073-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH073.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "04SH073",
+    "cost": 5,
+    "health": 4,
+    "level": "1",
+    "name": "Талия",
+    "regionRef": "Shurima",
+    "supertype": "Чемпион",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH073T2-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH073T2.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "04SH073T2",
+    "cost": 5,
+    "health": 5,
+    "level": "2",
+    "name": "Талия",
+    "regionRef": "Shurima",
+    "supertype": "Чемпион",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH073T3-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH073T3.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04SH073T3",
+    "cost": 1,
+    "health": 0,
+    "level": "3",
+    "name": "Прядение камней Талии",
+    "regionRef": "Shurima",
+    "supertype": "Чемпион",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH091-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH091.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "04SH091",
+    "cost": 3,
+    "health": 3,
+    "level": "1",
+    "name": "Кахири-ученик",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH024-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH024.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04SH024",
+    "cost": 4,
+    "health": 0,
+    "level": "1",
+    "name": "Соляной шпиль",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Место силы"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH003-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH003.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "04SH003",
+    "cost": 3,
+    "health": 5,
+    "level": "1",
+    "name": "Азир",
+    "regionRef": "Shurima",
+    "supertype": "Чемпион",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH003T2-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH003T2.png"
+      }
+    ],
+    "attack": 6,
+    "cardCode": "04SH003T2",
+    "cost": 3,
+    "health": 6,
+    "level": "2",
+    "name": "Азир",
+    "regionRef": "Shurima",
+    "supertype": "Чемпион",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH003T3-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH003T3.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "04SH003T3",
+    "cost": 3,
+    "health": 6,
+    "level": "2",
+    "name": "Азир",
+    "regionRef": "Shurima",
+    "supertype": "Чемпион",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH003T4-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH003T4.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04SH003T4",
+    "cost": 3,
+    "health": 0,
+    "level": "3",
+    "name": "Восстань! Азира",
+    "regionRef": "Shurima",
+    "supertype": "Чемпион",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH011-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH011.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "04SH011",
+    "cost": 3,
+    "health": 3,
+    "level": "1",
+    "name": "Исследовательницы ксенотипов",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH114-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH114.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04SH114",
+    "cost": 4,
+    "health": 0,
+    "level": "1",
+    "name": "Гнев пустыни",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH067-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH067.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "04SH067",
+    "cost": 4,
+    "health": 4,
+    "level": "1",
+    "name": "Ренектон",
+    "regionRef": "Shurima",
+    "supertype": "Чемпион",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH067T1-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH067T1.png"
+      }
+    ],
+    "attack": 10,
+    "cardCode": "04SH067T1",
+    "cost": 4,
+    "health": 10,
+    "level": "2",
+    "name": "Ренектон",
+    "regionRef": "Shurima",
+    "supertype": "Чемпион",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH067T4-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH067T4.png"
+      }
+    ],
+    "attack": 5,
+    "cardCode": "04SH067T4",
+    "cost": 4,
+    "health": 5,
+    "level": "2",
+    "name": "Ренектон",
+    "regionRef": "Shurima",
+    "supertype": "Чемпион",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH067T2-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH067T2.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04SH067T2",
+    "cost": 2,
+    "health": 0,
+    "level": "3",
+    "name": "Беспощадный хищник Ренектона",
+    "regionRef": "Shurima",
+    "supertype": "Чемпион",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH120-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH120.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04SH120",
+    "cost": 1,
+    "health": 0,
+    "level": "1",
+    "name": "Потенциальные возможности",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH119-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH119.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04SH119",
+    "cost": 6,
+    "health": 0,
+    "level": "1",
+    "name": "Рикошет",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH093-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH093.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04SH093",
+    "cost": 1,
+    "health": 0,
+    "level": "1",
+    "name": "Выточенный камень",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH079-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH079.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04SH079",
+    "cost": 1,
+    "health": 0,
+    "level": "1",
+    "name": "Вещие пески",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH038-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH038.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "04SH038",
+    "cost": 2,
+    "health": 1,
+    "level": "1",
+    "name": "Пустынный лихач",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH104-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH104.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "04SH104",
+    "cost": 5,
+    "health": 4,
+    "level": "1",
+    "name": "Реставратор",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH099-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH099.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04SH099",
+    "cost": 3,
+    "health": 0,
+    "level": "1",
+    "name": "Восстань!",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH048-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH048.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04SH048",
+    "cost": 3,
+    "health": 0,
+    "level": "1",
+    "name": "Внутреннее святилище",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Место силы"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH056-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH056.png"
+      }
+    ],
+    "attack": 5,
+    "cardCode": "04SH056",
+    "cost": 4,
+    "health": 3,
+    "level": "1",
+    "name": "Перекупщица",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH020-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH020.png"
+      }
+    ],
+    "attack": 5,
+    "cardCode": "04SH020",
+    "cost": 4,
+    "health": 3,
+    "level": "1",
+    "name": "Сивир",
+    "regionRef": "Shurima",
+    "supertype": "Чемпион",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH057-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH057.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "04SH057",
+    "cost": 5,
+    "health": 6,
+    "level": "1",
+    "name": "Вдохновляющий маршал",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH103-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH103.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "04SH103",
+    "cost": 3,
+    "health": 3,
+    "level": "1",
+    "name": "Безжалостная охотница",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH034-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH034.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "04SH034",
+    "cost": 8,
+    "health": 7,
+    "level": "1",
+    "name": "Часовщик",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH082-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH082.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04SH082",
+    "cost": 2,
+    "health": 0,
+    "level": "1",
+    "name": "Гибельный путь",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH075-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH075.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "04SH075",
+    "cost": 7,
+    "health": 7,
+    "level": "1",
+    "name": "Разделяй и властвуй",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH018-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH018.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04SH018",
+    "cost": 4,
+    "health": 0,
+    "level": "1",
+    "name": "Ритуал подчинения",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH009-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH009.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "04SH009",
+    "cost": 5,
+    "health": 6,
+    "level": "1",
+    "name": "Буйствующий баккай",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH049-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH049.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "04SH049",
+    "cost": 1,
+    "health": 1,
+    "level": "1",
+    "name": "Удачливый поро",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH045-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH045.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04SH045",
+    "cost": 1,
+    "health": 0,
+    "level": "1",
+    "name": "Изнурение",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH037-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH037.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04SH037",
+    "cost": 3,
+    "health": 0,
+    "level": "1",
+    "name": "Вздыбленная земля",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH107-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH107.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04SH107",
+    "cost": 7,
+    "health": 0,
+    "level": "1",
+    "name": "Торжество вознесшегося",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH047-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH047.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "04SH047",
+    "cost": 6,
+    "health": 2,
+    "level": "1",
+    "name": "Насус",
+    "regionRef": "Shurima",
+    "supertype": "Чемпион",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH097-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH097.png"
+      }
+    ],
+    "attack": 8,
+    "cardCode": "04SH097",
+    "cost": 8,
+    "health": 5,
+    "level": "1",
+    "name": "Хранительница святилища",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH026-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH026.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "04SH026",
+    "cost": 1,
+    "health": 1,
+    "level": "1",
+    "name": "Хранитель дюн",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH102-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH102.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "04SH102",
+    "cost": 4,
+    "health": 2,
+    "level": "1",
+    "name": "Золотая посланница",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH001-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH001.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "04SH001",
+    "cost": 2,
+    "health": 3,
+    "level": "1",
+    "name": "Начинающий хрономант",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH030-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH030.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04SH030",
+    "cost": 7,
+    "health": 0,
+    "level": "1",
+    "name": "Временной сдвиг",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH013-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH013.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04SH013",
+    "cost": 2,
+    "health": 0,
+    "level": "1",
+    "name": "Заповедник",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Место силы"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH062-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH062.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04SH062",
+    "cost": 1,
+    "health": 0,
+    "level": "1",
+    "name": "Погребенный солнечный диск",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Место силы"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH016-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH016.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04SH016",
+    "cost": 5,
+    "health": 0,
+    "level": "1",
+    "name": "Вытягивающий удар",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH108-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH108.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04SH108",
+    "cost": 7,
+    "health": 0,
+    "level": "1",
+    "name": "Клинок-бумеранг",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH066-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH066.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04SH066",
+    "cost": 2,
+    "health": 0,
+    "level": "1",
+    "name": "Время в бутылке",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH047T1-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH047T1.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04SH047T1",
+    "cost": 5,
+    "health": 0,
+    "level": "3",
+    "name": "Вытягивающий удар Насуса",
+    "regionRef": "Shurima",
+    "supertype": "Чемпион",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH047T2-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH047T2.png"
+      }
+    ],
+    "attack": 10,
+    "cardCode": "04SH047T2",
+    "cost": 6,
+    "health": 10,
+    "level": "2",
+    "name": "Насус",
+    "regionRef": "Shurima",
+    "supertype": "Чемпион",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH047T3-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH047T3.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "04SH047T3",
+    "cost": 6,
+    "health": 3,
+    "level": "2",
+    "name": "Насус",
+    "regionRef": "Shurima",
+    "supertype": "Чемпион",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH021-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH021.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "04SH021",
+    "cost": 6,
+    "health": 4,
+    "level": "1",
+    "name": "Вернувшийся Кахири",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH101-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH101.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "04SH101",
+    "cost": 3,
+    "health": 6,
+    "level": "1",
+    "name": "Верный вассал",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH012-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH012.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "04SH012",
+    "cost": 3,
+    "health": 4,
+    "level": "1",
+    "name": "Почтенный иерофант",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH020T2-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH020T2.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04SH020T2",
+    "cost": 6,
+    "health": 0,
+    "level": "3",
+    "name": "Рикошет Сивир",
+    "regionRef": "Shurima",
+    "supertype": "Чемпион",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH020T1-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH020T1.png"
+      }
+    ],
+    "attack": 6,
+    "cardCode": "04SH020T1",
+    "cost": 4,
+    "health": 4,
+    "level": "2",
+    "name": "Сивир",
+    "regionRef": "Shurima",
+    "supertype": "Чемпион",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH031-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH031.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04SH031",
+    "cost": 4,
+    "health": 0,
+    "level": "1",
+    "name": "Большое будущее",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH004-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH004.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04SH004",
+    "cost": 4,
+    "health": 0,
+    "level": "1",
+    "name": "Взвешенное решение",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH059-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH059.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04SH059",
+    "cost": 4,
+    "health": 0,
+    "level": "1",
+    "name": "Ритуал отрицания",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH044-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH044.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "04SH044",
+    "cost": 2,
+    "health": 2,
+    "level": "1",
+    "name": "Заводной помощник",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH076-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH076.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04SH076",
+    "cost": 2,
+    "health": 0,
+    "level": "1",
+    "name": "Древние песочные часы",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH118-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH118.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04SH118",
+    "cost": 2,
+    "health": 0,
+    "level": "1",
+    "name": "Пробуждение песков",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH072-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH072.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "04SH072",
+    "cost": 2,
+    "health": 4,
+    "level": "1",
+    "name": "Прорицательница",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH041-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH041.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "04SH041",
+    "cost": 3,
+    "health": 4,
+    "level": "1",
+    "name": "Разведчица Сай",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH005-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH005.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "04SH005",
+    "cost": 1,
+    "health": 1,
+    "level": "1",
+    "name": "Кровожадный мародер",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH046-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH046.png"
+      }
+    ],
+    "attack": 6,
+    "cardCode": "04SH046",
+    "cost": 12,
+    "health": 6,
+    "level": "1",
+    "name": "Песчаная химера",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH105-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH105.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04SH105",
+    "cost": 5,
+    "health": 0,
+    "level": "1",
+    "name": "Гробница в песках",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Место силы"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH069-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH069.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04SH069",
+    "cost": 2,
+    "health": 0,
+    "level": "1",
+    "name": "Беспощадный хищник",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH121-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH121.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04SH121",
+    "cost": 0,
+    "health": 0,
+    "level": "1",
+    "name": "Ритуал призыва",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH110-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH110.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04SH110",
+    "cost": 1,
+    "health": 0,
+    "level": "1",
+    "name": "Прядение камней",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH051-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH051.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04SH051",
+    "cost": 2,
+    "health": 0,
+    "level": "1",
+    "name": "Пьедестал императора",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Место силы"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH106-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH106.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04SH106",
+    "cost": 7,
+    "health": 0,
+    "level": "1",
+    "name": "Призрачный огонь",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH109-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SH109.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04SH109",
+    "cost": 3,
+    "health": 0,
+    "level": "1",
+    "name": "Зыбучий песок",
+    "regionRef": "Shurima",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04FR006-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04FR006.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "04FR006",
+    "cost": 5,
+    "health": 5,
+    "level": "1",
+    "name": "Дарклорн-инквизитор",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04FR012-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04FR012.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04FR012",
+    "cost": 9,
+    "health": 0,
+    "level": "1",
+    "name": "Ледяное погребение",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04FR016-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04FR016.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04FR016",
+    "cost": 3,
+    "health": 0,
+    "level": "1",
+    "name": "Трофеи",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04FR013-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04FR013.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04FR013",
+    "cost": 5,
+    "health": 0,
+    "level": "1",
+    "name": "Морозостойкость",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04FR005-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04FR005.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "04FR005",
+    "cost": 3,
+    "health": 3,
+    "level": "1",
+    "name": "Лиссандра",
+    "regionRef": "Freljord",
+    "supertype": "Чемпион",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04FR005T1-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04FR005T1.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "04FR005T1",
+    "cost": 3,
+    "health": 4,
+    "level": "2",
+    "name": "Лиссандра",
+    "regionRef": "Freljord",
+    "supertype": "Чемпион",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04FR005T2-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04FR005T2.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04FR005T2",
+    "cost": 5,
+    "health": 0,
+    "level": "3",
+    "name": "Погребение Лиссандры",
+    "regionRef": "Freljord",
+    "supertype": "Чемпион",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04FR011-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04FR011.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04FR011",
+    "cost": 4,
+    "health": 0,
+    "level": "1",
+    "name": "Объятия холода",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04FR001-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04FR001.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04FR001",
+    "cost": 1,
+    "health": 0,
+    "level": "1",
+    "name": "Ледяной раб",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Место силы"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04FR007-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04FR007.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04FR007",
+    "cost": 5,
+    "health": 0,
+    "level": "1",
+    "name": "Погребение",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04FR017-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04FR017.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04FR017",
+    "cost": 2,
+    "health": 0,
+    "level": "1",
+    "name": "Благословение предков",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04FR014-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04FR014.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04FR014",
+    "cost": 4,
+    "health": 0,
+    "level": "1",
+    "name": "Проклятое ущелье",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Место силы"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04FR009-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04FR009.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04FR009",
+    "cost": 3,
+    "health": 0,
+    "level": "1",
+    "name": "Ледяной осколок",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04FR010-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04FR010.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04FR010",
+    "cost": 1,
+    "health": 0,
+    "level": "1",
+    "name": "Три сестры",
+    "regionRef": "Freljord",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04NX002-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04NX002.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04NX002",
+    "cost": 4,
+    "health": 0,
+    "level": "1",
+    "name": "Вкрадчивый шепот",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04NX010-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04NX010.png"
+      }
+    ],
+    "attack": 5,
+    "cardCode": "04NX010",
+    "cost": 3,
+    "health": 1,
+    "level": "1",
+    "name": "Шип Розы",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04NX015-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04NX015.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04NX015",
+    "cost": 4,
+    "health": 0,
+    "level": "1",
+    "name": "Дело крови",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04NX019-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04NX019.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "04NX019",
+    "cost": 1,
+    "health": 1,
+    "level": "1",
+    "name": "Неукротимый кусака",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04NX008-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04NX008.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "04NX008",
+    "cost": 8,
+    "health": 5,
+    "level": "1",
+    "name": "Проницательный стратег",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04NX006-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04NX006.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "04NX006",
+    "cost": 2,
+    "health": 2,
+    "level": "1",
+    "name": "Шпионка Черной Розы",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04NX001-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04NX001.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04NX001",
+    "cost": 3,
+    "health": 0,
+    "level": "1",
+    "name": "Копия",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04NX004-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04NX004.png"
+      }
+    ],
+    "attack": 5,
+    "cardCode": "04NX004",
+    "cost": 3,
+    "health": 2,
+    "level": "1",
+    "name": "Ле Блан",
+    "regionRef": "Noxus",
+    "supertype": "Чемпион",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04NX004T1-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04NX004T1.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04NX004T1",
+    "cost": 4,
+    "health": 0,
+    "level": "3",
+    "name": "Печать порока Ле Блан",
+    "regionRef": "Noxus",
+    "supertype": "Чемпион",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04NX004T2-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04NX004T2.png"
+      }
+    ],
+    "attack": 6,
+    "cardCode": "04NX004T2",
+    "cost": 3,
+    "health": 3,
+    "level": "2",
+    "name": "Ле Блан",
+    "regionRef": "Noxus",
+    "supertype": "Чемпион",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04NX016-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04NX016.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "04NX016",
+    "cost": 4,
+    "health": 5,
+    "level": "1",
+    "name": "Шипящий прядильщик",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04NX018-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04NX018.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "04NX018",
+    "cost": 1,
+    "health": 2,
+    "level": "1",
+    "name": "Алая кровопускательница ",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04NX003-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04NX003.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04NX003",
+    "cost": 4,
+    "health": 0,
+    "level": "1",
+    "name": "Печать порока",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04NX017-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04NX017.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04NX017",
+    "cost": 8,
+    "health": 0,
+    "level": "1",
+    "name": "Сила в количестве",
+    "regionRef": "Noxus",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SI005-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SI005.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "04SI005",
+    "cost": 5,
+    "health": 4,
+    "level": "1",
+    "name": "Киндред",
+    "regionRef": "ShadowIsles",
+    "supertype": "Чемпион",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SI005T4-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SI005T4.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04SI005T4",
+    "cost": 5,
+    "health": 0,
+    "level": "3",
+    "name": "Духовное путешествие Киндред",
+    "regionRef": "ShadowIsles",
+    "supertype": "Чемпион",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SI005T1-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SI005T1.png"
+      }
+    ],
+    "attack": 5,
+    "cardCode": "04SI005T1",
+    "cost": 5,
+    "health": 5,
+    "level": "2",
+    "name": "Киндред",
+    "regionRef": "ShadowIsles",
+    "supertype": "Чемпион",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SI016-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SI016.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "04SI016",
+    "cost": 4,
+    "health": 1,
+    "level": "1",
+    "name": "Душепийца ",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SI007-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SI007.png"
+      }
+    ],
+    "attack": 6,
+    "cardCode": "04SI007",
+    "cost": 7,
+    "health": 4,
+    "level": "1",
+    "name": "Пожиратель памяти",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SI011-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SI011.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04SI011",
+    "cost": 2,
+    "health": 0,
+    "level": "1",
+    "name": "В сумрак",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SI015-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SI015.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "04SI015",
+    "cost": 2,
+    "health": 3,
+    "level": "1",
+    "name": "Морской скарабей",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SI004-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SI004.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04SI004",
+    "cost": 1,
+    "health": 1,
+    "level": "1",
+    "name": "Крылья и Волна",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SI017-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SI017.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04SI017",
+    "cost": 2,
+    "health": 0,
+    "level": "1",
+    "name": "Песнь Островов",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SI001-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SI001.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04SI001",
+    "cost": 2,
+    "health": 0,
+    "level": "1",
+    "name": "Милость Овечки",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SI009-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SI009.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "04SI009",
+    "cost": 3,
+    "health": 2,
+    "level": "1",
+    "name": "Ткач душ",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SI013-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SI013.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "04SI013",
+    "cost": 2,
+    "health": 2,
+    "level": "1",
+    "name": "Матерь масок",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SI002-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SI002.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04SI002",
+    "cost": 5,
+    "health": 0,
+    "level": "1",
+    "name": "Духовное путешествие",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SI003-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04SI003.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "04SI003",
+    "cost": 2,
+    "health": 1,
+    "level": "1",
+    "name": "Полузабытый божок",
+    "regionRef": "ShadowIsles",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04MT014-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04MT014.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04MT014",
+    "cost": 5,
+    "health": 0,
+    "level": "1",
+    "name": "Око Ра-Хорак",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Место силы"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04MT008-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04MT008.png"
+      }
+    ],
+    "attack": 6,
+    "cardCode": "04MT008",
+    "cost": 7,
+    "health": 10,
+    "level": "1",
+    "name": "Мальфит",
+    "regionRef": "Targon",
+    "supertype": "Чемпион",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04MT008T1-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04MT008T1.png"
+      }
+    ],
+    "attack": 7,
+    "cardCode": "04MT008T1",
+    "cost": 7,
+    "health": 11,
+    "level": "2",
+    "name": "Мальфит",
+    "regionRef": "Targon",
+    "supertype": "Чемпион",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04MT008T5-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04MT008T5.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04MT008T5",
+    "cost": 4,
+    "health": 0,
+    "level": "3",
+    "name": "Удар по земле Мальфита",
+    "regionRef": "Targon",
+    "supertype": "Чемпион",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04MT010-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04MT010.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04MT010",
+    "cost": 2,
+    "health": 0,
+    "level": "1",
+    "name": "Звездный пик",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Место силы"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04MT005-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04MT005.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "04MT005",
+    "cost": 1,
+    "health": 1,
+    "level": "1",
+    "name": "Скол",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04MT009-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04MT009.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04MT009",
+    "cost": 3,
+    "health": 0,
+    "level": "1",
+    "name": "Лестница-серпантин",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Место силы"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04MT001-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04MT001.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04MT001",
+    "cost": 2,
+    "health": 0,
+    "level": "1",
+    "name": "Камнепад",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Место силы"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04MT004-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04MT004.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "04MT004",
+    "cost": 2,
+    "health": 3,
+    "level": "1",
+    "name": "Синий страж",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04MT013-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04MT013.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "04MT013",
+    "cost": 2,
+    "health": 3,
+    "level": "1",
+    "name": "Солнечный ястреб Солари",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04MT003-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04MT003.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "04MT003",
+    "cost": 4,
+    "health": 5,
+    "level": "1",
+    "name": "Дух земли",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04MT002-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04MT002.png"
+      }
+    ],
+    "attack": 6,
+    "cardCode": "04MT002",
+    "cost": 6,
+    "health": 4,
+    "level": "1",
+    "name": "Камнелом",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04MT012-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04MT012.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04MT012",
+    "cost": 8,
+    "health": 0,
+    "level": "1",
+    "name": "Зов судьбы",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04MT007-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04MT007.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "04MT007",
+    "cost": 4,
+    "health": 3,
+    "level": "1",
+    "name": "Удар по земле ",
+    "regionRef": "Targon",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04IO005-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04IO005.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "04IO005",
+    "cost": 3,
+    "health": 2,
+    "level": "1",
+    "name": "Ирелия",
+    "regionRef": "Ionia",
+    "supertype": "Чемпион",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04IO005T1-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04IO005T1.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04IO005T1",
+    "cost": 7,
+    "health": 0,
+    "level": "3",
+    "name": "Острие авангарда Ирелии",
+    "regionRef": "Ionia",
+    "supertype": "Чемпион",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04IO005T2-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04IO005T2.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "04IO005T2",
+    "cost": 3,
+    "health": 3,
+    "level": "2",
+    "name": "Ирелия",
+    "regionRef": "Ionia",
+    "supertype": "Чемпион",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04IO004-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04IO004.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "04IO004",
+    "cost": 4,
+    "health": 3,
+    "level": "1",
+    "name": "Цветущий клинок",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04IO003-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04IO003.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04IO003",
+    "cost": 7,
+    "health": 0,
+    "level": "1",
+    "name": "Острие авангарда",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04IO015-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04IO015.png"
+      }
+    ],
+    "attack": 1,
+    "cardCode": "04IO015",
+    "cost": 1,
+    "health": 1,
+    "level": "1",
+    "name": "Танцующая капля",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04IO014-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04IO014.png"
       }
     ],
     "attack": 1,
@@ -14588,8 +15064,93 @@
   {
     "assets": [
       {
-        "fullAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04IO001-full.png",
-        "gameAbsolutePath": "http://dd.b.pvp.net/2_5_0/set4/ru_ru/img/cards/04IO001.png"
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04IO002-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04IO002.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "04IO002",
+    "cost": 8,
+    "health": 5,
+    "level": "1",
+    "name": "Цинния, Стальное крещендо",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04IO007-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04IO007.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04IO007",
+    "cost": 2,
+    "health": 0,
+    "level": "1",
+    "name": "Синкопирование",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04IO011-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04IO011.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04IO011",
+    "cost": 2,
+    "health": 0,
+    "level": "1",
+    "name": "Вести и следовать",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04IO012-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04IO012.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04IO012",
+    "cost": 5,
+    "health": 0,
+    "level": "1",
+    "name": "Тени прошлого",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04IO009-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04IO009.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "04IO009",
+    "cost": 2,
+    "health": 1,
+    "level": "1",
+    "name": "Танцующая с лентами",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04IO001-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04IO001.png"
       }
     ],
     "attack": 1,
@@ -14599,6 +15160,261 @@
     "level": "1",
     "name": "Военные музыканты",
     "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04IO006-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04IO006.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "04IO006",
+    "cost": 4,
+    "health": 6,
+    "level": "1",
+    "name": "Защитник побережья",
+    "regionRef": "Ionia",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04DE004-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04DE004.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "04DE004",
+    "cost": 6,
+    "health": 5,
+    "level": "1",
+    "name": "Целеустремленная разведчица",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04DE014-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04DE014.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04DE014",
+    "cost": 1,
+    "health": 3,
+    "level": "1",
+    "name": "Драконья закуска",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04DE001-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04DE001.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "04DE001",
+    "cost": 2,
+    "health": 2,
+    "level": "1",
+    "name": "Почтенный лорд",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04DE003-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04DE003.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04DE003",
+    "cost": 3,
+    "health": 0,
+    "level": "1",
+    "name": "Катаклизм",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04DE002-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04DE002.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04DE002",
+    "cost": 4,
+    "health": 0,
+    "level": "1",
+    "name": "Золотая эгида",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04DE006-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04DE006.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04DE006",
+    "cost": 1,
+    "health": 0,
+    "level": "1",
+    "name": "Военная выправка",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04DE008-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04DE008.png"
+      }
+    ],
+    "attack": 6,
+    "cardCode": "04DE008",
+    "cost": 6,
+    "health": 4,
+    "level": "1",
+    "name": "Джарван IV",
+    "regionRef": "Demacia",
+    "supertype": "Чемпион",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04DE008T1-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04DE008T1.png"
+      }
+    ],
+    "attack": 7,
+    "cardCode": "04DE008T1",
+    "cost": 6,
+    "health": 5,
+    "level": "2",
+    "name": "Джарван IV",
+    "regionRef": "Demacia",
+    "supertype": "Чемпион",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04DE008T2-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04DE008T2.png"
+      }
+    ],
+    "attack": 0,
+    "cardCode": "04DE008T2",
+    "cost": 3,
+    "health": 0,
+    "level": "3",
+    "name": "Катаклизм Джарвана IV",
+    "regionRef": "Demacia",
+    "supertype": "Чемпион",
+    "type": "Заклинание"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04DE005-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04DE005.png"
+      }
+    ],
+    "attack": 10,
+    "cardCode": "04DE005",
+    "cost": 10,
+    "health": 10,
+    "level": "1",
+    "name": "Цитрия, Повелительница облаков",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04DE010-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04DE010.png"
+      }
+    ],
+    "attack": 3,
+    "cardCode": "04DE010",
+    "cost": 7,
+    "health": 6,
+    "level": "1",
+    "name": "Король Джарван III",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04DE013-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04DE013.png"
+      }
+    ],
+    "attack": 7,
+    "cardCode": "04DE013",
+    "cost": 6,
+    "health": 7,
+    "level": "1",
+    "name": "Гигантский кремнерог",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04DE007-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04DE007.png"
+      }
+    ],
+    "attack": 2,
+    "cardCode": "04DE007",
+    "cost": 1,
+    "health": 2,
+    "level": "1",
+    "name": "Провинившаяся адъютантка",
+    "regionRef": "Demacia",
+    "supertype": "",
+    "type": "Боец"
+  },
+  {
+    "assets": [
+      {
+        "fullAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04DE009-full.png",
+        "gameAbsolutePath": "http://dd.b.pvp.net/2_7_0/set4/ru_ru/img/cards/04DE009.png"
+      }
+    ],
+    "attack": 4,
+    "cardCode": "04DE009",
+    "cost": 4,
+    "health": 4,
+    "level": "1",
+    "name": "Благородный всадник",
+    "regionRef": "Demacia",
     "supertype": "",
     "type": "Боец"
   }

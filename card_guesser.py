@@ -37,14 +37,14 @@ class Guesser:
             return False, cd-elapsed
 
     def generate_text_quiz(self, connection):
-        card_list = connection.getCardsByRegion(random.choice(Guesser.factions))
+        card_list = connection.getCardsByRegion(random.choice(Guesser.factions), "set4")
         self.options = random.sample(card_list, 4)
         self.correct_answer = random.choice(self.options)
 
         self.question = self.generate_question()
 
     def generate_image_quiz(self, connection):
-        card_list = connection.getCardsByRegion(random.choice(Guesser.factions))
+        card_list = connection.getCardsByRegion(random.choice(Guesser.factions), "set4")
         self.options = random.sample(card_list, 4)
         self.correct_answer = random.choice(self.options)
 

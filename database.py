@@ -38,8 +38,8 @@ class DBConnection:
 
         return result
 
-    def getCardByCode(self, code):
-        result = self.client['natum-perdere']['cardsCollection'].find({ "cardCode" : code})
+    def getCardByCode(self, code, set):
+        result = self.client['natum-perdere']['cardsCollection'].find({ "cardCode" : code, "set" : set})
 
         result = list(result)
         result = result[0]
