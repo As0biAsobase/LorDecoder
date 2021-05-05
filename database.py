@@ -74,7 +74,7 @@ class DBConnection:
     def increaseUserRating(self, user_id, increase):
         result = self.client['natum-perdere']['userLeaderboard'].find({ "user" : user_id})
         if len(list(result)) == 0:
-            self.client['natum-perdere']['userLeaderboard'].insert({ "user" : user_id, "score" : 1})
+            self.client['natum-perdere']['userLeaderboard'].insert({ "user" : user_id, "score" : increase})
         else:
             self.client['natum-perdere']['userLeaderboard'].update( { "user" : user_id }, { '$inc': { "score" : increase}})
 
