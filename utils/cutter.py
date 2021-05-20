@@ -31,7 +31,7 @@ for dict in jdata:
         if type == "Ally" or type == "Champion":
             image_offset_top = 2
             image_crop_size_y = 68
-            cost_left_offset = (22, 17)
+            cost_left_offset = (22, 10)
             cost_top_offset = 15
             text_x, text_y = 70, 20
             size_x = 510
@@ -39,7 +39,7 @@ for dict in jdata:
         elif type == "Landmark":
             image_offset_top = 1
             image_crop_size_y = 68
-            cost_left_offset = (20, 16)
+            cost_left_offset = (20, 10)
             cost_top_offset = 12
             text_x, text_y = 75, 20
             size_x = 510
@@ -47,7 +47,7 @@ for dict in jdata:
         else:
             image_offset_top = 1
             image_crop_size_y = 67
-            cost_left_offset = (28, 20)
+            cost_left_offset = (28, 14)
             cost_top_offset = 20
             text_x, text_y = 75, 20
             size_x = 510

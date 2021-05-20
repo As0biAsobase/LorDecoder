@@ -235,50 +235,11 @@ def generate_normal_post():
     message = ""
 
     try:
-        r = generate_deck_changes()
-        message += "Колода с самым большим приростом винрейта за день (+%s%%):\n" % (r[1])
-        moba_message = r[0]
-        print(moba_message)
-        message += moba_message
-        message += "\n"
-        message += ("&#10004;" * 10)
-        message += "\n"
-        photo_ids.append(upload_image("rising_deck"))
+        player_message = generate_player_data("")
+        message += player_message
     except:
         traceback.print_exc()
-        message += "Блип блоп"
-
-    message += "\n"
-
-    try:
-        message += "Лучшая колода на данный момент:\n"
-        moba_message = generate_mobalytics_data("best_deck")
-        print(moba_message)
-        message += moba_message
-        message += "\n"
-        message += ("&#10004;" * 10)
-        message += "\n"
-        photo_ids.append(upload_image("best_deck"))
-    except:
-        traceback.print_exc()
-        message += "Блип блоп"
-
-    message += "\n"
-
-    try:
-        message += "Самая популярная колода на данный момент:\n"
-        moba_message = generate_mobalytics_data("popular_deck")
-        print(moba_message)
-        message += moba_message
-        message += "\n"
-        message += ("&#10004;" * 10)
-        message += "\n"
-        photo_ids.append(upload_image("popular_deck"))
-    except:
-        traceback.print_exc()
-        message += "Блип блоп"
-
-    message += "\n\n"
+        message += "Не удалось получить данные игроков. Блип-блоп."
 
     attachment_str = ""
     print(photo_ids)
@@ -286,17 +247,9 @@ def generate_normal_post():
         attachment_str += each
         if i < len(photo_ids)-1:
             attachment_str += ","
-
     print(attachment_str)
 
-    try:
-        player_message = generate_player_data("")
-        message += player_message
-    except:
-        traceback.print_exc()
-        message += "Не удалось получить данные игроков. Блип-блоп."
-
-    message += "\n&#8265; Это сообщение было сгенерировано и отправлено автоматически. Данные Mobalytics и Riot Games &#8265;"
+    message += "\n&#8265; Это сообщение было сгенерировано и отправлено автоматически. Данные Riot Games &#8265;"
     params = (
         ('owner_id', '-196727308'),
         ('from_group', '1'),
