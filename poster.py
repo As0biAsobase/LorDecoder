@@ -131,7 +131,7 @@ def generate_player_stats():
 def upload_image(type):
     if type == "random_deck":
         location = "/home/khun/LorDecoder/output/posting/deck.png"
-    elif type="most_popular_deck":
+    elif type == "most_popular_deck":
         location = "/home/khun/LorDecoder/output/posting/most_popular_deck.png"
 
     img = {'photo': ('img.jpg', open(location, 'rb'))}
