@@ -145,6 +145,7 @@ def generate_normal_post():
     try:
         message += generate_player_stats()
     except Exception as e:
+        traceback.print_exc()
         message += "Не удалось получить статистику игроков. Блип-блоп."
 
     try:
