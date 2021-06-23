@@ -101,7 +101,7 @@ def generate_player_stats():
                 deck_code = player["deck_code"] 
 
     location = "/home/khun/LorDecoder/output/posting/deck.png"
-    generate_image(["moba", deck_code, 0, connection, location)
+    generate_image(["moba", deck_code], 0, connection, location)
 
     player_stats_string += "Случайная колода на которой он одержал победу:\n"
     player_stats_string += generate_deck_desc(deck_code)
