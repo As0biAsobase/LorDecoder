@@ -5,6 +5,7 @@ from dotenv import load_dotenv, find_dotenv
 import requests
 import json
 import traceback
+import random
 from main import generate_image
 from database import DBConnection
 from lor_deckcodes import LoRDeck, CardCodeAndCount
@@ -16,8 +17,8 @@ token = os.getenv("VKAPI_USER_TOKEN")
 gid = os.getenv("VK_GID")
 connection = DBConnection()
 
-def generate_deck_desc(my_deck):
-    deck = LoRDeck.from_deckcode(my_deck["cardsCode"])
+def generate_deck_desc(deck_code):
+    deck = LoRDeck.from_deckcode(deck_code)
     deck_name = ""
     champions = []
     regions_str = ""
@@ -37,13 +38,6 @@ def generate_deck_desc(my_deck):
         if i < len(champions)-1:
             deck_name += "-"
 
-
-    if len(my_deck["regions"]) > 1:
-        regions_str = " (%s/%s)" % (my_deck["regions"][0], my_deck["regions"][1])
-    else:
-        regions_str = " (%s)" % (my_deck["regions"][0])
-
-    deck_name += regions_str
     print(deck_name)
 
     winrate = round(my_deck["matchesWin"] / my_deck["matchesCollected"], 4) * 100
@@ -72,7 +66,7 @@ def generate_player_stats():
         except Exception as e:
             print(f"We were unable to get match", end='\r')
 
-    player_stats_string += f"Мы собрали {len(matches)} матчей {len(players)} игроков, из них мы смогли получить {len(matches_last_day)} за последний день\n"
+    player_stats_string += f"Мы собрали {len(matches)} матчей {len(players)} игроков, из них мы смогли получить {len(matches_last_day)} за последний день.\n\n"
 
     player_dict = {}
 
@@ -87,7 +81,6 @@ def generate_player_stats():
         if participant2 in player_dict:
             player_dict[participant2] += 1
 
-    print(player_dict)
     max_puuid = max(player_dict, key=player_dict.get)
 
     tryharder = connection.find_player(max_puuid)
@@ -95,11 +88,29 @@ def generate_player_stats():
 
     player_stats_string += f"Больше всего игр({player_dict[max_puuid]}) сыграл {tryharder} \n"
 
+    player_matches = connection.find_player_matches(max_puuid) 
+    player_matches = random.shuffle(player_matches)
+
+    for match in player_matches:
+        players = match['info']['players'] 
+        for player in players:
+            if player['puuid'] == max_puuid:
+                if 'game_outcome' == 'win':
+                    deck_code = player["deck_code"]
+                    break 
+                deck_code = player["deck_code"] 
+
+    location = "/home/khun/LorDecoder/output/posting/deck.png"
+    generate_image(["moba", deck_code, 0, connection, location)
+
+    player_stats_string += "Случайная колода на которой он одержал победу:\n"
+    player_stats_string += generate_deck_desc(deck_code)
+
     return player_stats_string
 
 def upload_image(type):
-    if type == "best_deck":
-        location = "/home/khun/LorDecoder/output/posting/best_deck.png"
+    if type == "random_deck":
+        location = "/home/khun/LorDecoder/output/posting/deck.png"
 
     img = {'photo': ('img.jpg', open(location, 'rb'))}
 
@@ -166,6 +177,7 @@ def generate_normal_post():
 
     try:
         message += generate_player_stats()
+        photo_ids.append(upload_image("random_deck"))
     except Exception as e:
         traceback.print_exc()
         message += "Не удалось получить статистику игроков. Блип-блоп."
