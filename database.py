@@ -21,7 +21,10 @@ class DBConnection:
 
     def find_player(self, puuid):
         result = self.client['natum-perdere']['PlayersyRiotID'].find({ "puuid" : puuid})
-        result = list(result[0])
+        result = list(result)
+        result = result[0]
+
+        print(result)
         return result  
 
     def get_matches(self):
