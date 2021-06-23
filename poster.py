@@ -90,7 +90,7 @@ def generate_player_stats():
     print(player_dict)
     max_puuid = max(player_dict, key=player_dict.get)
 
-    tryharder = connection.find_player(player_with_most_matches)
+    tryharder = connection.find_player(max_puuid)
     tryharder = tryharder["gameName"] 
 
     player_stats_string += f"Больше всего игр({player_dict[max_puuid]}) сыграл {tryharder} \n"
