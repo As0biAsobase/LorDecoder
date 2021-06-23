@@ -86,7 +86,6 @@ def generate_player_stats():
     player_stats_string += f"Больше всего игр({player_dict[max_puuid]}) сыграл {tryharder} \n"
 
     player_matches = connection.find_player_matches(max_puuid) 
-    print(len(player_matches))
     random.shuffle(player_matches)
 
     
@@ -118,19 +117,17 @@ def upload_image(type):
     data = dict(access_token=token, gid=gid, v='5.126')
     response = requests.post(method_url, data)
     result = json.loads(response.text)
-    # print(result)
+
     upload_url = result['response']['upload_url']
 
     # Загружаем изображение на url
     response = requests.post(upload_url, files=img)
     result = json.loads(response.text)
-    # print(result)
 
     # Сохраняем фото на сервере и получаем id
     method_url = 'https://api.vk.com/method/photos.saveWallPhoto?'
     data = dict(access_token=token, gid=gid, photo=result['photo'], hash=result['hash'], server=result['server'], v='5.126')
     response = requests.post(method_url, data)
-    # print(response.text)
     result = json.loads(response.text)['response'][0]
     result = "photo{}_{}".format(result["owner_id"], result["id"])
 
@@ -177,6 +174,9 @@ def generate_normal_post():
     try:
         message += generate_player_stats()
         photo_ids.append(upload_image("random_deck"))
+        message += "\n"
+        message += ("&#10084;" * 10)
+        message += "\n"
     except Exception as e:
         traceback.print_exc()
         message += "Не удалось получить статистику игроков. Блип-блоп."
