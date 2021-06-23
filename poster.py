@@ -40,10 +40,7 @@ def generate_deck_desc(deck_code):
 
     print(deck_name)
 
-    winrate = round(my_deck["matchesWin"] / my_deck["matchesCollected"], 4) * 100
-    winrate = str(winrate)[0:5:]
-
-    response_str = "Колода: %s \nКод: %s \nМатчей сыграно: %s \nПобед: %s\nВинрейт: %s%%" % (deck_name, my_deck["cardsCode"], my_deck["matchesCollected"], my_deck["matchesWin"], winrate)
+    response_str = "Колода: %s \nКод: %s \n" % (deck_name, deck_code)
 
     return response_str
 
