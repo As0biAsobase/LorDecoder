@@ -109,7 +109,7 @@ def generate_player_stats():
         for match in player_matches:
             participants = match['info']['players'] 
             for participant in participants:
-                if participant['puuid'] == player["puuid"]:
+                if participant['puuid'] == player["puuid"] and participant["deck_code"] != "":
                     player_decks.append(participant) 
     decks = {}
     for deck in player_decks:
