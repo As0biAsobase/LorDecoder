@@ -110,15 +110,29 @@ def generate_player_stats():
             participants = match['info']['players'] 
             for participant in participants:
                 if participant['puuid'] == player["puuid"]:
-                    player_decks.append(participant)
+                    player_decks.append(participant) 
+    decks = {}
+    for deck in player_decks:
+        if deck["deck_code"] not in decks:
+            decks[deck["deck_code"]] = 1
+        else:
+            decks[deck["deck_code"]] = 1
+    
+    print(decks)
 
-    print(len(player_decks))
+    most_popular_deck = max(decks, key=decks.get)
+    location = "/home/khun/LorDecoder/output/posting/most_popular_deck.png"
+    generate_image(["moba", most_popular_deck], 0, connection, location)
+    player_stats_string += "\nСамая популярная колода среди наших игрков сегодня:\n"
+    player_stats_string += generate_deck_desc(most_popular_deck)
 
     return player_stats_string
 
 def upload_image(type):
     if type == "random_deck":
         location = "/home/khun/LorDecoder/output/posting/deck.png"
+    elif type="most_popular_deck":
+        location = "/home/khun/LorDecoder/output/posting/most_popular_deck.png"
 
     img = {'photo': ('img.jpg', open(location, 'rb'))}
 
@@ -184,6 +198,7 @@ def generate_normal_post():
     try:
         message += generate_player_stats()
         photo_ids.append(upload_image("random_deck"))
+        photo_ids.append(upload_image("most_popular_deck"))
         message += "\n"
         message += ("&#10084;" * 10)
         message += "\n"
