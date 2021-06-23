@@ -88,7 +88,6 @@ def generate_player_stats():
     player_matches = connection.find_player_matches(max_puuid) 
     random.shuffle(player_matches)
 
-    
     for match in player_matches:
         players = match['info']['players'] 
         for player in players:
@@ -103,6 +102,17 @@ def generate_player_stats():
 
     player_stats_string += "Случайная колода на которой он одержал победу:\n"
     player_stats_string += generate_deck_desc(deck_code)
+
+    player_decks = []
+    for player in players:
+        player_matches = connection.find_player_matches(max_puuid) 
+        for match in player_matches:
+            participants = match['info']['players'] 
+            for participant in participants:
+                if participant['puuid'] == player["puuid"]:
+                    player_decks.append(participant)
+
+    print(len(player_deckparticipants))
 
     return player_stats_string
 
