@@ -89,10 +89,10 @@ def generate_player_stats():
     player_stats_string += f"Больше всего игр({player_dict[max_puuid]}) сыграл {tryharder} \n"
 
     player_matches = connection.find_player_matches(max_puuid) 
-    print(player_matches)
-    player_matches = random.shuffle(player_matches)
-
     print(len(player_matches))
+    random.shuffle(player_matches)
+
+    
     for match in player_matches:
         players = match['info']['players'] 
         for player in players:
