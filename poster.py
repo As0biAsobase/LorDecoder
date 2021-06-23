@@ -55,7 +55,7 @@ def generate_deck_desc(my_deck):
 
 def generate_player_stats():
     player_stats_string = ''
-    players = connection.get_playrs() 
+    players = connection.get_players() 
     matches = connection.get_matches() 
 
     matches_last_day = []
