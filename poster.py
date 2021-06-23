@@ -79,12 +79,12 @@ def generate_player_stats():
     for each in players:
         player_dict[each["puuid"]] = 0 
 
-    print(player_dict)
+    
     for match in matches_last_day:  
         participant1, participant2 = match['metadata']['participants'] 
-        if participant1 in player_dict.keys:
+        if participant1 in player_dict:
             player_dict[participant1] += 1
-        if participant2 in player_dict.keys:
+        if participant2 in player_dict:
             player_dict[participant2] += 1
 
     print(player_dict)
