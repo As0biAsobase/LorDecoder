@@ -13,6 +13,18 @@ class DBConnection:
 
         self.namePattern = "([a-zA-Z]{0,3}kekw[a-zA-Z]{0,3})"
 
+    def get_players(self):
+        result = self.client['natum-perdere']['PlayersyRiotID'].find({})
+        result = list(result)
+        
+        return result 
+
+    def get_matches(self):
+        result = self.client['natum-perdere']['LorMatches'].find({})
+        result = list(result)
+
+        return result 
+        
     def searchCard(self, name, cost, attack, health):
 
         result = self.client['natum-perdere']['cardsCollection'].find({ "name" : re.compile(name, re.IGNORECASE)})

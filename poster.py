@@ -9,6 +9,7 @@ from main import generate_image
 from database import DBConnection
 from lor_deckcodes import LoRDeck, CardCodeAndCount
 from deckchanges import get_highest_growth
+from datetime import datetime
 
 load_dotenv(find_dotenv())
 token = os.getenv("VKAPI_USER_TOKEN")
@@ -52,6 +53,27 @@ def generate_deck_desc(my_deck):
 
     return response_str
 
+def generate_player_stats():
+    player_stats_string = ''
+    players = connection.get_playrs() 
+    matches = connection.get_matches() 
+
+    matches_last_day = []
+
+    for each in matches:
+        try:
+            match_time = each["info"]["game_start_time_utc"]
+            match_time = match_time.split('.')[0]
+            date_time_obj = datetime.strptime(match_time, "%Y-%m-%dT%H:%M:%S")
+
+            difference = datetime.utcnow() - date_time_obj
+            if difference.days == 0:
+                matches_last_day.append(each)
+        except Exception as e:
+            print(f"We were unable to get match")
+
+    player_stats_string += f"Мы собрали {len(matches)} матчей {len(players)} игроков, из них {len(matches_last_day)} за последний день\n"
+    return player_stats_string
 
 def upload_image(type):
     if type == "best_deck":
@@ -119,6 +141,11 @@ def generate_player_data(message):
 def generate_normal_post():
     photo_ids = []
     message = ""
+
+    try:
+        message += generate_player_stats()
+    except Exception as e:
+        message += "Не удалось получить статистику игроков. Блип-блоп."
 
     try:
         player_message = generate_player_data("")
