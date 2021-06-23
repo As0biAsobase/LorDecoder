@@ -88,7 +88,7 @@ def generate_player_stats():
             player_dict[participant2] += 1
 
     print(player_dict)
-    max_puuid = max(player_dict, key=player_dic.get)
+    max_puuid = max(player_dict, key=player_dict.get)
 
     tryharder = connection.find_player(player_with_most_matches)
     tryharder = tryharder["gameName"] 
