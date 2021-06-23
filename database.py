@@ -17,14 +17,19 @@ class DBConnection:
         result = self.client['natum-perdere']['PlayersyRiotID'].find({})
         result = list(result)
         
-        return result 
+        return result
+
+    def find_player(self, puuid):
+        result = self.client['natum-perdere']['PlayersyRiotID'].find({ "puuid" : puuid})
+        
+        return result  
 
     def get_matches(self):
         result = self.client['natum-perdere']['LorMatches'].find({})
         result = list(result)
 
         return result 
-        
+
     def searchCard(self, name, cost, attack, health):
 
         result = self.client['natum-perdere']['cardsCollection'].find({ "name" : re.compile(name, re.IGNORECASE)})

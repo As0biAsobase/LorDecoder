@@ -70,9 +70,30 @@ def generate_player_stats():
             if difference.days == 0:
                 matches_last_day.append(each)
         except Exception as e:
-            print(f"We were unable to get match")
+            print(f"We were unable to get match", end='\r')
 
-    player_stats_string += f"Мы собрали {len(matches)} матчей {len(players)} игроков, из них {len(matches_last_day)} за последний день\n"
+    player_stats_string += f"Мы собрали {len(matches)} матчей {len(players)} игроков, из них мы смогли получить {len(matches_last_day)} за последний день\n"
+
+    player_dict = {}
+
+    for each in players:
+        player_dict[each["puuid"]] = 0 
+
+    for match in matches_last_day:  
+        participant1, participant2 = match['metadata']['participants'] 
+        if participant1 in player_dict.keys:
+            player_dict[participant1] += 1
+        if participant2 in player_dict.keys:
+            player_dict[participant2] += 1
+
+    print(player_dict)
+    max_puuid = max(player_dict, key=player_dic.get)
+
+    tryharder = connection.find_player(player_with_most_matches)
+    tryharder = tryharder["gameName"] 
+
+    player_stats_string += f"Больше всего игр({player_dict[max_puuid]}) сыграл {tryharder} \n"
+
     return player_stats_string
 
 def upload_image(type):
