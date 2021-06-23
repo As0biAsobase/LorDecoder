@@ -116,14 +116,14 @@ def generate_player_stats():
         if deck["deck_code"] not in decks:
             decks[deck["deck_code"]] = 1
         else:
-            decks[deck["deck_code"]] = 1
+            decks[deck["deck_code"]] += 1
     
     print(decks)
 
     most_popular_deck = max(decks, key=decks.get)
     location = "/home/khun/LorDecoder/output/posting/most_popular_deck.png"
     generate_image(["moba", most_popular_deck], 0, connection, location)
-    player_stats_string += "\nСамая популярная колода среди наших игрков сегодня:\n"
+    player_stats_string += f"\nСамая популярная колода среди наших игрков сегодня ({player_decks[most_popular_deck]} игр):\n"
     player_stats_string += generate_deck_desc(most_popular_deck)
 
     return player_stats_string
