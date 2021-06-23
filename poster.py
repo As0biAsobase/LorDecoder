@@ -123,7 +123,7 @@ def generate_player_stats():
     most_popular_deck = max(decks, key=decks.get)
     location = "/home/khun/LorDecoder/output/posting/most_popular_deck.png"
     generate_image(["moba", most_popular_deck], 0, connection, location)
-    player_stats_string += f"\nСамая популярная колода среди наших игрков сегодня ({player_decks[most_popular_deck]} игр):\n"
+    player_stats_string += f"\nСамая популярная колода среди наших игрков сегодня ({decks[most_popular_deck]} игр):\n"
     player_stats_string += generate_deck_desc(most_popular_deck)
 
     return player_stats_string
