@@ -112,7 +112,7 @@ def generate_player_stats():
                 if participant['puuid'] == player["puuid"]:
                     player_decks.append(participant)
 
-    print(len(player_deckparticipants))
+    print(len(player_decks))
 
     return player_stats_string
 
