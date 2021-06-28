@@ -89,7 +89,7 @@ def generate_player_stats():
     player_matches = connection.find_player_matches(max_puuid) 
     random.shuffle(player_matches)
 
-    found_flag = False
+    tryharder_decks = []
     for match in player_matches:
         players = match['info']['players'] 
 
@@ -100,18 +100,12 @@ def generate_player_stats():
         difference = datetime.utcnow() - date_time_obj
         if difference.days == 0:
             for player in players:
-                if player['puuid'] == max_puuid and found_flag == False:
+                if player['puuid'] == max_puuid:
                     if player['game_outcome'] == 'win':
                         print("Found a deck a player won with")
-                        deck_code = player["deck_code"]
-                        found_flag = True
-                    deck_code = player["deck_code"] 
+                        tryharder_decks.append(player["deck_code"])
+                        
 
-    location = "/home/khun/LorDecoder/output/posting/deck.png"
-    generate_image(["moba", deck_code], 0, connection, location)
-
-    player_stats_string += "Случайная колода на которой он одержал победу:\n"
-    player_stats_string += generate_deck_desc(deck_code)
 
     player_results = {}
 
@@ -155,11 +149,27 @@ def generate_player_stats():
     print(decks)
 
     most_popular_deck = max(decks, key=decks.get)
+
+    deck_code = None
+    for deck in tryharder_decks:
+        if deck != most_popular_deck:
+            deck_code = deck 
+
+    if deck_code:
+        location = "/home/khun/LorDecoder/output/posting/deck.png"
+        generate_image(["moba", deck_code], 0, connection, location)
+
+        player_stats_string += "Случайная колода на которой он одержал победу:\n"
+        player_stats_string += generate_deck_desc(deck_code)
+
+    
     location = "/home/khun/LorDecoder/output/posting/most_popular_deck.png"
     generate_image(["moba", most_popular_deck], 0, connection, location)
+
+
     player_stats_string += f"\nСамая популярная колода среди наших игрков сегодня ({decks[most_popular_deck]} игр):\n"
     player_stats_string += generate_deck_desc(most_popular_deck)
-
+    
     return player_stats_string
 
 def upload_image(type):
