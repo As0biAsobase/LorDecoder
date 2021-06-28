@@ -132,10 +132,6 @@ def generate_player_stats():
         name = connection.find_player(puuid)["gameName"]
         player_results_names[name] = player_results[puuid]
 
-    print(player_results_names)
-
-    for s in sorted(player_results_names.items(), key=lambda k_v: k_v[1]['win'], reverse=True):
-        print(s)
 
     decks = {}
     for deck in player_decks:
@@ -144,7 +140,7 @@ def generate_player_stats():
         else:
             decks[deck["deck_code"]] += 1
     
-    print(decks)
+    print(tryharder_decks)
 
     most_popular_deck = max(decks, key=decks.get)
 
@@ -160,6 +156,9 @@ def generate_player_stats():
 
         player_stats_string += "Случайная колода на которой он одержал победу:\n"
         player_stats_string += generate_deck_desc(deck_code)
+    else:
+        player_stats_string += "Его колода совпадает с самой популярной за сегодня:\n"
+        
 
     
     location = "/home/khun/LorDecoder/output/posting/most_popular_deck.png"
@@ -168,6 +167,12 @@ def generate_player_stats():
 
     player_stats_string += f"\nСамая популярная колода среди наших игрков сегодня ({decks[most_popular_deck]} игр):\n"
     player_stats_string += generate_deck_desc(most_popular_deck)
+
+    player_stats_string += "Игроки регона по количеству побед за сегодня: \n"
+    for s in sorted(player_results_names.items(), key=lambda k_v: k_v[1]['win'], reverse=True):
+        if s[1]["win"] > 0:
+            player_stats_string += f"{s[0]}: w: {s[1]["win"]} l: {s[1]["loss"]}\n"
+
 
     return player_stats_string
 
