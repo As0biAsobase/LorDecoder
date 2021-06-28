@@ -102,7 +102,6 @@ def generate_player_stats():
                     if player['game_outcome'] == 'win':
                         print("Found a deck a player won with")
                         deck_code = player["deck_code"]
-                        break 
                     deck_code = player["deck_code"] 
 
     location = "/home/khun/LorDecoder/output/posting/deck.png"
@@ -110,6 +109,11 @@ def generate_player_stats():
 
     player_stats_string += "Случайная колода на которой он одержал победу:\n"
     player_stats_string += generate_deck_desc(deck_code)
+
+    player_results = {}
+
+    for player in players:
+        player_results[player["puuid"]] = { "win": 0, "loss": 0}
 
     player_decks = []
     for player in players:
@@ -125,6 +129,10 @@ def generate_player_stats():
                 for participant in participants:
                     if participant['puuid'] == player["puuid"] and participant["deck_code"] != "":
                         player_decks.append(participant) 
+                        player_results[participant['puuid']][participant["game_outcome"]] += 1 
+  
+    print(player_results)
+    
     decks = {}
     for deck in player_decks:
         if deck["deck_code"] not in decks:
