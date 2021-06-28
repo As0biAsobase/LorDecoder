@@ -112,7 +112,7 @@ def generate_player_stats():
 
     player_decks = []
     for player in players:
-        player_matches = connection.find_player_matches(max_puuid) 
+        player_matches = connection.find_player_matches(player["puuid"]) 
         for match in player_matches:
             participants = match['info']['players'] 
             match_time = match["info"]["game_start_time_utc"]
