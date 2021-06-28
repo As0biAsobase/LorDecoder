@@ -57,7 +57,7 @@ def generate_player_stats():
             match_time = match_time.split('.')[0]
             date_time_obj = datetime.strptime(match_time, "%Y-%m-%dT%H:%M:%S")
 
-            if match["info"]["game_mode"] == "Constructed" and match["info"]["game_type"] == "Ranked":
+            if each["info"]["game_mode"] == "Constructed" and each["info"]["game_type"] == "Ranked":
                 difference = datetime.utcnow() - date_time_obj
                 if difference.days == 0:
                     matches_last_day.append(each)
