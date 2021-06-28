@@ -115,7 +115,7 @@ def generate_player_stats():
         player_matches = connection.find_player_matches(max_puuid) 
         for match in player_matches:
             participants = match['info']['players'] 
-            match_time = each["info"]["game_start_time_utc"]
+            match_time = match["info"]["game_start_time_utc"]
             match_time = match_time.split('.')[0]
             date_time_obj = datetime.strptime(match_time, "%Y-%m-%dT%H:%M:%S")
 
