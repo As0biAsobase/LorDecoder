@@ -99,7 +99,8 @@ def generate_player_stats():
         if difference.days == 0:
             for player in players:
                 if player['puuid'] == max_puuid:
-                    if 'game_outcome' == 'win':
+                    if player['game_outcome'] == 'win':
+                        print("Found a deck a player won with")
                         deck_code = player["deck_code"]
                         break 
                     deck_code = player["deck_code"] 
