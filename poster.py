@@ -67,6 +67,7 @@ def generate_player_stats():
 
     player_dict = {}
 
+    players = connection.get_players() 
     for each in players:
         player_dict[each["puuid"]] = 0 
 
@@ -112,6 +113,7 @@ def generate_player_stats():
 
     player_results = {}
 
+    players = connection.get_players() 
     for player in players:
         player_results[player["puuid"]] = { "win": 0, "loss": 0}
 
