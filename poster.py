@@ -57,13 +57,14 @@ def generate_player_stats():
             match_time = match_time.split('.')[0]
             date_time_obj = datetime.strptime(match_time, "%Y-%m-%dT%H:%M:%S")
 
-            difference = datetime.utcnow() - date_time_obj
-            if difference.days == 0:
-                matches_last_day.append(each)
+            if match["info"]["game_mode"] == "Constructed" and match["info"]["game_type"] == "Ranked":
+                difference = datetime.utcnow() - date_time_obj
+                if difference.days == 0:
+                    matches_last_day.append(each)
         except Exception as e:
             print(f"We were unable to get match", end='\r')
 
-    player_stats_string += f"Мы собрали {len(matches)} матчей {len(players)} игроков, из них мы смогли получить {len(matches_last_day)} за последний день.\n\n"
+    player_stats_string += f"Мы собрали {len(matches)} матчей {len(players)} игроков, из них мы смогли получить {len(matches_last_day)} ранкед за последний день.\n\n"
 
     player_dict = {}
 
@@ -84,8 +85,6 @@ def generate_player_stats():
     tryharder = connection.find_player(max_puuid)
     tryharder = tryharder["gameName"] 
 
-    player_stats_string += f"Больше всего игр ({player_dict[max_puuid]}) сыграл {tryharder} \n"
-
     player_matches = connection.find_player_matches(max_puuid) 
     random.shuffle(player_matches)
 
@@ -96,16 +95,14 @@ def generate_player_stats():
         match_time = match["info"]["game_start_time_utc"]
         match_time = match_time.split('.')[0]
         date_time_obj = datetime.strptime(match_time, "%Y-%m-%dT%H:%M:%S")
-
-        difference = datetime.utcnow() - date_time_obj
-        if difference.days == 0:
-            for player in players:
-                if player['puuid'] == max_puuid:
-                    if player['game_outcome'] == 'win':
-                        print("Found a deck a player won with")
-                        tryharder_decks.append(player["deck_code"])
-                        
-
+        if match["info"]["game_mode"] == "Constructed" and match["info"]["game_type"] == "Ranked":
+            difference = datetime.utcnow() - date_time_obj
+            if difference.days == 0:
+                for player in players:
+                    if player['puuid'] == max_puuid:
+                        if player['game_outcome'] == 'win':
+                            print("Found a deck a player won with")
+                            tryharder_decks.append(player["deck_code"])
 
     player_results = {}
 
@@ -122,12 +119,13 @@ def generate_player_stats():
             match_time = match_time.split('.')[0]
             date_time_obj = datetime.strptime(match_time, "%Y-%m-%dT%H:%M:%S")
 
-            difference = datetime.utcnow() - date_time_obj
-            if difference.days == 0:
-                for participant in participants:
-                    if participant['puuid'] == player["puuid"] and participant["deck_code"] != "":
-                        player_decks.append(participant) 
-                        player_results[participant['puuid']][participant["game_outcome"]] += 1 
+            if match["info"]["game_mode"] == "Constructed" and match["info"]["game_type"] == "Ranked":
+                difference = datetime.utcnow() - date_time_obj
+                if difference.days == 0:
+                    for participant in participants:
+                        if participant['puuid'] == player["puuid"] and participant["deck_code"] != "":
+                            player_decks.append(participant) 
+                            player_results[participant['puuid']][participant["game_outcome"]] += 1 
     
     player_results_names = {}
     for puuid in player_results:
@@ -155,6 +153,7 @@ def generate_player_stats():
         if deck != most_popular_deck:
             deck_code = deck 
 
+    player_stats_string += f"Больше всего игр ({player_dict[max_puuid]}) сыграл {tryharder} \n"
     if deck_code:
         location = "/home/khun/LorDecoder/output/posting/deck.png"
         generate_image(["moba", deck_code], 0, connection, location)
@@ -169,7 +168,7 @@ def generate_player_stats():
 
     player_stats_string += f"\nСамая популярная колода среди наших игрков сегодня ({decks[most_popular_deck]} игр):\n"
     player_stats_string += generate_deck_desc(most_popular_deck)
-    
+
     return player_stats_string
 
 def upload_image(type):
