@@ -83,19 +83,26 @@ def generate_player_stats():
     tryharder = connection.find_player(max_puuid)
     tryharder = tryharder["gameName"] 
 
-    player_stats_string += f"Больше всего игр({player_dict[max_puuid]}) сыграл {tryharder} \n"
+    player_stats_string += f"Больше всего игр ({player_dict[max_puuid]}) сыграл {tryharder} \n"
 
     player_matches = connection.find_player_matches(max_puuid) 
     random.shuffle(player_matches)
 
     for match in player_matches:
         players = match['info']['players'] 
-        for player in players:
-            if player['puuid'] == max_puuid:
-                if 'game_outcome' == 'win':
-                    deck_code = player["deck_code"]
-                    break 
-                deck_code = player["deck_code"] 
+
+        match_time = match["info"]["game_start_time_utc"]
+        match_time = match_time.split('.')[0]
+        date_time_obj = datetime.strptime(match_time, "%Y-%m-%dT%H:%M:%S")
+
+        difference = datetime.utcnow() - date_time_obj
+        if difference.days == 0:
+            for player in players:
+                if player['puuid'] == max_puuid:
+                    if 'game_outcome' == 'win':
+                        deck_code = player["deck_code"]
+                        break 
+                    deck_code = player["deck_code"] 
 
     location = "/home/khun/LorDecoder/output/posting/deck.png"
     generate_image(["moba", deck_code], 0, connection, location)
@@ -108,9 +115,15 @@ def generate_player_stats():
         player_matches = connection.find_player_matches(max_puuid) 
         for match in player_matches:
             participants = match['info']['players'] 
-            for participant in participants:
-                if participant['puuid'] == player["puuid"] and participant["deck_code"] != "":
-                    player_decks.append(participant) 
+            match_time = each["info"]["game_start_time_utc"]
+            match_time = match_time.split('.')[0]
+            date_time_obj = datetime.strptime(match_time, "%Y-%m-%dT%H:%M:%S")
+
+            difference = datetime.utcnow() - date_time_obj
+            if difference.days == 0:
+                for participant in participants:
+                    if participant['puuid'] == player["puuid"] and participant["deck_code"] != "":
+                        player_decks.append(participant) 
     decks = {}
     for deck in player_decks:
         if deck["deck_code"] not in decks:
