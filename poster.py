@@ -171,7 +171,7 @@ def generate_player_stats():
     player_stats_string += "Игроки регона по количеству побед за сегодня: \n"
     for s in sorted(player_results_names.items(), key=lambda k_v: k_v[1]['win'], reverse=True):
         if s[1]["win"] > 0:
-            player_stats_string += f"{s[0]}: w: {s[1]["win"]} l: {s[1]["loss"]}\n"
+            player_stats_string += f"{s[0]}: w: {s[1]['win']} l: {s[1]['loss']}\n"
 
 
     return player_stats_string
