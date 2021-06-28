@@ -115,6 +115,8 @@ def generate_player_stats():
     for player in players:
         player_results[player["puuid"]] = { "win": 0, "loss": 0}
 
+    print(player_results)
+    print(len(players))
     player_decks = []
     for player in players:
         player_matches = connection.find_player_matches(max_puuid) 
@@ -132,7 +134,7 @@ def generate_player_stats():
                         player_results[participant['puuid']][participant["game_outcome"]] += 1 
   
     print(player_results)
-    
+
     decks = {}
     for deck in player_decks:
         if deck["deck_code"] not in decks:
