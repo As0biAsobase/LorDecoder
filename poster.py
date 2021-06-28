@@ -140,9 +140,9 @@ def generate_player_stats():
 
     print(player_results_names)
 
-    for s in sorted(player_results_names.items(), key=lambda k_v: k_v[1]['win'], reverse=reverse):
+    for s in sorted(player_results_names.items(), key=lambda k_v: k_v[1]['win'], reverse=True):
         print(s)
-        
+
     decks = {}
     for deck in player_decks:
         if deck["deck_code"] not in decks:
