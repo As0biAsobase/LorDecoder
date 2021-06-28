@@ -89,6 +89,7 @@ def generate_player_stats():
     player_matches = connection.find_player_matches(max_puuid) 
     random.shuffle(player_matches)
 
+    found_flag = False
     for match in player_matches:
         players = match['info']['players'] 
 
@@ -99,10 +100,11 @@ def generate_player_stats():
         difference = datetime.utcnow() - date_time_obj
         if difference.days == 0:
             for player in players:
-                if player['puuid'] == max_puuid:
+                if player['puuid'] == max_puuid and found_flag == False:
                     if player['game_outcome'] == 'win':
                         print("Found a deck a player won with")
                         deck_code = player["deck_code"]
+                        found_flag = True
                     deck_code = player["deck_code"] 
 
     location = "/home/khun/LorDecoder/output/posting/deck.png"
@@ -135,7 +137,7 @@ def generate_player_stats():
     
     player_results_names = {}
     for puuid in player_results:
-        name = connection.find_player(max_puuid)["gameName"]
+        name = connection.find_player(puuid)["gameName"]
         player_results_names[name] = player_results[puuid]
 
     print(player_results_names)
