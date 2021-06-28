@@ -132,15 +132,12 @@ def generate_player_stats():
         name = connection.find_player(puuid)["gameName"]
         player_results_names[name] = player_results[puuid]
 
-
     decks = {}
     for deck in player_decks:
         if deck["deck_code"] not in decks:
             decks[deck["deck_code"]] = 1
         else:
             decks[deck["deck_code"]] += 1
-    
-    print(tryharder_decks)
 
     most_popular_deck = max(decks, key=decks.get)
 
@@ -168,10 +165,10 @@ def generate_player_stats():
     player_stats_string += f"\nСамая популярная колода среди наших игрков сегодня ({decks[most_popular_deck]} игр):\n"
     player_stats_string += generate_deck_desc(most_popular_deck)
 
-    player_stats_string += "Игроки регона по количеству побед за сегодня: \n"
+    player_stats_string += "\nИгроки регона по количеству побед за сегодня: \n"
     for s in sorted(player_results_names.items(), key=lambda k_v: k_v[1]['win'], reverse=True):
         if s[1]["win"] > 0:
-            player_stats_string += f"{s[0]}: w: {s[1]['win']} l: {s[1]['loss']}\n"
+            player_stats_string += f"{s[0]} - побед: {s[1]['win']} поражений: {s[1]['loss']}\n"
 
 
     return player_stats_string
