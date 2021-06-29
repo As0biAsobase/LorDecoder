@@ -207,7 +207,7 @@ def generate_player_stats():
     if len(derby_dict_names) > 0:
         player_stats_string += f"\nСамые жаркие баталии за последние сутки:\n"
         for s in sorted(derby_dict_names.items(), key=lambda k_v: k_v[1]['n'], reverse=True):
-            player_stats_string += f"{s[0][0]} {s[1]['p0']} - {s[1]['p1']} {s[0][1]}\n")
+            player_stats_string += f"{s[0][0]} {s[1]['p0']} - {s[1]['p1']} {s[0][1]}\n"
 
     return player_stats_string
 
