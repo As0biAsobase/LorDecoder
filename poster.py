@@ -110,7 +110,7 @@ def generate_player_stats():
     print(derby_dict)
 
 
-    player_stats_string += f"Мы собрали {len(matches)} матчей {len(players)} игроков, из них мы смогли получить {len(matches_last_day)} ранкед игр за последний день. {len(derbys))} раз игроки встретились друг с другом.\n\n"
+    player_stats_string += f"Мы собрали {len(matches)} матчей {len(players)} игроков, из них мы смогли получить {len(matches_last_day)} ранкед игр за последний день. {len(derbys)} раз игроки встретились друг с другом.\n\n"
 
     max_puuid = max(player_dict, key=player_dict.get)
 
