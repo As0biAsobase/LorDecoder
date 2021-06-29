@@ -88,21 +88,21 @@ def generate_player_stats():
     for match in derbys:
         players = match['info']['players'] 
         if (players[0]['puuid'], players[1]['puuid']) in derby_dict:
-            if player[0]["game_outcome"] == "win":
+            if players[0]["game_outcome"] == "win":
                 derby_dict[(players[0]['puuid'], players[1]['puuid'])]["p0"] +=1
                 derby_dict[(players[0]['puuid'], players[1]['puuid'])]["n"] +=1
             else:
                 derby_dict[(players[0]['puuid'], players[1]['puuid'])]["p1"] +=1
                 derby_dict[(players[0]['puuid'], players[1]['puuid'])]["n"] +=1
         elif  (players[1]['puuid'], players[0]['puuid']) in derby_dict:
-            if player[1]["game_outcome"] == "win":
+            if players[1]["game_outcome"] == "win":
                 derby_dict[(players[1]['puuid'], players[0]['puuid'])]["p0"] +=1
                 derby_dict[(players[1]['puuid'], players[0]['puuid'])]["n"] +=1
             else:
                 derby_dict[(players[1]['puuid'], players[0]['puuid'])]["p1"] +=1
                 derby_dict[(players[1]['puuid'], players[0]['puuid'])]["n"] +=1
         else:
-            if player[0]["game_outcome"] == "win":
+            if players[0]["game_outcome"] == "win":
                 derby_dict[(players[0]['puuid'], players[1]['puuid'])] = { "p0" : 1, "p1" : 0, "n" : 1}
             else:
                 derby_dict[(players[0]['puuid'], players[1]['puuid'])] = { "p0" : 0, "p1" : 1, "n" : 1}
