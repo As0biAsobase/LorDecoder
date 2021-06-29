@@ -113,10 +113,6 @@ def generate_player_stats():
         name1 = connection.find_player(key[1])["gameName"]
         derby_dict_names[(name0, name1)] = derby_dict[key]
 
-    print(derby_dict_names)
-    for s in sorted(derby_dict_names.items(), key=lambda k_v: k_v[1]['n'], reverse=True):
-        print(s)
-
     player_stats_string += f"Мы собрали {len(matches)} матчей {len(players)} игроков, из них мы смогли получить {len(matches_last_day)} ранкед игр за последний день. {len(derbys)} раз игроки встретились друг с другом.\n\n"
 
     max_puuid = max(player_dict, key=player_dict.get)
@@ -207,7 +203,11 @@ def generate_player_stats():
     for s in sorted(player_results_names.items(), key=lambda k_v: k_v[1]['win'], reverse=True):
         if s[1]["win"] > 0:
             player_stats_string += f"{s[0]} - побед: {s[1]['win']} поражений: {s[1]['loss']}\n"
-
+    
+    if len(derby_dict_names) > 0:
+        player_stats_string += f"\nСамые жаркие баталии за последние сутки:\n"
+        for s in sorted(derby_dict_names.items(), key=lambda k_v: k_v[1]['n'], reverse=True):
+            player_stats_string += f"{s[0][0]} {s[1]['p0']} - {s[1]['p1']} {s[0][1]}\n")
 
     return player_stats_string
 
@@ -248,12 +248,9 @@ def generate_player_data(message):
     r = requests.get('https://www.perdere.ru:4444/api/v1/get_leaderboard')
 
     r = r.json()
-    with open("/home/khun/LorDecoder/output/posting/yesterday_palyers.json", "w", encoding='utf-8') as fp:
-        json.dump(r, fp, ensure_ascii=False, indent=2, sort_keys=True)
-
     r = r["players"]
 
-    message += "Топ5 игроков из России:\n"
+    message += "Топ10 игроков из России:\n"
     russian_top = []
 
     for each in r:
@@ -264,7 +261,7 @@ def generate_player_data(message):
         if is_russian:
             russian_top.append(each)
 
-        if len(russian_top) > 4:
+        if len(russian_top) > 9:
             break
 
     i = 0
