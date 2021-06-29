@@ -111,10 +111,11 @@ def generate_player_stats():
     for key in derby_dict:
         name0 = connection.find_player(key[0])["gameName"]
         name1 = connection.find_player(key[1])["gameName"]
-        derby_dict_names[(player0, player1)] = derby_dict[key]
+        derby_dict_names[(name0, name1)] = derby_dict[key]
 
     print(derby_dict_names)
-
+    for s in sorted(derby_dict_names.items(), key=lambda k_v: k_v[1]['n'], reverse=True):
+        print(s)
 
     player_stats_string += f"Мы собрали {len(matches)} матчей {len(players)} игроков, из них мы смогли получить {len(matches_last_day)} ранкед игр за последний день. {len(derbys)} раз игроки встретились друг с другом.\n\n"
 
