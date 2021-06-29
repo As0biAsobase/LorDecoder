@@ -81,7 +81,7 @@ def generate_player_stats():
 
         if participant1 in player_dict and participant2 in player_dict:
             derbys.append(match)
-    print(len(derbys)))
+    print(len(derbys))
 
     derby_dict = {}
 
