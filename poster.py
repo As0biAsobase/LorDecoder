@@ -64,8 +64,6 @@ def generate_player_stats():
         except Exception as e:
             print(f"We were unable to get match", end='\r')
 
-    player_stats_string += f"Мы собрали {len(matches)} матчей {len(players)} игроков, из них мы смогли получить {len(matches_last_day)} ранкед за последний день.\n\n"
-
     player_dict = {}
 
     players = connection.get_players() 
@@ -83,7 +81,36 @@ def generate_player_stats():
 
         if participant1 in player_dict and participant2 in player_dict:
             derbys.append(match)
-    print(derbys)
+    print(len(derbys)))
+
+    derby_dict = {}
+
+    for match in derbys:
+        players = match['info']['players'] 
+        if (players[0]['puuid'], players[1]['puuid']) in derby_dict:
+            if player[0]["game_outcome"] == "win":
+                derby_dict[(players[0]['puuid'], players[1]['puuid'])]["p0"] +=1
+                derby_dict[(players[0]['puuid'], players[1]['puuid'])]["n"] +=1
+            else:
+                derby_dict[(players[0]['puuid'], players[1]['puuid'])]["p1"] +=1
+                derby_dict[(players[0]['puuid'], players[1]['puuid'])]["n"] +=1
+        elif  (players[1]['puuid'], players[0]['puuid']) in derby_dict:
+            if player[1]["game_outcome"] == "win":
+                derby_dict[(players[1]['puuid'], players[0]['puuid'])]["p0"] +=1
+                derby_dict[(players[1]['puuid'], players[0]['puuid'])]["n"] +=1
+            else:
+                derby_dict[(players[1]['puuid'], players[0]['puuid'])]["p1"] +=1
+                derby_dict[(players[1]['puuid'], players[0]['puuid'])]["n"] +=1
+        else:
+            if player[0]["game_outcome"] == "win":
+                derby_dict[(players[0]['puuid'], players[1]['puuid'])] = { "p0" : 1, "p1" : 0, "n" : 1}
+            else:
+                derby_dict[(players[0]['puuid'], players[1]['puuid'])] = { "p0" : 0, "p1" : 1, "n" : 1}
+
+    print(derby_dict)
+
+
+    player_stats_string += f"Мы собрали {len(matches)} матчей {len(players)} игроков, из них мы смогли получить {len(matches_last_day)} ранкед игр за последний день. {len(derbys))} раз игроки встретились друг с другом.\n\n"
 
     max_puuid = max(player_dict, key=player_dict.get)
 
@@ -158,7 +185,7 @@ def generate_player_stats():
         player_stats_string += "Случайная колода на которой он одержал победу:\n"
         player_stats_string += generate_deck_desc(deck_code)
     else:
-        player_stats_string += "Его колода совпадает с самой популярной за сегодня:\n"
+        player_stats_string += "Его колода совпадает с самой популярной за сегодня.\n"
         
 
     
