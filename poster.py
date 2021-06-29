@@ -47,9 +47,7 @@ def generate_deck_desc(deck_code):
 def generate_player_stats():
     player_stats_string = ''
     players = connection.get_players() 
-    matches = connection.get_matches() 
-
-    matches_last_day = []
+    matches = connection.get_matches()
 
     for each in matches:
         try:
@@ -72,13 +70,18 @@ def generate_player_stats():
     for each in players:
         player_dict[each["puuid"]] = 0 
 
-    
+    derbys = []
+
     for match in matches_last_day:  
         participant1, participant2 = match['metadata']['participants'] 
         if participant1 in player_dict:
             player_dict[participant1] += 1
         if participant2 in player_dict:
             player_dict[participant2] += 1
+
+        if participant1 in player_dict and participant2 in player_dict:
+            derbys.append(match)
+    print(derbys)
 
     max_puuid = max(player_dict, key=player_dict.get)
 
@@ -101,7 +104,6 @@ def generate_player_stats():
                 for player in players:
                     if player['puuid'] == max_puuid:
                         if player['game_outcome'] == 'win':
-                            print("Found a deck a player won with")
                             tryharder_decks.append(player["deck_code"])
 
     player_results = {}
