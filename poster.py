@@ -49,6 +49,8 @@ def generate_player_stats():
     players = connection.get_players() 
     matches = connection.get_matches()
 
+    matches_last_day = []
+
     for each in matches:
         try:
             match_time = each["info"]["game_start_time_utc"]
@@ -71,7 +73,7 @@ def generate_player_stats():
         player_dict[each["puuid"]] = 0 
 
     derbys = []
-
+    
     for match in matches_last_day:  
         participant1, participant2 = match['metadata']['participants'] 
         if participant1 in player_dict:
