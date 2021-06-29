@@ -273,7 +273,7 @@ def generate_player_data(message):
 
 def generate_normal_post():
     photo_ids = []
-    message = ""
+    message = "Папешикам ку, \n"
 
     try:
         message += generate_player_stats()
@@ -284,14 +284,14 @@ def generate_normal_post():
         message += "\n"
     except Exception as e:
         traceback.print_exc()
-        message += "Не удалось получить статистику игроков. Блип-блоп."
+        message += "Не удалось получить статистику игроков. Блип-блоп.\n"
 
     try:
         player_message = generate_player_data("")
         message += player_message
     except:
         traceback.print_exc()
-        message += "Не удалось получить данные игроков. Блип-блоп."
+        message += "Не удалось получить данные игроков. Блип-блоп.\n"
 
     attachment_str = ""
     print(photo_ids)
