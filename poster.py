@@ -113,6 +113,7 @@ def generate_player_stats():
         name1 = connection.find_player(key[1])["gameName"]
         derby_dict_names[(name0, name1)] = derby_dict[key]
 
+    players = connection.get_players() 
     player_stats_string += f"Мы собрали {len(matches)} матчей {len(players)} игроков, из них мы смогли получить {len(matches_last_day)} ранкед игр за последний день. {len(derbys)} раз игроки встретились друг с другом.\n\n"
 
     max_puuid = max(player_dict, key=player_dict.get)

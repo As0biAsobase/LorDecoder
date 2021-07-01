@@ -26,6 +26,9 @@ class DBConnection:
 
         return result  
 
+    def update_player_rank(self, puuid, rank):
+        result = self.client['natum-perdere']['PlayersyRiotID'].update({ "puuid" : puuid}, {"$set": {"rank": rank}})
+
     def get_matches(self):
         result = self.client['natum-perdere']['LorMatches'].find({})
         result = list(result)
