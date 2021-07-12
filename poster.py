@@ -13,7 +13,6 @@ from lor_deckcodes import LoRDeck, CardCodeAndCount
 from deckchanges import get_highest_growth
 from datetime import datetime
 from PIL import Image
-import cv2
 
 load_dotenv(find_dotenv())
 token = os.getenv("VKAPI_USER_TOKEN")
