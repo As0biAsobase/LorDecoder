@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+import matplotlib.pyplot as plt
 import os
 import sys
 from dotenv import load_dotenv, find_dotenv
@@ -76,6 +77,18 @@ def generate_region_popularity(matches, player_ids):
     print(popularity)
 
     popularity = dict(sorted(popularity.items(), key=lambda item: item[1], reverse=True))
+
+    labels = []
+    numbers = []
+
+    for x, y in popularity.items():
+        labels.append(x)
+        numbers.append(y)
+
+    plt.pie(numbers, labels=labels)
+
+    plt.axis('equal')
+    plt.savefig('/home/khun/LorDecoder/output/posting/region_pie.png')
 
     return popularity 
 
@@ -263,6 +276,8 @@ def upload_image(type):
         location = "/home/khun/LorDecoder/output/posting/deck.png"
     elif type == "most_popular_deck":
         location = "/home/khun/LorDecoder/output/posting/most_popular_deck.png"
+    elif type == "region_pie":
+        location = "/home/khun/LorDecoder/output/posting/region_pie.png"
 
     img = {'photo': ('img.jpg', open(location, 'rb'))}
 
@@ -326,6 +341,7 @@ def generate_normal_post():
         message += generate_player_stats()
         photo_ids.append(upload_image("random_deck"))
         photo_ids.append(upload_image("most_popular_deck"))
+        photo_ids.append(upload_image("region_pie"))
         message += "\n"
         message += ("&#10084;" * 10)
         message += "\n"
