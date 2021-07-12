@@ -100,7 +100,7 @@ def generate_region_popularity(matches, player_ids):
         colors.append(region_colors[x])
 
 
-    plt.pie(numbers, labels=labels, startangle=90, colors)
+    plt.pie(numbers, labels=labels, startangle=90, colors=colors)
 
     plt.axis('equal')
     plt.savefig('/home/khun/LorDecoder/output/posting/region_pie.png')
