@@ -106,10 +106,12 @@ def count_popularity(matches, player_ids):
     print(region_popularity)
     region_popularity = dict(sorted(region_popularity.items(), key=lambda item: item[1], reverse=True))
 
-    print(champion_popularity)
+
     champion_popularity = dict(sorted(champion_popularity.items(), key=lambda item: item[1], reverse=True))
+    print(champion_popularity)
 
     other_champs = 0
+    top20_champs = {}
     if len(champion_popularity) > 20:
         for k,v in list(champion_popularity.items())[:20]:
             top20_champs[k] = v
