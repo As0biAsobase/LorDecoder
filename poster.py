@@ -26,7 +26,7 @@ factions_mapping = {
     "faction_Ionia_Name" : "Ionia",
     "faction_Bilgewater_Name" : "Bilgewater",
     "faction_Demacia_Name" : "Demacia",
-    "faction_Targon_Name" : "Targon"
+    "faction_MtTargon_Name" : "Targon"
 }
 
 def generate_deck_desc(deck_code):
