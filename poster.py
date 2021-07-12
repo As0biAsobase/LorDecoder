@@ -157,7 +157,7 @@ def count_popularity(matches, player_ids):
     fig.savefig('/home/khun/LorDecoder/output/posting/region_pie.png')
     img = Image.open("/home/khun/LorDecoder/output/posting/region_pie.png")
 
-    img.save("/home/khun/LorDecoder/output/posting/region_pie.png"")
+    img.save("/home/khun/LorDecoder/output/posting/region_pie.png")
 
     return (region_popularity, top20_champs)
 
