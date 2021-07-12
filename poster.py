@@ -152,7 +152,6 @@ def count_popularity(matches, player_ids):
     champion_pie.set_title("Популярность чемпионов", pad=20)
     champion_pie.pie(numbers, labels=labels, startangle=90, colors=colors, counterclock=False, radius=5, textprops={'fontsize': 6}, rotatelabels=True)
     
-    background = Image.open("/home/khun/LorDecoder/background/poros/1gs.png")
     fig.savefig('/home/khun/LorDecoder/output/posting/region_pie.png')
     img = Image.open("/home/khun/LorDecoder/output/posting/region_pie.png")
 
