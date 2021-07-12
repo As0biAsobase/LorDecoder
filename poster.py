@@ -325,7 +325,7 @@ def generate_player_stats():
 
     player_stats_string += "\nСамые популярные чемпионы среди наших игроков:\n"
     for champion in champion_popularity:
-        player_stats_string += f"{champio} - {champion_popularity[champion]}\n"
+        player_stats_string += f"{champion} - {champion_popularity[champion]}\n"
 
     return player_stats_string
 
