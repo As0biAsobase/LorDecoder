@@ -102,7 +102,7 @@ def count_popularity(matches, player_ids):
     fig = plt.figure()
     fig.suptitle("Ooga booga", fontsize="x-large")
     region_pie = fig.add_subplot()
-    region_pie.title("Популярность регионов")
+    region_pie.set_title("Популярность регионов")
     region_pie.pie(numbers, labels=labels, startangle=90, colors=colors, counterclock=False)
 
     region_pie.axis('equal')
