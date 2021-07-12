@@ -12,8 +12,7 @@ from database import DBConnection
 from lor_deckcodes import LoRDeck, CardCodeAndCount
 from deckchanges import get_highest_growth
 from datetime import datetime
-import itertools
-
+import more_itertools
 
 load_dotenv(find_dotenv())
 token = os.getenv("VKAPI_USER_TOKEN")
@@ -111,7 +110,7 @@ def count_popularity(matches, player_ids):
 
     other_champs = 0
     if len(champion_popularity) > 20:
-        top20_champs = dict(itertools.islice(champion_popularity.items(), 20))
+        top20_champs = more_itertools.take(20, champion_popularity.items())
 
     for key in champion_popularity:
         if key not in top20_champs:
