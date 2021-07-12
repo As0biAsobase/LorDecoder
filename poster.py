@@ -30,6 +30,18 @@ factions_mapping = {
     "faction_MtTargon_Name" : "Таргон"
 }
 
+region_colors = {
+    "Фрейльйорд" : "#34cceb",
+    "Шурима" : "#ebe834",
+    "Ноксус" : "#e81a1a", 
+    "ПнЗ" : "#b5ed4c",
+    "Острова" : "#07a880",
+    "Иония" : "#fa3494",
+    "Билджвотер" : "#fa5534",
+    "Демасия" : "#ffff00",
+    "Таргон"  : "#8000ff"
+}
+
 def generate_deck_desc(deck_code):
     deck = LoRDeck.from_deckcode(deck_code)
     deck_name = ""
@@ -80,12 +92,15 @@ def generate_region_popularity(matches, player_ids):
 
     labels = []
     numbers = []
+    colors = []
 
     for x, y in popularity.items():
-        labels.append(x)
+        labels.append(f"{x} ({y})")
         numbers.append(y)
+        colors.append(region_colors[x])
 
-    plt.pie(numbers, labels=labels)
+
+    plt.pie(numbers, labels=labels, startangle=90, colors)
 
     plt.axis('equal')
     plt.savefig('/home/khun/LorDecoder/output/posting/region_pie.png')
