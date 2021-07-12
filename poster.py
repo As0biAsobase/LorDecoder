@@ -111,7 +111,7 @@ def count_popularity(matches, player_ids):
 
     other_champs = 0
     if len(champion_popularity) > 20:
-        for k,v in sorted(champion_popularity.items(), key=operator.itemgetter(1))[:20]:
+        for k,v in list(champion_popularity.items())[:20]:
             top20_champs[k] = v
 
         for key in champion_popularity:
