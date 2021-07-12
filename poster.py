@@ -136,7 +136,7 @@ def count_popularity(matches, player_ids):
 
     fig = plt.figure()
     # fig.suptitle("Ooga booga", fontsize="x-large")
-    region_pie = fig.add_subplot()
+    region_pie = fig.add_subplot(121)
     region_pie.set_title("Популярность регионов")
     region_pie.pie(numbers, labels=labels, startangle=90, colors=colors, counterclock=False)
     region_pie.axis('equal')
@@ -148,7 +148,7 @@ def count_popularity(matches, player_ids):
         labels.append(f"{x} ({y})")
         numbers.append(y)
 
-    champion_pie = fig.add_subplot()
+    champion_pie = fig.add_subplot(122)
     champion_pie.set_title("Популярность чемпионов")
     champion_pie.pie(numbers, labels=labels, startangle=90, colors=colors, counterclock=False)
     champion_pie.axis('equal')
