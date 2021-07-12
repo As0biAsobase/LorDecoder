@@ -151,7 +151,7 @@ def count_popularity(matches, player_ids):
     champion_pie = fig.add_subplot()
     champion_pie.set_title("Популярность чемпионов")
     champion_pie.pie(numbers, labels=labels, startangle=90, colors=colors, counterclock=False)
-    championn_pie.axis('equal')
+    champion_pie.axis('equal')
     fig.savefig('/home/khun/LorDecoder/output/posting/region_pie.png')
 
     return region_popularity 
