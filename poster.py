@@ -12,7 +12,7 @@ from database import DBConnection
 from lor_deckcodes import LoRDeck, CardCodeAndCount
 from deckchanges import get_highest_growth
 from datetime import datetime
-# import more_itertools
+import more_itertools
 
 load_dotenv(find_dotenv())
 token = os.getenv("VKAPI_USER_TOKEN")
@@ -86,18 +86,19 @@ def count_popularity(matches, player_ids):
                     for faction in factions:
                         region_popularity[factions_mapping[faction]] += 1 
 
-                    # deck = LoRDeck.from_deckcode(player["deck_code"])
+                    deck = LoRDeck.from_deckcode(player["deck_code"])
 
-                    # for each in deck:
-                    #     q, code = each.split(':')
-                    #     dict = connection.getCardByCode(code)
+                    for each in deck:
+                        q, code = each.split(':')
+                        dict = connection.getCardByCode(code)
 
-                    #     if dict["type"] == "Боец":
-                    #         if dict["supertype"] == "Чемпион":
-                    #             if dict["name"] in champion_popularity:
-                    #                 champion_popularity[dict["name"]] += 1
-                    #             else: 
-                    #                 champion_popularity[dict["name"]] = 1
+                        if dict["type"] == "Боец":
+                            if dict["supertype"] == "Чемпион":
+                                if dict["name"] in champion_popularity:
+                                    champion_popularity[dict["name"]] += 1
+                                else: 
+                                    champion_popularity[dict["name"]] = 1
+                                 print(dict["name"], end='\r')
 
         except Exception as e:
             print(f"We were unable to get match", end='\r')
@@ -110,13 +111,15 @@ def count_popularity(matches, player_ids):
 
     other_champs = 0
     if len(champion_popularity) > 20:
-        top20_champs = more_itertools.take(20, champion_popularity.items())
-
-    for key in champion_popularity:
-        if key not in top20_champs:
-            other_champs += champion_popularity[key] 
-    
-    top20_champs["Другие"] = other_champs
+        for k,v in sorted(champion_popularity.items(), key=operator.itemgetter(1))[:20]:
+            top20_champs[k] = v
+            
+        for key in champion_popularity:
+            if key not in top20_champs:
+                other_champs += champion_popularity[key] 
+        top20_champs["Другие"] = other_champs
+    else:
+        top20_champs = champion_popularity
 
     print(top20_champs)
 
