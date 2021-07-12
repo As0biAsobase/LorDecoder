@@ -69,11 +69,11 @@ def generate_deck_desc(deck_code):
 
     return response_str
 
-def generate_region_popularity(matches, player_ids):
-    popularity = {}
+def count_popularity(matches, player_ids):
+    region_popularity = {}
 
     for key in factions_mapping:
-        popularity[factions_mapping[key]] = 0 
+        region_popularity[factions_mapping[key]] = 0 
 
     for match in matches:
         try:
@@ -82,28 +82,31 @@ def generate_region_popularity(matches, player_ids):
                 if player["puuid"] in player_ids:
                     factions = player["factions"] 
                     for faction in factions:
-                        popularity[factions_mapping[faction]] += 1 
+                        region_popularity[factions_mapping[faction]] += 1 
         except Exception as e:
             print(f"We were unable to get match", end='\r')
 
-    print(popularity)
+    print(region_popularity)
 
-    popularity = dict(sorted(popularity.items(), key=lambda item: item[1], reverse=True))
+    region_popularity = dict(sorted(region_popularity.items(), key=lambda item: item[1], reverse=True))
 
     labels = []
     numbers = []
     colors = []
 
-    for x, y in popularity.items():
+    for x, y in region_popularity.items():
         labels.append(f"{x} ({y})")
         numbers.append(y)
         colors.append(region_colors[x])
 
+    fig = plt.figure()
+    fig.suptitle("Ooga booga", fontsize="x-large")
+    region_pie = fig.add_subplot()
+    region_pie.title("Популярность регионов")
+    region_pie.pie(numbers, labels=labels, startangle=90, colors=colors, counterclock=False)
 
-    plt.pie(numbers, labels=labels, startangle=90, colors=colors, counterclock=False)
-
-    plt.axis('equal')
-    plt.savefig('/home/khun/LorDecoder/output/posting/region_pie.png')
+    region_pie.axis('equal')
+    fig.savefig('/home/khun/LorDecoder/output/posting/region_pie.png')
 
     return popularity 
 
@@ -268,7 +271,7 @@ def generate_player_stats():
     for player in players:
         player_ids.append(player["puuid"])
 
-    region_popularity = generate_region_popularity(matches, player_ids)
+    region_popularity = count_popularity(matches, player_ids)
     player_stats_string += "\nПопулярность регионов среди наших игроков:\n"
 
     for region in region_popularity:
