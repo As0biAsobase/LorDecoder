@@ -12,6 +12,8 @@ from database import DBConnection
 from lor_deckcodes import LoRDeck, CardCodeAndCount
 from deckchanges import get_highest_growth
 from datetime import datetime
+import itertools
+
 
 load_dotenv(find_dotenv())
 token = os.getenv("VKAPI_USER_TOKEN")
@@ -71,6 +73,7 @@ def generate_deck_desc(deck_code):
 
 def count_popularity(matches, player_ids):
     region_popularity = {}
+    champion_popularity = {}
 
     for key in factions_mapping:
         region_popularity[factions_mapping[key]] = 0 
@@ -83,12 +86,40 @@ def count_popularity(matches, player_ids):
                     factions = player["factions"] 
                     for faction in factions:
                         region_popularity[factions_mapping[faction]] += 1 
+
+                    deck = LoRDeck.from_deckcode(player["deck_code"])
+
+                    for each in deck:
+                        q, code = each.split(':')
+                        dict = connection.getCardByCode(code)
+
+                        if dict["type"] == "Боец":
+                            if dict["supertype"] == "Чемпион":
+                                if dict["name"] in champion_popularity:
+                                    champion_popularity[dict["name"]] += 1
+                                else: 
+                                    champion_popularity[dict["name"]] = 1
+
         except Exception as e:
             print(f"We were unable to get match", end='\r')
 
     print(region_popularity)
-
     region_popularity = dict(sorted(region_popularity.items(), key=lambda item: item[1], reverse=True))
+
+    print(champion_popularity)
+    champion_popularity = dict(sorted(champion_popularity.items(), key=lambda item: item[1], reverse=True))
+
+    other_champs = 0
+    if len(champion_popularity) > 20:
+        top20_champs = dict(itertools.islice(champion_popularity.items(), 20))
+
+    for key in champion_popularity:
+        if key not in top20_champs:
+            other_champs += champion_popularity[key] 
+    
+    top20_champs["Другие"] = other_champs
+
+    print(top20_champs)
 
     labels = []
     numbers = []
@@ -100,12 +131,23 @@ def count_popularity(matches, player_ids):
         colors.append(region_colors[x])
 
     fig = plt.figure()
-    fig.suptitle("Ooga booga", fontsize="x-large")
+    # fig.suptitle("Ooga booga", fontsize="x-large")
     region_pie = fig.add_subplot()
     region_pie.set_title("Популярность регионов")
     region_pie.pie(numbers, labels=labels, startangle=90, colors=colors, counterclock=False)
-
     region_pie.axis('equal')
+
+    labels = []
+    numbers = []
+
+    for x, y in top20_champs.items():
+        labels.append(f"{x} ({y})")
+        numbers.append(y)
+
+    champion_pie = fig.add_subplot()
+    champion_pie.set_title("Популярность чемпионов")
+    champion_pie.pie(numbers, labels=labels, startangle=90, colors=colors, counterclock=False)
+    championn_pie.axis('equal')
     fig.savefig('/home/khun/LorDecoder/output/posting/region_pie.png')
 
     return region_popularity 
