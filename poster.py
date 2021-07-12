@@ -108,7 +108,7 @@ def count_popularity(matches, player_ids):
     region_pie.axis('equal')
     fig.savefig('/home/khun/LorDecoder/output/posting/region_pie.png')
 
-    return popularity 
+    return region_popularity 
 
 def generate_player_stats():
     player_stats_string = ''
