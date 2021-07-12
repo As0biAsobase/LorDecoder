@@ -17,6 +17,18 @@ token = os.getenv("VKAPI_USER_TOKEN")
 gid = os.getenv("VK_GID")
 connection = DBConnection()
 
+factions_mapping = {
+    "faction_Freljord_Name" : "Freljord",
+    "faction_Shurima_Name" : "Shurima",
+    "faction_Noxus_Name" : "Noxus", 
+    "faction_Piltover_Name" : "PnZ",
+    "faction_ShadowIsles_Name" : "ShadowIsles",
+    "faction_Ionia_Name" : "Ionia",
+    "faction_Bilgewater_Name" : "Bilgewater",
+    "faction_Demacia_Name" : "Demacia",
+    "faction_Targon_Name" : "Targon"
+}
+
 def generate_deck_desc(deck_code):
     deck = LoRDeck.from_deckcode(deck_code)
     deck_name = ""
@@ -43,6 +55,24 @@ def generate_deck_desc(deck_code):
     response_str = "Колода: %s \nКод: %s \n" % (deck_name, deck_code)
 
     return response_str
+
+def generate_region_popularity(matches):
+    popularity = {}
+
+    for key in factions_mapping:
+        popularity[factions_mapping[key]] = 0 
+
+    for match in matches:
+        players = match['info']['players'] 
+        for player in players:
+            factions = player["factions"] 
+            for faction in factions:
+                popularity[factions_mapping[faction]] += 1 
+    print(popularity)
+
+    popularity = dict(sorted(popularity.items(), key=lambda item: item[1], reverse=True))
+
+    return popularity 
 
 def generate_player_stats():
     player_stats_string = ''
@@ -199,6 +229,13 @@ def generate_player_stats():
         player_stats_string += f"\nСамые жаркие баталии за последние сутки:\n"
         for s in sorted(derby_dict_names.items(), key=lambda k_v: k_v[1]['n'], reverse=True):
             player_stats_string += f"{s[0][0]} {s[1]['p0']} - {s[1]['p1']} {s[0][1]}\n"
+
+    region_popularity = generate_region_popularity(matches)
+
+    player_stats_string += "\nПопулярность регионов:"
+
+    for region in region_popularity:
+        player_stats_string += f"{region} - {region_popularity[region]}\n"
 
     return player_stats_string
 
