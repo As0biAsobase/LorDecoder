@@ -56,7 +56,7 @@ def generate_deck_desc(deck_code):
 
     return response_str
 
-def generate_region_popularity(matches):
+def generate_region_popularity(matches, player_ids):
     popularity = {}
 
     for key in factions_mapping:
@@ -66,9 +66,10 @@ def generate_region_popularity(matches):
         try:
             players = match['info']['players'] 
             for player in players:
-                factions = player["factions"] 
-                for faction in factions:
-                    popularity[factions_mapping[faction]] += 1 
+                if player["puuid"] in player_ids:
+                    factions = player["factions"] 
+                    for faction in factions:
+                        popularity[factions_mapping[faction]] += 1 
         except Exception as e:
             print(f"We were unable to get match", end='\r')
 
@@ -234,9 +235,13 @@ def generate_player_stats():
         for s in sorted(derby_dict_names.items(), key=lambda k_v: k_v[1]['n'], reverse=True):
             player_stats_string += f"{s[0][0]} {s[1]['p0']} - {s[1]['p1']} {s[0][1]}\n"
 
-    region_popularity = generate_region_popularity(matches)
+    players = connection.get_players() 
+    player_ids = []
+    for player in players:
+        player_ids.append(player["puuid"])
 
-    player_stats_string += "\nПопулярность регионов:\n"
+    region_popularity = generate_region_popularity(matches, player_ids)
+    player_stats_string += "\nПопулярность регионов среди наших игроков:\n"
 
     for region in region_popularity:
         player_stats_string += f"{region} - {region_popularity[region]}\n"
