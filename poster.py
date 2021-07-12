@@ -63,11 +63,14 @@ def generate_region_popularity(matches):
         popularity[factions_mapping[key]] = 0 
 
     for match in matches:
-        players = match['info']['players'] 
-        for player in players:
-            factions = player["factions"] 
-            for faction in factions:
-                popularity[factions_mapping[faction]] += 1 
+        try:
+            players = match['info']['players'] 
+            for player in players:
+                factions = player["factions"] 
+                for faction in factions:
+                    popularity[factions_mapping[faction]] += 1 
+        except Exception as e:
+            print(f"We were unable to get match", end='\r')
     print(popularity)
 
     popularity = dict(sorted(popularity.items(), key=lambda item: item[1], reverse=True))
