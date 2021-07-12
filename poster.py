@@ -98,7 +98,7 @@ def count_popularity(matches, player_ids):
                                     champion_popularity[dict["name"]] += 1
                                 else: 
                                     champion_popularity[dict["name"]] = 1
-                                 print(dict["name"], end='\r')
+                                print(dict["name"], end='\r')
 
         except Exception as e:
             print(f"We were unable to get match", end='\r')
@@ -113,7 +113,7 @@ def count_popularity(matches, player_ids):
     if len(champion_popularity) > 20:
         for k,v in sorted(champion_popularity.items(), key=operator.itemgetter(1))[:20]:
             top20_champs[k] = v
-            
+
         for key in champion_popularity:
             if key not in top20_champs:
                 other_champs += champion_popularity[key] 
