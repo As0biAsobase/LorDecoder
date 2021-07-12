@@ -12,7 +12,6 @@ from database import DBConnection
 from lor_deckcodes import LoRDeck, CardCodeAndCount
 from deckchanges import get_highest_growth
 from datetime import datetime
-import more_itertools
 
 load_dotenv(find_dotenv())
 token = os.getenv("VKAPI_USER_TOKEN")
@@ -77,6 +76,7 @@ def count_popularity(matches, player_ids):
     for key in factions_mapping:
         region_popularity[factions_mapping[key]] = 0 
 
+    print("\n")
     for match in matches:
         try:
             players = match['info']['players'] 
