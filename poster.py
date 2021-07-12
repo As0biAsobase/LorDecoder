@@ -86,19 +86,19 @@ def count_popularity(matches, player_ids):
                     for faction in factions:
                         region_popularity[factions_mapping[faction]] += 1 
 
-                    # deck = LoRDeck.from_deckcode(player["deck_code"])
+                    deck = LoRDeck.from_deckcode(player["deck_code"])
 
-                    # for each in deck:
-                    #     q, code = each.split(':')
-                    #     dict = connection.getCardByCode(code)
+                    for each in deck:
+                        q, code = each.split(':')
+                        card = connection.getCardByCode(code)
 
-                    #     if dict["type"] == "Боец":
-                    #         if dict["supertype"] == "Чемпион":
-                    #             if dict["name"] in champion_popularity:
-                    #                 champion_popularity[dict["name"]] += 1
-                    #             else: 
-                    #                 champion_popularity[dict["name"]] = 1
-                    #             print(dict["name"], end='\r')
+                        if card["type"] == "Боец":
+                            if card["supertype"] == "Чемпион":
+                                if card["name"] in champion_popularity:
+                                    champion_popularity[card["name"]] += 1
+                                else: 
+                                    champion_popularity[card["name"]] = 1
+                                print(card["name"], end='\r')
 
         except Exception as e:
             print(f"We were unable to get match", end='\r')
