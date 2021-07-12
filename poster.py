@@ -54,12 +54,9 @@ def generate_player_stats():
     for each in matches:
         try:
             match_time = each["info"]["game_start_time_utc"]
-            match_time = match_time.split('.')[0]
-            date_time_obj = datetime.strptime(match_time, "%Y-%m-%dT%H:%M:%S")
 
             if each["info"]["game_mode"] == "Constructed" and each["info"]["game_type"] == "Ranked":
-                difference = datetime.utcnow() - date_time_obj
-                if difference.days == 0:
+                if is_today(match_time):
                     matches_last_day.append(each)
         except Exception as e:
             print(f"We were unable to get match", end='\r')
@@ -81,7 +78,6 @@ def generate_player_stats():
 
         if participant1 in player_dict and participant2 in player_dict:
             derbys.append(match)
-    print(len(derbys))
 
     derby_dict = {}
 
@@ -127,13 +123,10 @@ def generate_player_stats():
     tryharder_decks = []
     for match in player_matches:
         players = match['info']['players'] 
-
         match_time = match["info"]["game_start_time_utc"]
-        match_time = match_time.split('.')[0]
-        date_time_obj = datetime.strptime(match_time, "%Y-%m-%dT%H:%M:%S")
+
         if match["info"]["game_mode"] == "Constructed" and match["info"]["game_type"] == "Ranked":
-            difference = datetime.utcnow() - date_time_obj
-            if difference.days == 0:
+            if is_today(match_time):
                 for player in players:
                     if player['puuid'] == max_puuid:
                         if player['game_outcome'] == 'win':
@@ -151,12 +144,9 @@ def generate_player_stats():
         for match in player_matches:
             participants = match['info']['players'] 
             match_time = match["info"]["game_start_time_utc"]
-            match_time = match_time.split('.')[0]
-            date_time_obj = datetime.strptime(match_time, "%Y-%m-%dT%H:%M:%S")
-
+            
             if match["info"]["game_mode"] == "Constructed" and match["info"]["game_type"] == "Ranked":
-                difference = datetime.utcnow() - date_time_obj
-                if difference.days == 0:
+                if is_today(match_time):
                     for participant in participants:
                         if participant['puuid'] == player["puuid"] and participant["deck_code"] != "":
                             player_decks.append(participant) 
@@ -212,6 +202,16 @@ def generate_player_stats():
 
     return player_stats_string
 
+def is_today(match_time):
+    match_time = match_time.split('.')[0]
+    date_time_obj = datetime.strptime(match_time, "%Y-%m-%dT%H:%M:%S")
+
+    difference = datetime.utcnow() - date_time_obj
+    if difference.days == 0:
+        return True 
+    else:
+        return False
+
 def upload_image(type):
     if type == "random_deck":
         location = "/home/khun/LorDecoder/output/posting/deck.png"
@@ -239,7 +239,7 @@ def upload_image(type):
     result = json.loads(response.text)['response'][0]
     result = "photo{}_{}".format(result["owner_id"], result["id"])
 
-    return result
+    return result  
 
 def generate_player_data(message):
     headers = {
