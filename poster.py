@@ -18,15 +18,15 @@ gid = os.getenv("VK_GID")
 connection = DBConnection()
 
 factions_mapping = {
-    "faction_Freljord_Name" : "Freljord",
-    "faction_Shurima_Name" : "Shurima",
-    "faction_Noxus_Name" : "Noxus", 
-    "faction_Piltover_Name" : "PnZ",
-    "faction_ShadowIsles_Name" : "ShadowIsles",
-    "faction_Ionia_Name" : "Ionia",
-    "faction_Bilgewater_Name" : "Bilgewater",
-    "faction_Demacia_Name" : "Demacia",
-    "faction_MtTargon_Name" : "Targon"
+    "faction_Freljord_Name" : "Фрейльйорд",
+    "faction_Shurima_Name" : "Шурима",
+    "faction_Noxus_Name" : "Ноксус", 
+    "faction_Piltover_Name" : "ПнЗ",
+    "faction_ShadowIsles_Name" : "Острова",
+    "faction_Ionia_Name" : "Иония",
+    "faction_Bilgewater_Name" : "Билджвотер",
+    "faction_Demacia_Name" : "Демасия",
+    "faction_MtTargon_Name" : "Таргон"
 }
 
 def generate_deck_desc(deck_code):
@@ -71,6 +71,7 @@ def generate_region_popularity(matches):
                     popularity[factions_mapping[faction]] += 1 
         except Exception as e:
             print(f"We were unable to get match", end='\r')
+
     print(popularity)
 
     popularity = dict(sorted(popularity.items(), key=lambda item: item[1], reverse=True))
@@ -235,7 +236,7 @@ def generate_player_stats():
 
     region_popularity = generate_region_popularity(matches)
 
-    player_stats_string += "\nПопулярность регионов:"
+    player_stats_string += "\nПопулярность регионов:\n"
 
     for region in region_popularity:
         player_stats_string += f"{region} - {region_popularity[region]}\n"
