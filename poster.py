@@ -138,7 +138,7 @@ def count_popularity(matches, player_ids):
     # fig.suptitle("Ooga booga", fontsize="x-large")
     region_pie = fig.add_subplot(211)
     region_pie.set_title("Популярность регионов")
-    region_pie.pie(numbers, labels=labels, startangle=90, colors=colors, counterclock=False)
+    region_pie.pie(numbers, labels=labels, startangle=90, colors=colors, counterclock=False, radius=2)
     region_pie.axis('equal')
 
     labels = []
@@ -150,11 +150,11 @@ def count_popularity(matches, player_ids):
 
     champion_pie = fig.add_subplot(212)
     champion_pie.set_title("Популярность чемпионов")
-    champion_pie.pie(numbers, labels=labels, startangle=90, colors=colors, counterclock=False)
+    champion_pie.pie(numbers, labels=labels, startangle=90, colors=colors, counterclock=False, radius=2)
     champion_pie.axis('equal')
     fig.savefig('/home/khun/LorDecoder/output/posting/region_pie.png')
 
-    return region_popularity 
+    return (region_popularity, top20_champs)
 
 def generate_player_stats():
     player_stats_string = ''
@@ -317,11 +317,15 @@ def generate_player_stats():
     for player in players:
         player_ids.append(player["puuid"])
 
-    region_popularity = count_popularity(matches, player_ids)
+    region_popularity, champion_popularity = count_popularity(matches, player_ids)
     player_stats_string += "\nПопулярность регионов среди наших игроков:\n"
 
     for region in region_popularity:
         player_stats_string += f"{region} - {region_popularity[region]}\n"
+
+    player_stats_string += "\nСамые популярные чемпионы среди наших игроков:\n"
+    for champion in champion_popularity:
+        player_stats_string += f"{champio} - {champion_popularity[champion]}\n"
 
     return player_stats_string
 
