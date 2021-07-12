@@ -13,6 +13,7 @@ from lor_deckcodes import LoRDeck, CardCodeAndCount
 from deckchanges import get_highest_growth
 from datetime import datetime
 from PIL import Image
+import cv2
 
 load_dotenv(find_dotenv())
 token = os.getenv("VKAPI_USER_TOKEN")
@@ -152,8 +153,11 @@ def count_popularity(matches, player_ids):
     champion_pie.set_title("Популярность чемпионов", pad=20)
     champion_pie.pie(numbers, labels=labels, startangle=90, colors=colors, counterclock=False, radius=5, textprops={'fontsize': 6}, rotatelabels=True)
     
-    image = Image.frombytes('RGB', fig.canvas.get_width_height(),fig.canvas.tostring_rgb())
-    image.save('/home/khun/LorDecoder/output/posting/region_pie.png')
+    background = Image.open("/home/khun/LorDecoder/background/poros/1gs.png")
+    fig.savefig('/home/khun/LorDecoder/output/posting/region_pie.png')
+    img = Image.open("/home/khun/LorDecoder/output/posting/region_pie.png")
+
+    img.save("/home/khun/LorDecoder/output/posting/region_pie.png"")
 
     return (region_popularity, top20_champs)
 
