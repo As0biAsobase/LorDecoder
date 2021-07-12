@@ -100,7 +100,7 @@ def generate_region_popularity(matches, player_ids):
         colors.append(region_colors[x])
 
 
-    plt.pie(numbers, labels=labels, startangle=90, colors=colors)
+    plt.pie(numbers, labels=labels, startangle=90, colors=colors, counterclock=False)
 
     plt.axis('equal')
     plt.savefig('/home/khun/LorDecoder/output/posting/region_pie.png')
@@ -379,7 +379,7 @@ def generate_normal_post():
             attachment_str += ","
     print(attachment_str)
 
-    message += "\n&#8265; Это сообщение было сгенерировано и отправлено автоматически. Данные Riot Games &#8265;"
+    message += "\n&#10071; Это сообщение было сгенерировано и отправлено автоматически. Данные Riot Games &#10071;"
     params = (
         ('owner_id', f'-{gid}'),
         ('from_group', '1'),
