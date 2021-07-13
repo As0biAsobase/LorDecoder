@@ -157,7 +157,7 @@ def count_popularity(matches, player_ids):
 
     for image_name in ("region_pie", "champion_pie"):
         image = Image.open(f"/home/khun/LorDecoder/output/posting/{image_name}.png")
-        width, height = image.size()
+        width, height = image.size
 
         background = Image.open("/home/khun/LorDecoder/background/1gs.png")
         background = background.resize((int(width), int(height)))
