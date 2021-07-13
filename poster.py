@@ -147,18 +147,21 @@ def count_popularity(matches, player_ids):
     numbers = []
 
     for x, y in top20_archetypes.items():
-        regions = x[0]
-        champions = x[1]
+        if x != "Другие":
+            regions = x[0]
+            champions = x[1]
 
-        label = ""
-        for champion in champions:
-                champion = champion.split(" ")[0]
-                label += f"{champion} "
-                print(champion, end='\r')
+            label = ""
+            for champion in champions:
+                    champion = champion.split(" ")[0]
+                    label += f"{champion} "
+                    print(champion, end='\r')
 
-        label += "\n"
-        for region in regions:
-            label +=f"{region} "
+            label += "\n"
+            for region in regions:
+                label +=f"{region} "
+        else: 
+            label = x
 
         labels.append(f"{label} ({y})")
         numbers.append(y)
