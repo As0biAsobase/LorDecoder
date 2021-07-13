@@ -158,7 +158,7 @@ def count_popularity(matches, player_ids):
 
         label += "\n"
         for region in regions:
-            label +=f"{region[4]} "
+            label +=f"{region} "
 
         labels.append(f"{label} ({y})")
         numbers.append(y)
