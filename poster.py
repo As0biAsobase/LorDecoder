@@ -118,7 +118,8 @@ def count_popularity(matches, player_ids):
         except Exception as e:
             print(f"We were unable to get match", end='\r')
 
-    
+    matches = []
+
     print(region_popularity)
     region_popularity = dict(sorted(region_popularity.items(), key=lambda item: item[1], reverse=True))
 
