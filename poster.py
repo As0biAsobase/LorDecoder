@@ -170,7 +170,8 @@ def count_popularity(matches, player_ids):
     cc = plt.cycler("color", plt.cm.CMRmap(color_linespace)) 
     with plt.style.context({"axes.prop_cycle" : cc}):
         plt.suptitle("Популярность архетипов", color='w', fontsize=20)
-        plt.pie(numbers, labels=labels, startangle=90, counterclock=False, radius=1, textprops={'fontsize': 8, 'color' : "w"}, rotatelabels=True)
+        patches, texts = plt.pie(numbers, startangle=90, counterclock=False, radius=1, textprops={'fontsize': 8, 'color' : "w"}, rotatelabels=True)
+        plt.legend(patches, labels, loc="best")
         plt.tight_layout()
     plt.savefig('/home/khun/LorDecoder/output/posting/archetype_pie.png', transparent=True, dpi=600)
 
