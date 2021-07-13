@@ -172,7 +172,7 @@ def count_popularity(matches, player_ids):
         plt.suptitle("Популярность архетипов", color='w', fontsize=20)
         patches, texts = plt.pie(numbers, startangle=90, counterclock=False, radius=1, textprops={'fontsize': 8, 'color' : "w"}, rotatelabels=True)
         lgd = plt.legend(patches, labels, loc="best")
-    plt.savefig('/home/khun/LorDecoder/output/posting/archetype_pie.png', transparent=True, dpi=600, bbox_extra_artists=(lgd), bbox_inches='tight')
+    plt.savefig('/home/khun/LorDecoder/output/posting/archetype_pie.png', transparent=True, dpi=600, bbox_extra_artists=(lgd,), bbox_inches='tight')
 
     other_champs = 0
     top20_champs = {}
