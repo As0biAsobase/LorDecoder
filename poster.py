@@ -151,7 +151,7 @@ def count_popularity(matches, player_ids):
         numbers.append(y)
 
     plt.figure()
-    cc = plt.cycler("color", plt.cm.CMRmap(np.linspace(0.2,0.9,len(lables)))) 
+    cc = plt.cycler("color", plt.cm.CMRmap(np.linspace(0.2,0.9,len(labels)))) 
     with plt.style.context({"axes.prop_cycle" : cc}):
         plt.suptitle("Популярность чемпионов", color='w', fontsize=25)
         plt.pie(numbers, labels=labels, startangle=90, colors=colors, counterclock=False, radius=1, textprops={'fontsize': 8, 'color' : "w"}, rotatelabels=True)
