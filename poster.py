@@ -135,11 +135,13 @@ def count_popularity(matches, player_ids):
         numbers.append(y)
         colors.append(region_colors[x])
 
-    region_pie = plt.figure()
+    plt.figure()
     # fig.suptitle("Ooga booga", fontsize="x-large")
-    region_pie.suptitle("Популярность регионов")
-    region_pie.pie(numbers, labels=labels, startangle=90, colors=colors, counterclock=False, radius=1, textprops={'fontsize': 8})
-    region_pie.tight_layout()
+    plt.suptitle("Популярность регионов")
+    plt.pie(numbers, labels=labels, startangle=90, colors=colors, counterclock=False, radius=1, textprops={'fontsize': 8})
+    plt.tight_layout()
+    plt.savefig('/home/khun/LorDecoder/output/posting/region_pie.png', transparent=True)
+
     labels = []
     numbers = []
 
@@ -147,21 +149,22 @@ def count_popularity(matches, player_ids):
         labels.append(f"{x} ({y})")
         numbers.append(y)
 
-    champion_pie = plt.figure()
-    champion_pie.suptitle("Популярность чемпионов")
-    champion_pie.pie(numbers, labels=labels, startangle=90, colors=colors, counterclock=False, radius=1, textprops={'fontsize': 6}, rotatelabels=True)
-    champion_pie.tight_layout()
+    plt.figure()
+    plt.suptitle("Популярность чемпионов")
+    plt.pie(numbers, labels=labels, startangle=90, colors=colors, counterclock=False, radius=1, textprops={'fontsize': 6}, rotatelabels=True)
+    plt.tight_layout()
+    plt.savefig('/home/khun/LorDecoder/output/posting/champion_pie.png', transparent=True)
 
-    region_pie.savefig('/home/khun/LorDecoder/output/posting/region_pie.png', transparent=True)
-    champion_pie.savefig('/home/khun/LorDecoder/output/posting/champion_pie.png', transparent=True)
+    for image_name in ("region_pie", "champion_pie"):
+        image = Image.open(f"/home/khun/LorDecoder/output/posting/{image_name}.png")
+        width, height = image.size()
 
-    region_pie = Image.open("/home/khun/LorDecoder/output/posting/region_pie.png")
-    champion_pie = Image.open("/home/khun/LorDecoder/output/posting/chamion_pie.png")
+        background = Image.open("/home/khun/LorDecoder/background/1gs.png")
+        background = background.resize((int(width), int(height)))
+        background.paste(image, mask = image)
 
-    background = Image.open("/home/khun/LorDecoder/background/1gs.png")
+        background.save(f"/home/khun/LorDecoder/output/posting/{image_name}.png")
 
-    img.save("/home/khun/LorDecoder/output/posting/region_pie.png")
-    img.save("/home/khun/LorDecoder/output/posting/champion_pie.png")
 
     return (region_popularity, top20_champs)
 
