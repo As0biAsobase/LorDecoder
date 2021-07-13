@@ -105,7 +105,7 @@ def count_popularity(matches, player_ids):
                                     champion_popularity[card["name"]] = 1
 
                                 if card["name"] not in champions:
-                                    champions.appen(card["name"])
+                                    champions.append(card["name"])
                                 print(card["name"], end='\r')
                         if card["region"] not in regions:
                             regions.append(card["region"]) 
