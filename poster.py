@@ -152,8 +152,7 @@ def count_popularity(matches, player_ids):
 
         label = ""
         for champion in champions:
-            if champion:
-                champion = champion.split("")[0]
+                champion = champion.split(" ")[0]
                 label += f"{champion} "
                 print(champion, end='\r')
 
