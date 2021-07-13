@@ -118,13 +118,60 @@ def count_popularity(matches, player_ids):
         except Exception as e:
             print(f"We were unable to get match", end='\r')
 
-    print(archetype_popularity)
+    
     print(region_popularity)
     region_popularity = dict(sorted(region_popularity.items(), key=lambda item: item[1], reverse=True))
 
 
     champion_popularity = dict(sorted(champion_popularity.items(), key=lambda item: item[1], reverse=True))
     print(champion_popularity)
+
+    
+    archetype_popularity = dict(sorted(archetype_popularity.items(), key=lambda item: item[1], reverse=True))
+    print(archetype_popularity)
+
+    other_archetypes = 0
+    top20_archetypes = {}
+    if len(archetype_popularity) > 20:
+        for k,v in list(archetype_popularity.items())[:20]:
+            top20_archetypes[k] = v
+
+        for key in archetype_popularity:
+            if key not in top20_archetypes:
+                 other_archetype += archetype_popularity[key] 
+        top20_archetypes["Другие"] =  other_archetypes
+    else:
+        top20_archetypes = archetype_popularity
+
+    labels = []
+    numbers = []
+
+    for x, y in top20_archetypes.items():
+        regions = x[0]
+        champions = x[1]
+
+        label = ""
+        for champion in champions:
+            champion = champion.split("")[0]
+            label += f"{champion} "
+
+        label += "\n"
+        for region in regions:
+            label +=f"{region[4]} "
+
+        labels.append(f"{label} ({y})")
+        numbers.append(y)
+
+    plt.figure()
+
+    color_linespace = np.linspace(0.2,0.9,len(labels))
+    np.random.shuffle(color_linespace)
+    cc = plt.cycler("color", plt.cm.CMRmap(color_linespace)) 
+    with plt.style.context({"axes.prop_cycle" : cc}):
+        plt.suptitle("Популярность архетипов", color='w', fontsize=20)
+        plt.pie(numbers, labels=labels, startangle=90, counterclock=False, radius=1, textprops={'fontsize': 8, 'color' : "w"}, rotatelabels=True)
+        plt.tight_layout()
+    plt.savefig('/home/khun/LorDecoder/output/posting/archetype_pie.png', transparent=True, dpi=600)
 
     other_champs = 0
     top20_champs = {}
@@ -155,7 +202,7 @@ def count_popularity(matches, player_ids):
     plt.suptitle("Популярность регионов", color='w', fontsize=20)
     plt.pie(numbers, labels=labels, startangle=90, colors=colors, counterclock=False, radius=1, textprops={'fontsize': 12, 'color' : "w"})
     plt.tight_layout()
-    plt.savefig('/home/khun/LorDecoder/output/posting/region_pie.png', transparent=True, dpi=450)
+    plt.savefig('/home/khun/LorDecoder/output/posting/region_pie.png', transparent=True, dpi=600)
 
     labels = []
     numbers = []
@@ -173,9 +220,9 @@ def count_popularity(matches, player_ids):
         plt.suptitle("Популярность чемпионов", color='w', fontsize=20)
         plt.pie(numbers, labels=labels, startangle=90, counterclock=False, radius=1, textprops={'fontsize': 8, 'color' : "w"}, rotatelabels=True)
         plt.tight_layout()
-    plt.savefig('/home/khun/LorDecoder/output/posting/champion_pie.png', transparent=True, dpi=450)
+    plt.savefig('/home/khun/LorDecoder/output/posting/champion_pie.png', transparent=True, dpi=600)
 
-    for image_name in ("region_pie", "champion_pie"):
+    for image_name in ("region_pie", "champion_pie", "archetype_pie"):
         image = Image.open(f"/home/khun/LorDecoder/output/posting/{image_name}.png")
         width, height = image.size
 
@@ -380,7 +427,8 @@ def upload_image(type):
         location = "/home/khun/LorDecoder/output/posting/region_pie.png"
     elif type == "champion_pie":
         location = '/home/khun/LorDecoder/output/posting/champion_pie.png'
-
+    elif type == "archetype_pie":
+        location = "/home/khun/LorDecoder/output/posting/archetype_pie.png"
     img = {'photo': ('img.jpg', open(location, 'rb'))}
 
     # Получаем ссылку для загрузки изображений
@@ -445,6 +493,7 @@ def generate_normal_post():
         photo_ids.append(upload_image("most_popular_deck"))
         photo_ids.append(upload_image("region_pie"))
         photo_ids.append(upload_image("champion_pie"))
+        photo_ids.append(upload_image("archetype_pie"))
         message += "\n"
         message += ("&#10084;" * 10)
         message += "\n"
