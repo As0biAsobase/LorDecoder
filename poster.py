@@ -138,7 +138,7 @@ def count_popularity(matches, player_ids):
 
         for key in archetype_popularity:
             if key not in top20_archetypes:
-                 other_archetype += archetype_popularity[key] 
+                 other_archetypes += archetype_popularity[key] 
         top20_archetypes["Другие"] =  other_archetypes
     else:
         top20_archetypes = archetype_popularity
