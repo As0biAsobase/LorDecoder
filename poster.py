@@ -138,7 +138,7 @@ def count_popularity(matches, player_ids):
 
     plt.figure()
     # fig.suptitle("Ooga booga", fontsize="x-large")
-    plt.suptitle("Популярность регионов", color='w', fontsize=25)
+    plt.suptitle("Популярность регионов", color='w', fontsize=20)
     plt.pie(numbers, labels=labels, startangle=90, colors=colors, counterclock=False, radius=1, textprops={'fontsize': 12, 'color' : "w"})
     plt.tight_layout()
     plt.savefig('/home/khun/LorDecoder/output/posting/region_pie.png', transparent=True, dpi=450)
@@ -153,8 +153,8 @@ def count_popularity(matches, player_ids):
     plt.figure()
     cc = plt.cycler("color", plt.cm.CMRmap(np.linspace(0.2,0.9,len(labels)))) 
     with plt.style.context({"axes.prop_cycle" : cc}):
-        plt.suptitle("Популярность чемпионов", color='w', fontsize=25)
-        plt.pie(numbers, labels=labels, startangle=90, colors=colors, counterclock=False, radius=1, textprops={'fontsize': 8, 'color' : "w"}, rotatelabels=True)
+        plt.suptitle("Популярность чемпионов", color='w', fontsize=20)
+        plt.pie(numbers, labels=labels, startangle=90, counterclock=False, radius=1, textprops={'fontsize': 8, 'color' : "w"}, rotatelabels=True)
         plt.tight_layout()
     plt.savefig('/home/khun/LorDecoder/output/posting/champion_pie.png', transparent=True, dpi=450)
 
