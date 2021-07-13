@@ -135,9 +135,8 @@ def count_popularity(matches, player_ids):
         numbers.append(y)
         colors.append(region_colors[x])
 
-    fig = plt.figure()
+    region_pie = plt.figure()
     # fig.suptitle("Ooga booga", fontsize="x-large")
-    region_pie = fig.add_subplot(311)
     region_pie.set_title("Популярность регионов", pad= 10)
     region_pie.pie(numbers, labels=labels, startangle=90, colors=colors, counterclock=False, radius=1, textprops={'fontsize': 8})
     
@@ -148,11 +147,12 @@ def count_popularity(matches, player_ids):
         labels.append(f"{x} ({y})")
         numbers.append(y)
 
-    champion_pie = fig.add_subplot(313)
-    champion_pie.set_title("Популярность чемпионов", pad=20)
+    champion_pie = plt.figure()
+    champion_pie.set_title("Популярность чемпионов", pad=50)
     champion_pie.pie(numbers, labels=labels, startangle=90, colors=colors, counterclock=False, radius=1, textprops={'fontsize': 6}, rotatelabels=True)
     
-    fig.savefig('/home/khun/LorDecoder/output/posting/region_pie.png')
+    region_pie.savefig('/home/khun/LorDecoder/output/posting/region_pie.png')
+    champion_pie.savefig('/home/khun/LorDecoder/output/posting/champion_pie.png')
     img = Image.open("/home/khun/LorDecoder/output/posting/region_pie.png")
 
     img.save("/home/khun/LorDecoder/output/posting/region_pie.png")
@@ -349,6 +349,8 @@ def upload_image(type):
         location = "/home/khun/LorDecoder/output/posting/most_popular_deck.png"
     elif type == "region_pie":
         location = "/home/khun/LorDecoder/output/posting/region_pie.png"
+    elif type == "champion_pie":
+        location = '/home/khun/LorDecoder/output/posting/champion_pie.png'
 
     img = {'photo': ('img.jpg', open(location, 'rb'))}
 
@@ -413,6 +415,7 @@ def generate_normal_post():
         photo_ids.append(upload_image("random_deck"))
         photo_ids.append(upload_image("most_popular_deck"))
         photo_ids.append(upload_image("region_pie"))
+        photo_ids.append(upload_image("champion_pie"))
         message += "\n"
         message += ("&#10084;" * 10)
         message += "\n"
