@@ -407,6 +407,7 @@ def generate_player_stats():
     #     player_stats_string += f"{region} - {region_popularity[region]}\n"
 
     player_stats_string += "\nСамые популярные чемпионы среди наших игроков - изображение 4\n"
+    player_stats_string += "\nСамые популярные аретипы среди наших игроков - изображение 5\n"
     # for champion in champion_popularity:
     #     player_stats_string += f"{champion} - {champion_popularity[champion]}\n"
 
@@ -520,7 +521,7 @@ def generate_normal_post():
             attachment_str += ","
     print(attachment_str)
 
-    message += "\n&#10071; Это сообщение было сгенерировано и отправлено автоматически. Данные Riot Games &#10071;"
+    message += "\n&#10071; Это сообщение было сгенерировано и отправлено автоматически. Natum Perdere не поддерживается и не является частью Riot Games &#10071;"
     params = (
         ('owner_id', f'-{gid}'),
         ('from_group', '1'),
