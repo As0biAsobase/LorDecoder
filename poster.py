@@ -137,10 +137,10 @@ def count_popularity(matches, player_ids):
 
     plt.figure()
     # fig.suptitle("Ooga booga", fontsize="x-large")
-    plt.suptitle("Популярность регионов")
-    plt.pie(numbers, labels=labels, startangle=90, colors=colors, counterclock=False, radius=1, textprops={'fontsize': 8})
+    plt.suptitle("Популярность регионов", color='w')
+    plt.pie(numbers, labels=labels, startangle=90, colors=colors, counterclock=False, radius=1, textprops={'fontsize': 12, 'color' : "w"})
     plt.tight_layout()
-    plt.savefig('/home/khun/LorDecoder/output/posting/region_pie.png', transparent=True)
+    plt.savefig('/home/khun/LorDecoder/output/posting/region_pie.png', transparent=True, dpi=450)
 
     labels = []
     numbers = []
@@ -150,10 +150,10 @@ def count_popularity(matches, player_ids):
         numbers.append(y)
 
     plt.figure()
-    plt.suptitle("Популярность чемпионов")
-    plt.pie(numbers, labels=labels, startangle=90, colors=colors, counterclock=False, radius=1, textprops={'fontsize': 6}, rotatelabels=True)
+    plt.suptitle("Популярность чемпионов", color='w')
+    plt.pie(numbers, labels=labels, startangle=90, colors=colors, counterclock=False, radius=1, textprops={'fontsize': 6, 'color' : "w"}, rotatelabels=True)
     plt.tight_layout()
-    plt.savefig('/home/khun/LorDecoder/output/posting/champion_pie.png', transparent=True)
+    plt.savefig('/home/khun/LorDecoder/output/posting/champion_pie.png', transparent=True, dpi=450)
 
     for image_name in ("region_pie", "champion_pie"):
         image = Image.open(f"/home/khun/LorDecoder/output/posting/{image_name}.png")
@@ -330,14 +330,14 @@ def generate_player_stats():
         player_ids.append(player["puuid"])
 
     region_popularity, champion_popularity = count_popularity(matches, player_ids)
-    player_stats_string += "\nПопулярность регионов среди наших игроков:\n"
+    player_stats_string += "\nПопулярность регионов среди наших игроков - изображение 3\n"
 
-    for region in region_popularity:
-        player_stats_string += f"{region} - {region_popularity[region]}\n"
+    # for region in region_popularity:
+    #     player_stats_string += f"{region} - {region_popularity[region]}\n"
 
-    player_stats_string += "\nСамые популярные чемпионы среди наших игроков:\n"
-    for champion in champion_popularity:
-        player_stats_string += f"{champion} - {champion_popularity[champion]}\n"
+    player_stats_string += "\nСамые популярные чемпионы среди наших игроков - изображение 4\n"
+    # for champion in champion_popularity:
+    #     player_stats_string += f"{champion} - {champion_popularity[champion]}\n"
 
     return player_stats_string
 
