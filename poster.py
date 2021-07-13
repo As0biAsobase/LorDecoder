@@ -74,6 +74,7 @@ def generate_deck_desc(deck_code):
 def count_popularity(matches, player_ids):
     region_popularity = {}
     champion_popularity = {}
+    archetype_popularity = {}   
 
     for key in factions_mapping:
         region_popularity[factions_mapping[key]] = 0 
@@ -90,6 +91,8 @@ def count_popularity(matches, player_ids):
 
                     deck = LoRDeck.from_deckcode(player["deck_code"])
 
+                    regions = [] 
+                    champions = []
                     for each in deck:
                         q, code = each.split(':')
                         card = connection.getCardByCode(code)
@@ -100,11 +103,22 @@ def count_popularity(matches, player_ids):
                                     champion_popularity[card["name"]] += 1
                                 else: 
                                     champion_popularity[card["name"]] = 1
-                                print(card["name"], end='\r')
 
+                                if card["name"] not in champions:
+                                    champions.appen(card["name"])
+                                print(card["name"], end='\r')
+                        if card["region"] not in regions:
+                            regions.append(card["region"]) 
+                    archetype = (tuple(sorted(regions)), tuple(sorted(champions)))
+
+                    if archetype in archetype_popularity:
+                        archetype_popularity[archetype] += 1
+                    else:
+                        archetype_popularity[archetype] = 1
         except Exception as e:
             print(f"We were unable to get match", end='\r')
 
+    print(archetype_popularity)
     print(region_popularity)
     region_popularity = dict(sorted(region_popularity.items(), key=lambda item: item[1], reverse=True))
 
