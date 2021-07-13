@@ -137,7 +137,7 @@ def count_popularity(matches, player_ids):
 
     region_pie = plt.figure()
     # fig.suptitle("Ooga booga", fontsize="x-large")
-    region_pie.suptitle("Популярность регионов", pad= 10)
+    region_pie.suptitle("Популярность регионов")
     region_pie.pie(numbers, labels=labels, startangle=90, colors=colors, counterclock=False, radius=1, textprops={'fontsize': 8})
     region_pie.tight_layout()
     labels = []
@@ -148,7 +148,7 @@ def count_popularity(matches, player_ids):
         numbers.append(y)
 
     champion_pie = plt.figure()
-    champion_pie.suptitle("Популярность чемпионов", pad=50)
+    champion_pie.suptitle("Популярность чемпионов")
     champion_pie.pie(numbers, labels=labels, startangle=90, colors=colors, counterclock=False, radius=1, textprops={'fontsize': 6}, rotatelabels=True)
     champion_pie.tight_layout()
 
@@ -157,6 +157,8 @@ def count_popularity(matches, player_ids):
 
     region_pie = Image.open("/home/khun/LorDecoder/output/posting/region_pie.png")
     champion_pie = Image.open("/home/khun/LorDecoder/output/posting/chamion_pie.png")
+
+    background = Image.open("/home/khun/LorDecoder/background/1gs.png")
 
     img.save("/home/khun/LorDecoder/output/posting/region_pie.png")
     img.save("/home/khun/LorDecoder/output/posting/champion_pie.png")
