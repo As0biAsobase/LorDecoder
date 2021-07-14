@@ -361,7 +361,7 @@ def generate_player_stats():
             if match["info"]["game_mode"] == "Constructed" and match["info"]["game_type"] == "Ranked":
                 if is_today(match_time):
                     for participant in participants:
-                        if [participant["game_outcome"] != 'tie':
+                        if [participant["game_outcome"] != "tie":
                             if participant['puuid'] == player["puuid"] and participant["deck_code"] != "":
                                 player_decks.append(participant) 
                                 player_results[participant['puuid']][participant["game_outcome"]] += 1 
