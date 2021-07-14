@@ -157,7 +157,6 @@ def count_popularity(matches, player_ids):
         if x != "Другие":
             regions = x[0]
             champions = x[1]
-            pie_labels.append(str(round(int(y)/int(total_archetypes)*100,2)))
 
             label = ""
             for champion in champions:
@@ -171,6 +170,7 @@ def count_popularity(matches, player_ids):
         else: 
             label = x
 
+        pie_labels.append(str(round(int(y)/int(total_archetypes)*100,2)))
         labels.append(f"{label} ({y})")
         numbers.append(y)
 
@@ -181,7 +181,7 @@ def count_popularity(matches, player_ids):
     cc = plt.cycler("color", plt.cm.CMRmap(color_linespace)) 
     with plt.style.context({"axes.prop_cycle" : cc}):
         plt.suptitle("Популярность архетипов", color='w', fontsize=20)
-        patches, texts = plt.pie(numbers, pie_labels, startangle=90, counterclock=False, radius=1, textprops={'fontsize': 8, 'color' : "w"}, rotatelabels=True)
+        patches, texts = plt.pie(numbers, labels=pie_labels, startangle=90, counterclock=False, radius=1, textprops={'fontsize': 8, 'color' : "w"}, rotatelabels=True)
         lgd = plt.legend(patches, labels, loc="upper left", bbox_to_anchor=(1,1))
     plt.savefig('/home/khun/LorDecoder/output/posting/archetype_pie.png', transparent=True, dpi=600, bbox_extra_artists=(lgd,), bbox_inches='tight')
 
