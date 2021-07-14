@@ -256,8 +256,7 @@ def count_popularity(matches, player_ids):
         if ratio > 1:
             new_width = bg_width * ratio
             background = background.resize((int(new_width), int(height)))
-            margin = (new_width - bg_width) // 2
-            background = background.crop((margin, 0, new_width-margin, height))
+            background = background.crop((0, 0, new_width, height))
         else:
             background = background.crop((0, 0, width, height))
 
