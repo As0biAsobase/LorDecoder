@@ -133,6 +133,11 @@ def count_popularity(matches, player_ids):
 
     other_archetypes = 0
     top20_archetypes = {}
+    total_archetypes = 0
+
+    for key in archetype_popularity:
+        total_archetypes += archetype_popularity[key]
+
     if len(archetype_popularity) > 20:
         for k,v in list(archetype_popularity.items())[:20]:
             top20_archetypes[k] = v
@@ -146,11 +151,13 @@ def count_popularity(matches, player_ids):
 
     labels = []
     numbers = []
+    pie_labels = []
 
     for x, y in top20_archetypes.items():
         if x != "Другие":
             regions = x[0]
             champions = x[1]
+            pie_labels.append(str(round(int(y)/int(total_archetypes)*100,2)))
 
             label = ""
             for champion in champions:
@@ -174,12 +181,17 @@ def count_popularity(matches, player_ids):
     cc = plt.cycler("color", plt.cm.CMRmap(color_linespace)) 
     with plt.style.context({"axes.prop_cycle" : cc}):
         plt.suptitle("Популярность архетипов", color='w', fontsize=20)
-        patches, texts = plt.pie(numbers, startangle=90, counterclock=False, radius=1, textprops={'fontsize': 8, 'color' : "w"}, rotatelabels=True)
+        patches, texts = plt.pie(numbers, pie_labels, startangle=90, counterclock=False, radius=1, textprops={'fontsize': 8, 'color' : "w"}, rotatelabels=True)
         lgd = plt.legend(patches, labels, loc="upper left", bbox_to_anchor=(1,1))
     plt.savefig('/home/khun/LorDecoder/output/posting/archetype_pie.png', transparent=True, dpi=600, bbox_extra_artists=(lgd,), bbox_inches='tight')
 
     other_champs = 0
     top20_champs = {}
+    total_champs = 0
+
+    for key in champion_popularity:
+        total_champs += champion_popularity[key]
+
     if len(champion_popularity) > 20:
         for k,v in list(champion_popularity.items())[:20]:
             top20_champs[k] = v
@@ -196,9 +208,14 @@ def count_popularity(matches, player_ids):
     labels = []
     numbers = []
     colors = []
+    total_regions = 0
+
+    for key in region_popularity:
+        total_regions += region_populrity[key]
+
 
     for x, y in region_popularity.items():
-        labels.append(f"{x} ({y})")
+        labels.append(f"{x} ({y} | {str(round(int(y)/total_regions*100,2))})")
         numbers.append(y)
         colors.append(region_colors[x])
 
@@ -213,7 +230,7 @@ def count_popularity(matches, player_ids):
     numbers = []
 
     for x, y in top20_champs.items():
-        labels.append(f"{x} ({y})")
+        labels.append(f"{x} ({y} | {str(round(int(y)/total_champs*100,2))})")
         numbers.append(y)
 
     plt.figure()
