@@ -182,7 +182,7 @@ def count_popularity(matches, player_ids):
     with plt.style.context({"axes.prop_cycle" : cc}):
         plt.suptitle("Популярность архетипов", color='w', fontsize=20)
         patches, texts = plt.pie(numbers, labels=pie_labels, startangle=90, counterclock=False, radius=1, textprops={'fontsize': 8, 'color' : "w"}, rotatelabels=True)
-        lgd = plt.legend(patches, labels, loc="upper left", bbox_to_anchor=(1,1))
+        lgd = plt.legend(patches, labels, loc="upper left", bbox_to_anchor=(1.05,1))
     plt.savefig('/home/khun/LorDecoder/output/posting/archetype_pie.png', transparent=True, dpi=600, bbox_extra_artists=(lgd,), bbox_inches='tight')
 
     other_champs = 0
@@ -224,7 +224,7 @@ def count_popularity(matches, player_ids):
     plt.suptitle("Популярность регионов", color='w', fontsize=20)
     plt.pie(numbers, labels=labels, startangle=90, colors=colors, counterclock=False, radius=1, textprops={'fontsize': 10, 'color' : "w"})
     plt.tight_layout()
-    plt.savefig('/home/khun/LorDecoder/output/posting/region_pie.png', transparent=True, dpi=600)
+    plt.savefig('/home/khun/LorDecoder/output/posting/region_pie.png', transparent=True, dpi=600, bbox_inches="tight")
 
     labels = []
     numbers = []
@@ -242,7 +242,7 @@ def count_popularity(matches, player_ids):
         plt.suptitle("Популярность чемпионов", color='w', fontsize=20)
         plt.pie(numbers, labels=labels, startangle=90, counterclock=False, radius=1, textprops={'fontsize': 8, 'color' : "w"}, rotatelabels=True)
         plt.tight_layout()
-    plt.savefig('/home/khun/LorDecoder/output/posting/champion_pie.png', transparent=True, dpi=600)
+    plt.savefig('/home/khun/LorDecoder/output/posting/champion_pie.png', transparent=True, dpi=600, bbox_inches="tight")
 
     for image_name in ("region_pie", "champion_pie", "archetype_pie"):
         image = Image.open(f"/home/khun/LorDecoder/output/posting/{image_name}.png")
