@@ -170,7 +170,7 @@ def count_popularity(matches, player_ids):
         else: 
             label = x
 
-        pie_labels.append(str(round(int(y)/int(total_archetypes)*100,2)))
+        pie_labels.append(f"{str(round(int(y)/int(total_archetypes)*100,2))}%")
         labels.append(f"{label} ({y})")
         numbers.append(y)
 
@@ -215,14 +215,14 @@ def count_popularity(matches, player_ids):
 
 
     for x, y in region_popularity.items():
-        labels.append(f"{x} ({y} | {str(round(int(y)/total_regions*100,2))})")
+        labels.append(f"{x} ({y} | {str(round(int(y)/total_regions*100,2))}%)")
         numbers.append(y)
         colors.append(region_colors[x])
 
     plt.figure()
     # fig.suptitle("Ooga booga", fontsize="x-large")
     plt.suptitle("Популярность регионов", color='w', fontsize=20)
-    plt.pie(numbers, labels=labels, startangle=90, colors=colors, counterclock=False, radius=1, textprops={'fontsize': 12, 'color' : "w"})
+    plt.pie(numbers, labels=labels, startangle=90, colors=colors, counterclock=False, radius=1, textprops={'fontsize': 10, 'color' : "w"})
     plt.tight_layout()
     plt.savefig('/home/khun/LorDecoder/output/posting/region_pie.png', transparent=True, dpi=600)
 
@@ -230,7 +230,7 @@ def count_popularity(matches, player_ids):
     numbers = []
 
     for x, y in top20_champs.items():
-        labels.append(f"{x} ({y} | {str(round(int(y)/total_champs*100,2))})")
+        labels.append(f"{x} ({y} | {str(round(int(y)/total_champs*100,2))}%)")
         numbers.append(y)
 
     plt.figure()
@@ -407,12 +407,12 @@ def generate_player_stats():
     player_stats_string += "\nИгроки регона по количеству побед за сегодня: \n"
     for s in sorted(player_results_names.items(), key=lambda k_v: k_v[1]['win'], reverse=True):
         if s[1]["win"] > 0:
-            player_stats_string += f"{s[0]} - побед: {s[1]['win']} поражений: {s[1]['loss']}\n"
+            player_stats_string += f"{s[0]} – побед: {s[1]['win']} поражений: {s[1]['loss']}\n"
     
     if len(derby_dict_names) > 0:
         player_stats_string += f"\nСамые жаркие баталии за последние сутки:\n"
         for s in sorted(derby_dict_names.items(), key=lambda k_v: k_v[1]['n'], reverse=True):
-            player_stats_string += f"{s[0][0]} {s[1]['p0']} - {s[1]['p1']} {s[0][1]}\n"
+            player_stats_string += f"{s[0][0]} {s[1]['p0']} – {s[1]['p1']} {s[0][1]}\n"
 
     players = connection.get_players() 
     player_ids = []
@@ -420,13 +420,13 @@ def generate_player_stats():
         player_ids.append(player["puuid"])
 
     region_popularity, champion_popularity = count_popularity(matches, player_ids)
-    player_stats_string += "\nПопулярность регионов среди наших игроков - изображение 3\n"
+    player_stats_string += "\nПопулярность регионов среди наших игроков – изображение 3.\n"
 
     # for region in region_popularity:
     #     player_stats_string += f"{region} - {region_popularity[region]}\n"
 
-    player_stats_string += "\nСамые популярные чемпионы среди наших игроков - изображение 4\n"
-    player_stats_string += "\nСамые популярные аретипы среди наших игроков - изображение 5\n"
+    player_stats_string += "\nСамые популярные чемпионы среди наших игроков – изображение 4.\n"
+    player_stats_string += "\nСамые популярные аретипы среди наших игроков – изображение 5.\n"
     # for champion in champion_popularity:
     #     player_stats_string += f"{champion} - {champion_popularity[champion]}\n"
 
