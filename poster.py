@@ -211,7 +211,7 @@ def count_popularity(matches, player_ids):
     total_regions = 0
 
     for key in region_popularity:
-        total_regions += region_populrity[key]
+        total_regions += region_popularity[key]
 
 
     for x, y in region_popularity.items():
