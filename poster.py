@@ -249,7 +249,18 @@ def count_popularity(matches, player_ids):
         width, height = image.size
 
         background = Image.open("/home/khun/LorDecoder/background/1gs.png")
-        background = background.resize((int(width), int(height)))
+        bg_width, bg_height = background.size 
+
+        ratio = height/bg_height 
+
+        if ratio > 1:
+            new_width = bg_width * ratio
+            background = background.resize((int(new_width), int(height)))
+            margin = (new_width - bg_width) // 2
+            background = background.crop((margin, 0, new_width-margin, height))
+        else:
+            background = background.crop((0, 0, width, height))
+
         background.paste(image, mask = image)
 
         background.save(f"/home/khun/LorDecoder/output/posting/{image_name}.png")
