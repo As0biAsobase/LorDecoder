@@ -115,16 +115,17 @@ def count_popularity(matches, player_ids):
                             regions.append(card["region"]) 
                     archetype = (tuple(sorted(regions)), tuple(sorted(champions)))
 
-                    if player["game_outcome"] == "win":
-                        if tuple(sorted(regions)) in region_wins:
+                    if tuple(sorted(regions)) in region_wins:
+                        if player["game_outcome"] == "win":
                             region_wins[tuple(sorted(regions))]["wins"] += 1 
-                        else:
-                            region_wins[tuple(sorted(regions))]["winds"] = 1
-                    elif player["game_outcome"] == "loss":
-                        if tuple(sorted(regions)) in region_wins:
+                        elif player["game_outcome"] == "loss":
                             region_wins[tuple(sorted(regions))]["loss"] += 1 
-                        else:
-                            region_wins[tuple(sorted(regions))]["loss"] = 1
+                    else:
+                        if player["game_outcome"] == "win":
+                            region_wins[tuple(sorted(regions))] = {"win" : 1, "loss" : 0} 
+                        elif player["game_outcome"] == "loss":
+                            region_wins[tuple(sorted(regions))]["loss"] = {"win" : 0, "loss" : 1} 
+
 
                     if archetype in archetype_popularity:
                         archetype_popularity[archetype] += 1
