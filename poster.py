@@ -40,7 +40,7 @@ region_colors = {
     "Острова" : "#07a880",
     "Иония" : "#fa3494",
     "Билджвотер" : "#fa5534",
-    "Демасия" : "#ffff00",
+    "Демасия" : "#f2f2dc",
     "Таргон"  : "#8000ff"
 }
 
@@ -258,7 +258,7 @@ def count_popularity(matches, player_ids):
             new_width = bg_width * ratio
             background = background.resize((int(new_width), int(height)))
             margin = (new_width - width)//2
-            background = background.crop((margin-10, 0, new_width-margin, height))
+            background = background.crop((margin-25, 0, new_width-margin, height))
         else:
             background = background.crop((0, 0, width, height))
 
