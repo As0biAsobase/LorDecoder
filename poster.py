@@ -144,7 +144,7 @@ def count_popularity(matches, player_ids):
     print(region_wins)
     new_region_wins = {}
     for each in region_wins:
-        if region_wins[each]["loss"] + region_wins[each]["win"] > 30:
+        if region_wins[each]["loss"] + region_wins[each]["win"] > 50:
             if region_wins[each]["loss"] != 0:
                 new_region_wins[each] = region_wins[each]["win"] / (region_wins[each]["win"] + region_wins[each]["loss"]) * 100
             else: 
@@ -506,7 +506,7 @@ def generate_player_stats():
 
     player_stats_string += "\nСамые популярные чемпионы среди наших игроков – изображение 4.\n"
     player_stats_string += "\nСамые популярные аретипы среди наших игроков – изображение 5.\n"
-    player_stats_string += "\nПять регионв с наибольшим и наименьшим (>10) количеством побед – изображение 6.\n"
+    player_stats_string += "\nПять регионв с наибольшим и наименьшим винрейтом – изображение 6.\n"
     # for champion in champion_popularity:
     #     player_stats_string += f"{champion} - {champion_popularity[champion]}\n"
 
