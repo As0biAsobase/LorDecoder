@@ -133,6 +133,7 @@ def count_popularity(matches, player_ids):
 
     champion_popularity = dict(sorted(champion_popularity.items(), key=lambda item: item[1], reverse=True))
 
+    region_wins = {i:region_wins[i] for i in region_wins if region_wins[i] >= 10}
     region_wins = dict(sorted(region_wins.items(), key=lambda item: item[1], reverse=True))
     print(region_wins)
 
@@ -161,13 +162,12 @@ def count_popularity(matches, player_ids):
 
     plt.figure()
     plt.suptitle("Успешность регионов", color='w', fontsize=20)
-    color_linespace = np.linspace(0.2,0.9,len(labels))
-    np.random.shuffle(color_linespace)
-    cc = plt.cycler("color", plt.cm.CMRmap(color_linespace)) 
-    with plt.style.context({"axes.prop_cycle" : cc}):
-        plt.bar(labels, numbers)
-        plt.tight_layout()
-        plt.savefig('/home/khun/LorDecoder/output/posting/region_wins.png', transparent=True, dpi=600, bbox_inches="tight")
+
+    plt.barh(labels, numbers)
+    plt.tick_params(axis='x', colors='white')
+    plt.tight_layout()
+    plt.autofmt_xdate()
+    plt.savefig('/home/khun/LorDecoder/output/posting/region_wins.png', transparent=True, dpi=600, bbox_inches="tight")
 
 
     archetype_popularity = dict(sorted(archetype_popularity.items(), key=lambda item: item[1], reverse=True))
@@ -481,6 +481,7 @@ def generate_player_stats():
 
     player_stats_string += "\nСамые популярные чемпионы среди наших игроков – изображение 4.\n"
     player_stats_string += "\nСамые популярные аретипы среди наших игроков – изображение 5.\n"
+    player_stats_string += "\nПять регионв с намбольшим и наименьшим (>10) количеством побед – изображение 6.\n"
     # for champion in champion_popularity:
     #     player_stats_string += f"{champion} - {champion_popularity[champion]}\n"
 
