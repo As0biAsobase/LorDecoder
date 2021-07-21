@@ -166,7 +166,7 @@ def count_popularity(matches, player_ids):
     plt.barh(labels, numbers)
     plt.tick_params(axis='x', colors='white')
     plt.tight_layout()
-    plt.autofmt_xdate()
+    plt.gcf()autofmt_xdate()
     plt.savefig('/home/khun/LorDecoder/output/posting/region_wins.png', transparent=True, dpi=600, bbox_inches="tight")
 
 
