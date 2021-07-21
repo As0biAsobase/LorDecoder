@@ -141,11 +141,12 @@ def count_popularity(matches, player_ids):
 
     champion_popularity = dict(sorted(champion_popularity.items(), key=lambda item: item[1], reverse=True))
 
+    print(region_wins)
     new_region_wins = {}
     for each in region_wins:
         if region_wins[each]["loss"] + region_wins[each]["win"] > 30:
             if region_wins[each]["loss"] != 0:
-                new_region_wins[each] = region_wins[each]["win"] / region_wins[each]["loss"] * 100
+                new_region_wins[each] = region_wins[each]["win"] / (region_wins[each]["win"] + region_wins[each]["loss"]) * 100
             else: 
                 new_region_wins[each] = 100
 
