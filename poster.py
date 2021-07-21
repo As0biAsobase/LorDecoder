@@ -139,8 +139,8 @@ def count_popularity(matches, player_ids):
     top_region_wins = {}
 
     if len(region_wins) > 10:
-        top5_regions = dict{list(region_wins.items())[:5]}
-        bottom5_regions = dict{list(region_wins.items())[len(region_wins)-5:]}
+        top5_regions = dict(list(region_wins.items())[:5])
+        bottom5_regions = dict(list(region_wins.items())[len(region_wins)-5:])
         top_region_wins = {**top5_regions, **bottom5_regions}
         top_region_wins = dict(sorted(top_region_wins.items(), key=lambda item: item[1], reverse=True))
         print(top_region_wins)
