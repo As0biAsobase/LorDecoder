@@ -167,11 +167,12 @@ def count_popularity(matches, player_ids):
     plt.figure()
     plt.suptitle("Успешность регионов", color='w', fontsize=20)
 
-    plt.barh(labels, numbers, color=colors)
+    hbars = plt.barh(labels, numbers, color=colors)
     plt.tick_params(axis='x', colors='white')
     plt.tick_params(axis='y', colors='white')
     plt.tight_layout()
     plt.gcf().autofmt_xdate()
+    plt.bar_label(hbars, padding=5)
     plt.savefig('/home/khun/LorDecoder/output/posting/region_wins.png', transparent=True, dpi=600, bbox_inches="tight")
 
 
@@ -486,7 +487,7 @@ def generate_player_stats():
 
     player_stats_string += "\nСамые популярные чемпионы среди наших игроков – изображение 4.\n"
     player_stats_string += "\nСамые популярные аретипы среди наших игроков – изображение 5.\n"
-    player_stats_string += "\nПять регионв с намбольшим и наименьшим (>10) количеством побед – изображение 6.\n"
+    player_stats_string += "\nПять регионв с наибольшим и наименьшим (>10) количеством побед – изображение 6.\n"
     # for champion in champion_popularity:
     #     player_stats_string += f"{champion} - {champion_popularity[champion]}\n"
 
