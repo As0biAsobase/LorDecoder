@@ -117,9 +117,14 @@ def count_popularity(matches, player_ids):
 
                     if player["game_outcome"] == "win":
                         if tuple(sorted(regions)) in region_wins:
-                            region_wins[tuple(sorted(regions))] += 1 
+                            region_wins[tuple(sorted(regions))]["wins"] += 1 
                         else:
-                            region_wins[tuple(sorted(regions))] = 1
+                            region_wins[tuple(sorted(regions))]["winds"] = 1
+                    elif player["game_outcome"] == "loss":
+                        if tuple(sorted(regions)) in region_wins:
+                            region_wins[tuple(sorted(regions))]["loss"] += 1 
+                        else:
+                            region_wins[tuple(sorted(regions))]["loss"] = 1
 
                     if archetype in archetype_popularity:
                         archetype_popularity[archetype] += 1
@@ -134,6 +139,9 @@ def count_popularity(matches, player_ids):
     region_popularity = dict(sorted(region_popularity.items(), key=lambda item: item[1], reverse=True))
 
     champion_popularity = dict(sorted(champion_popularity.items(), key=lambda item: item[1], reverse=True))
+
+    for each in region_wins:
+        region_wins[each] = region_wins[each]["win"] / region_wins[each]["loss"] * 100
 
     region_wins = {i:region_wins[i] for i in region_wins if region_wins[i] >= 10}
     region_wins = dict(sorted(region_wins.items(), key=lambda item: item[1], reverse=True))
@@ -174,7 +182,7 @@ def count_popularity(matches, player_ids):
     plt.gca().spines['top'].set_visible(False)
     plt.gca().spines['right'].set_visible(False)
     plt.gcf().autofmt_xdate()
-    plt.bar_label(hbars, padding=5, color="white")
+    plt.bar_label(hbars, padding=5, color="white", format="%.2f%%")
     plt.savefig('/home/khun/LorDecoder/output/posting/region_wins.png', transparent=True, dpi=600, bbox_inches="tight")
 
 
