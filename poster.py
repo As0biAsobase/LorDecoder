@@ -154,7 +154,7 @@ def count_popularity(matches, player_ids):
         if len(x) > 1:
             label = x[0].split(" ")[0] + x[1].split(" ")[0]
         else:
-            label = x 
+            label = x[0] 
         
         labels.append(label)
         numbers.append(y)
