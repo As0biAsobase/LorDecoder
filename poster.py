@@ -152,12 +152,12 @@ def count_popularity(matches, player_ids):
 
     for x, y in top_region_wins:
         if len(x) > 1:
-            label = x[0] + x[1]
+            label = x[0].split(" ")[0] + x[1].split(" ")[0]
         else:
             label = x 
         
         labels.append(label)
-        numbers.append(number)
+        numbers.append(y)
 
     plt.figure()
     plt.suptitle("Успешность регионов", color='w', fontsize=20)
