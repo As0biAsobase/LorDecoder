@@ -171,11 +171,11 @@ def count_popularity(matches, player_ids):
     plt.tick_params(axis='x', colors='white')
     plt.tick_params(axis='y', colors='white')
     plt.tight_layout()
-    plt.spines['bottom'].set_color('pink')
-    plt.spines['top'].set_color('yellow') 
-    plt.spines['right'].set_color('blue')
-    plt.spines['left'].set_color('red')
-    plt.gcf().autofmt_xdate()
+    plt.gcf().spines['bottom'].set_color('pink')
+    plt.gcf().spines['top'].set_color('yellow') 
+    plt.gcf().spines['right'].set_color('blue')
+    plt.gcf().spines['left'].set_color('red')
+    plt.gcf().gcf().autofmt_xdate()
     plt.savefig('/home/khun/LorDecoder/output/posting/region_wins.png', transparent=True, dpi=600, bbox_inches="tight")
 
 
@@ -309,7 +309,7 @@ def count_popularity(matches, player_ids):
             new_width = bg_width * ratio
             background = background.resize((int(new_width), int(height)))
             margin = (new_width - width)//2
-            background = background.crop((margin-25, 0, new_width-margin, height))
+            background = background.crop((margin-40, 0, new_width-margin, height))
         else:
             background = background.crop((0, 0, width, height))
 
