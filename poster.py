@@ -156,7 +156,7 @@ def count_popularity(matches, player_ids):
 
     for x, y in top_region_wins.items():
         if len(x) > 1:
-            label = x[0].split(" ")[0] + x[1].split(" ")[0]
+            label = f'{x[0].split(" ")[0]}  {x[1].split(" ")[0]}'
         else:
             label = x[0] 
         
