@@ -76,6 +76,8 @@ def count_popularity(matches, player_ids):
     champion_popularity = {}
     archetype_popularity = {}   
 
+    region_wins = {}
+
     for key in factions_mapping:
         region_popularity[factions_mapping[key]] = 0 
 
@@ -111,6 +113,12 @@ def count_popularity(matches, player_ids):
                             regions.append(card["region"]) 
                     archetype = (tuple(sorted(regions)), tuple(sorted(champions)))
 
+                    if player["game_outcome"] == "win":
+                        if tuple(sorted(regions)) in region_wins:
+                            region_wins[tuple(sorted(regions))] += 1 
+                        else:
+                            region_wins[tuple(sorted(regions))] = 1
+
                     if archetype in archetype_popularity:
                         archetype_popularity[archetype] += 1
                     else:
@@ -120,14 +128,48 @@ def count_popularity(matches, player_ids):
 
     matches = []
 
-    print(region_popularity)
+
     region_popularity = dict(sorted(region_popularity.items(), key=lambda item: item[1], reverse=True))
 
-
     champion_popularity = dict(sorted(champion_popularity.items(), key=lambda item: item[1], reverse=True))
-    print(champion_popularity)
 
-    
+    region_wins = dict(sorted(region_wins.items(), key=lambda item: item[1], reverse=True))
+    print(region_wins)
+
+    top_region_wins = {}
+
+    if len(region_wins) > 10:
+        top5_regions = dict{list(region_wins.items())[:5]}
+        bottom5_regions = dict{list(region_wins.items())[len(region_wins)-5:]}
+        top_region_wins = {**top5_regions, **bottom5_regions}
+        top_region_wins = dict(sorted(top_region_wins.items(), key=lambda item: item[1], reverse=True))
+        print(top_region_wins)
+    else:
+        top_region_wins = region_wins 
+
+    labels = []
+    numbers = []
+
+    for x, y in top_region_wins:
+        if len(x) > 1:
+            label = x[0] + x[1]
+        else:
+            label = x 
+        
+        labels.append(label)
+        numbers.append(number)
+
+    plt.figure()
+    plt.suptitle("Успешность регионов", color='w', fontsize=20)
+    color_linespace = np.linspace(0.2,0.9,len(labels))
+    np.random.shuffle(color_linespace)
+    cc = plt.cycler("color", plt.cm.CMRmap(color_linespace)) 
+    with plt.style.context({"axes.prop_cycle" : cc}):
+        plt.bar(labels, numbers)
+        plt.tight_layout()
+        plt.savefig('/home/khun/LorDecoder/output/posting/region_wins.png', transparent=True, dpi=600, bbox_inches="tight")
+
+
     archetype_popularity = dict(sorted(archetype_popularity.items(), key=lambda item: item[1], reverse=True))
     print(archetype_popularity)
 
@@ -245,7 +287,7 @@ def count_popularity(matches, player_ids):
         plt.tight_layout()
     plt.savefig('/home/khun/LorDecoder/output/posting/champion_pie.png', transparent=True, dpi=600, bbox_inches="tight")
 
-    for image_name in ("region_pie", "champion_pie", "archetype_pie"):
+    for image_name in ("region_pie", "champion_pie", "archetype_pie", "region_wins"):
         image = Image.open(f"/home/khun/LorDecoder/output/posting/{image_name}.png")
         width, height = image.size
 
@@ -465,6 +507,8 @@ def upload_image(type):
         location = '/home/khun/LorDecoder/output/posting/champion_pie.png'
     elif type == "archetype_pie":
         location = "/home/khun/LorDecoder/output/posting/archetype_pie.png"
+    elif type == "region_wins":
+        location = "/home/khun/LorDecoder/output/posting/region_wins.png"
     img = {'photo': ('img.jpg', open(location, 'rb'))}
 
     # Получаем ссылку для загрузки изображений
@@ -530,6 +574,7 @@ def generate_normal_post():
         photo_ids.append(upload_image("region_pie"))
         photo_ids.append(upload_image("champion_pie"))
         photo_ids.append(upload_image("archetype_pie"))
+        photo_ids.append(upload_image("region_wins"))
         message += "\n"
         message += ("&#10084;" * 10)
         message += "\n"
