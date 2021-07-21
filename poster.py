@@ -41,7 +41,9 @@ region_colors = {
     "Иония" : "#fa3494",
     "Билджвотер" : "#fa5534",
     "Демасия" : "#f2f2dc",
-    "Таргон"  : "#8000ff"
+    "Таргон"  : "#8000ff",
+    "Сумрачные острова" : "#07a880",
+    "Пилтовер и Заун" : "#b5ed4c"
 }
 
 def generate_deck_desc(deck_code):
@@ -150,6 +152,7 @@ def count_popularity(matches, player_ids):
 
     labels = []
     numbers = []
+    colors = []
 
     for x, y in top_region_wins.items():
         if len(x) > 1:
@@ -157,15 +160,21 @@ def count_popularity(matches, player_ids):
         else:
             label = x[0] 
         
+        colors.append(region_colors[x[0]])
         labels.append(label)
         numbers.append(y)
 
     plt.figure()
     plt.suptitle("Успешность регионов", color='w', fontsize=20)
 
-    plt.barh(labels, numbers)
+    plt.barh(labels, numbers, color=colors)
     plt.tick_params(axis='x', colors='white')
+    plt.tick_params(axis='y', colors='white')
     plt.tight_layout()
+    plt.spines['bottom'].set_color('pink')
+    plt.spines['top'].set_color('yellow') 
+    plt.spines['right'].set_color('blue')
+    plt.spines['left'].set_color('red')
     plt.gcf().autofmt_xdate()
     plt.savefig('/home/khun/LorDecoder/output/posting/region_wins.png', transparent=True, dpi=600, bbox_inches="tight")
 
