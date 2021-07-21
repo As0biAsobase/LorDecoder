@@ -117,7 +117,7 @@ def count_popularity(matches, player_ids):
 
                     if tuple(sorted(regions)) in region_wins:
                         if player["game_outcome"] == "win":
-                            region_wins[tuple(sorted(regions))]["wins"] += 1 
+                            region_wins[tuple(sorted(regions))]["win"] += 1 
                         elif player["game_outcome"] == "loss":
                             region_wins[tuple(sorted(regions))]["loss"] += 1 
                     else:
