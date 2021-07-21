@@ -142,8 +142,11 @@ def count_popularity(matches, player_ids):
     champion_popularity = dict(sorted(champion_popularity.items(), key=lambda item: item[1], reverse=True))
 
     for each in region_wins:
-        region_wins[each] = region_wins[each]["win"] / region_wins[each]["loss"] * 100
-
+        if region_wins[each]["loss"] != 0:
+            region_wins[each] = region_wins[each]["win"] / region_wins[each]["loss"] * 100
+        else: 
+            region_wins[each] = 100
+            
     region_wins = {i:region_wins[i] for i in region_wins if region_wins[i] >= 10}
     region_wins = dict(sorted(region_wins.items(), key=lambda item: item[1], reverse=True))
     print(region_wins)
