@@ -21,7 +21,7 @@ gid = os.getenv("VK_GID")
 connection = DBConnection()
 
 factions_mapping = {
-    "faction_Freljord_Name" : "Фрейльйорд",
+    "faction_Freljord_Name" : "Фрельйорд",
     "faction_Shurima_Name" : "Шурима",
     "faction_Noxus_Name" : "Ноксус", 
     "faction_Piltover_Name" : "ПнЗ",
@@ -33,7 +33,7 @@ factions_mapping = {
 }
 
 region_colors = {
-    "Фрейльйорд" : "#34cceb",
+    "Фрельйорд" : "#34cceb",
     "Шурима" : "#ebe834",
     "Ноксус" : "#e81a1a", 
     "ПнЗ" : "#b5ed4c",
