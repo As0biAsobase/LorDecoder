@@ -140,7 +140,6 @@ def count_popularity(player_ids):
 
     champion_popularity = dict(sorted(champion_popularity.items(), key=lambda item: item[1], reverse=True))
 
-    print(region_wins)
     new_region_wins = {}
     for each in region_wins:
         if region_wins[each]["loss"] + region_wins[each]["win"] > 50:
@@ -246,8 +245,7 @@ def count_popularity(player_ids):
         plt.suptitle("Популярность архетипов", color='w', fontsize=20)
         patches, texts = plt.pie(numbers, labels=pie_labels, startangle=90, counterclock=False, radius=1, textprops={'fontsize': 8, 'color' : "w"}, rotatelabels=True)
         lgd = plt.legend(patches, labels, loc="upper left", bbox_to_anchor=(1.05,1))
-    plt.tight_layout()
-    plt.savefig('/home/khun/LorDecoder/output/posting/archetype_pie.png', transparent=True, dpi=600, bbox_extra_artists=(lgd,), bbox_inches='tight')
+    plt.savefig('/home/khun/LorDecoder/output/posting/archetype_pie.png', transparent=True, dpi=450, bbox_extra_artists=(lgd,), bbox_inches='tight')
 
     other_champs = 0
     top20_champs = {}
