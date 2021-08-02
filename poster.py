@@ -153,7 +153,6 @@ def count_popularity(player_ids):
 
     # region_wins = {i:region_wins[i] for i in region_wins if region_wins[i] >= 10}
     region_wins = dict(sorted(region_wins.items(), key=lambda item: item[1], reverse=True))
-    print(region_wins)
 
     top_region_wins = {}
 
@@ -162,7 +161,6 @@ def count_popularity(player_ids):
         bottom5_regions = dict(list(region_wins.items())[len(region_wins)-5:])
         top_region_wins = {**top5_regions, **bottom5_regions}
         top_region_wins = dict(sorted(top_region_wins.items(), key=lambda item: item[1], reverse=True))
-        print(top_region_wins)
     else:
         top_region_wins = region_wins 
 
@@ -195,7 +193,6 @@ def count_popularity(player_ids):
 
 
     archetype_popularity = dict(sorted(archetype_popularity.items(), key=lambda item: item[1], reverse=True))
-    print(archetype_popularity)
 
     other_archetypes = 0
     top20_archetypes = {}
@@ -270,8 +267,6 @@ def count_popularity(player_ids):
     else:
         top20_champs = champion_popularity
 
-    print(top20_champs)
-
     labels = []
     numbers = []
     colors = []
@@ -280,14 +275,12 @@ def count_popularity(player_ids):
     for key in region_popularity:
         total_regions += region_popularity[key]
 
-
     for x, y in region_popularity.items():
         labels.append(f"{x} ({y} | {str(round(int(y)/total_regions*100,2))}%)")
         numbers.append(y)
         colors.append(region_colors[x])
 
     plt.figure()
-    # fig.suptitle("Ooga booga", fontsize="x-large")
     plt.suptitle("Популярность регионов", color='w', fontsize=20)
     plt.pie(numbers, labels=labels, startangle=90, colors=colors, counterclock=False, radius=1, textprops={'fontsize': 10, 'color' : "w"})
     plt.tight_layout()
@@ -331,6 +324,9 @@ def count_popularity(player_ids):
         background.paste(image, mask = image)
 
         background.save(f"/home/khun/LorDecoder/output/posting/{image_name}.png")
+
+        image.close()
+        background.close()
 
 
     return (region_popularity, top20_champs)
@@ -500,14 +496,12 @@ def generate_player_stats():
     region_popularity, champion_popularity = count_popularity(player_ids)
     player_stats_string += "\nПопулярность регионов среди наших игроков – изображение 3.\n"
 
-    # for region in region_popularity:
-    #     player_stats_string += f"{region} - {region_popularity[region]}\n"
+
 
     player_stats_string += "\nСамые популярные чемпионы среди наших игроков – изображение 4.\n"
     player_stats_string += "\nСамые популярные архетипы среди наших игроков – изображение 5.\n"
     player_stats_string += "\nПять регионов с наибольшим и наименьшим винрейтом – изображение 6.\n"
-    # for champion in champion_popularity:
-    #     player_stats_string += f"{champion} - {champion_popularity[champion]}\n"
+
 
     return player_stats_string
 
