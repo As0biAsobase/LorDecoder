@@ -480,10 +480,10 @@ def generate_player_stats():
     generate_image(["moba", most_popular_deck], 0, connection, location)
 
 
-    player_stats_string += f"\nСамая популярная колода среди наших игрков сегодня ({decks[most_popular_deck]} игр):\n"
+    player_stats_string += f"\nСамая популярная колода среди наших игроков сегодня ({decks[most_popular_deck]} игр):\n"
     player_stats_string += generate_deck_desc(most_popular_deck)
 
-    player_stats_string += "\nИгроки регона по количеству побед за сегодня: \n"
+    player_stats_string += "\nИгроки региона по количеству побед за сегодня: \n"
     for s in sorted(player_results_names.items(), key=lambda k_v: k_v[1]['win'], reverse=True):
         if s[1]["win"] > 0:
             player_stats_string += f"{s[0]} – побед: {s[1]['win']} поражений: {s[1]['loss']}\n"
@@ -505,8 +505,8 @@ def generate_player_stats():
     #     player_stats_string += f"{region} - {region_popularity[region]}\n"
 
     player_stats_string += "\nСамые популярные чемпионы среди наших игроков – изображение 4.\n"
-    player_stats_string += "\nСамые популярные аретипы среди наших игроков – изображение 5.\n"
-    player_stats_string += "\nПять регионв с наибольшим и наименьшим винрейтом – изображение 6.\n"
+    player_stats_string += "\nСамые популярные архетипы среди наших игроков – изображение 5.\n"
+    player_stats_string += "\nПять регионов с наибольшим и наименьшим винрейтом – изображение 6.\n"
     # for champion in champion_popularity:
     #     player_stats_string += f"{champion} - {champion_popularity[champion]}\n"
 
