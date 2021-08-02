@@ -35,7 +35,7 @@ class DBConnection:
 
         return result 
     def find_player_matches(self, puuid):
-        result = self.client['natum-perdere']['LorMatches'].find({"metadata.participants" : puuid})
+        result = self.client['natum-perdere']['LorMatches'].find({"metadata.participants" : puuid, "info.game_type" : "Ranked"})
         result = list(result)
 
         return result

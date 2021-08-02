@@ -73,7 +73,7 @@ def generate_deck_desc(deck_code):
 
     return response_str
 
-def count_popularity(matches, player_ids):
+def count_popularity(player_ids):
     region_popularity = {}
     champion_popularity = {}
     archetype_popularity = {}   
@@ -84,58 +84,57 @@ def count_popularity(matches, player_ids):
         region_popularity[factions_mapping[key]] = 0 
 
     print("\n")
-    for match in matches:
-        try:
-            players = match['info']['players'] 
-            for player in players:
-                if player["puuid"] in player_ids:
-                    factions = player["factions"] 
-                    for faction in factions:
-                        region_popularity[factions_mapping[faction]] += 1 
+    for player_id in player_ids:
+        matches = connection.find_player_matches(player_id)
+        for match in matches:
+            try:
+                players = match['info']['players'] 
+                for player in players:
+                    if player["puuid"] in player_ids:
+                        factions = player["factions"] 
+                        for faction in factions:
+                            region_popularity[factions_mapping[faction]] += 1 
 
-                    deck = LoRDeck.from_deckcode(player["deck_code"])
+                        deck = LoRDeck.from_deckcode(player["deck_code"])
 
-                    regions = [] 
-                    champions = []
-                    for each in deck:
-                        q, code = each.split(':')
-                        card = connection.getCardByCode(code)
+                        regions = [] 
+                        champions = []
+                        for each in deck:
+                            q, code = each.split(':')
+                            card = connection.getCardByCode(code)
 
-                        if card["type"] == "Боец":
-                            if card["supertype"] == "Чемпион":
-                                if card["name"] in champion_popularity:
-                                    champion_popularity[card["name"]] += 1
-                                else: 
-                                    champion_popularity[card["name"]] = 1
+                            if card["type"] == "Боец":
+                                if card["supertype"] == "Чемпион":
+                                    if card["name"] in champion_popularity:
+                                        champion_popularity[card["name"]] += 1
+                                    else: 
+                                        champion_popularity[card["name"]] = 1
 
-                                if card["name"] not in champions:
-                                    champions.append(card["name"])
-                                print(card["name"], end='\r')
-                        if card["region"] not in regions:
-                            regions.append(card["region"]) 
-                    archetype = (tuple(sorted(regions)), tuple(sorted(champions)))
+                                    if card["name"] not in champions:
+                                        champions.append(card["name"])
+                                    print(card["name"], end='\r')
+                            if card["region"] not in regions:
+                                regions.append(card["region"]) 
+                        archetype = (tuple(sorted(regions)), tuple(sorted(champions)))
 
-                    if tuple(sorted(regions)) in region_wins:
-                        if player["game_outcome"] == "win":
-                            region_wins[tuple(sorted(regions))]["win"] += 1 
-                        elif player["game_outcome"] == "loss":
-                            region_wins[tuple(sorted(regions))]["loss"] += 1 
-                    else:
-                        if player["game_outcome"] == "win":
-                            region_wins[tuple(sorted(regions))] = {"win" : 1, "loss" : 0} 
-                        elif player["game_outcome"] == "loss":
-                            region_wins[tuple(sorted(regions))]["loss"] = {"win" : 0, "loss" : 1} 
+                        if tuple(sorted(regions)) in region_wins:
+                            if player["game_outcome"] == "win":
+                                region_wins[tuple(sorted(regions))]["win"] += 1 
+                            elif player["game_outcome"] == "loss":
+                                region_wins[tuple(sorted(regions))]["loss"] += 1 
+                        else:
+                            if player["game_outcome"] == "win":
+                                region_wins[tuple(sorted(regions))] = {"win" : 1, "loss" : 0} 
+                            elif player["game_outcome"] == "loss":
+                                region_wins[tuple(sorted(regions))]["loss"] = {"win" : 0, "loss" : 1} 
 
 
-                    if archetype in archetype_popularity:
-                        archetype_popularity[archetype] += 1
-                    else:
-                        archetype_popularity[archetype] = 1
-        except Exception as e:
-            print(f"We were unable to get match", end='\r')
-
-    matches = []
-
+                        if archetype in archetype_popularity:
+                            archetype_popularity[archetype] += 1
+                        else:
+                            archetype_popularity[archetype] = 1
+            except Exception as e:
+                print(f"We were unable to get match", end='\r')
 
     region_popularity = dict(sorted(region_popularity.items(), key=lambda item: item[1], reverse=True))
 
@@ -498,7 +497,7 @@ def generate_player_stats():
     for player in players:
         player_ids.append(player["puuid"])
 
-    region_popularity, champion_popularity = count_popularity(matches, player_ids)
+    region_popularity, champion_popularity = count_popularity(player_ids)
     player_stats_string += "\nПопулярность регионов среди наших игроков – изображение 3.\n"
 
     # for region in region_popularity:
