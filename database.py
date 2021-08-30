@@ -84,6 +84,7 @@ class DBConnection:
         result = list(result)
 
         if len(result) < 4:
+            print(region)
             result = self.client['natum-perdere']['cardsCollection'].find({ "region" : region, "set" :  "set4"})
             result = list(result)
 
