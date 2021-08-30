@@ -78,7 +78,7 @@ class Commander:
                 # Process code and send deck image
                 if args[0].lower() in Command.code_list.value and len(args) >= 2:
                     try:
-                        generate_image(args, sender["id"], self.connection, "output/output.png")
+                        generate_image(args, source_id, self.connection, "output/output.png")
 
                         if "пнг" in args:
                             d = server.upload_deck_file(sender["id"])
