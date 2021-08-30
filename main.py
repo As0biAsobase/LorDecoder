@@ -111,7 +111,7 @@ def generate_image(args, user_id, connection, location):
         spell_string = "Молитвы: "
         landmark_string = "Цитадели: "
         title_font = ImageFont.truetype("/home/khun/LorDecoder/fonts/YanoneKaffeesatz-Medium.ttf", 65)
-    elif user_id == 488352580:
+    elif user_id == 2000000017:
         logo = Image.open("/home/khun/LorDecoder/logos/Poro.png")
         logo = logo.resize((640, 360))
         background.paste(logo, (0, height-360), mask = logo)
