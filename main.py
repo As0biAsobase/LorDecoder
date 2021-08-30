@@ -112,6 +112,10 @@ def generate_image(args, user_id, connection, location):
         landmark_string = "Цитадели: "
         title_font = ImageFont.truetype("/home/khun/LorDecoder/fonts/YanoneKaffeesatz-Medium.ttf", 65)
     elif user_id == 488352580:
+        logo = Image.open("/home/khun/LorDecoder/logos/Poro.png")
+        logo = logo.resize((640, 360))
+        background.paste(logo, (0, height-360), mask = logo)
+    elif user_id == 488352580:
         logo = Image.open("/home/khun/LorDecoder/logos/okolo.png")
         logo = logo.resize((640, 360))
         background.paste(logo, (0, height-360), mask = logo)
