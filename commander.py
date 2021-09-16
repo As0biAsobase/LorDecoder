@@ -321,4 +321,4 @@ class Commander:
 
 
         except ValueError:
-            pass
+            traceback.print_exc()
