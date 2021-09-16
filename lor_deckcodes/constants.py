@@ -8,8 +8,9 @@ faction_mapping = {
     4: 'PZ',
     5: 'SI',
     6: 'BW',
-    9: 'MT',
     7: 'SH',
+    9: 'MT',
+    10: 'BC',
     'DE': 0,
     'FR': 1,
     'IO': 2,
@@ -17,6 +18,7 @@ faction_mapping = {
     'PZ': 4,
     'SI': 5,
     'BW': 6,
-    'MT': 9,
     'SH': 7,
+    'MT': 9,
+    'BC': 10
 }
