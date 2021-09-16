@@ -54,11 +54,17 @@ def generate_image(args, user_id, connection, location):
 
         dict = connection.getCardByCode(code)
 
-        for each in dict["regionRefs"]:      
-            if each not in deck_regions:
-                deck_regions[each] = 1
+        if "regionRefs" in dict:
+            for each in dict["regionRefs"]:      
+                if each not in deck_regions:
+                    deck_regions[each] = 1
+                else:
+                    deck_regions[each] +=1 
+        else: 
+            if dict["regionRef"] not in deck_regions:
+                deck_regions[dict["regionRef"]] = 1
             else:
-                deck_regions[each] +=1
+                deck_regions[dict["regionRef"]] +=1 
 
         # populating arrays of three card types
         # will need to improve using MongoDB instead of simply looping through json
