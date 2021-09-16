@@ -53,12 +53,12 @@ def generate_image(args, user_id, connection, location):
         q = int(q)
 
         dict = connection.getCardByCode(code)
-        # this is a workaround for finding deck regions
-        # technically can be derived from code itself but is not supported by library
-        if dict["regionRef"] not in deck_regions:
-            deck_regions[dict["regionRef"]] = 1
-        else:
-            deck_regions[dict["regionRef"]] +=1
+
+        for each in dict["regionRefs"]:      
+            if each not in deck_regions:
+                deck_regions[each] = 1
+            else:
+                deck_regions[each] +=1
 
         # populating arrays of three card types
         # will need to improve using MongoDB instead of simply looping through json
@@ -84,7 +84,11 @@ def generate_image(args, user_id, connection, location):
     top_region = max(deck_regions.items(), key=operator.itemgetter(1))[0]
 
     if not empty_bg:
-        background = Image.open("/home/khun/LorDecoder/background/poros/%s.png" % (top_region))
+        try:
+            background = Image.open("/home/khun/LorDecoder/background/poros/%s.png" % (top_region))
+        except Exception as e:
+            print("Bandle?")
+            background = Image.open("/home/khun/LorDecoder/background/empty.png")
     else:
         background = Image.open("/home/khun/LorDecoder/background/empty.png")
 
