@@ -29,7 +29,8 @@ factions_mapping = {
     "faction_Ionia_Name" : "Иония",
     "faction_Bilgewater_Name" : "Билджвотер",
     "faction_Demacia_Name" : "Демасия",
-    "faction_MtTargon_Name" : "Таргон"
+    "faction_MtTargon_Name" : "Таргон",
+    "faction_BandleCity_Name" : "Бандл"
 }
 
 region_colors = {
@@ -43,7 +44,8 @@ region_colors = {
     "Демасия" : "#f2f2dc",
     "Таргон"  : "#8000ff",
     "Сумрачные острова" : "#07a880",
-    "Пилтовер и Заун" : "#b5ed4c"
+    "Пилтовер и Заун" : "#b5ed4c",
+    "Бандл Сити" : "#ffffff"
 }
 
 def generate_deck_desc(deck_code):
