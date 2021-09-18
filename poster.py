@@ -45,7 +45,7 @@ region_colors = {
     "Таргон"  : "#8000ff",
     "Сумрачные острова" : "#07a880",
     "Пилтовер и Заун" : "#b5ed4c",
-    "Бандл Сити" : "#ffffff"
+    "Бандл" : "#51d74d"
 }
 
 def generate_deck_desc(deck_code):
