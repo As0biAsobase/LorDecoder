@@ -5,6 +5,10 @@ This is a chat bot for the social network VK and the Russian community of the Le
 
 The bot was mainatined and developed for the purpose of helping the community discuss the game in a way that is convinient and simple. It started as a simple deck code decoding bot (hence the name) and was later updated to include new functionality.
 
+The bot is no longer functional as I am not a part of that community anymore, but is preserved here for future reference.
+
+Sister project of the [Natum Perdere website](https://github.com/As0biAsobase/Natum-Perdere).
+
 ## Deck Codes
 
 In Legends of Runeterra, players can assemble decks of cards using in-game client and share those decks using deck codes. A deck code encodes information about cards in the deck and their quantities and can look something like this: `CECQCAICBQAQEBADAEBQIEQDAMBAECQRAYAQIAIMBUTSQLICAEAQIHABAQCBAAA`.

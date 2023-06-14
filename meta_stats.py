@@ -2,6 +2,7 @@ from pymongo import MongoClient
 from dotenv import load_dotenv, find_dotenv
 import os
 
+# MongoDB query for retreiving a winrate for decks with specific combinations of cards
 def query_archetype_wr(input_cards):
     load_dotenv(find_dotenv())
     client = MongoClient(os.getenv("MONGODB_KEY"))

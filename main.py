@@ -8,7 +8,7 @@ import PIL.ImageDraw as ImageDraw
 import PIL.ImageFont as ImageFont
 import operator
 
-# Decoding
+# Core functionality of LorDecoder, responsible for generating images based on deck codes and desired parameters
 def generate_image(args, user_id, connection, location):
     empty_bg = False
     serious = False

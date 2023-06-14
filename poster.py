@@ -51,6 +51,7 @@ region_colors = {
     "Бандл" : "#51d74d"
 }
 
+# Create human-readable name/description for the deck
 def generate_deck_desc(deck_code):
     deck = LoRDeck.from_deckcode(deck_code)
     deck_name = ""
@@ -78,6 +79,7 @@ def generate_deck_desc(deck_code):
 
     return response_str
 
+# Find how popular the certain archetype/region is
 def count_popularity(player_ids):
     region_popularity = {}
     champion_popularity = {}
@@ -332,6 +334,7 @@ def count_popularity(player_ids):
 
     return (region_popularity, top20_champs)
 
+# Creates stats for players within region (streamers, content creator, etc)
 def generate_player_stats():
     player_stats_string = ''
     players = connection.get_players() 
@@ -516,6 +519,7 @@ def is_today(match_time):
     else:
         return False
 
+# Upload desired deck
 def upload_image(type):
     if type == "random_deck":
         location = "/home/khun/LorDecoder/output/posting/deck.png"
@@ -552,6 +556,7 @@ def upload_image(type):
 
     return result  
 
+# Top 10 Russian players and data about them
 def generate_player_data(message):
     headers = {
         "X-Riot-Token": os.getenv("RIOT_API_KEY")
@@ -583,6 +588,7 @@ def generate_player_data(message):
 
     return message
 
+# Assemble the post for the feed based on collected inforamtion
 def generate_normal_post():
     photo_ids = []
     message = "Папешикам ку, \n"
@@ -635,6 +641,6 @@ if __name__ == "__main__":
     if a == "normal":
         generate_normal_post()
     elif a == "donut":
-        generate_donut_post()
+        generate_donut_post() 
     else:
         print("Hi, hello!")
