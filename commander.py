@@ -3,7 +3,6 @@ from mode_enum import Mode
 from main import generate_image
 from cardsearch import find_card
 from meta_stats import query_archetype_wr
-from calculator import Calculator
 from deckchanges import get_highest_growth
 from card_guesser import Guesser
 from database import DBConnection
@@ -15,7 +14,6 @@ import re
 import random
 from random import randrange, choice
 import time
-
 
 class Commander:
 
@@ -29,9 +27,6 @@ class Commander:
         self.last_command = None
         # Should be used for mode switching
         self.last_ans = None
-        # Calculator feature is deleted
-        # TODO: Either delete it completed or re-implement
-        self.calculator_params = []
 
         self.guesser = None
 

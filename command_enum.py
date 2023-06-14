@@ -11,5 +11,4 @@ class Command(Enum):
     ban_list = ["баны"]
     back_list = ["назад"]
     info_list = ["инфо"]
-    calculator_list = ["калькулятор"]
     hypergeom_list = ["гипергеометрический"]

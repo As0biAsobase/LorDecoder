@@ -14,9 +14,7 @@ def generate_image(args, user_id, connection, location):
     serious = False
 
     # code should always be the last parameter
-
     code = args[len(args)-1]
-
 
     if "пнг" in args:
         empty_bg = True
@@ -106,10 +104,6 @@ def generate_image(args, user_id, connection, location):
         background = background.crop((margin, 0, new_width-margin, height))
     else:
         background = background.crop((0, 0, 1650, height))
-
-    # background = Image.new('RGBA', (1920, height), (61, 61, 61, 255))
-
-    # print(user_id)
 
     if user_id == 103657653:
         logo = Image.open("/home/khun/LorDecoder/logos/Biolog.png")
@@ -243,6 +237,3 @@ def generate_image(args, user_id, connection, location):
     draw.text((1110, 15), spell_string + str(spells_total), font=title_font, fill='rgb(255, 255, 255)')
 
     background.save(location)
-
-# generate_image("CEBAIAIDDYVC4LYEAEBAECAJHECAGAIDBMNSYAICAMEQEAICBQSQCAQCAUBACAIDCMAQCARR")
-# print("Чемпион: " + str(len(champions)) + " Боец: " + str(len(followers)) + " Заклинание: " + str(len(spells)))

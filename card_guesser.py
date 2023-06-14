@@ -6,6 +6,7 @@ import PIL.ImageDraw as ImageDraw
 import time
 
 class Guesser:
+    # Faction names in the game
     factions = [
         "Иония",
         "Ноксус",
@@ -36,6 +37,7 @@ class Guesser:
         else:
             return False, cd-elapsed
 
+    # Create a quizz where user needs to guess cards based on the text
     def generate_text_quiz(self, connection):
         card_list = connection.getCardsByRegion(random.choice(Guesser.factions), "Set5")
         self.options = random.sample(card_list, 4)
@@ -43,6 +45,7 @@ class Guesser:
 
         self.question = self.generate_question()
 
+    # Create a quizz where user needs to guess cards based on the image
     def generate_image_quiz(self, connection):
         card_list = connection.getCardsByRegion(random.choice(Guesser.factions), "Set5")
         self.options = random.sample(card_list, 4)
@@ -51,6 +54,7 @@ class Guesser:
         self.generate_image()
         self.question = self.generate_question()
 
+    # Generate image for the quiz by taking original image and cutting part of it off and making it grayscale
     def generate_image(self):
         image = Image.open("/home/khun/LorDecoder/ru_ru/img/cards/%s-full.png" % (self.correct_answer["cardCode"]))
         width, height = image.size
@@ -87,6 +91,7 @@ class Guesser:
 
         image.save('output/quiz.png')
 
+    # Generate quiz text by taking the original one and hiding parts of it
     def generate_question(self):
         if self.source == "image":
             question = "Изображение:"
@@ -111,6 +116,7 @@ class Guesser:
             question += "\n %s. %s" % (i+1, name)
         return question
 
+    # Parts of text are randomly replaced by * characters
     def obfuscate_text(self, text):
         randomize = random.random()
         chance_value = 0.25

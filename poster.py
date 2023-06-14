@@ -20,6 +20,7 @@ token = os.getenv("VKAPI_USER_TOKEN")
 gid = os.getenv("VK_GID")
 connection = DBConnection()
 
+# Factions inside the game and their names
 factions_mapping = {
     "faction_Freljord_Name" : "Фрельйорд",
     "faction_Shurima_Name" : "Шурима",
@@ -33,6 +34,7 @@ factions_mapping = {
     "faction_BandleCity_Name" : "Бандл"
 }
 
+# Collors taht correspond to each faction
 region_colors = {
     "Фрельйорд" : "#34cceb",
     "Шурима" : "#ebe834",
@@ -153,7 +155,6 @@ def count_popularity(player_ids):
 
     region_wins = new_region_wins 
 
-    # region_wins = {i:region_wins[i] for i in region_wins if region_wins[i] >= 10}
     region_wins = dict(sorted(region_wins.items(), key=lambda item: item[1], reverse=True))
 
     top_region_wins = {}
@@ -192,7 +193,6 @@ def count_popularity(player_ids):
     plt.gcf().autofmt_xdate()
     plt.bar_label(hbars, padding=5, color="white", fmt="%.2f%%")
     plt.savefig('/home/khun/LorDecoder/output/posting/region_wins.png', transparent=True, dpi=600, bbox_inches="tight")
-
 
     archetype_popularity = dict(sorted(archetype_popularity.items(), key=lambda item: item[1], reverse=True))
 

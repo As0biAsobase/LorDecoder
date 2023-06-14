@@ -8,7 +8,6 @@ def get_highest_growth():
     r = requests.get('https://lor.mobalytics.gg/api/v2/meta/statistics/decks?sortBy=%s&from=0&count=100&threshold=all' % (filter))
     r = r.json()["decksStats"]
 
-
     max_wr = 0
     max_deck = None
     max_previous = None

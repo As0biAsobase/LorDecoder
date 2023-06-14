@@ -12,24 +12,25 @@ class Server:
     base_time = datetime(1970,1,1)
 
     def __init__(self, api_token, group_id, server_name: str="Empty"):
-        # Даем серверу имя
+        # Give server name
         self.server_name = server_name
 
-        # Для Long Poll
+        # Long Polling API
         self.vk = vk_api.VkApi(token=api_token)
 
-        # Для использования Long Poll API
+        # Long Polling wrapper
         self.long_poll = VkBotLongPoll(self.vk, group_id)
 
-        # Для вызова методов vk_api
-        # self.vk = self.vk.get_api()
+        # API object
         self.vk = self.vk.get_api()
 
+        # Upload API
         self.upload = VkUpload(self.vk)
 
         self.users = {}
         self.msg_counter = 0
 
+    # Send message function
     def send_msg(self, send_id, response):
         try:
             print([send_id, response[0], response[1], response[2]])
@@ -43,8 +44,9 @@ class Server:
             traceback.print_exc()
         except vk_api.exceptions.ApiError:
             traceback.print_exc()
-            print("Факир был пьян, сообщение не отправилось")
+            print("Unable to send message, try again later")
 
+    # Main loop for the server
     def start(self):
         while True:
             try:
@@ -69,14 +71,15 @@ class Server:
                                       self.users[event.message.peer_id].input(self, event.message.text, sender, event.message.peer_id))
 
             except requests.exceptions.ReadTimeout:
-                print("\n Переподключение к серверам ВК \n")
+                print("\n Reconnecting to VK servers \n")
                 time.sleep(100)
             except KeyboardInterrupt:
                 sys.exit()
             except:
-                print("\n Что-то пошло не так \n")
+                print("\n Unexpected error occured \n")
                 traceback.print_exc()
 
+    # Upload image for the deck
     def upload_deck_image(self):
         server = self.vk.photos.getMessagesUploadServer()
         b = requests.post(server['upload_url'], files={'photo': open('output/output.png', 'rb')}).json()
@@ -85,6 +88,7 @@ class Server:
         d = "photo{}_{}".format(c["owner_id"], c["id"])
         return d
 
+    # Upload deck image as a file
     def upload_deck_file(self, sender):
         server = self.vk.docs.getMessagesUploadServer(peer_id = sender)
         b = requests.post(server['upload_url'], files={'file': open('output/output.png', 'rb')})
@@ -95,6 +99,7 @@ class Server:
         d = "doc{}_{}".format(c["doc"]["owner_id"], c["doc"]["id"])
         return d
 
+    # Upload card image
     def upload_card_image(self, code):
         server = self.vk.photos.getMessagesUploadServer()
         b = requests.post(server['upload_url'], files={'photo': open('ru_ru/img/cards/' + code + '.png', 'rb')}).json()
@@ -103,6 +108,7 @@ class Server:
         d = "photo{}_{}".format(c["owner_id"], c["id"])
         return d
 
+    # Upload card image as file
     def upload_card_file(self, sender, code):
         server = self.vk.docs.getMessagesUploadServer(peer_id = sender)
         b = requests.post(server['upload_url'], files={'file': open('ru_ru/img/cards/' + code + '.png', 'rb')})
@@ -111,6 +117,7 @@ class Server:
         d = "doc{}_{}".format(c["doc"]["owner_id"], c["doc"]["id"])
         return d
 
+    # Upload quizz image
     def upload_quiz_image(self):
         server = self.vk.photos.getMessagesUploadServer()
         b = requests.post(server['upload_url'], files={'photo': open('output/quiz.png', 'rb')}).json()
@@ -118,18 +125,20 @@ class Server:
         c = self.vk.photos.saveMessagesPhoto(**params)[0]
         d = "photo{}_{}".format(c["owner_id"], c["id"])
         return d
-        
+    
+    # Test message
     def test(self):
         # Посылаем сообщение пользователю с указанным ID
         self.send_msg(151646757, "Привет-привет!")
 
+    # Helper function
     def get_user_from_id(self, user_id):
         response = self.vk.users.get(user_ids=int(user_id))
         response = response[0]
         return response
 
+    # Function that retreives all memebers of the group chat
     def get_chat_users(self, peer_id):
         response = self.vk.messages.getConversationMembers(peer_id=peer_id)
-
 
         return response["profiles"]
